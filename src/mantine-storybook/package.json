@@ -7,8 +7,5 @@
   "types": "lib/index.d.ts",
   "license": "MIT",
   "author": "Vitaly Rtishchev <rtivital@gmail.com>",
-  "keywords": [],
-  "peerDependencies": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "keywords": []
 }

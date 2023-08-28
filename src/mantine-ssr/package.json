@@ -27,14 +27,13 @@
     "render"
   ],
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0",
     "@emotion/react": ">=11.9.0",
-    "@emotion/server": ">=11.4.0"
+    "@emotion/server": ">=11.4.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "dependencies": {
     "@mantine/styles": "6.0.19",
     "html-react-parser": "1.4.12"
-  },
-  "devDependencies": {}
+  }
 }

@@ -28,6 +28,5 @@
   "dependencies": {
     "@mantine/ssr": "6.0.19",
     "@mantine/styles": "6.0.19"
-  },
-  "devDependencies": {}
+  }
 }

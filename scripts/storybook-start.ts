@@ -5,4 +5,6 @@ storybook({
   port: 7520,
   mode: 'dev',
   configDir: path.join(__dirname, '../configuration/storybook'),
+}).catch((err) => {
+  throw err;
 });

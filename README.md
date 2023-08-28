@@ -1,5 +1,10 @@
 # Mantine
 
+```diff
++ Due to the abandonment of CSS in JS in Mantine v7 and the switch to CSS modules, the components have undergone
++ changes. This repository is a fork of Mantine v6 and has been renamed CityNight for continued maintenance.
+```
+
 [![NPM](https://img.shields.io/npm/l/@mantine/core)](https://github.com/mantinedev/mantine/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/mantinedev/mantine)](https://github.com/mantinedev/mantine/graphs/contributors)
 [![npm](https://img.shields.io/npm/v/@mantine/core)](https://www.npmjs.com/package/@mantine/core)

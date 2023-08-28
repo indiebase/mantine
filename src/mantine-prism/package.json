@@ -35,8 +35,7 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "prism-react-renderer": "^1.2.1",
-    "@mantine/utils": "6.0.19"
-  },
-  "devDependencies": {}
+    "@mantine/utils": "6.0.19",
+    "prism-react-renderer": "^1.2.1"
+  }
 }

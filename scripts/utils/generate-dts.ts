@@ -4,7 +4,7 @@ import path from 'path';
 import fs from 'fs-extra';
 
 export default async function generateDts(packagePath: string) {
-  await execa('yarn', ['tsc', '--project', 'tsconfig.build.json'], {
+  await execa('tsc', ['--project', 'tsconfig.build.json'], {
     cwd: packagePath,
   });
 

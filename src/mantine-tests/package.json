@@ -6,8 +6,5 @@
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
-  "author": "Vitaly Rtishchev <rtivital@gmail.com>",
-  "peerDependencies": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "author": "Vitaly Rtishchev <rtivital@gmail.com>"
 }

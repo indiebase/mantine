@@ -20,13 +20,12 @@
     "nextjs"
   ],
   "peerDependencies": {
+    "next": "*",
     "react": ">=16.8.0",
-    "react-dom": ">=16.8.0",
-    "next": "*"
+    "react-dom": ">=16.8.0"
   },
   "dependencies": {
     "@mantine/ssr": "6.0.19",
     "@mantine/styles": "6.0.19"
-  },
-  "devDependencies": {}
+  }
 }

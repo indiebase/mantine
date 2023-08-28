@@ -14,7 +14,6 @@
     "demos": "esno scripts/demo-import",
     "sync-branches": "sh scripts/sync-branches.sh",
     "changelog": "esno scripts/changelog",
-    "postinstall": "npm run docs:docgen && cd docs && yarn",
     "syncpack": "syncpack list-mismatches",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src docs/src --ext .ts,.tsx --cache",
@@ -136,18 +135,6 @@
     "@floating-ui/react": "^0.19.1",
     "@radix-ui/react-scroll-area": "1.0.2",
     "@tabler/icons-react": "^2.1.2",
-    "@tiptap/extension-code-block-lowlight": "^2.0.0-beta.202",
-    "@tiptap/extension-color": "^2.0.0-beta.202",
-    "@tiptap/extension-highlight": "^2.0.0-beta.202",
-    "@tiptap/extension-link": "^2.0.0-beta.202",
-    "@tiptap/extension-placeholder": "^2.0.0-beta.202",
-    "@tiptap/extension-subscript": "^2.0.0-beta.202",
-    "@tiptap/extension-superscript": "^2.0.0-beta.202",
-    "@tiptap/extension-text-align": "^2.0.0-beta.202",
-    "@tiptap/extension-text-style": "^2.0.0-beta.202",
-    "@tiptap/extension-underline": "^2.0.0-beta.202",
-    "@tiptap/react": "^2.0.0-beta.202",
-    "@tiptap/starter-kit": "^2.0.0-beta.202",
     "clsx": "1.1.1",
     "csstype": "3.0.9",
     "dayjs": "^1.10.5",
@@ -169,5 +156,6 @@
   },
   "volta": {
     "node": "14.17.0"
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }

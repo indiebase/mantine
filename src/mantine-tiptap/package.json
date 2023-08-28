@@ -37,6 +37,5 @@
   },
   "dependencies": {
     "@mantine/utils": "6.0.19"
-  },
-  "devDependencies": {}
+  }
 }
