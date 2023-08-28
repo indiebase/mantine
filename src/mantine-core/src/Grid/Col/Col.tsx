@@ -134,7 +134,7 @@ export const Col = forwardRef<HTMLDivElement, ColProps>((props: ColProps, ref) =
     { unstyled, name: 'Grid', variant }
   );
 
-  if (!isValidSpan(colSpan) || colSpan > ctx.columns) {
+  if (!isValidSpan(colSpan) || (colSpan as number) > ctx.columns) {
     return null;
   }
 

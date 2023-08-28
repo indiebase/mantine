@@ -31,6 +31,7 @@ export async function buildPackage(_packageName: string, options?: BuildOptions)
     const startTime = Date.now();
     await generateDts(packagePath);
 
+    // eslint-disable-next-line no-unsafe-optional-chaining
     for (const format of options?.formats) {
       const config = await createPackageConfig({
         ...options,

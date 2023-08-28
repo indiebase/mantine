@@ -6,5 +6,6 @@ storybook({
   mode: 'dev',
   configDir: path.join(__dirname, '../configuration/storybook'),
 }).catch((err) => {
-  throw err;
+  // eslint-disable-next-line no-console
+  console.error(err);
 });

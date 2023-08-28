@@ -35,7 +35,7 @@
     "@floating-ui/react": "^0.19.1",
     "@mantine/styles": "6.0.19",
     "@mantine/utils": "6.0.19",
-    "@radix-ui/react-scroll-area": "1.0.2",
+    "@radix-ui/react-scroll-area": "1.0.4",
     "react-remove-scroll": "^2.5.5",
     "react-textarea-autosize": "8.3.4"
   }

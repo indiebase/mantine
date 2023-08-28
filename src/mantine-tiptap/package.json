@@ -31,8 +31,8 @@
     "@mantine/core": "6.0.19",
     "@mantine/hooks": "6.0.19",
     "@tabler/icons-react": ">=2.1.0",
-    "@tiptap/extension-link": "^2.0.0-beta.202",
-    "@tiptap/react": "^2.0.0-beta.202",
+    "@tiptap/extension-link": "^2.1.7",
+    "@tiptap/react": "^2.1.7",
     "react": ">=16.8.0"
   },
   "dependencies": {
