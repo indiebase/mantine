@@ -2,9 +2,9 @@
 
 ```diff
 + Due to the abandonment of CSS in JS in Mantine v7 and the switch to CSS modules,
-+ the components API design has changed.
-+ This repository is a fork of Mantine v6. It has been renamed Reactgets and will continue to be
-+ maintained as a component of Indiebase.
++ the components API design has changed. This repository is a fork of Mantine v6. 
++ It has been renamed Reactgets and will continue to be maintained as a component 
++ of Indiebase.
 ```
 
 [![NPM](https://img.shields.io/npm/l/@reactgets/core)](https://github.com/mantinedev/mantine/blob/master/LICENSE)
