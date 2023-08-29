@@ -4,8 +4,8 @@ import {
   MantineNumberSize,
   Selectors,
   useComponentDefaultProps,
-} from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+} from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { Box } from '../Box';
 import { ListItem, ListItemStylesNames } from './ListItem/ListItem';
 import { ListProvider } from './List.context';
@@ -104,4 +104,4 @@ export const List: ListComponent = forwardRef<HTMLUListElement, ListProps>(
 ) as any;
 
 List.Item = ListItem;
-List.displayName = '@mantine/core/List';
+List.displayName = '@reactgets/core/List';

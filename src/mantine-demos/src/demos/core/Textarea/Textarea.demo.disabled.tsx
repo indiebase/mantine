@@ -1,9 +1,9 @@
-import { Box, Textarea } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Box, Textarea } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import React from 'react';
 
 const code = `
-import { Textarea } from '@mantine/core';
+import { Textarea } from '@reactgets/core';
 
 function Demo() {
   return <Textarea disabled/>;

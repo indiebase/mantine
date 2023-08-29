@@ -1,6 +1,6 @@
 import React from 'react';
-import { SimpleGrid, SimpleGridProps } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { SimpleGrid, SimpleGridProps } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { defaultItems } from './_Item';
 
 function Wrapper(props: SimpleGridProps) {
@@ -12,7 +12,7 @@ function Wrapper(props: SimpleGridProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { SimpleGrid } from '@mantine/core';
+import { SimpleGrid } from '@reactgets/core';
 
 function Demo() {
   return (

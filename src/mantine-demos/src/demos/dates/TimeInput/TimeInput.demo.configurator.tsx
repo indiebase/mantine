@@ -1,8 +1,8 @@
-import { MantineDemo } from '@mantine/ds';
-import { TimeInput } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { TimeInput } from '@reactgets/dates';
 
 const codeTemplate = (props: string) => `
-import { TimeInput } from '@mantine/dates';
+import { TimeInput } from '@reactgets/dates';
 
 function Demo() {
   return (

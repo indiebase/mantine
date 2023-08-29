@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/reorderListItem', () => {
+describe('@reactgets/form/reorderListItem', () => {
   it('reorders items at given list', () => {
     const hook = renderHook(() =>
       useForm({ initialValues: { a: [{ b: 1 }, { b: 2 }, { b: 3 }] } })

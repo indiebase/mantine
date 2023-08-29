@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { RangeSlider, Slider, Stack } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { RangeSlider, Slider, Stack } from '@reactgets/core';
 
 const code = `
-import { RangeSlider, Slider, Stack } from '@mantine/core';
+import { RangeSlider, Slider, Stack } from '@reactgets/core';
 
 function Demo() {
   function valueLabelFormat(value: number) {

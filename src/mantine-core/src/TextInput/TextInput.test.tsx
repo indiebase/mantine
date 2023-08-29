@@ -9,14 +9,14 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { TextInput, TextInputProps } from './TextInput';
 
 const defaultProps: TextInputProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/TextInput', () => {
+describe('@reactgets/core/TextInput', () => {
   checkAccessibility([<TextInput label="test-input" />, <TextInput aria-label="test-input" />]);
   itSupportsInputProps(TextInput, defaultProps, 'TextInput');
   itSupportsFocusEvents(TextInput, defaultProps, 'input');
@@ -25,7 +25,7 @@ describe('@mantine/core/TextInput', () => {
   itSupportsSystemProps({
     component: TextInput,
     props: defaultProps,
-    displayName: '@mantine/core/TextInput',
+    displayName: '@reactgets/core/TextInput',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'TextInput',

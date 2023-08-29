@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/removeListItem', () => {
+describe('@reactgets/form/removeListItem', () => {
   it('removes list item with given index (root property)', () => {
     const hook = renderHook(() =>
       useForm({ initialValues: { a: [{ b: 1 }, { b: 2 }, { b: 3 }] } })

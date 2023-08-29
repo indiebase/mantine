@@ -1,11 +1,11 @@
 import React from 'react';
-import { TextInput, Text } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { usePrevious, useInputState } from '@mantine/hooks';
+import { TextInput, Text } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { usePrevious, useInputState } from '@reactgets/hooks';
 
 const code = `
-import { TextInput, Text } from '@mantine/core';
-import { usePrevious, useInputState } from '@mantine/hooks';
+import { TextInput, Text } from '@reactgets/core';
+import { usePrevious, useInputState } from '@reactgets/hooks';
 
 function Demo() {
   const [value, setValue] = useInputState('');

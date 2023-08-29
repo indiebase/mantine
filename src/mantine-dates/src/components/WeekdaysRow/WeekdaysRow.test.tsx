@@ -6,7 +6,7 @@ import {
   patchConsoleError,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { WeekdaysRow, WeekdaysRowProps } from './WeekdaysRow';
 import { itSupportsWeekdaysProps } from '../../tests';
 
@@ -22,7 +22,7 @@ function Wrapper(props: Partial<WeekdaysRowProps>) {
   );
 }
 
-describe('@mantine/dates/WeekdaysRow', () => {
+describe('@reactgets/dates/WeekdaysRow', () => {
   beforeAll(patchConsoleError);
   afterAll(patchConsoleError.release);
 
@@ -32,7 +32,7 @@ describe('@mantine/dates/WeekdaysRow', () => {
     component: WeekdaysRow,
     props: defaultProps,
     refType: HTMLTableRowElement,
-    displayName: '@mantine/dates/WeekdaysRow',
+    displayName: '@reactgets/dates/WeekdaysRow',
     providerName: 'WeekdaysRow',
   });
 

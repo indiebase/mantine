@@ -2,20 +2,20 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Kbd, KbdProps } from './Kbd';
 
 const defaultProps: KbdProps = {
   children: 'test',
 };
 
-describe('@mantine/core/Kbd', () => {
+describe('@reactgets/core/Kbd', () => {
   itRendersChildren(Kbd, defaultProps);
   itSupportsProviderVariant(Kbd, defaultProps, 'Kbd');
   itSupportsSystemProps({
     component: Kbd,
     props: defaultProps,
-    displayName: '@mantine/core/Kbd',
+    displayName: '@reactgets/core/Kbd',
     refType: HTMLElement,
     providerName: 'Kbd',
   });

@@ -7,8 +7,8 @@ import {
   useComponentDefaultProps,
   MantineGradient,
   Variants,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box } from '../Box';
 import { AvatarPlaceholderIcon } from './AvatarPlaceholderIcon';
 import { AvatarGroup } from './AvatarGroup/AvatarGroup';
@@ -101,7 +101,7 @@ export const _Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
   );
 }) as any;
 
-_Avatar.displayName = '@mantine/core/Avatar';
+_Avatar.displayName = '@reactgets/core/Avatar';
 _Avatar.Group = AvatarGroup;
 
 export const Avatar = createPolymorphicComponent<'div', AvatarProps, { Group: typeof AvatarGroup }>(

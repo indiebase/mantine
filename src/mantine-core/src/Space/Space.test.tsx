@@ -1,16 +1,16 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { rem } from '@mantine/styles';
-import { itSupportsSystemProps } from '@mantine/tests';
+import { rem } from '@reactgets/styles';
+import { itSupportsSystemProps } from '@reactgets/tests';
 import { Space, SpaceProps } from './Space';
 
 const defaultProps: SpaceProps = {};
 
-describe('@mantine/core/Space', () => {
+describe('@reactgets/core/Space', () => {
   itSupportsSystemProps({
     component: Space,
     props: defaultProps,
-    displayName: '@mantine/core/Space',
+    displayName: '@reactgets/core/Space',
     refType: HTMLDivElement,
     providerName: 'Space',
   });

@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
 import TextareaAutosize from 'react-textarea-autosize';
-import { useId } from '@mantine/hooks';
-import { DefaultProps, MantineSize, useComponentDefaultProps } from '@mantine/styles';
+import { useId } from '@reactgets/hooks';
+import { DefaultProps, MantineSize, useComponentDefaultProps } from '@reactgets/styles';
 import { extractSystemStyles } from '../Box';
 import { InputWrapperBaseProps, Input, InputSharedProps } from '../Input';
 import { TextInputStylesNames } from '../TextInput/TextInput';
@@ -126,4 +126,4 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>((props, r
   );
 });
 
-Textarea.displayName = '@mantine/core/Textarea';
+Textarea.displayName = '@reactgets/core/Textarea';

@@ -2,20 +2,20 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { AspectRatio, AspectRatioProps } from './AspectRatio';
 
 const defaultProps: AspectRatioProps = {
   ratio: 16 / 9,
 };
 
-describe('@mantine/core/AspectRatio', () => {
+describe('@reactgets/core/AspectRatio', () => {
   itRendersChildren(AspectRatio, defaultProps);
   itSupportsProviderVariant(AspectRatio, defaultProps, 'AspectRatio');
   itSupportsSystemProps({
     component: AspectRatio,
     props: defaultProps,
-    displayName: '@mantine/core/AspectRatio',
+    displayName: '@reactgets/core/AspectRatio',
     refType: HTMLDivElement,
     providerName: 'AspectRatio',
   });

@@ -1,28 +1,28 @@
-name: Report an issue with @mantine/ scoped package
+name: Report an issue with @reactgets/ scoped package
 description: Tell us if something is not working as expected
 body:
   - type: markdown
     attributes:
       value: |
         ## Thanks for reaching out!
-        Before submitting an issue please make sure that you use latest version of all @mantine/ packages.
+        Before submitting an issue please make sure that you use latest version of all @reactgets/ packages.
   - type: dropdown
     id: package
     attributes:
       label: What package has an issue
       options:
-        - '@mantine/core'
-        - '@mantine/dates'
-        - '@mantine/hooks'
-        - '@mantine/form'
-        - '@mantine/notifications'
-        - '@mantine/tiptap'
-        - '@mantine/prism'
-        - '@mantine/modals'
-        - '@mantine/dropzone'
-        - '@mantine/spotlight'
-        - '@mantine/nprogress'
-        - '@mantine/carousel'
+        - '@reactgets/core'
+        - '@reactgets/dates'
+        - '@reactgets/hooks'
+        - '@reactgets/form'
+        - '@reactgets/notifications'
+        - '@reactgets/tiptap'
+        - '@reactgets/prism'
+        - '@reactgets/modals'
+        - '@reactgets/dropzone'
+        - '@reactgets/spotlight'
+        - '@reactgets/nprogress'
+        - '@reactgets/carousel'
     validations:
       required: true
   - type: textarea
@@ -34,7 +34,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: What version of @mantine/hooks page do you have in package.json?
+      label: What version of @reactgets/hooks page do you have in package.json?
     validations:
       required: true
   - type: input

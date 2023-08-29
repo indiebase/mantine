@@ -1,4 +1,4 @@
-import type { MantineNumberSize } from '@mantine/core';
+import type { MantineNumberSize } from '@reactgets/core';
 import type { EmblaCarouselType } from 'embla-carousel-react';
 
 export type Embla = EmblaCarouselType;

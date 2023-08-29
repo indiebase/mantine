@@ -6,7 +6,7 @@ import {
   useComponentDefaultProps,
   Variants,
   rem,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import useStyles from './Divider.styles';
 import { Text } from '../Text';
 import { Box } from '../Box';
@@ -103,4 +103,4 @@ export const Divider = forwardRef<HTMLDivElement, DividerProps>((props: DividerP
   );
 });
 
-Divider.displayName = '@mantine/core/Divider';
+Divider.displayName = '@reactgets/core/Divider';

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Group, ActionIcon, useMantineColorScheme } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Group, ActionIcon, useMantineColorScheme } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { IconSun, IconMoonStars } from '@tabler/icons-react';
 
 const code = `
-import { ActionIcon, useMantineColorScheme } from '@mantine/core';
+import { ActionIcon, useMantineColorScheme } from '@reactgets/core';
 import { IconSun, IconMoonStars } from '@tabler/icons-react';
 
 function Demo() {

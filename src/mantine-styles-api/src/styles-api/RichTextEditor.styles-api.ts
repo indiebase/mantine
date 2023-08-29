@@ -1,4 +1,4 @@
-import type { RichTextEditorStylesNames } from '@mantine/tiptap';
+import type { RichTextEditorStylesNames } from '@reactgets/tiptap';
 
 export const RichTextEditor: Record<RichTextEditorStylesNames, string> = {
   root: 'Root element',

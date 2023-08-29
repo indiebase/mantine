@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, MantineColor, getStylesRef, rem } from '@mantine/styles';
+import { createStyles, MantineNumberSize, MantineColor, getStylesRef, rem } from '@reactgets/styles';
 
 export const WRAPPER_PADDING = 4;
 

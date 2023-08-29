@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { MantineProvider } from '@mantine/styles';
+import { MantineProvider } from '@reactgets/styles';
 
 const randomColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 

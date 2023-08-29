@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Slider, RangeSlider, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Slider, RangeSlider, Box } from '@reactgets/core';
 
 function Wrapper(props: any) {
   const { type, ...others } = props;
@@ -22,7 +22,7 @@ function Wrapper(props: any) {
 }
 
 const codeTemplate = (props: string) => `
-import { ${props.includes('range') ? 'RangeSlider' : 'Slider'} } from '@mantine/core';
+import { ${props.includes('range') ? 'RangeSlider' : 'Slider'} } from '@reactgets/core';
 
 function Demo() {
   return (

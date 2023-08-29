@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 import React from 'react';
 import { z } from 'zod';
-import { useForm, zodResolver } from '@mantine/form';
-import { NumberInput, TextInput, Button, Box, Group } from '@mantine/core';
+import { useForm, zodResolver } from '@reactgets/form';
+import { NumberInput, TextInput, Button, Box, Group } from '@reactgets/core';
 
 const schema = z.object({
   name: z.string().min(2, { message: 'Name should have at least 2 letters' }),

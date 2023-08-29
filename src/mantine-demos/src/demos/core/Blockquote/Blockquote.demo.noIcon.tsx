@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Blockquote } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Blockquote } from '@reactgets/core';
 
 const code = `
-import { Blockquote } from '@mantine/core';
+import { Blockquote } from '@reactgets/core';
 
 function Demo() {
   return (

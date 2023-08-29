@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconBrandTwitter, IconAlertCircle } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Input, Tooltip } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Input, Tooltip } from '@reactgets/core';
 
 const code = `
-import { Input, Tooltip } from '@mantine/core';
+import { Input, Tooltip } from '@reactgets/core';
 import { IconBrandTwitter, IconAlertCircle } from '@tabler/icons-react';
 
 function Demo() {

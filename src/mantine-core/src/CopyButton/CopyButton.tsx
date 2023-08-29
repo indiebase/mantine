@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unused-prop-types */
 import React from 'react';
-import { useClipboard } from '@mantine/hooks';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { useClipboard } from '@reactgets/hooks';
+import { useComponentDefaultProps } from '@reactgets/styles';
 
 export interface CopyButtonProps {
   /** Function called with current status */
@@ -29,4 +29,4 @@ export function CopyButton(props: CopyButtonProps) {
   return <>{children({ copy, copied: clipboard.copied, ...others })}</>;
 }
 
-CopyButton.displayName = '@mantine/core/CopyButton';
+CopyButton.displayName = '@reactgets/core/CopyButton';

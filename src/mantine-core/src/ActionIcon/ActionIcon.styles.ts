@@ -7,7 +7,7 @@ import {
   CSSObject,
   rem,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export const ACTION_ICON_VARIANTS = [
   'subtle',

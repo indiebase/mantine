@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconSearch } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Divider, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Divider, Box } from '@reactgets/core';
 
 const code = `
-import { Divider, Box } from '@mantine/core';
+import { Divider, Box } from '@reactgets/core';
 import { IconSearch } from '@tabler/icons-react';
 
 function Demo() {

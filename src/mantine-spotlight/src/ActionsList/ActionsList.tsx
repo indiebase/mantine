@@ -1,5 +1,5 @@
 import React from 'react';
-import { DefaultProps, Selectors, Text, MantineNumberSize, MantineColor } from '@mantine/core';
+import { DefaultProps, Selectors, Text, MantineNumberSize, MantineColor } from '@reactgets/core';
 import type { SpotlightAction } from '../types';
 import type { DefaultActionProps, DefaultActionStylesNames } from '../DefaultAction/DefaultAction';
 import useStyles from './ActionsList.styles';
@@ -85,4 +85,4 @@ export function ActionsList({
   );
 }
 
-ActionsList.displayName = '@mantine/spotlight/ActionsList';
+ActionsList.displayName = '@reactgets/spotlight/ActionsList';

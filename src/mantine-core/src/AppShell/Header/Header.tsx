@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { useComponentDefaultProps } from '@reactgets/styles';
 import { VerticalSection, VerticalSectionSharedProps } from '../VerticalSection/VerticalSection';
 
 export interface HeaderProps
@@ -19,4 +19,4 @@ export const Header = forwardRef<HTMLElement, HeaderProps>((props: HeaderProps, 
   return <VerticalSection section="header" __staticSelector="Header" {..._props} ref={ref} />;
 });
 
-Header.displayName = '@mantine/core/Header';
+Header.displayName = '@reactgets/core/Header';

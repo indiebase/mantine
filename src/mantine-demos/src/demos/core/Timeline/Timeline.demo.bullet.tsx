@@ -1,10 +1,10 @@
 import React from 'react';
-import { ThemeIcon, Text, Avatar, Timeline, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { ThemeIcon, Text, Avatar, Timeline, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { IconSun, IconVideo } from '@tabler/icons-react';
 
 const code = `
-import { ThemeIcon, Text, Avatar, Timeline, Box } from '@mantine/core';
+import { ThemeIcon, Text, Avatar, Timeline, Box } from '@reactgets/core';
 import { IconSun, IconVideo } from '@tabler/icons-react';
 
 function Demo() {

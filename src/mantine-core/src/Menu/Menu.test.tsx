@@ -1,6 +1,6 @@
 import React from 'react';
 import { cleanup, render, screen } from '@testing-library/react';
-import { checkAccessibility } from '@mantine/tests';
+import { checkAccessibility } from '@reactgets/tests';
 import userEvent from '@testing-library/user-event';
 import { Menu, MenuProps } from './Menu';
 import { MenuItem } from './MenuItem/MenuItem';
@@ -29,7 +29,7 @@ const expectClosed = () => expect(screen.queryAllByRole('menu')).toHaveLength(0)
 const expectOpened = () => expect(screen.getByRole('menu')).toBeInTheDocument();
 const getControl = () => screen.getByRole('button');
 
-describe('@mantine/core/Menu', () => {
+describe('@reactgets/core/Menu', () => {
   checkAccessibility([<TestContainer opened />, <TestContainer opened={false} />]);
 
   it('calls onOpen and onClose functions when dropdown state changes', async () => {
@@ -144,7 +144,7 @@ describe('@mantine/core/Menu', () => {
   });
 
   it('has correct displayName', () => {
-    expect(Menu.displayName).toEqual('@mantine/core/Menu');
+    expect(Menu.displayName).toEqual('@reactgets/core/Menu');
   });
   it('correctly calls callbacks when opening and closing the uncontrolled menu via target click', async () => {
     const onOpen = jest.fn();

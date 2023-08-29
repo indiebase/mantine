@@ -3,7 +3,7 @@ import { useForm } from '../use-form';
 
 const getFormEvent = () => ({ preventDefault: jest.fn() } as any);
 
-describe('@mantine/form/transformValues', () => {
+describe('@reactgets/form/transformValues', () => {
   it('does not transform values if transformValues function is not provided', () => {
     const spy = jest.fn();
     const event = getFormEvent();

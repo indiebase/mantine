@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, Button } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useClipboard } from '@mantine/hooks';
+import { Group, Button } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useClipboard } from '@reactgets/hooks';
 
 const code = `
-import { Button } from '@mantine/core';
-import { useClipboard } from '@mantine/hooks';
+import { Button } from '@reactgets/core';
+import { useClipboard } from '@reactgets/hooks';
 
 function Demo() {
   const clipboard = useClipboard({ timeout: 500 });

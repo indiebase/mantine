@@ -8,8 +8,8 @@ import {
   TransferListData,
   TransferListItemComponent,
   TransferListItemComponentProps,
-} from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+} from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { charactersList } from './_mockdata';
 
 const code = `
@@ -23,7 +23,7 @@ import {
   TransferListData,
   TransferListItemComponent,
   TransferListItemComponentProps,
-} from '@mantine/core';
+} from '@reactgets/core';
 
 const mockdata = [
   {

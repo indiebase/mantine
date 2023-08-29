@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itRendersChildren, itSupportsSystemProps } from '@mantine/tests';
+import { itRendersChildren, itSupportsSystemProps } from '@reactgets/tests';
 import { InputWrapper, InputWrapperProps } from './InputWrapper';
 
 const defaultProps: InputWrapperProps = {
@@ -20,12 +20,12 @@ const queries = {
     container.querySelector('.mantine-InputWrapper-description'),
 };
 
-describe('@mantine/core/InputWrapper', () => {
+describe('@reactgets/core/InputWrapper', () => {
   itRendersChildren(InputWrapper, defaultProps);
   itSupportsSystemProps({
     component: InputWrapper,
     props: defaultProps,
-    displayName: '@mantine/core/InputWrapper',
+    displayName: '@reactgets/core/InputWrapper',
     refType: HTMLDivElement,
     providerName: 'InputWrapper',
   });

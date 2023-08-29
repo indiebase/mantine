@@ -1,5 +1,5 @@
 import React from 'react';
-import { itRendersChildren, checkAccessibility } from '@mantine/tests';
+import { itRendersChildren, checkAccessibility } from '@reactgets/tests';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { HoverCard, HoverCardProps } from './HoverCard';
@@ -17,7 +17,7 @@ function TestContainer(props: Partial<HoverCardProps>) {
   );
 }
 
-describe('@mantine/core/HoverCard', () => {
+describe('@reactgets/core/HoverCard', () => {
   checkAccessibility([<TestContainer initiallyOpened />, <TestContainer />]);
   itRendersChildren(HoverCard, {});
 
@@ -40,6 +40,6 @@ describe('@mantine/core/HoverCard', () => {
   });
 
   it('has correct displayName', () => {
-    expect(HoverCard.displayName).toEqual('@mantine/core/HoverCard');
+    expect(HoverCard.displayName).toEqual('@reactgets/core/HoverCard');
   });
 });

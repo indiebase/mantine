@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Autocomplete, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Autocomplete, Box } from '@reactgets/core';
 
 const code = `
-import { Autocomplete } from '@mantine/core';
+import { Autocomplete } from '@reactgets/core';
 
 function Demo() {
   return <Autocomplete disabled data={['React', 'Angular', 'Svelte', 'Vue']} />;

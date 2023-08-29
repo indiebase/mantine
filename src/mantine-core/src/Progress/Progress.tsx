@@ -5,7 +5,7 @@ import {
   MantineColor,
   Selectors,
   useComponentDefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Box } from '../Box';
 import { Text } from '../Text';
 import { Tooltip } from '../Tooltip';
@@ -152,4 +152,4 @@ export const Progress = forwardRef<HTMLDivElement, ProgressProps>((props, ref) =
   );
 });
 
-Progress.displayName = '@mantine/core/Progress';
+Progress.displayName = '@reactgets/core/Progress';

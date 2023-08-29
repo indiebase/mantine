@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineColor, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineColor, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box';
 import useStyles, { CodeStylesParams } from './Code.styles';
 
@@ -47,4 +47,4 @@ export const Code = forwardRef<HTMLElement, CodeProps>((props: CodeProps, ref) =
   );
 });
 
-Code.displayName = '@mantine/core/Code';
+Code.displayName = '@reactgets/core/Code';

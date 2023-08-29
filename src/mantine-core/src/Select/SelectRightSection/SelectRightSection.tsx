@@ -1,5 +1,5 @@
 import React from 'react';
-import { MantineSize } from '@mantine/styles';
+import { MantineSize } from '@reactgets/styles';
 import { CloseButton } from '../../CloseButton';
 import { ChevronIcon } from './ChevronIcon';
 
@@ -33,4 +33,4 @@ export function SelectRightSection({
   );
 }
 
-SelectRightSection.displayName = '@mantine/core/SelectRightSection';
+SelectRightSection.displayName = '@reactgets/core/SelectRightSection';

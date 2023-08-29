@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconSettings } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { ActionIcon, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { ActionIcon, Group } from '@reactgets/core';
 
 const code = `
-import { ActionIcon } from '@mantine/core';
+import { ActionIcon } from '@reactgets/core';
 import { IconSettings } from '@tabler/icons-react';
 
 function Demo() {

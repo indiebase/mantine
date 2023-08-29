@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { RatingProps, Rating, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { RatingProps, Rating, Group } from '@reactgets/core';
 
 const codeTemplate = (props: string) => `
-import { Rating } from '@mantine/core';
+import { Rating } from '@reactgets/core';
 
 function Demo() {
   return <Rating defaultValue={2}${props} />

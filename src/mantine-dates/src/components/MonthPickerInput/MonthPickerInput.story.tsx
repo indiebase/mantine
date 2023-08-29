@@ -1,5 +1,5 @@
-import { MANTINE_SIZES } from '@mantine/core';
-import { WithinOverlays } from '@mantine/storybook';
+import { MANTINE_SIZES } from '@reactgets/core';
+import { WithinOverlays } from '@reactgets/storybook';
 import dayjs from 'dayjs';
 import React from 'react';
 import { MonthPickerInput } from './MonthPickerInput';

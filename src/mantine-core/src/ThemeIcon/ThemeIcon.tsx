@@ -6,7 +6,7 @@ import {
   MantineColor,
   useComponentDefaultProps,
   Variants,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Box } from '../Box';
 import useStyles, { ThemeIconStylesParams } from './ThemeIcon.styles';
 
@@ -55,4 +55,4 @@ export const ThemeIcon = forwardRef<HTMLDivElement, ThemeIconProps>((props, ref)
   );
 });
 
-ThemeIcon.displayName = '@mantine/core/ThemeIcon';
+ThemeIcon.displayName = '@reactgets/core/ThemeIcon';

@@ -7,14 +7,14 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { FileInput, FileInputProps } from './FileInput';
 
 const defaultProps: FileInputProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/FileInput', () => {
+describe('@reactgets/core/FileInput', () => {
   checkAccessibility([
     <FileInput placeholder="test-input" />,
     <FileInput aria-label="test-input" />,
@@ -26,7 +26,7 @@ describe('@mantine/core/FileInput', () => {
   itSupportsSystemProps({
     component: FileInput,
     props: defaultProps,
-    displayName: '@mantine/core/FileInput',
+    displayName: '@reactgets/core/FileInput',
     refType: HTMLButtonElement,
     othersSelector: 'button',
     providerName: 'FileInput',

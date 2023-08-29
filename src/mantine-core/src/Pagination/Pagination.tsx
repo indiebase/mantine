@@ -1,5 +1,5 @@
 import React from 'react';
-import { getSize, useComponentDefaultProps, useMantineTheme } from '@mantine/styles';
+import { getSize, useComponentDefaultProps, useMantineTheme } from '@reactgets/styles';
 import { Group, GroupProps } from '../Group';
 import { PaginationRoot, PaginationRootSettings } from './PaginationRoot/PaginationRoot';
 import { PaginationItems } from './PaginationItems/PaginationItems';
@@ -123,7 +123,7 @@ export function Pagination(props: PaginationProps) {
   );
 }
 
-Pagination.displayName = '@mantine/core/Pagination';
+Pagination.displayName = '@reactgets/core/Pagination';
 Pagination.Root = PaginationRoot;
 Pagination.Items = PaginationItems;
 Pagination.Control = PaginationControl;

@@ -6,7 +6,7 @@ import {
   useId,
   useMergedRef,
   useIsomorphicEffect,
-} from '@mantine/hooks';
+} from '@reactgets/hooks';
 import {
   DefaultProps,
   MantineNumberSize,
@@ -15,7 +15,7 @@ import {
   Selectors,
   useComponentDefaultProps,
   useMantineTheme,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Box } from '../Box';
 import useStyles, {
   WRAPPER_PADDING,
@@ -236,4 +236,4 @@ export const SegmentedControl = forwardRef<HTMLDivElement, SegmentedControlProps
   );
 });
 
-SegmentedControl.displayName = '@mantine/core/SegmentedControl';
+SegmentedControl.displayName = '@reactgets/core/SegmentedControl';

@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconCheck } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { ThemeIcon, RingProgress, Group, Text, Center } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { ThemeIcon, RingProgress, Group, Text, Center } from '@reactgets/core';
 
 const code = `
-import { ThemeIcon, RingProgress, Text, Center } from '@mantine/core';
+import { ThemeIcon, RingProgress, Text, Center } from '@reactgets/core';
 import { IconCheck } from '@tabler/icons-react';
 
 function Demo() {

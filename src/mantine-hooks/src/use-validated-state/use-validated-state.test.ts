@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { useValidatedState } from './use-validated-state';
 
-describe('@mantine/hooks/use-validated-state', () => {
+describe('@reactgets/hooks/use-validated-state', () => {
   it('returns initial value', () => {
     const hookValid = renderHook(() => useValidatedState('test', (val) => val === 'test'));
     expect(hookValid.result.current[0].lastValidValue).toBe('test');

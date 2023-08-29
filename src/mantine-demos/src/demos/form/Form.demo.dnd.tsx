@@ -1,13 +1,13 @@
 import React from 'react';
-import { Group, TextInput, Box, Text, Code, Button, Center } from '@mantine/core';
-import { useForm } from '@mantine/form';
+import { Group, TextInput, Box, Text, Code, Button, Center } from '@reactgets/core';
+import { useForm } from '@reactgets/form';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { IconGripVertical } from '@tabler/icons-react';
 
 const code = `
-import { Group, TextInput, Box, Text, Code, Button, Center } from '@mantine/core';
-import { useForm } from '@mantine/form';
+import { Group, TextInput, Box, Text, Code, Button, Center } from '@reactgets/core';
+import { useForm } from '@reactgets/form';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import { IconGripVertical } from '@tabler/icons-react';
 

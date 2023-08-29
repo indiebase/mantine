@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Select } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Select } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { Select } from '@mantine/core';
+import { Select } from '@reactgets/core';
 
 export function Demo() {
   const [data, setData] = useState([

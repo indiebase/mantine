@@ -1,12 +1,12 @@
 import React, { forwardRef, useRef, useState, useCallback } from 'react';
-import { useMove, useUncontrolled, clamp, useMergedRef } from '@mantine/hooks';
+import { useMove, useUncontrolled, clamp, useMergedRef } from '@reactgets/hooks';
 import {
   DefaultProps,
   MantineColor,
   MantineNumberSize,
   useComponentDefaultProps,
   useMantineTheme,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { MantineTransition } from '../../Transition';
 import { getPosition } from '../utils/get-position/get-position';
 import { getChangeValue } from '../utils/get-change-value/get-change-value';
@@ -333,4 +333,4 @@ export const Slider = forwardRef<HTMLDivElement, SliderProps>((props, ref) => {
   );
 });
 
-Slider.displayName = '@mantine/core/Slider';
+Slider.displayName = '@reactgets/core/Slider';

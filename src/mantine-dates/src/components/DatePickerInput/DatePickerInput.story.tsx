@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Button, Group, MANTINE_SIZES } from '@mantine/core';
-import { WithinOverlays } from '@mantine/storybook';
+import { Button, Group, MANTINE_SIZES } from '@reactgets/core';
+import { WithinOverlays } from '@reactgets/storybook';
 import dayjs from 'dayjs';
 import { DatePickerInput } from './DatePickerInput';
 import { DatesProvider } from '../DatesProvider';

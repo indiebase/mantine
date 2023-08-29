@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { itRendersChildren, itSupportsRef, itSupportsSystemProps } from '@mantine/tests';
+import { itRendersChildren, itSupportsRef, itSupportsSystemProps } from '@reactgets/tests';
 import { Dialog, DialogBody, DialogProps } from './Dialog';
 
 const defaultProps: DialogProps = {
@@ -10,7 +10,7 @@ const defaultProps: DialogProps = {
   withCloseButton: true,
 };
 
-describe('@mantine/core/Dialog', () => {
+describe('@reactgets/core/Dialog', () => {
   itRendersChildren(DialogBody, defaultProps);
   itSupportsRef(Dialog, defaultProps, HTMLDivElement);
   itSupportsSystemProps({ component: DialogBody, props: defaultProps });
@@ -23,6 +23,6 @@ describe('@mantine/core/Dialog', () => {
   });
 
   it('has correct displayName', () => {
-    expect(Dialog.displayName).toStrictEqual('@mantine/core/Dialog');
+    expect(Dialog.displayName).toStrictEqual('@reactgets/core/Dialog');
   });
 });

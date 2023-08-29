@@ -1,10 +1,10 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Box } from '@reactgets/core';
 import { TimelineBase } from './_base';
 
 const code = `
-import { Timeline, Text } from '@mantine/core';
+import { Timeline, Text } from '@reactgets/core';
 import { IconGitBranch, IconGitPullRequest, IconGitCommit, IconMessageDots } from '@tabler/icons-react';
 
 function Demo() {

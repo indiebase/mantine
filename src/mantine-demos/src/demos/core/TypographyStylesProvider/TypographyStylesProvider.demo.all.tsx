@@ -1,6 +1,6 @@
 import React from 'react';
-import { TypographyStylesProvider } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { TypographyStylesProvider } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 
 const html = `<h1>Heading 1</h1>
 <h2>Heading 2</h2>
@@ -34,7 +34,7 @@ const html = `<h1>Heading 1</h1>
 <p>This is <code>code</code> and <mark>mark</mark> inside paragraph</p>
 
 <pre>import React from 'react';
-import { Avatar } from '@mantine/core';
+import { Avatar } from '@reactgets/core';
 import image from './image.png';
 
 export function AvatarDemo() {

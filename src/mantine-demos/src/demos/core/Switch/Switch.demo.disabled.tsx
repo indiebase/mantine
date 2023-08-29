@@ -1,9 +1,9 @@
-import { Box, Group, Switch } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Box, Group, Switch } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import React from 'react';
 
 const code = `
-import { Switch } from '@mantine/core';
+import { Switch } from '@reactgets/core';
 
 function Demo() {
   return <Switch disabled >;

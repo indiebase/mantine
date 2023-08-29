@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Skeleton, SkeletonProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Skeleton, SkeletonProps } from '@reactgets/core';
 
 function Wrapper(props: Partial<SkeletonProps>) {
   return (
@@ -14,7 +14,7 @@ function Wrapper(props: Partial<SkeletonProps>) {
 }
 
 const codeTemplate = (props: string) => `
-import { Skeleton } from '@mantine/core';
+import { Skeleton } from '@reactgets/core';
 
 function Demo() {
   return (

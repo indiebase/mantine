@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import {
   NumberInput,
   Group,
@@ -7,11 +7,11 @@ import {
   NumberInputHandlers,
   useMantineTheme,
   rem,
-} from '@mantine/core';
+} from '@reactgets/core';
 
 const code = `
 import { useState, useRef } from 'react';
-import { NumberInput, Group, ActionIcon, NumberInputHandlers, rem } from '@mantine/core';
+import { NumberInput, Group, ActionIcon, NumberInputHandlers, rem } from '@reactgets/core';
 
 function Demo() {
   const [value, setValue] = useState<number | ''>(0);

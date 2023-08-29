@@ -4,8 +4,8 @@ import {
   MantineNumberSize,
   MantineShadow,
   useComponentDefaultProps,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box } from '../Box';
 import useStyles, { PaperStylesParams } from './Paper.styles';
 
@@ -45,6 +45,6 @@ export const _Paper = forwardRef<HTMLDivElement, PaperProps>((props, ref) => {
   );
 });
 
-_Paper.displayName = '@mantine/core/Paper';
+_Paper.displayName = '@reactgets/core/Paper';
 
 export const Paper = createPolymorphicComponent<'div', PaperProps>(_Paper);

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Menu, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Menu, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { DemoMenuItems } from './_menu-items';
 
 const code = `
-import { Menu } from '@mantine/core';
+import { Menu } from '@reactgets/core';
 
 function Demo() {
   return (

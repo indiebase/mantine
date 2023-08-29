@@ -1,4 +1,4 @@
-import { MantineTheme, CSSObject, getSize, getBreakpointValue } from '@mantine/styles';
+import { MantineTheme, CSSObject, getSize, getBreakpointValue } from '@reactgets/styles';
 
 function getSortedKeys(value: Record<string, any>, theme: MantineTheme) {
   const sorted = Object.keys(value)

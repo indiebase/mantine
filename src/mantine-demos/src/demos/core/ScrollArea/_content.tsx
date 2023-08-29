@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from '@mantine/core';
+import { Text } from '@reactgets/core';
 
 export function Content() {
   return (

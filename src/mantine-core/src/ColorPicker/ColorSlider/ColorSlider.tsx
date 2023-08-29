@@ -5,8 +5,8 @@ import {
   useDidUpdate,
   UseMovePosition,
   useMergedRef,
-} from '@mantine/hooks';
-import { DefaultProps, MantineSize, Selectors, rem } from '@mantine/styles';
+} from '@reactgets/hooks';
+import { DefaultProps, MantineSize, Selectors, rem } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { Thumb, ThumbStylesNames } from '../Thumb/Thumb';
 import useStyles from './ColorSlider.styles';
@@ -138,4 +138,4 @@ export const ColorSlider = forwardRef<HTMLDivElement, ColorSliderProps>(
   }
 );
 
-ColorSlider.displayName = '@mantine/core/ColorSlider';
+ColorSlider.displayName = '@reactgets/core/ColorSlider';

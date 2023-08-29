@@ -1,4 +1,4 @@
-import { itSupportsClassName, itSupportsSx } from '@mantine/tests';
+import { itSupportsClassName, itSupportsSx } from '@reactgets/tests';
 import NotificationContainer from './NotificationContainer';
 
 const defaultProps = {
@@ -8,13 +8,13 @@ const defaultProps = {
   innerRef: undefined,
 } as const;
 
-describe('@mantine/notifications/NotificationContainer', () => {
+describe('@reactgets/notifications/NotificationContainer', () => {
   itSupportsSx(NotificationContainer, defaultProps);
   itSupportsClassName(NotificationContainer, defaultProps);
 
   it('has correct displayName', () => {
     expect(NotificationContainer.displayName).toStrictEqual(
-      '@mantine/notifications/NotificationContainer'
+      '@reactgets/notifications/NotificationContainer'
     );
   });
 });

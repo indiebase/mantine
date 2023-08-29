@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineSize } from '@mantine/styles';
+import { DefaultProps, MantineSize } from '@reactgets/styles';
 import {
   Input,
   InputSharedProps,
@@ -43,4 +43,4 @@ export const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, re
   );
 });
 
-TextInput.displayName = '@mantine/core/TextInput';
+TextInput.displayName = '@reactgets/core/TextInput';

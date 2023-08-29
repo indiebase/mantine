@@ -1,4 +1,4 @@
-import { MANTINE_SIZES } from '@mantine/styles';
+import { MANTINE_SIZES } from '@reactgets/styles';
 import React from 'react';
 import { Select } from './Select';
 

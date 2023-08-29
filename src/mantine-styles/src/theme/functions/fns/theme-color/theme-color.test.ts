@@ -3,7 +3,7 @@ import { DEFAULT_THEME } from '../../../default-theme';
 
 const getThemeColor = themeColor(DEFAULT_THEME);
 
-describe('@mantine/styles/theme-color', () => {
+describe('@reactgets/styles/theme-color', () => {
   it('returns correct shade of given color', () => {
     expect(getThemeColor('red', 3)).toBe(DEFAULT_THEME.colors.red[3]);
   });

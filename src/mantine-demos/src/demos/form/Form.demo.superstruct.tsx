@@ -1,10 +1,10 @@
 /* eslint-disable no-console */
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { SchemaBase } from './_schema-base';
 
 const code = `
-import { useForm, superstructResolver } from '@mantine/form';
-import { NumberInput, TextInput, Button, Box, Group } from '@mantine/core';
+import { useForm, superstructResolver } from '@reactgets/form';
+import { NumberInput, TextInput, Button, Box, Group } from '@reactgets/core';
 import * as s from 'superstruct';
 import isEmail from 'is-email';
 

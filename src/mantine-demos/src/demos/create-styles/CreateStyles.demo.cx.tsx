@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { createStyles } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { createStyles } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { createStyles } from '@mantine/core';
+import { createStyles } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   button: {

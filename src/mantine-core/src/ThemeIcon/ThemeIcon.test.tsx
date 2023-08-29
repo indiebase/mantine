@@ -3,21 +3,21 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { ThemeIcon, ThemeIconProps } from './ThemeIcon';
 
 const defaultProps: ThemeIconProps = {
   children: 'test-icon',
 };
 
-describe('@mantine/core/ThemeIcon', () => {
+describe('@reactgets/core/ThemeIcon', () => {
   itRendersChildren(ThemeIcon, defaultProps);
   itSupportsProviderVariant(ThemeIcon, defaultProps, 'ThemeIcon');
   itSupportsProviderSize(ThemeIcon, defaultProps, 'ThemeIcon');
   itSupportsSystemProps({
     component: ThemeIcon,
     props: defaultProps,
-    displayName: '@mantine/core/ThemeIcon',
+    displayName: '@reactgets/core/ThemeIcon',
     refType: HTMLDivElement,
     providerName: 'ThemeIcon',
   });

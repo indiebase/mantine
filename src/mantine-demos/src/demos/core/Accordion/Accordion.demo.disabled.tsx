@@ -1,10 +1,10 @@
-import { Accordion, Box } from '@mantine/core';
+import { Accordion, Box } from '@reactgets/core';
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { baseAccordionMockdata } from './_mockdata';
 
 const code = `
-import { Accordion } from '@mantine/core';
+import { Accordion } from '@reactgets/core';
 
 function Demo() {
   return (

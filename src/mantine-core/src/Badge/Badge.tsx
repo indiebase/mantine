@@ -8,8 +8,8 @@ import {
   Selectors,
   useComponentDefaultProps,
   Variants,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box } from '../Box';
 import useStyles, { BadgeStylesParams } from './Badge.styles';
 
@@ -83,6 +83,6 @@ export const _Badge = forwardRef<HTMLDivElement, BadgeProps>((props, ref) => {
   );
 });
 
-_Badge.displayName = '@mantine/core/Badge';
+_Badge.displayName = '@reactgets/core/Badge';
 
 export const Badge = createPolymorphicComponent<'div', BadgeProps>(_Badge);

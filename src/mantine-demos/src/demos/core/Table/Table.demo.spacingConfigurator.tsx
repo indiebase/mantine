@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table, TableProps } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Table, TableProps } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { elements } from './_data';
 
 function Wrapper(props: TableProps) {
@@ -29,7 +29,7 @@ function Wrapper(props: TableProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Table } from '@mantine/core';
+import { Table } from '@reactgets/core';
 
 function Demo() {
   return (

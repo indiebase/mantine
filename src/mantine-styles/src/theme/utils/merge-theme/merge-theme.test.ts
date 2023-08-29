@@ -7,7 +7,7 @@ const getThemeBase = () => {
   return themeBase;
 };
 
-describe('@mantine/styles/merge-theme', () => {
+describe('@reactgets/styles/merge-theme', () => {
   it('shallow merges non-object properties', () => {
     const themeBase = getThemeBase();
     expect(mergeTheme(themeBase, { primaryColor: 'red', white: '#ccc' })).toStrictEqual({

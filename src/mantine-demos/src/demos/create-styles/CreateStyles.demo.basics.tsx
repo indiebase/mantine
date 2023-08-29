@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { createStyles, getStylesRef, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { createStyles, getStylesRef, rem } from '@reactgets/core';
 
 const code = `
-import { createStyles, getStylesRef, rem } from '@mantine/core';
+import { createStyles, getStylesRef, rem } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   wrapper: {

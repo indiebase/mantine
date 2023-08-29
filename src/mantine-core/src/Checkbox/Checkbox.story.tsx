@@ -1,5 +1,5 @@
 import React from 'react';
-import { MantineProvider, MANTINE_SIZES } from '@mantine/styles';
+import { MantineProvider, MANTINE_SIZES } from '@reactgets/styles';
 import { Checkbox } from './Checkbox';
 import { Stack } from '../Stack';
 

@@ -3,19 +3,19 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Container, ContainerProps } from './Container';
 
 const defaultProps: ContainerProps = {};
 
-describe('@mantine/core/Container', () => {
+describe('@reactgets/core/Container', () => {
   itRendersChildren(Container, defaultProps);
   itSupportsProviderVariant(Container, defaultProps, 'Container');
   itSupportsProviderSize(Container, defaultProps, 'Container');
   itSupportsSystemProps({
     component: Container,
     props: defaultProps,
-    displayName: '@mantine/core/Container',
+    displayName: '@reactgets/core/Container',
     refType: HTMLDivElement,
     providerName: 'Container',
   });

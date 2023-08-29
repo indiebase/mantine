@@ -1,4 +1,4 @@
-import { MantineStyleSystemProps, filterProps } from '@mantine/styles';
+import { MantineStyleSystemProps, filterProps } from '@reactgets/styles';
 
 export function extractSystemStyles<T extends Record<string, any>>(
   others: MantineStyleSystemProps & T

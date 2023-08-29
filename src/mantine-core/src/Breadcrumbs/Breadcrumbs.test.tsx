@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { itSupportsSystemProps, itSupportsProviderVariant } from '@mantine/tests';
+import { itSupportsSystemProps, itSupportsProviderVariant } from '@reactgets/tests';
 import { Text } from '../Text/Text';
 import { Breadcrumbs, BreadcrumbsProps } from './Breadcrumbs';
 
@@ -16,12 +16,12 @@ const defaultProps: BreadcrumbsProps = {
   )),
 };
 
-describe('@mantine/core/Breadcrumbs', () => {
+describe('@reactgets/core/Breadcrumbs', () => {
   itSupportsProviderVariant(Breadcrumbs, defaultProps, 'Breadcrumbs');
   itSupportsSystemProps({
     component: Breadcrumbs,
     props: defaultProps,
-    displayName: '@mantine/core/Breadcrumbs',
+    displayName: '@reactgets/core/Breadcrumbs',
     refType: HTMLDivElement,
     providerName: 'Breadcrumbs',
   });

@@ -3,16 +3,16 @@ import {
   itSupportsStyle,
   itSupportsOthers,
   itSupportsRef,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { SelectScrollArea } from './SelectScrollArea';
 
-describe('@mantine/core/SelectScrollArea', () => {
+describe('@reactgets/core/SelectScrollArea', () => {
   itRendersChildren(SelectScrollArea, {});
   itSupportsStyle(SelectScrollArea, {});
   itSupportsOthers(SelectScrollArea, {});
   itSupportsRef(SelectScrollArea, {}, HTMLDivElement);
 
   it('has correct displayName', () => {
-    expect(SelectScrollArea.displayName).toStrictEqual('@mantine/core/SelectScrollArea');
+    expect(SelectScrollArea.displayName).toStrictEqual('@reactgets/core/SelectScrollArea');
   });
 });

@@ -5,7 +5,7 @@ import {
   useComponentDefaultProps,
   MantineSize,
   rem,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Box } from '../Box';
 import useStyles from './Container.styles';
 
@@ -46,4 +46,4 @@ export const Container = forwardRef<HTMLDivElement, ContainerProps>(
   }
 );
 
-Container.displayName = '@mantine/core/Container';
+Container.displayName = '@reactgets/core/Container';

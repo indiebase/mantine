@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Anchor } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Anchor } from '@reactgets/core';
 
 const code = `
-import { Anchor } from '@mantine/core';
+import { Anchor } from '@reactgets/core';
 
 function Demo() {
   return (

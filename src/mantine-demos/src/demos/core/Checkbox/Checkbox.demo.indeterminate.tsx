@@ -1,11 +1,11 @@
 import React from 'react';
-import { useListState, randomId } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { Checkbox, Box } from '@mantine/core';
+import { useListState, randomId } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { Checkbox, Box } from '@reactgets/core';
 
 const code = `
-import { useListState, randomId } from '@mantine/hooks';
-import { Checkbox } from '@mantine/core';
+import { useListState, randomId } from '@reactgets/hooks';
+import { Checkbox } from '@reactgets/core';
 
 const initialValues = [
   { label: 'Receive email notifications', checked: false, key: randomId() },

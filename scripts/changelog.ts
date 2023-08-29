@@ -11,7 +11,7 @@ async function getChangelog() {
   );
   const notes = messages
     .slice(0, lastRelease)
-    .filter((message) => /\[@mantine/.test(message) && !message.includes('[@mantine/demos]'))
+    .filter((message) => /\[@reactgets/.test(message) && !message.includes('[@reactgets/demos]'))
     .map((message) => message.replace('[', '- `[').replace(']', ']`'))
     .join('\n');
 

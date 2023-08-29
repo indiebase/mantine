@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { ReactPortal, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { useIsomorphicEffect } from '@mantine/hooks';
-import { useMantineTheme, useComponentDefaultProps } from '@mantine/styles';
+import { useIsomorphicEffect } from '@reactgets/hooks';
+import { useMantineTheme, useComponentDefaultProps } from '@reactgets/styles';
 
 export interface PortalProps extends React.ComponentPropsWithoutRef<'div'> {
   /** Portal children, for example, modal or popover */
@@ -58,4 +58,4 @@ export function Portal(props: PortalProps): ReactPortal {
   );
 }
 
-Portal.displayName = '@mantine/core/Portal';
+Portal.displayName = '@reactgets/core/Portal';

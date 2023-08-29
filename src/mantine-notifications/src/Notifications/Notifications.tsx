@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Transition, TransitionGroup } from 'react-transition-group';
-import { DefaultProps, Portal, getDefaultZIndex, Box, PortalProps, rem } from '@mantine/core';
-import { useReducedMotion, useForceUpdate, useDidUpdate } from '@mantine/hooks';
+import { DefaultProps, Portal, getDefaultZIndex, Box, PortalProps, rem } from '@reactgets/core';
+import { useReducedMotion, useForceUpdate, useDidUpdate } from '@reactgets/hooks';
 import { NotificationsPositioning } from '../types';
 import {
   notifications as GlobalNotifications,
@@ -157,7 +157,7 @@ export const Notifications: React.FC<NotificationsProps> & NotificationsStaticMe
   );
 };
 
-Notifications.displayName = '@mantine/notifications/Notifications';
+Notifications.displayName = '@reactgets/notifications/Notifications';
 Notifications.show = GlobalNotifications.show;
 Notifications.hide = GlobalNotifications.hide;
 Notifications.update = GlobalNotifications.update;

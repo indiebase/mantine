@@ -1,10 +1,10 @@
 import React from 'react';
-import { useOs } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { Text } from '@mantine/core';
+import { useOs } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { Text } from '@reactgets/core';
 
 const code = `
-import { useOs } from '@mantine/hooks';
+import { useOs } from '@reactgets/hooks';
 
 function Demo() {
   const os = useOs();

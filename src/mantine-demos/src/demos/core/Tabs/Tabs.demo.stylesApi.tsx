@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconPhoto, IconMessageCircle, IconSettings } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Tabs, TabsProps, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Tabs, TabsProps, rem } from '@reactgets/core';
 
 const code = `
-import { Tabs, TabsProps, rem } from '@mantine/core';
+import { Tabs, TabsProps, rem } from '@reactgets/core';
 import { IconPhoto, IconMessageCircle, IconSettings } from '@tabler/icons-react';
 
 function StyledTabs(props: TabsProps) {

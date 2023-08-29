@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TransferList, TransferListData, TransferListProps } from '@mantine/core';
+import { TransferList, TransferListData, TransferListProps } from '@reactgets/core';
 
 const mockdata: TransferListData = [
   [

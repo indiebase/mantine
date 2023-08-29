@@ -1,7 +1,7 @@
-import { DEFAULT_THEME } from '@mantine/styles';
+import { DEFAULT_THEME } from '@reactgets/styles';
 import { getSortedBreakpoints } from './get-sorted-breakpoints';
 
-describe('@mantine/core/SimpleGrid/get-sorted-breakpoints', () => {
+describe('@reactgets/core/SimpleGrid/get-sorted-breakpoints', () => {
   it('returns an empty array if breakpoints are not set', () => {
     expect(getSortedBreakpoints(DEFAULT_THEME, [])).toStrictEqual([]);
   });

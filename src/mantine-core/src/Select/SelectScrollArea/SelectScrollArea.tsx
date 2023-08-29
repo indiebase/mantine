@@ -14,4 +14,4 @@ export const SelectScrollArea = forwardRef<HTMLDivElement, ScrollAreaProps>(
   )
 );
 
-SelectScrollArea.displayName = '@mantine/core/SelectScrollArea';
+SelectScrollArea.displayName = '@reactgets/core/SelectScrollArea';

@@ -1,11 +1,11 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { TimeInput } from '@mantine/dates';
-import { Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { TimeInput } from '@reactgets/dates';
+import { Box } from '@reactgets/core';
 
 const code = `
 import { IconClock } from '@tabler/icons-react';
-import { TimeInput } from '@mantine/dates';
+import { TimeInput } from '@reactgets/dates';
 
 function Demo() {
   return <TimeInput disabled />;

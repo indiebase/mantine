@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box/Box';
 import useStyles from './AspectRatio.styles';
 
@@ -28,4 +28,4 @@ export const AspectRatio = forwardRef<HTMLDivElement, AspectRatioProps>(
   }
 );
 
-AspectRatio.displayName = '@mantine/core/AspectRatio';
+AspectRatio.displayName = '@reactgets/core/AspectRatio';

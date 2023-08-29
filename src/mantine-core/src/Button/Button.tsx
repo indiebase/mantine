@@ -9,8 +9,8 @@ import {
   useComponentDefaultProps,
   Variants,
   getSize,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { UnstyledButton } from '../UnstyledButton';
 import { Loader, LoaderProps } from '../Loader';
 import { ButtonGroup } from './ButtonGroup/ButtonGroup';
@@ -163,7 +163,7 @@ export const _Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) =
   );
 }) as any;
 
-_Button.displayName = '@mantine/core/Button';
+_Button.displayName = '@reactgets/core/Button';
 _Button.Group = ButtonGroup;
 
 export const Button = createPolymorphicComponent<

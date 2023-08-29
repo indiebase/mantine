@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { RingProgress, Group, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { RingProgress, Group, Text } from '@reactgets/core';
 
 const code = `
-import { RingProgress, Text, Group } from '@mantine/core';
+import { RingProgress, Text, Group } from '@reactgets/core';
 
 function Demo() {
   return (

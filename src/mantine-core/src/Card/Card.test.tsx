@@ -3,7 +3,7 @@ import {
   itIsPolymorphic,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Card, CardProps } from './Card';
 import { CardSection } from './CardSection/CardSection';
 
@@ -11,14 +11,14 @@ const defaultProps: CardProps = {
   children: 'test-card',
 };
 
-describe('@mantine/core/Card', () => {
+describe('@reactgets/core/Card', () => {
   itRendersChildren(Card, defaultProps);
   itIsPolymorphic(Card, defaultProps);
   itSupportsProviderVariant(Card, defaultProps, 'Card');
   itSupportsSystemProps({
     component: Card,
     props: defaultProps,
-    displayName: '@mantine/core/Card',
+    displayName: '@reactgets/core/Card',
     refType: HTMLDivElement,
     providerName: 'Card',
   });

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { useClickOutside } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { Transition, Paper, Button, useMantineTheme, rem } from '@mantine/core';
+import { useClickOutside } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { Transition, Paper, Button, useMantineTheme, rem } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { Transition, Paper, Button, rem } from '@mantine/core';
-import { useClickOutside } from '@mantine/hooks';
+import { Transition, Paper, Button, rem } from '@reactgets/core';
+import { useClickOutside } from '@reactgets/hooks';
 
 const scaleY = {
   in: { opacity: 1, transform: 'scaleY(1)' },

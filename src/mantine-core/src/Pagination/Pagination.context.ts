@@ -1,5 +1,5 @@
-import { ClassNames, MantineColor, MantineNumberSize, Styles } from '@mantine/styles';
-import { createSafeContext } from '@mantine/utils';
+import { ClassNames, MantineColor, MantineNumberSize, Styles } from '@reactgets/styles';
+import { createSafeContext } from '@reactgets/utils';
 import type { PaginationStylesNames } from './PaginationRoot/PaginationRoot';
 
 interface PaginationContext {

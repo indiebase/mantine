@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, rem, getSize } from '@mantine/core';
+import { createStyles, MantineNumberSize, rem, getSize } from '@reactgets/core';
 
 export interface DropzoneStylesParams {
   padding: MantineNumberSize;

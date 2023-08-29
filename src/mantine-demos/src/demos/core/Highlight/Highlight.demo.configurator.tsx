@@ -1,13 +1,13 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Highlight, HighlightProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Highlight, HighlightProps } from '@reactgets/core';
 
 function Wrapper(props: HighlightProps) {
   return <Highlight maw={400} mx="auto" {...props} />;
 }
 
 const codeTemplate = (props: string, children: string) => `
-import { Highlight } from '@mantine/core';
+import { Highlight } from '@reactgets/core';
 
 function Demo() {
   return (

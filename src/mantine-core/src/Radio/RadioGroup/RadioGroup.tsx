@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useUncontrolled, useId } from '@mantine/hooks';
-import { DefaultProps, MantineSize, useComponentDefaultProps } from '@mantine/styles';
+import { useUncontrolled, useId } from '@reactgets/hooks';
+import { DefaultProps, MantineSize, useComponentDefaultProps } from '@reactgets/styles';
 import { Input, InputWrapperBaseProps, InputWrapperStylesNames } from '../../Input';
 import { RadioGroupProvider } from '../RadioGroup.context';
 
@@ -79,4 +79,4 @@ export const RadioGroup = forwardRef<HTMLDivElement, RadioGroupProps>(
   }
 );
 
-RadioGroup.displayName = '@mantine/core/RadioGroup';
+RadioGroup.displayName = '@reactgets/core/RadioGroup';

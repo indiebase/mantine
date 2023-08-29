@@ -1,11 +1,11 @@
 /* eslint-disable no-console */
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { SchemaBase } from './_schema-base';
 
 const code = `
 import * as Yup from 'yup';
-import { useForm, yupResolver } from '@mantine/form';
-import { NumberInput, TextInput, Button, Box, Group } from '@mantine/core';
+import { useForm, yupResolver } from '@reactgets/form';
+import { NumberInput, TextInput, Button, Box, Group } from '@reactgets/core';
 
 const schema = Yup.object().shape({
   name: Yup.string().min(2, 'Name should have at least 2 letters'),

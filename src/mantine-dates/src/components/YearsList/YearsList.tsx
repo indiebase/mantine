@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unused-prop-types */
 import dayjs from 'dayjs';
 import React, { forwardRef } from 'react';
-import { DefaultProps, Box, Selectors, useComponentDefaultProps, MantineSize } from '@mantine/core';
+import { DefaultProps, Box, Selectors, useComponentDefaultProps, MantineSize } from '@reactgets/core';
 import { PickerControl, PickerControlStylesNames, PickerControlProps } from '../PickerControl';
 import { ControlsGroupSettings } from '../../types';
 import { useDatesContext } from '../DatesProvider';
@@ -148,4 +148,4 @@ export const YearsList = forwardRef<HTMLTableElement, YearsListProps>((props, re
   );
 });
 
-YearsList.displayName = '@mantine/dates/YearsList';
+YearsList.displayName = '@reactgets/dates/YearsList';

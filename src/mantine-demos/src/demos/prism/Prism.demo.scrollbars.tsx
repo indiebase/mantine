@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { Prism } from '@mantine/prism';
+import { Text } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Prism } from '@reactgets/prism';
 
 const code = `
-import { Text } from '@mantine/core';
-import { Prism } from '@mantine/prism';
+import { Text } from '@reactgets/core';
+import { Prism } from '@reactgets/prism';
 
 const longCode = \`
 <p>

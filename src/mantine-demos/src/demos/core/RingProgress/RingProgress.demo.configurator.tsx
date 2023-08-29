@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { RingProgress, Group, RingProgressProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { RingProgress, Group, RingProgressProps } from '@reactgets/core';
 
 function Wrapper(props: RingProgressProps) {
   return (
@@ -18,7 +18,7 @@ function Wrapper(props: RingProgressProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { RingProgress } from '@mantine/core';
+import { RingProgress } from '@reactgets/core';
 
 function Demo() {
   return (

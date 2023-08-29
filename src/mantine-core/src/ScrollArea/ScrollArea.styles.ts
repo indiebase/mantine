@@ -1,4 +1,4 @@
-import { createStyles, getStylesRef, rem } from '@mantine/styles';
+import { createStyles, getStylesRef, rem } from '@reactgets/styles';
 
 export interface ScrollAreaStylesParams {
   scrollbarSize: number | string;

@@ -1,11 +1,11 @@
 import React from 'react';
 import { IconCheck, IconX } from '@tabler/icons-react';
-import { Notification } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Notification } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { demoBase } from './_demo-base';
 
 const code = `
-import { Notification } from '@mantine/core';
+import { Notification } from '@reactgets/core';
 import { IconCheck, IconX } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconPhoto, IconMessageCircle, IconSettings } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Tabs, TabsProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Tabs, TabsProps } from '@reactgets/core';
 
 function Wrapper(props: TabsProps) {
   const panelProps = props.orientation === 'vertical' ? { pl: 'xs' } : { pt: 'xs' };
@@ -37,7 +37,7 @@ function Wrapper(props: TabsProps) {
 const codeTemplate = (props: string) => {
   const panelProps = props.includes('vertical') ? 'pl="xs"' : 'pt="xs"';
   return `
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@reactgets/core';
 import { IconPhoto, IconMessageCircle, IconSettings } from '@tabler/icons-react';
 
 function Demo() {

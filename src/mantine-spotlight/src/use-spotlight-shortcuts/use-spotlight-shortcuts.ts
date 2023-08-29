@@ -1,4 +1,4 @@
-import { HotkeyItem, useHotkeys } from '@mantine/hooks';
+import { HotkeyItem, useHotkeys } from '@reactgets/hooks';
 
 export function getHotkeysPayload(
   shortcuts: string | string[],

@@ -25,7 +25,7 @@ function TestComponent() {
   );
 }
 
-describe('@mantine/form/validateInputOnBlur', () => {
+describe('@reactgets/form/validateInputOnBlur', () => {
   it('validates specified field on blur', async () => {
     render(<TestComponent />);
     expect(screen.getByTestId('errors').textContent).toBe('{}');

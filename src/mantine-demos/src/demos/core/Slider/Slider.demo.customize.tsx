@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Slider, Box, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Slider, Box, rem } from '@reactgets/core';
 
 const code = `
-import { Slider, rem } from '@mantine/core';
+import { Slider, rem } from '@reactgets/core';
 
 const marks = [
   { value: 20, label: '20%' },

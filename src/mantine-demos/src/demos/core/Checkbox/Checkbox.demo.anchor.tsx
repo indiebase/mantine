@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Checkbox, Anchor } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Checkbox, Anchor } from '@reactgets/core';
 
 const code = `
-import { Checkbox, Anchor } from '@mantine/core';
+import { Checkbox, Anchor } from '@reactgets/core';
 
 function Demo() {
   return (

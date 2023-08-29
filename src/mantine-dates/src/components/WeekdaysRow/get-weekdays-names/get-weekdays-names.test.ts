@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import 'dayjs/locale/ru';
 import { getWeekdayNames } from './get-weekdays-names';
 
-describe('@mantine/dates/get-weekday-names', () => {
+describe('@reactgets/dates/get-weekday-names', () => {
   afterEach(() => {
     dayjs.locale('en');
   });

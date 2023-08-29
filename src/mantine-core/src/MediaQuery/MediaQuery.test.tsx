@@ -1,5 +1,5 @@
 import React from 'react';
-import { itSupportsClassName } from '@mantine/tests';
+import { itSupportsClassName } from '@reactgets/tests';
 import { MediaQuery, MediaQueryProps } from './MediaQuery';
 
 const defaultProps: MediaQueryProps = {
@@ -7,10 +7,10 @@ const defaultProps: MediaQueryProps = {
   children: <span>test-children</span>,
 };
 
-describe('@mantine/core/MediaQuery', () => {
+describe('@reactgets/core/MediaQuery', () => {
   itSupportsClassName(MediaQuery, defaultProps);
 
   it('has correct displayName', () => {
-    expect(MediaQuery.displayName).toStrictEqual('@mantine/core/MediaQuery');
+    expect(MediaQuery.displayName).toStrictEqual('@reactgets/core/MediaQuery');
   });
 });

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
-import { createEventHandler } from '@mantine/utils';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
+import { createEventHandler } from '@reactgets/utils';
 import { Popover } from '../../Popover';
 import { useMenuContext } from '../Menu.context';
 
@@ -63,4 +63,4 @@ export function MenuDropdown(props: MenuDropdownProps) {
   );
 }
 
-MenuDropdown.displayName = '@mantine/core/MenuDropdown';
+MenuDropdown.displayName = '@reactgets/core/MenuDropdown';

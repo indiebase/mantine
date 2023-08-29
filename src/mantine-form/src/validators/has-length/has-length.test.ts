@@ -2,7 +2,7 @@ import { hasLength } from './has-length';
 
 const TEST_ERROR = 'has-length-error';
 
-describe('@mantine/form/hasLength', () => {
+describe('@reactgets/form/hasLength', () => {
   it('detects valid value', () => {
     const numberValidator = hasLength(3, TEST_ERROR);
     expect(numberValidator('hel')).toBe(null);

@@ -2,7 +2,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Header, HeaderProps } from './Header';
 
 const defaultProps: HeaderProps = {
@@ -10,13 +10,13 @@ const defaultProps: HeaderProps = {
   children: 'test-header',
 };
 
-describe('@mantine/core/Header', () => {
+describe('@reactgets/core/Header', () => {
   itRendersChildren(Header, defaultProps);
   itSupportsProviderVariant(Header, defaultProps, 'Header');
   itSupportsSystemProps({
     component: Header,
     props: defaultProps,
-    displayName: '@mantine/core/Header',
+    displayName: '@reactgets/core/Header',
     refType: HTMLElement,
     providerName: 'Header',
   });

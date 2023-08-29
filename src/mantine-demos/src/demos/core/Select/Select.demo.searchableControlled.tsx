@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Select } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Select } from '@reactgets/core';
 
 const code = `
-import { Select } from '@mantine/core';
+import { Select } from '@reactgets/core';
 
 function Demo() {
   const [searchValue, onSearchChange] = useState('');

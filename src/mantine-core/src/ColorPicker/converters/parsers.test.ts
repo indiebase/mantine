@@ -1,6 +1,6 @@
 import { parseHex, parseHexa } from './parsers';
 
-describe('@mantine/core/ColorPicker/converters/parsers', () => {
+describe('@reactgets/core/ColorPicker/converters/parsers', () => {
   it('distinguishly parses nearly identical 24bit hex colors', () => {
     expect(parseHex('#123456')).not.toStrictEqual(parseHex('#123457'));
     expect(parseHex('#123456')).not.toStrictEqual(parseHex('#123455'));

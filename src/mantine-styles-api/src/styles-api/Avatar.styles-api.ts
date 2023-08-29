@@ -1,4 +1,4 @@
-import type { AvatarStylesNames } from '@mantine/core';
+import type { AvatarStylesNames } from '@reactgets/core';
 
 export const Avatar: Record<AvatarStylesNames, string> = {
   root: 'Root element',

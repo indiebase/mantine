@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Avatar, Indicator, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Avatar, Indicator, Group } from '@reactgets/core';
 
 const code = `
-import { Avatar, Indicator } from '@mantine/core';
+import { Avatar, Indicator } from '@reactgets/core';
 
 function Demo() {
   return (

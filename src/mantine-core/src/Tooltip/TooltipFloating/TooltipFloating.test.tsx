@@ -1,5 +1,5 @@
 import React from 'react';
-import { itSupportsSystemProps, checkAccessibility, patchConsoleError } from '@mantine/tests';
+import { itSupportsSystemProps, checkAccessibility, patchConsoleError } from '@reactgets/tests';
 import { render } from '@testing-library/react';
 import { TooltipFloating, TooltipFloatingProps } from './TooltipFloating';
 import { TOOLTIP_ERRORS } from '../Tooltip.errors';
@@ -10,12 +10,12 @@ const defaultProps: TooltipFloatingProps = {
   children: <button type="button">test-target</button>,
 };
 
-describe('@mantine/core/Tooltip', () => {
+describe('@reactgets/core/Tooltip', () => {
   checkAccessibility([<TooltipFloating {...defaultProps} />]);
   itSupportsSystemProps({
     component: TooltipFloating,
     props: defaultProps,
-    displayName: '@mantine/core/TooltipFloating',
+    displayName: '@reactgets/core/TooltipFloating',
     providerName: 'TooltipFloating',
   });
 

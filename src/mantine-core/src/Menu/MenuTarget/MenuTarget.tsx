@@ -1,6 +1,6 @@
 import React, { cloneElement, forwardRef } from 'react';
-import { isElement, createEventHandler } from '@mantine/utils';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { isElement, createEventHandler } from '@reactgets/utils';
+import { useComponentDefaultProps } from '@reactgets/styles';
 import { useMenuContext } from '../Menu.context';
 import { Popover } from '../../Popover';
 import { MENU_ERRORS } from '../Menu.errors';
@@ -57,4 +57,4 @@ export const MenuTarget = forwardRef<HTMLElement, MenuTargetProps>((props, ref) 
   );
 });
 
-MenuTarget.displayName = '@mantine/core/MenuTarget';
+MenuTarget.displayName = '@reactgets/core/MenuTarget';

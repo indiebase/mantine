@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { ColorSwatch, DefaultProps, useComponentDefaultProps } from '@mantine/core';
+import { ColorSwatch, DefaultProps, useComponentDefaultProps } from '@reactgets/core';
 import { Control } from '../Control/Control';
 import { useRichTextEditorContext } from '../../RichTextEditor.context';
 

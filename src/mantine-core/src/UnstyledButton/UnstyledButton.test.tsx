@@ -4,12 +4,12 @@ import {
   itSupportsSystemProps,
   itIsPolymorphic,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { UnstyledButton, UnstyledButtonProps } from './UnstyledButton';
 
 const defaultProps: UnstyledButtonProps = {};
 
-describe('@mantine/core/UnstyledButton', () => {
+describe('@reactgets/core/UnstyledButton', () => {
   itRendersChildren(UnstyledButton, defaultProps);
   itSupportsProviderVariant(UnstyledButton, defaultProps, 'UnstyledButton');
   itIsPolymorphic(UnstyledButton, defaultProps);
@@ -17,7 +17,7 @@ describe('@mantine/core/UnstyledButton', () => {
   itSupportsSystemProps({
     component: UnstyledButton,
     props: defaultProps,
-    displayName: '@mantine/core/UnstyledButton',
+    displayName: '@reactgets/core/UnstyledButton',
     refType: HTMLButtonElement,
     providerName: 'UnstyledButton',
   });

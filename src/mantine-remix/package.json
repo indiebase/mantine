@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/remix",
+  "name": "@reactgets/remix",
   "description": "Mantine integration for Remix",
   "version": "6.0.19",
   "main": "cjs/index.js",
@@ -20,13 +20,13 @@
     "remix"
   ],
   "peerDependencies": {
-    "@mantine/core": "6.0.19",
-    "@mantine/hooks": "6.0.19",
+    "@reactgets/core": "6.0.19",
+    "@reactgets/hooks": "6.0.19",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "@mantine/ssr": "6.0.19",
-    "@mantine/styles": "6.0.19"
+    "@reactgets/ssr": "6.0.19",
+    "@reactgets/styles": "6.0.19"
   }
 }

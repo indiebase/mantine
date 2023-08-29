@@ -1,14 +1,14 @@
 import React from 'react';
-import { useCounter } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { ScrollArea, Button, Group } from '@mantine/core';
+import { useCounter } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { ScrollArea, Button, Group } from '@reactgets/core';
 
 const lorem =
   'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta perspiciatis reiciendis voluptate eaque itaque quos. Natus iure tenetur libero, reprehenderit ad, sequi, in aliquam eos necessitatibus expedita delectus veniam culpa!';
 
 const code = `
-import { useCounter } from '@mantine/hooks';
-import { ScrollArea, Button, Group } from '@mantine/core';
+import { useCounter } from '@reactgets/hooks';
+import { ScrollArea, Button, Group } from '@reactgets/core';
 
 const lorem =
   'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta perspiciatis reiciendis voluptate eaque itaque quos. Natus iure tenetur libero, reprehenderit ad, sequi, in aliquam eos necessitatibus expedita delectus veniam culpa!';

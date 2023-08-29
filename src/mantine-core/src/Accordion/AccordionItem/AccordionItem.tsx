@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { AccordionItemContextProvider } from '../AccordionItem.context';
 import useStyles from './AccordionItem.styles';
@@ -49,4 +49,4 @@ export const AccordionItem = forwardRef<HTMLDivElement, AccordionItemProps>((pro
   );
 });
 
-AccordionItem.displayName = '@mantine/core/AccordionItem';
+AccordionItem.displayName = '@reactgets/core/AccordionItem';

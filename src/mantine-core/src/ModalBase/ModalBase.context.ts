@@ -1,5 +1,5 @@
-import { ClassNames, MantineNumberSize, MantineShadow, Styles } from '@mantine/styles';
-import { createSafeContext } from '@mantine/utils';
+import { ClassNames, MantineNumberSize, MantineShadow, Styles } from '@reactgets/styles';
+import { createSafeContext } from '@reactgets/utils';
 import { TransitionOverride } from '../Transition';
 import type { ModalBaseStylesNames } from './ModalBase';
 

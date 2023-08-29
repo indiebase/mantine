@@ -1,7 +1,7 @@
 import { fontStyles } from './font-styles';
 import { DEFAULT_THEME } from '../../../default-theme';
 
-describe('@mantine/tss/get-font-styles', () => {
+describe('@reactgets/tss/get-font-styles', () => {
   it('sets font-family from given theme', () => {
     expect(fontStyles(DEFAULT_THEME)().fontFamily).toBe(DEFAULT_THEME.fontFamily);
   });

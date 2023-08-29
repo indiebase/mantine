@@ -4,7 +4,7 @@ import {
   TextInput,
   TextInputProps,
   TextInputStylesNames,
-} from '@mantine/core';
+} from '@reactgets/core';
 import useStyles from './TimeInput.styles';
 
 export type TimeInputStylesNames = TextInputStylesNames;
@@ -45,4 +45,4 @@ export const TimeInput = forwardRef<HTMLInputElement, TimeInputProps>((props, re
   );
 });
 
-TimeInput.displayName = '@mantine/dates/TimeInput';
+TimeInput.displayName = '@reactgets/dates/TimeInput';

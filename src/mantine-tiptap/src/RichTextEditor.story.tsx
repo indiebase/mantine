@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEditor, FloatingMenu, BubbleMenu } from '@tiptap/react';
-import { AppShell, Header } from '@mantine/core';
+import { AppShell, Header } from '@reactgets/core';
 import Highlight from '@tiptap/extension-highlight';
 import { Color } from '@tiptap/extension-color';
 import TextStyle from '@tiptap/extension-text-style';

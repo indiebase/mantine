@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { checkAccessibility, itSupportsRef } from '@mantine/tests';
+import { checkAccessibility, itSupportsRef } from '@reactgets/tests';
 import { FileButton, FileButtonProps } from './FileButton';
 
 const defaultProps: FileButtonProps = {
@@ -12,7 +12,7 @@ const defaultProps: FileButtonProps = {
   ),
 };
 
-describe('@mantine/core/FileButton', () => {
+describe('@reactgets/core/FileButton', () => {
   checkAccessibility([<FileButton {...defaultProps} />]);
   itSupportsRef(FileButton, defaultProps, HTMLInputElement);
 
@@ -30,6 +30,6 @@ describe('@mantine/core/FileButton', () => {
   });
 
   it('has correct displayName', () => {
-    expect(FileButton.displayName).toEqual('@mantine/core/FileButton');
+    expect(FileButton.displayName).toEqual('@reactgets/core/FileButton');
   });
 });

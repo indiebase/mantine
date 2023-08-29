@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps, rem } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { useComponentDefaultProps, rem } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { ActionIcon, ActionIconProps } from '../ActionIcon/ActionIcon';
 import { CloseIcon } from './CloseIcon';
 
@@ -37,6 +37,6 @@ export const _CloseButton = forwardRef<HTMLButtonElement, CloseButtonProps>((pro
   );
 });
 
-_CloseButton.displayName = '@mantine/core/CloseButton';
+_CloseButton.displayName = '@reactgets/core/CloseButton';
 
 export const CloseButton = createPolymorphicComponent<'button', CloseButtonProps>(_CloseButton);

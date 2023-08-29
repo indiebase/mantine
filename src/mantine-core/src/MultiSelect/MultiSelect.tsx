@@ -5,14 +5,14 @@ import {
   useDidUpdate,
   useScrollIntoView,
   useId,
-} from '@mantine/hooks';
+} from '@reactgets/hooks';
 import {
   DefaultProps,
   Selectors,
   getDefaultZIndex,
   useComponentDefaultProps,
-} from '@mantine/styles';
-import { groupOptions } from '@mantine/utils';
+} from '@reactgets/styles';
+import { groupOptions } from '@reactgets/utils';
 import { extractSystemStyles } from '../Box';
 import { Input } from '../Input';
 import { DefaultValue, DefaultValueStylesNames } from './DefaultValue/DefaultValue';
@@ -750,4 +750,4 @@ export const MultiSelect = forwardRef<HTMLInputElement, MultiSelectProps>((props
   );
 });
 
-MultiSelect.displayName = '@mantine/core/MultiSelect';
+MultiSelect.displayName = '@reactgets/core/MultiSelect';

@@ -1,11 +1,11 @@
 import React from 'react';
-import { TextInput, Button, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { modals } from '@mantine/modals';
+import { TextInput, Button, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { modals } from '@reactgets/modals';
 
 const code = `
-import { TextInput, Button, Group } from '@mantine/core';
-import { modals } from '@mantine/modals';
+import { TextInput, Button, Group } from '@reactgets/core';
+import { modals } from '@reactgets/modals';
 
 function Demo() {
   return (

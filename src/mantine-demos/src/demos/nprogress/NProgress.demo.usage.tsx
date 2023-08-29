@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Group } from '@mantine/core';
-import { nprogress, NavigationProgress } from '@mantine/nprogress';
-import { MantineDemo } from '@mantine/ds';
+import { Button, Group } from '@reactgets/core';
+import { nprogress, NavigationProgress } from '@reactgets/nprogress';
+import { MantineDemo } from '@reactgets/ds';
 
 const code = `
-import { Button, Group } from '@mantine/core';
-import { nprogress, NavigationProgress } from '@mantine/nprogress';
+import { Button, Group } from '@reactgets/core';
+import { nprogress, NavigationProgress } from '@reactgets/nprogress';
 
 function Demo() {
   return (

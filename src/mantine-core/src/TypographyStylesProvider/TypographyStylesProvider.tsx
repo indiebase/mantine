@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box';
 import useStyles from './TypographyStylesProvider.styles';
 
@@ -30,4 +30,4 @@ export const TypographyStylesProvider = forwardRef<HTMLDivElement, TypographySty
   }
 );
 
-TypographyStylesProvider.displayName = '@mantine/core/TypographyStylesProvider';
+TypographyStylesProvider.displayName = '@reactgets/core/TypographyStylesProvider';

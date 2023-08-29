@@ -1,4 +1,4 @@
-import type { SegmentedControlStylesNames } from '@mantine/core';
+import type { SegmentedControlStylesNames } from '@reactgets/core';
 
 export const SegmentedControl: Record<SegmentedControlStylesNames, string> = {
   root: 'Root element',

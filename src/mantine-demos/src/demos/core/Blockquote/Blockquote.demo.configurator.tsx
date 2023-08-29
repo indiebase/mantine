@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Blockquote, BlockquoteProps, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Blockquote, BlockquoteProps, Box } from '@reactgets/core';
 
 function Wrapper(props: BlockquoteProps) {
   return (
@@ -11,7 +11,7 @@ function Wrapper(props: BlockquoteProps) {
 }
 
 const codeTemplate = (props: string, children: string) => `
-import { Blockquote } from '@mantine/core';
+import { Blockquote } from '@reactgets/core';
 
 function Demo() {
   return (

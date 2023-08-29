@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { itRendersChildren, checkAccessibility, wait, renderWithAct } from '@mantine/tests';
+import { itRendersChildren, checkAccessibility, wait, renderWithAct } from '@reactgets/tests';
 import { Popover, PopoverProps } from './Popover';
 import { PopoverDropdown } from './PopoverDropdown/PopoverDropdown';
 import { PopoverTarget } from './PopoverTarget/PopoverTarget';
@@ -28,7 +28,7 @@ function TestContainer(props: Partial<PopoverProps>) {
   );
 }
 
-describe('@mantine/core/Popover', () => {
+describe('@reactgets/core/Popover', () => {
   checkAccessibility([<TestContainer opened />, <TestContainer opened={false} />]);
   itRendersChildren(Popover, defaultProps);
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itSupportsSystemProps, itSupportsProviderVariant } from '@mantine/tests';
+import { itSupportsSystemProps, itSupportsProviderVariant } from '@reactgets/tests';
 import { Timeline } from './Timeline';
 import { TimelineItem } from './TimelineItem/TimelineItem';
 
@@ -14,13 +14,13 @@ const defaultProps = {
   ],
 };
 
-describe('@mantine/core/Timeline', () => {
+describe('@reactgets/core/Timeline', () => {
   itSupportsProviderVariant(Timeline, defaultProps, 'Timeline', ['root', 'item']);
   itSupportsSystemProps({
     component: Timeline,
     props: defaultProps,
     excludePadding: true,
-    displayName: '@mantine/core/Timeline',
+    displayName: '@reactgets/core/Timeline',
     refType: HTMLDivElement,
     providerName: 'Timeline',
   });

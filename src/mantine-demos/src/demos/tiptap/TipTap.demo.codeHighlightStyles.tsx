@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { RichTextEditor } from '@mantine/tiptap';
+import { MantineDemo } from '@reactgets/ds';
+import { RichTextEditor } from '@reactgets/tiptap';
 import { useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight';
@@ -8,7 +8,7 @@ import { lowlight } from 'lowlight';
 import tsLanguageSyntax from 'highlight.js/lib/languages/typescript';
 
 const code = `
-import { RichTextEditor } from '@mantine/tiptap';
+import { RichTextEditor } from '@reactgets/tiptap';
 import { useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import CodeBlockLowlight from '@tiptap/extension-code-block-lowlight';

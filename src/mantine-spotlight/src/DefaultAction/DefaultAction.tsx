@@ -9,7 +9,7 @@ import {
   Text,
   MantineNumberSize,
   MantineColor,
-} from '@mantine/core';
+} from '@reactgets/core';
 import type { SpotlightAction } from '../types';
 import useStyles from './DefaultAction.styles';
 
@@ -81,4 +81,4 @@ export function DefaultAction({
   );
 }
 
-DefaultAction.displayName = '@mantine/spotlight/DefaultAction';
+DefaultAction.displayName = '@reactgets/spotlight/DefaultAction';

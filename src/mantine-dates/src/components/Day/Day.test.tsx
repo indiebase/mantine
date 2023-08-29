@@ -5,7 +5,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Day, DayProps } from './Day';
 
 const defaultProps: DayProps = {
@@ -26,7 +26,7 @@ function validateDataAttribute(prop: string) {
   });
 }
 
-describe('@mantine/dates/Day', () => {
+describe('@reactgets/dates/Day', () => {
   itSupportsProviderVariant(Day, defaultProps, 'Day', 'day');
   itSupportsProviderSize(Day, defaultProps, 'Day', 'day');
   itSupportsSystemProps({
@@ -34,7 +34,7 @@ describe('@mantine/dates/Day', () => {
     props: defaultProps,
     refType: HTMLButtonElement,
     providerName: 'Day',
-    displayName: '@mantine/dates/Day',
+    displayName: '@reactgets/dates/Day',
   });
 
   validateDataAttribute('weekend');

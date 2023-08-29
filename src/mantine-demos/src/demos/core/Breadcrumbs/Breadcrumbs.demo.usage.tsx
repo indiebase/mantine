@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { useMantineTheme, Breadcrumbs, Anchor } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useMantineTheme, Breadcrumbs, Anchor } from '@reactgets/core';
 
 const code = `
-import { Breadcrumbs, Anchor } from '@mantine/core';
+import { Breadcrumbs, Anchor } from '@reactgets/core';
 
 const items = [
   { title: 'Mantine', href: '#' },

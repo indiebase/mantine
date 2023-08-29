@@ -1,6 +1,6 @@
 ---
 group: 'mantine-core'
-package: '@mantine/core'
+package: '@reactgets/core'
 title: Stepper
 order: 1
 slug: /core/stepper/
@@ -8,13 +8,13 @@ category: 'navigation'
 description: 'Display content divided into a steps sequence'
 componentPrefix: 'Stepper'
 props: ['Stepper', 'Step']
-import: "import { Stepper } from '@mantine/core';"
+import: "import { Stepper } from '@reactgets/core';"
 source: 'mantine-core/src/Stepper/Stepper.tsx'
 docs: 'core/Stepper.mdx'
 styles: ['Stepper']
 ---
 
-import { StepperDemos } from '@mantine/demos';
+import { StepperDemos } from '@reactgets/demos';
 
 ## Usage
 
@@ -111,7 +111,7 @@ You can get refs of step button and stepper root element (div):
 
 ```tsx
 import { useRef } from 'react';
-import { Stepper } from '@mantine/core';
+import { Stepper } from '@reactgets/core';
 
 function MyStepper() {
   const firstStep = useRef<HTMLButtonElement>(null);
@@ -132,7 +132,7 @@ function MyStepper() {
 Instead you will need to use different approaches:
 
 ```tsx
-import { Stepper } from '@mantine/core';
+import { Stepper } from '@reactgets/core';
 
 // This will not work, step children will not render
 function WillNotWork() {

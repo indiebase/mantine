@@ -1,4 +1,4 @@
-import type { ScrollAreaStylesNames } from '@mantine/core';
+import type { ScrollAreaStylesNames } from '@reactgets/core';
 
 export const ScrollArea: Record<ScrollAreaStylesNames, string> = {
   root: 'Root element',

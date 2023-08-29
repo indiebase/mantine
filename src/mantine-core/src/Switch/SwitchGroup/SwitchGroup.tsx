@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useUncontrolled } from '@mantine/hooks';
-import { DefaultProps, MantineSize, useComponentDefaultProps } from '@mantine/styles';
+import { useUncontrolled } from '@reactgets/hooks';
+import { DefaultProps, MantineSize, useComponentDefaultProps } from '@reactgets/styles';
 import { Input, InputWrapperBaseProps, InputWrapperStylesNames } from '../../Input';
 import { SwitchGroupProvider } from '../SwitchGroup.context';
 
@@ -71,4 +71,4 @@ export const SwitchGroup = forwardRef<HTMLDivElement, SwitchGroupProps>(
   }
 );
 
-SwitchGroup.displayName = '@mantine/core/SwitchGroup';
+SwitchGroup.displayName = '@reactgets/core/SwitchGroup';

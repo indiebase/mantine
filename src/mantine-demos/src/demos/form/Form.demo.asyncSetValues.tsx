@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import { useForm } from '@mantine/form';
-import { MantineDemo } from '@mantine/ds';
-import { TextInput, Checkbox, Box } from '@mantine/core';
+import { useForm } from '@reactgets/form';
+import { MantineDemo } from '@reactgets/ds';
+import { TextInput, Checkbox, Box } from '@reactgets/core';
 
 const code = `
 import { useEffect } from 'react';
-import { useForm } from '@mantine/form';
-import { TextInput, Checkbox, Box } from '@mantine/core';
+import { useForm } from '@reactgets/form';
+import { TextInput, Checkbox, Box } from '@reactgets/core';
 
 interface FormValues {
   email: string;

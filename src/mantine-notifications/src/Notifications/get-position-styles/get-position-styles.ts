@@ -1,4 +1,4 @@
-import { CSSObject } from '@mantine/core';
+import { CSSObject } from '@reactgets/core';
 import { NotificationsPositioning } from '../../types';
 
 export default function getPositionStyles(

@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Group, Text, useMantineTheme } from '@mantine/core';
+import { Group, Text, useMantineTheme } from '@reactgets/core';
 import { IconUpload, IconPhoto, IconX } from '@tabler/icons-react';
-import { Dropzone, DropzoneProps, IMAGE_MIME_TYPE } from '@mantine/dropzone';
+import { Dropzone, DropzoneProps, IMAGE_MIME_TYPE } from '@reactgets/dropzone';
 
 export function DropzoneDemoChildren() {
   const theme = useMantineTheme();

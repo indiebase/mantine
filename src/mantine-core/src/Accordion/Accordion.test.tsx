@@ -5,7 +5,7 @@ import {
   checkAccessibility,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Accordion } from './Accordion';
 import { AccordionItem } from './AccordionItem/AccordionItem';
 import { AccordionControl } from './AccordionControl/AccordionControl';
@@ -31,13 +31,13 @@ const defaultProps = {
   ),
 };
 
-describe('@mantine/core/Accordion', () => {
+describe('@reactgets/core/Accordion', () => {
   checkAccessibility([<Accordion {...defaultProps} />, <Accordion {...defaultProps} order={2} />]);
 
   itSupportsSystemProps({
     component: Accordion,
     props: defaultProps,
-    displayName: '@mantine/core/Accordion',
+    displayName: '@reactgets/core/Accordion',
     providerName: 'Accordion',
   });
 

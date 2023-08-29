@@ -1,12 +1,12 @@
 import React, { useRef, useState, forwardRef, useEffect } from 'react';
-import { useMove, useUncontrolled } from '@mantine/hooks';
+import { useMove, useUncontrolled } from '@reactgets/hooks';
 import {
   DefaultProps,
   MantineNumberSize,
   MantineColor,
   useMantineTheme,
   useComponentDefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { MantineTransition } from '../../Transition';
 import { getClientPosition } from '../utils/get-client-position/get-client-position';
 import { getPosition } from '../utils/get-position/get-position';
@@ -491,4 +491,4 @@ export const RangeSlider = forwardRef<HTMLDivElement, RangeSliderProps>((props, 
   );
 });
 
-RangeSlider.displayName = '@mantine/core/RangeSlider';
+RangeSlider.displayName = '@reactgets/core/RangeSlider';

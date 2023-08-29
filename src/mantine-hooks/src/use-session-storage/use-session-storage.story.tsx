@@ -7,7 +7,7 @@ export default {
 
 export function Usage() {
   const [value, setValue] = useSessionStorage<string>({
-    key: '@mantine/sessionStorage/val',
+    key: '@reactgets/sessionStorage/val',
     defaultValue: 'Value persists through reloads.',
   });
 
@@ -20,17 +20,17 @@ export function Usage() {
 
 export function SerializeJson() {
   const [value, setValue] = useSessionStorage<{ mantine: string }>({
-    key: '@mantine/sessionStorage/val',
+    key: '@reactgets/sessionStorage/val',
     defaultValue: { mantine: 'is awesome' },
   });
 
   const [value2, setValue2] = useSessionStorage<{ mantine: string }>({
-    key: '@mantine/sessionStorage/val',
+    key: '@reactgets/sessionStorage/val',
     defaultValue: { mantine: 'is awesome' },
   });
 
   const [value3, setValue3] = useSessionStorage<{ mantine: string }>({
-    key: '@mantine/sessionStorage/another-value',
+    key: '@reactgets/sessionStorage/another-value',
     defaultValue: { mantine: 'is awesome' },
   });
 
@@ -54,7 +54,7 @@ export function SerializeJson() {
 
 export function SerializeBoolean() {
   const [value, setValue] = useSessionStorage<boolean>({
-    key: '@mantine/sessionStorage/val',
+    key: '@reactgets/sessionStorage/val',
     defaultValue: true,
   });
 

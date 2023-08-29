@@ -1,4 +1,4 @@
-import { createStyles, rem, getSize } from '@mantine/styles';
+import { createStyles, rem, getSize } from '@reactgets/styles';
 
 export default createStyles((theme, _params, { size }) => ({
   input: {

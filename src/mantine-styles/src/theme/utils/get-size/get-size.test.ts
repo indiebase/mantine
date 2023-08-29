@@ -1,6 +1,6 @@
 import { getSize } from './get-size';
 
-describe('@mantine/styles/getSize', () => {
+describe('@reactgets/styles/getSize', () => {
   it('returns value from given sizes object if size is a key of sizes', () => {
     expect(getSize({ size: 'sm', sizes: { sm: 10, md: '5rem' } })).toBe(10);
     expect(getSize({ size: 'md', sizes: { sm: 10, md: '5rem' } })).toBe('5rem');

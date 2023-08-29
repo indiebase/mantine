@@ -5,8 +5,8 @@ import {
   Selectors,
   useComponentDefaultProps,
   rem,
-} from '@mantine/styles';
-import { useDidUpdate } from '@mantine/hooks';
+} from '@reactgets/styles';
+import { useDidUpdate } from '@reactgets/hooks';
 import { Text } from '../Text';
 import { Box } from '../Box';
 import { ImageIcon } from './ImageIcon';
@@ -143,4 +143,4 @@ export const Image = forwardRef<HTMLDivElement, ImageProps>((props: ImageProps, 
   );
 });
 
-Image.displayName = '@mantine/core/Image';
+Image.displayName = '@reactgets/core/Image';

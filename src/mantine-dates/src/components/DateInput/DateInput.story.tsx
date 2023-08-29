@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import 'dayjs/locale/ru';
 import React, { useState } from 'react';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
-import { TextInput, Button, Group } from '@mantine/core';
+import { TextInput, Button, Group } from '@reactgets/core';
 import { DateInput } from './DateInput';
 import { DatesProvider } from '../DatesProvider';
 

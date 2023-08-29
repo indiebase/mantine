@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconCheck } from '@tabler/icons-react';
-import { Notification, NotificationProps, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Notification, NotificationProps, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { demoBase } from './_demo-base';
 
 function Wrapper(props: NotificationProps) {
@@ -14,7 +14,7 @@ function Wrapper(props: NotificationProps) {
 }
 
 const codeTemplate = (props: string, children: string) => `
-import { Notification } from '@mantine/core';
+import { Notification } from '@reactgets/core';
 import { IconCheck } from '@tabler/icons-react';
 
 function Demo() {

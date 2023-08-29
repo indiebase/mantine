@@ -1,6 +1,6 @@
 import React from 'react';
-import { MANTINE_SIZES, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { MANTINE_SIZES, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { DemoBase } from './_base';
 
 const items = MANTINE_SIZES.map((size) => <DemoBase size={size} key={size} />);

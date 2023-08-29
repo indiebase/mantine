@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { ColorInput } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { ColorInput } from '@reactgets/core';
 
 const code = `
-import { ColorInput } from '@mantine/core';
+import { ColorInput } from '@reactgets/core';
 
 function Demo() {
   return <ColorInput placeholder="Pick color" label="Your favorite color" />;

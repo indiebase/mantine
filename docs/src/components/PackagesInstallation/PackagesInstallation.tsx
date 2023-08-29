@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Table, Checkbox, Code, Text, Box, rem } from '@mantine/core';
-import { Prism } from '@mantine/prism';
-import { NpmIcon, YarnIcon } from '@mantine/ds';
+import { Table, Checkbox, Code, Text, Box, rem } from '@reactgets/core';
+import { Prism } from '@reactgets/prism';
+import { NpmIcon, YarnIcon } from '@reactgets/ds';
 import { PACKAGES_DATA } from './data';
 
 function getInstallationCommand(
@@ -15,7 +15,7 @@ function getInstallationCommand(
   }, []);
 
   const unique = Array.from(
-    new Set(['@mantine/core', '@mantine/hooks', ...packages, ...extraPackages, '@emotion/react'])
+    new Set(['@reactgets/core', '@reactgets/hooks', ...packages, ...extraPackages, '@emotion/react'])
   );
   const prefix = type === 'yarn' ? 'yarn add' : 'npm install';
   return `${prefix} ${unique.join(' ')}`;
@@ -26,7 +26,7 @@ interface PackagesInstallationProps {
 }
 
 export function PackagesInstallation({ extraPackages = [] }: PackagesInstallationProps) {
-  const [selection, setSelection] = useState(['@mantine/core', '@mantine/hooks']);
+  const [selection, setSelection] = useState(['@reactgets/core', '@reactgets/hooks']);
   const toggleSelection = (item: string) =>
     setSelection((current) =>
       current.includes(item) ? current.filter((i) => i !== item) : [...current, item]

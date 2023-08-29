@@ -1,4 +1,4 @@
-import { noop } from '@mantine/utils';
+import { noop } from '@reactgets/utils';
 import React from 'react';
 import { SearchControl } from './SearchControl';
 

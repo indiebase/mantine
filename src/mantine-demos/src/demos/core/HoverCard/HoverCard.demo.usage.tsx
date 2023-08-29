@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { HoverCard, Button, Text, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { HoverCard, Button, Text, Group } from '@reactgets/core';
 
 const code = `
-import { HoverCard, Button, Text, Group } from '@mantine/core';
+import { HoverCard, Button, Text, Group } from '@reactgets/core';
 
 function Demo() {
   return (

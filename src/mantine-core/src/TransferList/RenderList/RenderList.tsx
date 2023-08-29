@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
-import { DefaultProps, Selectors, MantineNumberSize, rem } from '@mantine/styles';
-import { useScrollIntoView } from '@mantine/hooks';
-import { groupOptions } from '@mantine/utils';
+import { DefaultProps, Selectors, MantineNumberSize, rem } from '@reactgets/styles';
+import { useScrollIntoView } from '@reactgets/hooks';
+import { groupOptions } from '@reactgets/utils';
 import { SelectScrollArea } from '../../Select/SelectScrollArea/SelectScrollArea';
 import { UnstyledButton } from '../../UnstyledButton';
 import { ActionIcon } from '../../ActionIcon';
@@ -277,4 +277,4 @@ export function RenderList({
   );
 }
 
-RenderList.displayName = '@mantine/core/RenderList';
+RenderList.displayName = '@reactgets/core/RenderList';

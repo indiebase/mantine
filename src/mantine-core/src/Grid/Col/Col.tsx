@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { useGridContext } from '../Grid.context';
 import useStyles, { ColSpan } from './Col.styles';
@@ -145,4 +145,4 @@ export const Col = forwardRef<HTMLDivElement, ColProps>((props: ColProps, ref) =
   );
 });
 
-Col.displayName = '@mantine/core/Col';
+Col.displayName = '@reactgets/core/Col';

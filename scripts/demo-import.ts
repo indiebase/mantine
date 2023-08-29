@@ -22,7 +22,7 @@ function updateDemo(demoPath: string) {
   const splittedContent = contents.split(lastImport);
   const contentsWithImport = `${
     splittedContent[0]
-  }import { MantineDemo } from '@mantine/ds';\n${lastImport}${splittedContent
+  }import { MantineDemo } from '@reactgets/ds';\n${lastImport}${splittedContent
     .slice(1)
     .join(lastImport)}`;
 

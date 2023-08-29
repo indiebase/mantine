@@ -8,8 +8,8 @@ import {
   Selectors,
   DefaultProps,
   INPUT_SIZES,
-} from '@mantine/core';
-import { useDisclosure, useUncontrolled, useDidUpdate, useMergedRef } from '@mantine/hooks';
+} from '@reactgets/core';
+import { useDisclosure, useUncontrolled, useDidUpdate, useMergedRef } from '@reactgets/hooks';
 import { assignTime } from '../../utils';
 import { TimeInput, TimeInputProps } from '../TimeInput';
 import { pickCalendarProps, CalendarBaseProps, CalendarSettings } from '../Calendar';
@@ -235,4 +235,4 @@ export const DateTimePicker = forwardRef<HTMLButtonElement, DateTimePickerProps>
   );
 });
 
-DateTimePicker.displayName = '@mantine/dates/DateTimePicker';
+DateTimePicker.displayName = '@reactgets/dates/DateTimePicker';

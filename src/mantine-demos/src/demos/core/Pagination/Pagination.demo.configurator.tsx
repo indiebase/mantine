@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Pagination, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Pagination, Group } from '@reactgets/core';
 
 function Wrapper(props: any) {
   return (
@@ -11,7 +11,7 @@ function Wrapper(props: any) {
 }
 
 const codeTemplate = (props: string) => `
-import { Pagination } from '@mantine/core';
+import { Pagination } from '@reactgets/core';
 
 function Demo() {
   return <Pagination total={10}${props} />;

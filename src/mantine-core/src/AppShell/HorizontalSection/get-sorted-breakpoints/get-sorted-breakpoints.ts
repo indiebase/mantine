@@ -1,4 +1,4 @@
-import { MantineSize, MantineTheme, getSize, getBreakpointValue } from '@mantine/styles';
+import { MantineSize, MantineTheme, getSize, getBreakpointValue } from '@reactgets/styles';
 
 type Breakpoints<T> = Partial<Record<MantineSize | (string & {}), T>>;
 

@@ -1,6 +1,6 @@
 # Mantine DS
 
-[![npm](https://img.shields.io/npm/dm/@mantine/ds)](https://www.npmjs.com/package/@mantine/ds)
+[![npm](https://img.shields.io/npm/dm/@reactgets/ds)](https://www.npmjs.com/package/@reactgets/ds)
 
 Mantine logo and other utility components.
 
@@ -10,10 +10,10 @@ Mantine logo and other utility components.
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks @mantine/prism @mantine/ds
+yarn add @reactgets/core @reactgets/hooks @reactgets/prism @reactgets/ds
 
 # With npm
-npm install @mantine/core @mantine/hooks @mantine/prism @mantine/ds
+npm install @reactgets/core @reactgets/hooks @reactgets/prism @reactgets/ds
 ```
 
 ## License

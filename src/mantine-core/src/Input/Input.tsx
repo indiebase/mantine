@@ -7,8 +7,8 @@ import {
   Selectors,
   useComponentDefaultProps,
   Variants,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box, extractSystemStyles } from '../Box';
 import { InputWrapper } from './InputWrapper/InputWrapper';
 import { InputDescription } from './InputDescription/InputDescription';
@@ -151,7 +151,7 @@ export const _Input = forwardRef<HTMLInputElement, InputProps>((props, ref) => {
   );
 }) as any;
 
-_Input.displayName = '@mantine/core/Input';
+_Input.displayName = '@reactgets/core/Input';
 _Input.Wrapper = InputWrapper;
 _Input.Label = InputLabel;
 _Input.Description = InputDescription;

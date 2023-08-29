@@ -11,7 +11,7 @@ const setupTimer = (timeout: number = defaultTimeout) => ({
   advanceTimerToNextTick: () => jest.advanceTimersByTime(timeout),
 });
 
-describe('@mantine/hooks/use-timeout', () => {
+describe('@reactgets/hooks/use-timeout', () => {
   beforeAll(() => {
     jest.useFakeTimers();
     jest.spyOn(global, 'setTimeout');

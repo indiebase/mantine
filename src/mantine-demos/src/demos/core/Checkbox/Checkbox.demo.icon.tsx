@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconBiohazard, IconRadioactive } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Checkbox, CheckboxProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Checkbox, CheckboxProps } from '@reactgets/core';
 
 const code = `
-import { Checkbox, CheckboxProps } from '@mantine/core';
+import { Checkbox, CheckboxProps } from '@reactgets/core';
 import { IconBiohazard, IconRadioactive } from '@tabler/icons-react';
 
 const CheckboxIcon: CheckboxProps['icon'] = ({ indeterminate, className }) =>

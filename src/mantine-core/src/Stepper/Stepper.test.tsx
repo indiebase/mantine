@@ -6,7 +6,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Step } from './Step/Step';
 import { StepCompleted } from './StepCompleted/StepCompleted';
 import { Stepper, StepperProps } from './Stepper';
@@ -30,14 +30,14 @@ const defaultProps: StepperProps = {
   ],
 };
 
-describe('@mantine/core/Stepper', () => {
+describe('@reactgets/core/Stepper', () => {
   checkAccessibility([<Stepper {...defaultProps} />]);
   itSupportsProviderVariant(Stepper, defaultProps, 'Stepper', ['root', 'step']);
   itSupportsProviderSize(Stepper, defaultProps, 'Stepper', ['root', 'step']);
   itSupportsSystemProps({
     component: Stepper,
     props: defaultProps,
-    displayName: '@mantine/core/Stepper',
+    displayName: '@reactgets/core/Stepper',
     refType: HTMLDivElement,
     providerName: 'Stepper',
   });

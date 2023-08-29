@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Tabs, TabsProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Tabs, TabsProps } from '@reactgets/core';
 
 function Wrapper(props: TabsProps) {
   const panelProps = props.placement === 'left' ? { pl: 'xs' } : { pr: 'xs' };
@@ -26,7 +26,7 @@ function Wrapper(props: TabsProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Tabs } from '@mantine/core';
+import { Tabs } from '@reactgets/core';
 
 function Demo() {
   return (

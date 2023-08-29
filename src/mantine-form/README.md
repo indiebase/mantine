@@ -1,6 +1,6 @@
 # Mantine Form
 
-[![npm](https://img.shields.io/npm/dm/@mantine/form)](https://www.npmjs.com/package/@mantine/form)
+[![npm](https://img.shields.io/npm/dm/@reactgets/form)](https://www.npmjs.com/package/@reactgets/form)
 
 Form management library
 
@@ -10,10 +10,10 @@ Form management library
 
 ```bash
 # With yarn
-yarn add @mantine/form
+yarn add @reactgets/form
 
 # With npm
-npm install @mantine/form
+npm install @reactgets/form
 ```
 
 ## License

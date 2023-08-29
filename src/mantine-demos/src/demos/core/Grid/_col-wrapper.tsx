@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, ColProps, Text, useMantineTheme, Box } from '@mantine/core';
+import { Col, ColProps, Text, useMantineTheme, Box } from '@reactgets/core';
 
 export function ColWrapper(props: ColProps) {
   const theme = useMantineTheme();

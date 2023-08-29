@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineSize, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineSize, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Text } from '../../Text';
 import useStyles from './InputError.styles';
 
@@ -52,4 +52,4 @@ export const InputError = forwardRef<HTMLDivElement, InputErrorProps>((props, re
   );
 });
 
-InputError.displayName = '@mantine/core/InputError';
+InputError.displayName = '@reactgets/core/InputError';

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { useComponentDefaultProps } from '@reactgets/styles';
 import { VerticalSection, VerticalSectionSharedProps } from '../VerticalSection/VerticalSection';
 
 export interface FooterProps
@@ -19,4 +19,4 @@ export const Footer = forwardRef<HTMLElement, FooterProps>((props: FooterProps, 
   return <VerticalSection section="footer" __staticSelector="Footer" {..._props} ref={ref} />;
 });
 
-Footer.displayName = '@mantine/core/Footer';
+Footer.displayName = '@reactgets/core/Footer';

@@ -14,4 +14,4 @@ export function OptionalPortal({ withinPortal = true, children, ...others }: Opt
   return <>{children}</>;
 }
 
-OptionalPortal.displayName = '@mantine/core/OptionalPortal';
+OptionalPortal.displayName = '@reactgets/core/OptionalPortal';

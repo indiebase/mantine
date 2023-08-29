@@ -8,7 +8,7 @@ type WrapperProps = {
   value?: string;
 };
 
-describe('@mantine/hooks/use-local-storage', () => {
+describe('@reactgets/hooks/use-local-storage', () => {
   function WrapperComponent({ storageKey, defaultValue, value: userValue }: WrapperProps) {
     const [value, setValue] = useLocalStorage({ key: storageKey, defaultValue });
     useEffect(() => {

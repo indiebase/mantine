@@ -4,7 +4,7 @@ import {
   createContextContainer,
   itIsPolymorphic,
   itThrowsContextError,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { render, screen } from '@testing-library/react';
 import {
   PaginationFirst,
@@ -24,7 +24,7 @@ function isSupportsCustomIcon(Component: React.FC<any>) {
   });
 }
 
-describe('@mantine/core/PaginationNext', () => {
+describe('@reactgets/core/PaginationNext', () => {
   const TestComponent = createContextContainer(PaginationNext, PaginationRoot, { total: 10 });
 
   itThrowsContextError(
@@ -39,12 +39,12 @@ describe('@mantine/core/PaginationNext', () => {
     component: TestComponent,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/PaginationNext',
+    displayName: '@reactgets/core/PaginationNext',
     providerName: 'PaginationNext',
   });
 });
 
-describe('@mantine/core/PaginationPrevious', () => {
+describe('@reactgets/core/PaginationPrevious', () => {
   const TestComponent = createContextContainer(PaginationPrevious, PaginationRoot, { total: 10 });
 
   itThrowsContextError(
@@ -59,12 +59,12 @@ describe('@mantine/core/PaginationPrevious', () => {
     component: TestComponent,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/PaginationPrevious',
+    displayName: '@reactgets/core/PaginationPrevious',
     providerName: 'PaginationPrevious',
   });
 });
 
-describe('@mantine/core/PaginationFirst', () => {
+describe('@reactgets/core/PaginationFirst', () => {
   const TestComponent = createContextContainer(PaginationFirst, PaginationRoot, { total: 10 });
 
   itThrowsContextError(
@@ -79,12 +79,12 @@ describe('@mantine/core/PaginationFirst', () => {
     component: TestComponent,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/PaginationFirst',
+    displayName: '@reactgets/core/PaginationFirst',
     providerName: 'PaginationFirst',
   });
 });
 
-describe('@mantine/core/PaginationLast', () => {
+describe('@reactgets/core/PaginationLast', () => {
   const TestComponent = createContextContainer(PaginationLast, PaginationRoot, { total: 10 });
 
   itThrowsContextError(
@@ -99,7 +99,7 @@ describe('@mantine/core/PaginationLast', () => {
     component: TestComponent,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/PaginationLast',
+    displayName: '@reactgets/core/PaginationLast',
     providerName: 'PaginationLast',
   });
 });

@@ -1,4 +1,4 @@
-import { createStyles, getSize } from '@mantine/core';
+import { createStyles, getSize } from '@reactgets/core';
 
 export default createStyles((theme, _, { size }) => ({
   monthLevelGroup: {

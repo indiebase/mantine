@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/values', () => {
+describe('@reactgets/form/values', () => {
   it('sets given initial values', () => {
     const hook = renderHook(() => useForm({ initialValues: { a: 1, b: 2 } }));
     expect(hook.result.current.values).toStrictEqual({ a: 1, b: 2 });

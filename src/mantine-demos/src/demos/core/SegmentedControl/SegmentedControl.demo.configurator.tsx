@@ -1,8 +1,8 @@
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { SegmentedControlWrapper } from './Wrapper';
 
 const codeTemplate = (props: string) => `
-import { SegmentedControl } from '@mantine/core';
+import { SegmentedControl } from '@reactgets/core';
 
 function Demo() {
   return <SegmentedControl${props} />;

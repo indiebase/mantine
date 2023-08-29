@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Group } from '@mantine/core';
-import { useSpotlight } from '@mantine/spotlight';
+import { Button, Group } from '@reactgets/core';
+import { useSpotlight } from '@reactgets/spotlight';
 
 export function SpotlightControl({ buttonLabel }: { buttonLabel?: string }) {
   const spotlight = useSpotlight();

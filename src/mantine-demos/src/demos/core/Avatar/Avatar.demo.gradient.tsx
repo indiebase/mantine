@@ -1,10 +1,10 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Avatar, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Avatar, Group } from '@reactgets/core';
 
 const code = `
 import { IconPhoto } from '@tabler/icons-react';
-import { Avatar, Group } from '@mantine/core';
+import { Avatar, Group } from '@reactgets/core';
 
 function Demo() {
   return (

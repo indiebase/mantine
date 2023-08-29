@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, Pagination } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, Pagination } from '@reactgets/core';
 import {
   IconArrowBarToRight,
   IconArrowBarToLeft,
@@ -10,7 +10,7 @@ import {
 } from '@tabler/icons-react';
 
 const code = `
-import { Group, Pagination } from '@mantine/core';
+import { Group, Pagination } from '@reactgets/core';
 import {
   IconArrowBarToRight,
   IconArrowBarToLeft,

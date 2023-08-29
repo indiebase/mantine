@@ -8,7 +8,7 @@ import {
   itSupportsFocusEvents,
   checkAccessibility,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   expectNoPopover,
   expectOpenedPopover,
@@ -38,7 +38,7 @@ function getInput(container: HTMLElement) {
   return container.querySelector('[data-dates-input]');
 }
 
-describe('@mantine/dates/DateInput', () => {
+describe('@reactgets/dates/DateInput', () => {
   checkAccessibility([<DateInput {...defaultProps} label="test-label" />]);
   itSupportsSystemProps({
     component: DateInput,
@@ -46,7 +46,7 @@ describe('@mantine/dates/DateInput', () => {
     refType: HTMLInputElement,
     providerName: 'DateInput',
     othersSelector: 'input',
-    displayName: '@mantine/dates/DateInput',
+    displayName: '@reactgets/dates/DateInput',
   });
 
   itSupportsProviderVariant(

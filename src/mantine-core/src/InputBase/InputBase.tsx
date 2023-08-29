@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { DefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import {
   Input,
   InputSharedProps,
@@ -36,6 +36,6 @@ export const _InputBase = forwardRef<HTMLInputElement, InputBaseProps>((props, r
   );
 });
 
-_InputBase.displayName = '@mantine/core/InputBase';
+_InputBase.displayName = '@reactgets/core/InputBase';
 
 export const InputBase = createPolymorphicComponent<'input', InputBaseProps>(_InputBase);

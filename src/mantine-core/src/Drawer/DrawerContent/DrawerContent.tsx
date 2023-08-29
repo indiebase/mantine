@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { useComponentDefaultProps } from '@reactgets/styles';
 import { ModalBase, ModalBaseContentProps } from '../../ModalBase';
 import { useDrawerContext, ScrollAreaComponent } from '../Drawer.context';
 

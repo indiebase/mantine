@@ -4,7 +4,7 @@ import {
   itSupportsSystemProps,
   createContextContainer,
   itThrowsContextError,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { PaginationDots, PaginationDotsProps } from './PaginationDots';
 import { PaginationRoot } from '../PaginationRoot/PaginationRoot';
 
@@ -12,7 +12,7 @@ const TestComponent = createContextContainer(PaginationDots, PaginationRoot, { t
 
 const defaultProps: PaginationDotsProps = {};
 
-describe('@mantine/core/PaginationDots', () => {
+describe('@reactgets/core/PaginationDots', () => {
   itThrowsContextError(
     PaginationDots,
     defaultProps,
@@ -23,7 +23,7 @@ describe('@mantine/core/PaginationDots', () => {
     component: TestComponent,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/PaginationDots',
+    displayName: '@reactgets/core/PaginationDots',
     providerName: 'PaginationDots',
   });
 

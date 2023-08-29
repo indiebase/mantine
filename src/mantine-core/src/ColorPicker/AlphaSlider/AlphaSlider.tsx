@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useMantineTheme, useComponentDefaultProps, rem } from '@mantine/styles';
+import { useMantineTheme, useComponentDefaultProps, rem } from '@reactgets/styles';
 import { ColorSlider, BaseColorSliderProps } from '../ColorSlider/ColorSlider';
 import { round } from '../converters/parsers';
 
@@ -46,4 +46,4 @@ export const AlphaSlider = forwardRef<HTMLDivElement, AlphaSliderProps>((props, 
   );
 });
 
-AlphaSlider.displayName = '@mantine/core/AlphaSlider';
+AlphaSlider.displayName = '@reactgets/core/AlphaSlider';

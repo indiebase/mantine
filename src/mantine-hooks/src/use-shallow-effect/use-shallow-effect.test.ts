@@ -1,7 +1,7 @@
 import { renderHook } from '@testing-library/react';
 import { useShallowEffect } from './use-shallow-effect';
 
-describe('@mantine/hooks/use-shallow-effect', () => {
+describe('@reactgets/hooks/use-shallow-effect', () => {
   beforeEach(() => {
     jest.clearAllMocks();
   });

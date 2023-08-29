@@ -1,10 +1,10 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { MonthPickerInput } from '@mantine/dates';
-import { Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { MonthPickerInput } from '@reactgets/dates';
+import { Box } from '@reactgets/core';
 
 const code = `
-import { MonthPickerInput } from '@mantine/dates';
+import { MonthPickerInput } from '@reactgets/dates';
 
 function Demo() {
   return (

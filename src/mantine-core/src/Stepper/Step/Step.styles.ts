@@ -5,7 +5,7 @@ import {
   getStylesRef,
   rem,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export interface StepStylesParams {
   color: MantineColor;

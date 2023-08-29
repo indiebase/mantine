@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, MantineColor, getSize, rem } from '@mantine/styles';
+import { createStyles, MantineNumberSize, MantineColor, getSize, rem } from '@reactgets/styles';
 import { sizes } from '../SliderRoot/SliderRoot.styles';
 
 interface TrackStyles {

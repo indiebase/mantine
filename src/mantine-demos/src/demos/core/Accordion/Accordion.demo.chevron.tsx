@@ -1,11 +1,11 @@
 import React from 'react';
 import { IconPlus } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Box } from '@reactgets/core';
 import { BaseDemo } from './_base';
 
 const code = `
-import { Accordion } from '@mantine/core';
+import { Accordion } from '@reactgets/core';
 import { IconPlus } from '@tabler/icons-react';
 
 function Demo() {

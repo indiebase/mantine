@@ -1,6 +1,6 @@
 import React from 'react';
-import { Switch } from '@mantine/core';
-import { upperFirst } from '@mantine/hooks';
+import { Switch } from '@reactgets/core';
+import { upperFirst } from '@reactgets/hooks';
 
 interface BooleanControlProps {
   value: boolean;

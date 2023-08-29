@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, Button, Badge, MantineProvider, useMantineColorScheme } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, Button, Badge, MantineProvider, useMantineColorScheme } from '@reactgets/core';
 
 const code = `
-import { Badge, Button, MantineProvider } from '@mantine/core';
+import { Badge, Button, MantineProvider } from '@reactgets/core';
 
 function Demo() {
   return (

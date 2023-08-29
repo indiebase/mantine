@@ -3,7 +3,7 @@ import { renderHook } from '@testing-library/react';
 import { DatesProvider } from './DatesProvider';
 import { useDatesContext } from './use-dates-context';
 
-describe('@mantine/dates/use-dates-context', () => {
+describe('@reactgets/dates/use-dates-context', () => {
   it('returns default values from context if hook is called without DatesProvider', () => {
     const hook = renderHook(() => useDatesContext());
     expect(hook.result.current.locale).toBe('en');

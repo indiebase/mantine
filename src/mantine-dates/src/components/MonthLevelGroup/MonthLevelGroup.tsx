@@ -1,5 +1,5 @@
 import React, { forwardRef, useRef } from 'react';
-import { DefaultProps, Box, Selectors, useComponentDefaultProps } from '@mantine/core';
+import { DefaultProps, Box, Selectors, useComponentDefaultProps } from '@reactgets/core';
 import dayjs from 'dayjs';
 import { MonthLevel, MonthLevelStylesNames, MonthLevelSettings } from '../MonthLevel';
 import { handleControlKeyDown } from '../../utils';
@@ -173,4 +173,4 @@ export const MonthLevelGroup = forwardRef<HTMLDivElement, MonthLevelGroupProps>(
   );
 });
 
-MonthLevelGroup.displayName = '@mantine/dates/MonthLevelGroup';
+MonthLevelGroup.displayName = '@reactgets/dates/MonthLevelGroup';

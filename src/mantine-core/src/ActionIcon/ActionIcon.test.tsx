@@ -8,14 +8,14 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { ActionIcon, ActionIconProps } from './ActionIcon';
 
 const defaultProps: ActionIconProps = {
   children: '$',
 };
 
-describe('@mantine/core/ActionIcon', () => {
+describe('@reactgets/core/ActionIcon', () => {
   itIsPolymorphic(ActionIcon, defaultProps);
   itRendersChildren(ActionIcon, defaultProps);
   itSupportsFocusEvents(ActionIcon, defaultProps, 'button');
@@ -24,7 +24,7 @@ describe('@mantine/core/ActionIcon', () => {
   itSupportsSystemProps({
     component: ActionIcon,
     props: defaultProps,
-    displayName: '@mantine/core/ActionIcon',
+    displayName: '@reactgets/core/ActionIcon',
     refType: HTMLButtonElement,
     providerName: 'ActionIcon',
   });

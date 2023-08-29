@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { Box } from '../Box';
 import { Col } from './Col/Col';
 import { GridProvider } from './Grid.context';
@@ -88,4 +88,4 @@ export const Grid: GridComponent = forwardRef<HTMLDivElement, GridProps>((props,
 }) as any;
 
 Grid.Col = Col;
-Grid.displayName = '@mantine/core/Grid';
+Grid.displayName = '@reactgets/core/Grid';

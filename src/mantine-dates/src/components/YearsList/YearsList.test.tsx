@@ -5,7 +5,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   itSupportsGetControlRef,
   itSupportsYearsListProps,
@@ -19,13 +19,13 @@ const defaultProps: YearsListProps = {
   decade: new Date(2022, 3, 11),
 };
 
-describe('@mantine/dates/YearsList', () => {
+describe('@reactgets/dates/YearsList', () => {
   itSupportsSystemProps({
     component: YearsList,
     props: defaultProps,
     refType: HTMLTableElement,
     providerName: 'YearsList',
-    displayName: '@mantine/dates/YearsList',
+    displayName: '@reactgets/dates/YearsList',
   });
 
   itSupportsProviderVariant(YearsList, defaultProps, 'YearsList', ['yearsList', 'pickerControl']);

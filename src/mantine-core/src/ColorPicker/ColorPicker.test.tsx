@@ -5,20 +5,20 @@ import {
   itSupportsSystemProps,
   itSupportsProviderSize,
   itSupportsProviderVariant,
-} from '@mantine/tests';
-import { DEFAULT_THEME } from '@mantine/styles';
+} from '@reactgets/tests';
+import { DEFAULT_THEME } from '@reactgets/styles';
 import { ColorPicker, ColorPickerProps } from './ColorPicker';
 
 const swatches = DEFAULT_THEME.colors.red;
 const defaultProps: ColorPickerProps = {};
 
-describe('@mantine/core/ColorPicker', () => {
+describe('@reactgets/core/ColorPicker', () => {
   itSupportsProviderSize(ColorPicker, defaultProps, 'ColorPicker', 'wrapper');
   itSupportsProviderVariant(ColorPicker, defaultProps, 'ColorPicker', 'wrapper');
   itSupportsSystemProps({
     component: ColorPicker,
     props: defaultProps,
-    displayName: '@mantine/core/ColorPicker',
+    displayName: '@reactgets/core/ColorPicker',
     refType: HTMLDivElement,
     providerName: 'ColorPicker',
   });

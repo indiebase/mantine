@@ -1,10 +1,10 @@
 import React from 'react';
-import { Table } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Table } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { elements } from './_data';
 
 const code = `
-import { Table } from '@mantine/core';
+import { Table } from '@reactgets/core';
 
 function Demo() {
   const ths = (

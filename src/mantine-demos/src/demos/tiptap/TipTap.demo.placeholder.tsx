@@ -1,12 +1,12 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { RichTextEditor } from '@mantine/tiptap';
+import { MantineDemo } from '@reactgets/ds';
+import { RichTextEditor } from '@reactgets/tiptap';
 import { useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Placeholder from '@tiptap/extension-placeholder';
 
 const code = `
-import { RichTextEditor } from '@mantine/tiptap';
+import { RichTextEditor } from '@reactgets/tiptap';
 import { useEditor } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Placeholder from '@tiptap/extension-placeholder';

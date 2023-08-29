@@ -1,18 +1,18 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itSupportsSystemProps, itSupportsProviderVariant } from '@mantine/tests';
+import { itSupportsSystemProps, itSupportsProviderVariant } from '@reactgets/tests';
 import { LoadingOverlay, LoadingOverlayProps } from './LoadingOverlay';
 
 const defaultProps: LoadingOverlayProps = {
   visible: true,
 };
 
-describe('@mantine/core/LoadingOverlay', () => {
+describe('@reactgets/core/LoadingOverlay', () => {
   itSupportsProviderVariant(LoadingOverlay, defaultProps, 'LoadingOverlay');
   itSupportsSystemProps({
     component: LoadingOverlay,
     props: defaultProps,
-    displayName: '@mantine/core/LoadingOverlay',
+    displayName: '@reactgets/core/LoadingOverlay',
     refType: HTMLDivElement,
     providerName: 'LoadingOverlay',
   });

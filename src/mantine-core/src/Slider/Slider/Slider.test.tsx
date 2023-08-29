@@ -7,7 +7,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Slider, SliderProps } from './Slider';
 
 const defaultProps: SliderProps = {
@@ -23,14 +23,14 @@ const expectInputValue = (value: string, container: HTMLElement) =>
 const pressArrow = (kind: 'right' | 'left') =>
   userEvent.type(screen.getByRole('slider'), kind === 'right' ? '{arrowright}' : '{arrowleft}');
 
-describe('@mantine/core/Slider', () => {
+describe('@reactgets/core/Slider', () => {
   checkAccessibility([<Slider {...defaultProps} />]);
   itSupportsProviderVariant(Slider, defaultProps, 'Slider');
   itSupportsProviderSize(Slider, defaultProps, 'Slider');
   itSupportsSystemProps({
     component: Slider,
     props: defaultProps,
-    displayName: '@mantine/core/Slider',
+    displayName: '@reactgets/core/Slider',
     refType: HTMLDivElement,
     providerName: 'Slider',
   });

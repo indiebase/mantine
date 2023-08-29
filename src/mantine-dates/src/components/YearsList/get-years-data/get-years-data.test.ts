@@ -4,7 +4,7 @@ const TEST_RANGE = [[2020, 2021, 2022], [2023, 2024, 2025], [2026, 2027, 2028], 
   row.map((year) => new Date(year, 0))
 );
 
-describe('@mantine/dates/getYearsData', () => {
+describe('@reactgets/dates/getYearsData', () => {
   it('returns correct decade range for year that ends with 0', () => {
     expect(getYearsData(new Date(2020, 1))).toStrictEqual(TEST_RANGE);
   });

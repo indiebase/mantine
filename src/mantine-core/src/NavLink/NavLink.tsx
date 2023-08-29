@@ -8,9 +8,9 @@ import {
   Selectors,
   useComponentDefaultProps,
   Variants,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
-import { useUncontrolled } from '@mantine/hooks';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
+import { useUncontrolled } from '@reactgets/hooks';
 import { UnstyledButton } from '../UnstyledButton';
 import { ChevronIcon } from '../Accordion';
 import { Collapse } from '../Collapse';
@@ -173,6 +173,6 @@ export const _NavLink = forwardRef<HTMLButtonElement, NavLinkProps>((props, ref)
   );
 });
 
-_NavLink.displayName = '@mantine/core/NavLink';
+_NavLink.displayName = '@reactgets/core/NavLink';
 
 export const NavLink = createPolymorphicComponent<'button', NavLinkProps>(_NavLink);

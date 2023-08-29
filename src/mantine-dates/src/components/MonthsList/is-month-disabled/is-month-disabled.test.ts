@@ -1,6 +1,6 @@
 import { isMonthDisabled } from './is-month-disabled';
 
-describe('@mantine/dates/is-month-disabled', () => {
+describe('@reactgets/dates/is-month-disabled', () => {
   it('detects that date is disabled if it is before minDate', () => {
     expect(isMonthDisabled(new Date(2022, 1, 3), new Date(2023, 2, 3), null)).toBe(true);
     expect(isMonthDisabled(new Date(2022, 1, 3), new Date(2022, 1, 3), null)).toBe(false);

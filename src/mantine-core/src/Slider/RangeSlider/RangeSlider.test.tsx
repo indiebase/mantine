@@ -6,7 +6,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { RangeSlider } from './RangeSlider';
 
 const defaultProps = {
@@ -20,14 +20,14 @@ const getInput = (container: HTMLElement, index: 0 | 1) =>
 const expectInputValue = (value: string, container: HTMLElement, index: 0 | 1) =>
   expect(getInput(container, index)).toHaveValue(value);
 
-describe('@mantine/core/RangeSlider', () => {
+describe('@reactgets/core/RangeSlider', () => {
   checkAccessibility([<RangeSlider {...defaultProps} />]);
   itSupportsProviderVariant(RangeSlider, defaultProps, 'Slider');
   itSupportsProviderSize(RangeSlider, defaultProps, 'Slider');
   itSupportsSystemProps({
     component: RangeSlider,
     props: defaultProps,
-    displayName: '@mantine/core/RangeSlider',
+    displayName: '@reactgets/core/RangeSlider',
     refType: HTMLDivElement,
     providerName: 'RangeSlider',
   });

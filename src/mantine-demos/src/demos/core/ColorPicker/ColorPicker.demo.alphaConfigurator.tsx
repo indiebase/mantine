@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Text, DEFAULT_THEME, AlphaSlider, AlphaSliderProps, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Text, DEFAULT_THEME, AlphaSlider, AlphaSliderProps, Box } from '@reactgets/core';
 
 function Wrapper(props: AlphaSliderProps) {
   const [value, onChange] = useState(1);
@@ -21,7 +21,7 @@ function Wrapper(props: AlphaSliderProps) {
 }
 
 const codeTemplate = (props: string) => `import { useState } from 'react';
-import { AlphaSlider, Text } from '@mantine/core';
+import { AlphaSlider, Text } from '@reactgets/core';
 
 function Demo() {
   const [value, onChange] = useState(1);

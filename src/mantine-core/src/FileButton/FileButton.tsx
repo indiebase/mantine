@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { useRef, forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/styles';
-import { assignRef, useMergedRef } from '@mantine/hooks';
+import { useComponentDefaultProps } from '@reactgets/styles';
+import { assignRef, useMergedRef } from '@reactgets/hooks';
 
 export interface FileButtonProps<Multiple extends boolean = false> {
   /** Called when files are picked */
@@ -100,4 +100,4 @@ export const FileButton: FileButtonComponent = forwardRef<HTMLInputElement, File
   }
 ) as any;
 
-FileButton.displayName = '@mantine/core/FileButton';
+FileButton.displayName = '@reactgets/core/FileButton';

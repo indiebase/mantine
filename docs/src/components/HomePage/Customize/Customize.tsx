@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { IconArrowRight } from '@tabler/icons-react';
-import { Text, SimpleGrid, Slider, Button, rem } from '@mantine/core';
-import { Prism } from '@mantine/prism';
-import { Slider as SliderStylesApi } from '@mantine/styles-api';
+import { Text, SimpleGrid, Slider, Button, rem } from '@reactgets/core';
+import { Prism } from '@reactgets/prism';
+import { Slider as SliderStylesApi } from '@reactgets/styles-api';
 import DataTable from '../../MdxPage/MdxProvider/DataTable/DataTable';
 import { PageSection } from '../PageSection/PageSection';
 import { getGradient } from '../get-gradient';

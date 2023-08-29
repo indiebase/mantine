@@ -1,32 +1,32 @@
 ---
 group: 'mantine-form'
-package: '@mantine/form'
+package: '@reactgets/form'
 title: 'use-form'
 order: 0
 slug: /form/use-form/
 description: 'Manage form state'
-import: "import { useForm } from '@mantine/form';"
+import: "import { useForm } from '@reactgets/form';"
 docs: 'form/use-form.mdx'
 source: 'mantine-form/src'
 license: MIT
 ---
 
-import { FormDemos } from '@mantine/demos';
+import { FormDemos } from '@reactgets/demos';
 
 ## Installation
 
-`@mantine/form` package does not depend on any other libraries, you can use it with or without `@mantine/core` inputs:
+`@reactgets/form` package does not depend on any other libraries, you can use it with or without `@reactgets/core` inputs:
 
 Install with npm:
 
 ```bash
-npm install @mantine/form
+npm install @reactgets/form
 ```
 
 Install with yarn:
 
 ```bash
-yarn add @mantine/form
+yarn add @reactgets/form
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ yarn add @mantine/form
 All examples below use the following example use-form hook.
 
 ```tsx
-import { useForm } from '@mantine/form';
+import { useForm } from '@reactgets/form';
 
 const form = useForm({
   initialValues: {
@@ -109,7 +109,7 @@ form.reorderListItem('fruits', { from: 1, to: 0 });
 [Form validation guide](/form/validation/)
 
 ```tsx
-import { useForm } from '@mantine/form';
+import { useForm } from '@reactgets/form';
 
 const form = useForm({
   initialValues: {
@@ -230,8 +230,8 @@ As second parameter options can be passed.
 `UseFormReturnType` can be used when you want to pass `form` as a prop to another component:
 
 ```tsx
-import { TextInput } from '@mantine/core';
-import { useForm, UseFormReturnType } from '@mantine/form';
+import { TextInput } from '@reactgets/core';
+import { useForm, UseFormReturnType } from '@reactgets/form';
 
 interface FormValues {
   name: string;

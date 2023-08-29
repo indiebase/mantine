@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, MantineShadow, rem } from '@mantine/styles';
+import { createStyles, MantineNumberSize, MantineShadow, rem } from '@reactgets/styles';
 
 export interface PaperStylesParams {
   radius: MantineNumberSize;

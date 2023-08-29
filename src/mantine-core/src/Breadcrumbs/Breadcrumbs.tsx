@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/styles';
-import { isElement } from '@mantine/utils';
+import { DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/styles';
+import { isElement } from '@reactgets/utils';
 import { Text } from '../Text';
 import { Box } from '../Box';
 import useStyles from './Breadcrumbs.styles';
@@ -72,4 +72,4 @@ export const Breadcrumbs = forwardRef<HTMLDivElement, BreadcrumbsProps>(
   }
 );
 
-Breadcrumbs.displayName = '@mantine/core/Breadcrumbs';
+Breadcrumbs.displayName = '@reactgets/core/Breadcrumbs';

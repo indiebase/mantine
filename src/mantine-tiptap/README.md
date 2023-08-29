@@ -1,6 +1,6 @@
 # Mantine tiptap
 
-[![npm](https://img.shields.io/npm/dm/@mantine/dates)](https://www.npmjs.com/package/@mantine/tiptap)
+[![npm](https://img.shields.io/npm/dm/@reactgets/dates)](https://www.npmjs.com/package/@reactgets/tiptap)
 
 Rich text editor based on [tiptap](https://tiptap.dev/)
 
@@ -10,10 +10,10 @@ Rich text editor based on [tiptap](https://tiptap.dev/)
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks @tiptap/react @tiptap/extension-link
+yarn add @reactgets/core @reactgets/hooks @tiptap/react @tiptap/extension-link
 
 # With npm
-npm install @mantine/core @mantine/hooks @tiptap/react @tiptap/extension-link
+npm install @reactgets/core @reactgets/hooks @tiptap/react @tiptap/extension-link
 ```
 
 ## License

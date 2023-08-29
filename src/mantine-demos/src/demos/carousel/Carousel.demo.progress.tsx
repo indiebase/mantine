@@ -1,13 +1,13 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { Carousel, Embla } from '@mantine/carousel';
-import { Progress, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Carousel, Embla } from '@reactgets/carousel';
+import { Progress, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { Slides } from './_slides';
 
 const code = `
 import { useCallback, useEffect, useState } from 'react';
-import { Carousel, Embla } from '@mantine/carousel';
-import { Progress, rem } from '@mantine/core';
+import { Carousel, Embla } from '@reactgets/carousel';
+import { Progress, rem } from '@reactgets/core';
 
 function Demo() {
   const [scrollProgress, setScrollProgress] = useState(0);

@@ -1,4 +1,4 @@
-import type { PrismStylesNames } from '@mantine/prism';
+import type { PrismStylesNames } from '@reactgets/prism';
 
 export const Prism: Record<PrismStylesNames, string> = {
   root: 'Root element',

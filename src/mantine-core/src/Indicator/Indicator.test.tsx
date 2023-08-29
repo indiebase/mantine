@@ -5,14 +5,14 @@ import {
   itRendersChildren,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Indicator, IndicatorProps } from './Indicator';
 
 const defaultProps: IndicatorProps = {
   children: 'Child',
 };
 
-describe('@mantine/core/Indicator', () => {
+describe('@reactgets/core/Indicator', () => {
   itRendersChildren(Indicator, defaultProps);
   itSupportsProviderVariant(Indicator, defaultProps, 'Indicator');
   itSupportsProviderSize(Indicator, defaultProps, 'Indicator');
@@ -20,7 +20,7 @@ describe('@mantine/core/Indicator', () => {
     component: Indicator,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Indicator',
+    displayName: '@reactgets/core/Indicator',
   });
 
   it('renders given label', () => {

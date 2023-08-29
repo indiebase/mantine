@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/ssr",
+  "name": "@reactgets/ssr",
   "description": "Mantine server side rendering utils",
   "version": "6.0.19",
   "main": "cjs/index.js",
@@ -33,7 +33,7 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "@mantine/styles": "6.0.19",
+    "@reactgets/styles": "6.0.19",
     "html-react-parser": "1.4.12"
   }
 }

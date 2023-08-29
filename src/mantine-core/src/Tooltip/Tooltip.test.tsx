@@ -4,7 +4,7 @@ import {
   checkAccessibility,
   patchConsoleError,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { Tooltip, TooltipProps } from './Tooltip';
@@ -20,13 +20,13 @@ const defaultProps: TooltipProps = {
   children: <button type="button">test-target</button>,
 };
 
-describe('@mantine/core/Tooltip', () => {
+describe('@reactgets/core/Tooltip', () => {
   checkAccessibility([<Tooltip {...defaultProps} />]);
   itSupportsProviderVariant(Tooltip, defaultProps, 'Tooltip', ['tooltip']);
   itSupportsSystemProps({
     component: Tooltip,
     props: defaultProps,
-    displayName: '@mantine/core/Tooltip',
+    displayName: '@reactgets/core/Tooltip',
     providerName: 'Tooltip',
   });
 

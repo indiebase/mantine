@@ -1,11 +1,11 @@
 import React, { useEffect, PropsWithChildren } from 'react';
 import { renderHook, render, screen } from '@testing-library/react';
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@reactgets/core';
 import { useModals } from './use-modals';
 import { ModalsProvider } from '../ModalsProvider';
 import { ContextModalProps } from '../context';
 
-describe('@mantine/modals/use-modals', () => {
+describe('@reactgets/modals/use-modals', () => {
   it('returns context value of ModalsProvider', () => {
     const wrapper = ({ children }: PropsWithChildren<unknown>) => (
       <MantineProvider>

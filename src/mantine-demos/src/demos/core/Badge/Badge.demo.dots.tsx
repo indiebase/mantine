@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, MANTINE_COLORS, Badge } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, MANTINE_COLORS, Badge } from '@reactgets/core';
 
 function Demo() {
   const items = MANTINE_COLORS.map((color) => (

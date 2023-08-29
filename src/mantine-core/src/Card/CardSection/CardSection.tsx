@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { useCardPadding } from '../Card.context';
 import { Box } from '../../Box';
 import useStyles from './CardSection.styles';
@@ -32,6 +32,6 @@ export const _CardSection = forwardRef<HTMLDivElement, CardSectionProps>((props,
   return <Box className={cx(classes.cardSection, className)} ref={ref} {...others} />;
 });
 
-_CardSection.displayName = '@mantine/core/CardSection';
+_CardSection.displayName = '@reactgets/core/CardSection';
 
 export const CardSection = createPolymorphicComponent<'div', CardSectionProps>(_CardSection);

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Input, SegmentedControl as MantineSegmentedControl } from '@mantine/core';
-import { upperFirst } from '@mantine/hooks';
+import { Input, SegmentedControl as MantineSegmentedControl } from '@reactgets/core';
+import { upperFirst } from '@reactgets/hooks';
 
 interface SizeControlProps {
   value: string;

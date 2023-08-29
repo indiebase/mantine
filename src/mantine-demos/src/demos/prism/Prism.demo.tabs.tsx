@@ -1,6 +1,6 @@
 import React from 'react';
-import { Prism } from '@mantine/prism';
-import { MantineDemo } from '@mantine/ds';
+import { Prism } from '@reactgets/prism';
+import { MantineDemo } from '@reactgets/ds';
 import { py, css } from './Prism.demo.languages';
 import { demoCode } from './Prism.demo.usage';
 
@@ -46,7 +46,7 @@ function TsIcon(props: React.ComponentProps<'svg'>) {
 }
 
 const code = `
-import { Prism } from '@mantine/prism';
+import { Prism } from '@reactgets/prism';
 
 function CSSIcon(props: React.ComponentProps<'svg'>) {
   return (

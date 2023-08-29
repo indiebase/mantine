@@ -1,4 +1,4 @@
-import { createStyles, getStylesRef, rem, getSize } from '@mantine/styles';
+import { createStyles, getStylesRef, rem, getSize } from '@reactgets/styles';
 import { THUMB_SIZES } from '../Thumb/Thumb.styles';
 
 const SATURATION_HEIGHTS = {

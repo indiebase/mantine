@@ -3,7 +3,7 @@ import { useForm } from '../use-form';
 
 const getFormEvent = () => ({ preventDefault: jest.fn() } as any);
 
-describe('@mantine/form/onSubmit', () => {
+describe('@reactgets/form/onSubmit', () => {
   it('calls handleSubmit with values and event when all values are valid', () => {
     const hook = renderHook(() =>
       useForm({ initialValues: { banana: 'test banana', apple: 'test apple' } })

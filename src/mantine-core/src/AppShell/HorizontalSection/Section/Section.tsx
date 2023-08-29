@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent, packSx } from '@mantine/utils';
+import { DefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent, packSx } from '@reactgets/utils';
 import { Box } from '../../../Box';
 
 export interface SectionProps extends DefaultProps {
@@ -23,6 +23,6 @@ export const _Section = forwardRef<HTMLDivElement, SectionProps>(
   )
 );
 
-_Section.displayName = '@mantine/core/Section';
+_Section.displayName = '@reactgets/core/Section';
 
 export const Section = createPolymorphicComponent<'div', SectionProps>(_Section);

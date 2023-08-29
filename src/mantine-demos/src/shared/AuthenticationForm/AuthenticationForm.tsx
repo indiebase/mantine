@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useForm } from '@mantine/form';
+import { useForm } from '@reactgets/form';
 import { IconLock, IconAt } from '@tabler/icons-react';
 import {
   TextInput,
@@ -12,7 +12,7 @@ import {
   LoadingOverlay,
   Anchor,
   useMantineTheme,
-} from '@mantine/core';
+} from '@reactgets/core';
 
 export interface AuthenticationFormProps {
   noShadow?: boolean;

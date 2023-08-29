@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box } from '../Box';
 import useStyles from './UnstyledButton.styles';
 
@@ -34,7 +34,7 @@ export const _UnstyledButton = forwardRef<
   );
 });
 
-_UnstyledButton.displayName = '@mantine/core/UnstyledButton';
+_UnstyledButton.displayName = '@reactgets/core/UnstyledButton';
 
 export const UnstyledButton = createPolymorphicComponent<'button', UnstyledButtonProps>(
   _UnstyledButton

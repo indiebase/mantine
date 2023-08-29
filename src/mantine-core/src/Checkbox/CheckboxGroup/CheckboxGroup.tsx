@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useUncontrolled } from '@mantine/hooks';
-import { DefaultProps, MantineSize, useComponentDefaultProps } from '@mantine/styles';
+import { useUncontrolled } from '@reactgets/hooks';
+import { DefaultProps, MantineSize, useComponentDefaultProps } from '@reactgets/styles';
 import { Input, InputWrapperBaseProps, InputWrapperStylesNames } from '../../Input';
 import { CheckboxGroupProvider } from '../CheckboxGroup.context';
 
@@ -73,4 +73,4 @@ export const CheckboxGroup = forwardRef<HTMLDivElement, CheckboxGroupProps>(
   }
 );
 
-CheckboxGroup.displayName = '@mantine/core/CheckboxGroup';
+CheckboxGroup.displayName = '@reactgets/core/CheckboxGroup';

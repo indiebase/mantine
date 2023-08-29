@@ -1,10 +1,10 @@
 import React from 'react';
-import { Text, Flex } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Text, Flex } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { SegmentedControlWrapper } from './Wrapper';
 
 const code = `
-import { SegmentedControl } from '@mantine/core';
+import { SegmentedControl } from '@reactgets/core';
 
 function Demo() {
   return (

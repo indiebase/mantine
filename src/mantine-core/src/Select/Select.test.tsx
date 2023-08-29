@@ -9,7 +9,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Select, SelectProps } from './Select';
 
 const defaultProps: SelectProps = {
@@ -22,7 +22,7 @@ const defaultProps: SelectProps = {
   ],
 };
 
-describe('@mantine/core/Select', () => {
+describe('@reactgets/core/Select', () => {
   checkAccessibility([<Select {...defaultProps} />]);
   itSupportsProviderVariant(Select, defaultProps, 'Select', ['root', 'input', 'label']);
   itSupportsProviderSize(Select, defaultProps, 'Select', ['root', 'input', 'label']);
@@ -31,7 +31,7 @@ describe('@mantine/core/Select', () => {
   itSupportsSystemProps({
     component: Select,
     props: defaultProps,
-    displayName: '@mantine/core/Select',
+    displayName: '@reactgets/core/Select',
     refType: HTMLInputElement,
     othersSelector: '.mantine-Select-input',
     providerName: 'Select',

@@ -1,8 +1,8 @@
-import { MantineDemo } from '@mantine/ds';
-import { Textarea } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Textarea } from '@reactgets/core';
 
 const codeTemplate = (props: string) => `
-import { Textarea } from '@mantine/core';
+import { Textarea } from '@reactgets/core';
 
 function Demo() {
   return (

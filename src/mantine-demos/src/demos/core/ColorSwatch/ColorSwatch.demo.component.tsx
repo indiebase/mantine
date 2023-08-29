@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { useMantineTheme, ColorSwatch, Group, CheckIcon, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useMantineTheme, ColorSwatch, Group, CheckIcon, rem } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { ColorSwatch, Group, useMantineTheme, CheckIcon, rem } from '@mantine/core';
+import { ColorSwatch, Group, useMantineTheme, CheckIcon, rem } from '@reactgets/core';
 
 function Demo() {
   const theme = useMantineTheme();

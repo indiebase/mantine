@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itSupportsSystemProps, itSupportsProviderVariant } from '@mantine/tests';
+import { itSupportsSystemProps, itSupportsProviderVariant } from '@reactgets/tests';
 import { Grid, GridProps } from './Grid';
 import { Col } from './Col/Col';
 
@@ -13,12 +13,12 @@ const defaultProps: GridProps = {
   ),
 };
 
-describe('@mantine/core/Grid', () => {
+describe('@reactgets/core/Grid', () => {
   itSupportsProviderVariant(Grid, defaultProps, 'Grid');
   itSupportsSystemProps({
     component: Grid,
     props: defaultProps,
-    displayName: '@mantine/core/Grid',
+    displayName: '@reactgets/core/Grid',
     refType: HTMLDivElement,
     providerName: 'Grid',
   });

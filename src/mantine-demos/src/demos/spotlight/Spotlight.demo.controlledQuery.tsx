@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { IconSearch } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { SpotlightAction } from '@mantine/spotlight';
+import { MantineDemo } from '@reactgets/ds';
+import { SpotlightAction } from '@reactgets/spotlight';
 import { Wrapper } from './_wrapper';
 
 const code = `
 import { useState } from 'react';
-import { Button, Group } from '@mantine/core';
-import { SpotlightProvider, spotlight, SpotlightAction } from '@mantine/spotlight';
+import { Button, Group } from '@reactgets/core';
+import { SpotlightProvider, spotlight, SpotlightAction } from '@reactgets/spotlight';
 
 function SpotlightControl() {
   return (

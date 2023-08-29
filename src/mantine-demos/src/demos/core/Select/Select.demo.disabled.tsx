@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Select, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Select, Box } from '@reactgets/core';
 
 const code = `
-import { Select } from '@mantine/core';
+import { Select } from '@reactgets/core';
 
 function Demo() {
   return <Select disabled />;

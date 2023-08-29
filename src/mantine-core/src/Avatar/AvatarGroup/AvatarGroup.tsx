@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { AvatarGroupProvider } from './AvatarGroup.context';
 import useStyles from './AvatarGroup.styles';
@@ -36,4 +36,4 @@ export const AvatarGroup = forwardRef<HTMLDivElement, AvatarGroupProps>((props, 
   );
 });
 
-AvatarGroup.displayName = '@mantine/core/AvatarGroup';
+AvatarGroup.displayName = '@reactgets/core/AvatarGroup';

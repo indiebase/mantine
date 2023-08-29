@@ -2,30 +2,30 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { ScrollArea, ScrollAreaProps } from './ScrollArea';
 
 const defaultProps: ScrollAreaProps = {};
 
-describe('@mantine/core/ScrollArea', () => {
+describe('@reactgets/core/ScrollArea', () => {
   itRendersChildren(ScrollArea, defaultProps);
   itSupportsProviderVariant(ScrollArea, defaultProps, 'ScrollArea');
   itSupportsSystemProps({
     component: ScrollArea,
     props: defaultProps,
-    displayName: '@mantine/core/ScrollArea',
+    displayName: '@reactgets/core/ScrollArea',
     refType: HTMLDivElement,
     providerName: 'ScrollArea',
   });
 });
 
-describe('@mantine/core/ScrollArea.Autosize', () => {
+describe('@reactgets/core/ScrollArea.Autosize', () => {
   itRendersChildren(ScrollArea.Autosize, defaultProps);
   itSupportsProviderVariant(ScrollArea.Autosize, defaultProps, 'ScrollArea');
   itSupportsSystemProps({
     component: ScrollArea.Autosize,
     props: defaultProps,
-    displayName: '@mantine/core/ScrollAreaAutosize',
+    displayName: '@reactgets/core/ScrollAreaAutosize',
     refType: HTMLDivElement,
     providerName: 'ScrollAreaAutosize',
   });

@@ -1,10 +1,10 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { DatePickerInput } from '@mantine/dates';
-import { Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { DatePickerInput } from '@reactgets/dates';
+import { Box } from '@reactgets/core';
 
 const code = `
-import { DatePickerInput } from '@mantine/dates';
+import { DatePickerInput } from '@reactgets/dates';
 
 function Demo() {
   return (

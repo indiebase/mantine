@@ -1,6 +1,6 @@
 import { isYearDisabled } from './is-year-disabled';
 
-describe('@mantine/dates/is-year-disabled', () => {
+describe('@reactgets/dates/is-year-disabled', () => {
   it('detects that date is disabled if it is before minDate', () => {
     expect(isYearDisabled(new Date(2022, 1, 3), new Date(2023, 2, 3), null)).toBe(true);
     expect(isYearDisabled(new Date(2022, 1, 3), new Date(2022, 1, 3), null)).toBe(false);

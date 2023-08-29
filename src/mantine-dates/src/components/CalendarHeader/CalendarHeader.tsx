@@ -6,7 +6,7 @@ import {
   useComponentDefaultProps,
   UnstyledButton,
   MantineSize,
-} from '@mantine/core';
+} from '@reactgets/core';
 import { Chevron } from './Chevron';
 import useStyles from './CalendarHeader.styles';
 
@@ -184,4 +184,4 @@ export const CalendarHeader = forwardRef<HTMLDivElement, CalendarHeaderProps>((p
   );
 });
 
-CalendarHeader.displayName = '@mantine/dates/CalendarHeader';
+CalendarHeader.displayName = '@reactgets/dates/CalendarHeader';

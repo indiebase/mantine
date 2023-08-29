@@ -1,6 +1,6 @@
 import React, { useState, forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps, rem } from '@mantine/styles';
-import { useElementSize } from '@mantine/hooks';
+import { DefaultProps, Selectors, useComponentDefaultProps, rem } from '@reactgets/styles';
+import { useElementSize } from '@reactgets/hooks';
 import { Anchor } from '../Anchor';
 import { Box } from '../Box';
 import useStyles, { SpoilerStylesParams } from './Spoiler.styles';
@@ -90,4 +90,4 @@ export const Spoiler = forwardRef<HTMLDivElement, SpoilerProps>((props, ref) => 
   );
 });
 
-Spoiler.displayName = '@mantine/core/Spoiler';
+Spoiler.displayName = '@reactgets/core/Spoiler';

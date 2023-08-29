@@ -11,7 +11,7 @@ function Target() {
   );
 }
 
-describe('@mantine/hooks/use-viewport-size', () => {
+describe('@reactgets/hooks/use-viewport-size', () => {
   it('returns correct initial dimensions', () => {
     // custom window dimensions
     window.innerWidth = 2000;

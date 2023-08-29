@@ -1,11 +1,11 @@
 /* eslint-disable no-console */
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { SchemaBase } from './_schema-base';
 
 const code = `
 import { z } from 'zod';
-import { useForm, zodResolver } from '@mantine/form';
-import { NumberInput, TextInput, Button, Box, Group } from '@mantine/core';
+import { useForm, zodResolver } from '@reactgets/form';
+import { NumberInput, TextInput, Button, Box, Group } from '@reactgets/core';
 
 const schema = z.object({
   name: z.string().min(2, { message: 'Name should have at least 2 letters' }),

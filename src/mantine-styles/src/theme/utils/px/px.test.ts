@@ -1,6 +1,6 @@
 import { px } from './px';
 
-describe('@mantine/styles/px', () => {
+describe('@reactgets/styles/px', () => {
   it('converts rem string to px number', () => {
     expect(px('1rem')).toBe(16);
     expect(px('1.25rem')).toBe(20);

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box';
 import useStyles, { SimpleGridBreakpoint, SimpleGridStylesParams } from './SimpleGrid.styles';
 
@@ -52,4 +52,4 @@ export const SimpleGrid = forwardRef<HTMLDivElement, SimpleGridProps>((props, re
   );
 });
 
-SimpleGrid.displayName = '@mantine/core/SimpleGrid';
+SimpleGrid.displayName = '@reactgets/core/SimpleGrid';

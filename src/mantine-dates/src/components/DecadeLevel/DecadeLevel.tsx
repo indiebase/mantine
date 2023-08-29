@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import React, { forwardRef } from 'react';
-import { Box, DefaultProps, useComponentDefaultProps, Selectors } from '@mantine/core';
+import { Box, DefaultProps, useComponentDefaultProps, Selectors } from '@reactgets/core';
 import {
   CalendarHeader,
   CalendarHeaderStylesNames,
@@ -174,4 +174,4 @@ export const DecadeLevel = forwardRef<HTMLDivElement, DecadeLevelProps>((props, 
   );
 });
 
-DecadeLevel.displayName = '@mantine/dates/DecadeLevel';
+DecadeLevel.displayName = '@reactgets/dates/DecadeLevel';

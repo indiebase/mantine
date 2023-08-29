@@ -7,14 +7,14 @@ import {
   itSupportsProviderSize,
   itSupportsInputProps,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { TimeInput, TimeInputProps } from './TimeInput';
 
 const defaultProps: TimeInputProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/TimeInput', () => {
+describe('@reactgets/core/TimeInput', () => {
   checkAccessibility([<TimeInput label="test-input" />, <TimeInput aria-label="test-input" />]);
   itSupportsInputProps(TimeInput, defaultProps, 'TimeInput');
   itSupportsFocusEvents(TimeInput, defaultProps, 'input');
@@ -24,7 +24,7 @@ describe('@mantine/core/TimeInput', () => {
     component: TimeInput,
     props: defaultProps,
     refType: HTMLInputElement,
-    displayName: '@mantine/dates/TimeInput',
+    displayName: '@reactgets/dates/TimeInput',
     othersSelector: 'input',
     providerName: 'TimeInput',
   });

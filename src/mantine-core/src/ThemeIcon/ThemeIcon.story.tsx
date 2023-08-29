@@ -1,5 +1,5 @@
 import React from 'react';
-import { MantineProvider } from '@mantine/styles';
+import { MantineProvider } from '@reactgets/styles';
 import { ThemeIcon } from './ThemeIcon';
 import { Group } from '../Group';
 import { Box } from '../Box';

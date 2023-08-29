@@ -6,7 +6,7 @@ import {
   itSupportsInputWrapperProps,
   itSupportsInputAsterisk,
   itSupportsSystemProps,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { SwitchGroup, SwitchGroupProps } from './SwitchGroup';
 import { Switch } from '../Switch';
 
@@ -18,13 +18,13 @@ const defaultProps: SwitchGroupProps = {
   ],
 };
 
-describe('@mantine/core/SwitchGroup', () => {
+describe('@reactgets/core/SwitchGroup', () => {
   itSupportsInputWrapperProps(SwitchGroup, defaultProps, 'SwitchGroup');
   itSupportsInputAsterisk(SwitchGroup, defaultProps, 'SwitchGroup');
   itSupportsSystemProps({
     component: SwitchGroup,
     props: defaultProps,
-    displayName: '@mantine/core/SwitchGroup',
+    displayName: '@reactgets/core/SwitchGroup',
     refType: HTMLDivElement,
     providerName: 'SwitchGroup',
   });

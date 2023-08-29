@@ -1,4 +1,4 @@
-import { InputStylesNames } from '@mantine/core';
+import { InputStylesNames } from '@reactgets/core';
 
 export const Input: Record<InputStylesNames, string> = {
   wrapper: 'Root Input element',

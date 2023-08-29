@@ -4,7 +4,7 @@ import {
   CSSObject,
   useComponentDefaultProps,
   MantineTheme,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import useStyles from './MediaQuery.styles';
 
 export interface MediaQueryProps {
@@ -49,4 +49,4 @@ export function MediaQuery(props: MediaQueryProps) {
   return child;
 }
 
-MediaQuery.displayName = '@mantine/core/MediaQuery';
+MediaQuery.displayName = '@reactgets/core/MediaQuery';

@@ -1,4 +1,4 @@
-import { MANTINE_SIZES } from '@mantine/core';
+import { MANTINE_SIZES } from '@reactgets/core';
 import React, { useState } from 'react';
 import { DatesRangeValue } from '../../types';
 import { MonthPicker } from './MonthPicker';

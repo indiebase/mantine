@@ -3,7 +3,7 @@ import {
   createContextContainer,
   itThrowsContextError,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { GridProvider } from '../Grid.context';
 import { Col, ColProps } from './Col';
 
@@ -19,14 +19,14 @@ const TestContainer = createContextContainer(Col, GridProvider, {
   },
 });
 
-describe('@mantine/core/Col', () => {
+describe('@reactgets/core/Col', () => {
   itThrowsContextError(Col, defaultProps, 'Grid component was not found in tree');
   itSupportsProviderVariant(TestContainer, defaultProps, 'Grid', 'col');
   itSupportsSystemProps({
     component: TestContainer,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Col',
+    displayName: '@reactgets/core/Col',
     providerName: 'GridCol',
   });
 });

@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
-import { packSx } from '@mantine/utils';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
+import { packSx } from '@reactgets/utils';
 import { Box } from '../../Box';
 
 export interface InputPlaceholderProps
@@ -21,4 +21,4 @@ export const InputPlaceholder = forwardRef<HTMLSpanElement, InputPlaceholderProp
   );
 });
 
-InputPlaceholder.displayName = '@mantine/core/InputPlaceholder';
+InputPlaceholder.displayName = '@reactgets/core/InputPlaceholder';

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps, Box, MantineSize } from '@mantine/core';
+import { DefaultProps, Selectors, useComponentDefaultProps, Box, MantineSize } from '@reactgets/core';
 import type { DayOfWeek } from '../../types';
 import { useDatesContext } from '../DatesProvider';
 import { getWeekdayNames } from './get-weekdays-names/get-weekdays-names';
@@ -79,4 +79,4 @@ export const WeekdaysRow = forwardRef<HTMLTableRowElement, WeekdaysRowProps>((pr
   );
 });
 
-WeekdaysRow.displayName = '@mantine/dates/WeekdaysRow';
+WeekdaysRow.displayName = '@reactgets/dates/WeekdaysRow';

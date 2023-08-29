@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { BaseDemo } from './_base';
 
 const code = `
-import { Dropzone } from '@mantine/dropzone';
+import { Dropzone } from '@reactgets/dropzone';
 
 function Demo() {
   return (

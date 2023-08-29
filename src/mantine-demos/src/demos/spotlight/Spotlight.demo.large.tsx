@@ -1,12 +1,12 @@
 /* eslint-disable no-console */
 import React from 'react';
-import type { SpotlightAction } from '@mantine/spotlight';
-import { MantineDemo } from '@mantine/ds';
+import type { SpotlightAction } from '@reactgets/spotlight';
+import { MantineDemo } from '@reactgets/ds';
 import { Wrapper } from './_wrapper';
 
 const code = `
-import { SpotlightProvider } from '@mantine/spotlight';
-import type { SpotlightAction } from '@mantine/spotlight';
+import { SpotlightProvider } from '@reactgets/spotlight';
+import type { SpotlightAction } from '@reactgets/spotlight';
 
 const actions: SpotlightAction[] = Array(100)
   .fill(0)

@@ -4,7 +4,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Header } from './Header/Header';
 import { Navbar } from './Navbar/Navbar';
 import { AppShell, AppShellProps } from './AppShell';
@@ -13,13 +13,13 @@ const defaultProps: AppShellProps = {
   children: 'test-app-shell',
 };
 
-describe('@mantine/core/AppShell', () => {
+describe('@reactgets/core/AppShell', () => {
   itRendersChildren(AppShell, defaultProps);
   itSupportsProviderVariant(AppShell, defaultProps, 'AppShell');
   itSupportsSystemProps({
     component: AppShell,
     props: defaultProps,
-    displayName: '@mantine/core/AppShell',
+    displayName: '@reactgets/core/AppShell',
     refType: HTMLDivElement,
     providerName: 'AppShell',
   });

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Group, Input, useMantineTheme, ColorSwatch, CheckIcon, rem } from '@mantine/core';
-import { upperFirst } from '@mantine/hooks';
+import { Group, Input, useMantineTheme, ColorSwatch, CheckIcon, rem } from '@reactgets/core';
+import { upperFirst } from '@reactgets/hooks';
 
 interface ColorControlProps {
   value: string;

@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { List, ListProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { List, ListProps } from '@reactgets/core';
 
 function Wrapper(props: ListProps) {
   return (
@@ -15,7 +15,7 @@ function Wrapper(props: ListProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { List } from '@mantine/core';
+import { List } from '@reactgets/core';
 
 function Demo() {
   return (

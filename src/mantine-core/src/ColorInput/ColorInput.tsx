@@ -1,5 +1,5 @@
 import React, { useState, useEffect, forwardRef } from 'react';
-import { useUncontrolled, useDidUpdate, useEyeDropper } from '@mantine/hooks';
+import { useUncontrolled, useDidUpdate, useEyeDropper } from '@reactgets/hooks';
 import {
   DefaultProps,
   getDefaultZIndex,
@@ -7,8 +7,8 @@ import {
   useMantineTheme,
   rem,
   getSize,
-} from '@mantine/styles';
-import { noop } from '@mantine/utils';
+} from '@reactgets/styles';
+import { noop } from '@reactgets/utils';
 import {
   InputWrapperBaseProps,
   InputWrapperStylesNames,
@@ -294,4 +294,4 @@ export const ColorInput = forwardRef<HTMLInputElement, ColorInputProps>((props, 
   );
 });
 
-ColorInput.displayName = '@mantine/core/ColorInput';
+ColorInput.displayName = '@reactgets/core/ColorInput';

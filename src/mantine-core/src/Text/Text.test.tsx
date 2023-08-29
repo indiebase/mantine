@@ -6,7 +6,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Text, TextProps } from './Text';
 
 const defaultProps: TextProps = {
@@ -19,7 +19,7 @@ const expectStyle = (props: TextProps, style: Record<string, any>) => {
   document.body.innerHTML = '';
 };
 
-describe('@mantine/core/Text', () => {
+describe('@reactgets/core/Text', () => {
   itRendersChildren(Text, defaultProps);
   itIsPolymorphic(Text, defaultProps);
   itSupportsProviderVariant(Text, defaultProps, 'Text');
@@ -27,7 +27,7 @@ describe('@mantine/core/Text', () => {
   itSupportsSystemProps({
     component: Text,
     props: defaultProps,
-    displayName: '@mantine/core/Text',
+    displayName: '@reactgets/core/Text',
     refType: HTMLDivElement,
     providerName: 'Text',
   });

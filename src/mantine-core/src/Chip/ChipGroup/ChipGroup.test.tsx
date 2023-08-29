@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { checkAccessibility } from '@mantine/tests';
+import { checkAccessibility } from '@reactgets/tests';
 import { ChipGroup } from './ChipGroup';
 import { Chip } from '../Chip';
 
@@ -20,7 +20,7 @@ const getChip = (index: number, type: 'radio' | 'checkbox') => screen.getAllByRo
 const clickChip = (index: number, type: 'radio' | 'checkbox') =>
   userEvent.click(getChip(index, type));
 
-describe('@mantine/core/ChipGroup', () => {
+describe('@reactgets/core/ChipGroup', () => {
   checkAccessibility([<ChipGroup {...defaultProps} />]);
 
   it('sets chip type based on multiple prop', () => {

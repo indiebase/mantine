@@ -1,6 +1,6 @@
 import getPositionStyles from './get-position-styles';
 
-describe('@mantine/notifications/get-position-styles', () => {
+describe('@reactgets/notifications/get-position-styles', () => {
   it('returns correct values for all positions', () => {
     expect(getPositionStyles(['top', 'left'], 20)).toStrictEqual({ top: 20, left: 20 });
     expect(getPositionStyles(['top', 'right'], 20)).toStrictEqual({ top: 20, right: 20 });

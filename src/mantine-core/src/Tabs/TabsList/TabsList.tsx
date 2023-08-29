@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { TabsPosition } from '../Tabs.types';
 import { useTabsContext } from '../Tabs.context';
@@ -50,4 +50,4 @@ export const TabsList = forwardRef<HTMLDivElement, TabsListProps>((props, ref) =
   );
 });
 
-TabsList.displayName = '@mantine/core/TabsList';
+TabsList.displayName = '@reactgets/core/TabsList';

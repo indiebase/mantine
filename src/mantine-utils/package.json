@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/utils",
+  "name": "@reactgets/utils",
   "version": "6.0.19",
   "main": "cjs/index.js",
   "module": "esm/index.js",

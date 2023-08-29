@@ -1,6 +1,6 @@
 import { removePath } from './remove-path';
 
-describe('@mantine/form/remove-path', () => {
+describe('@reactgets/form/remove-path', () => {
   it('removes list item at given path (root property)', () => {
     expect(removePath('a', 1, { a: [1, 2, 3] })).toStrictEqual({ a: [1, 3] });
   });

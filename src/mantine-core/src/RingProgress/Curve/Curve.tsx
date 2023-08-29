@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMantineTheme, MantineColor } from '@mantine/styles';
+import { useMantineTheme, MantineColor } from '@reactgets/styles';
 import { Tooltip } from '../../Tooltip';
 import { getCurveProps } from './get-curve-props';
 
@@ -47,4 +47,4 @@ export function Curve({
   );
 }
 
-Curve.displayName = '@mantine/core/Curve';
+Curve.displayName = '@reactgets/core/Curve';

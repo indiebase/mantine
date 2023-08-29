@@ -1,4 +1,4 @@
-import { createSafeContext } from '@mantine/utils';
+import { createSafeContext } from '@reactgets/utils';
 import { ACCORDION_ERRORS } from './Accordion.errors';
 
 interface AccordionItemContext {

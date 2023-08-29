@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconAt } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Input, InputProps, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Input, InputProps, rem } from '@reactgets/core';
 
 const iconSizes = {
   xs: rem(14),
@@ -16,7 +16,7 @@ function Wrapper(props: InputProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Input } from '@mantine/core';
+import { Input } from '@reactgets/core';
 import { IconAt } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineColor, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineColor, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box';
 import { QuoteIcon } from './QuoteIcon';
 import useStyles, { BlockquoteStylesParams } from './Blockquote.styles';
@@ -59,4 +59,4 @@ export const Blockquote = forwardRef<HTMLQuoteElement, BlockquoteProps>(
   }
 );
 
-Blockquote.displayName = '@mantine/core/Blockquote';
+Blockquote.displayName = '@reactgets/core/Blockquote';

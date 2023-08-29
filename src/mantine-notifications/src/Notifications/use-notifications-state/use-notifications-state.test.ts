@@ -7,7 +7,7 @@ const TEST_NOTIFICATION: NotificationProps = {
   message: 'test-notification',
 };
 
-describe('@mantine/notifications/use-notifications-state', () => {
+describe('@reactgets/notifications/use-notifications-state', () => {
   it('adds notification to the list with showNotification handler', () => {
     const hook = renderHook(() => useNotificationsState({ limit: 3 }));
     expect(hook.result.current.notifications).toHaveLength(0);

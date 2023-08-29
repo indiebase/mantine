@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { usePagination } from './use-pagination';
 
-describe('@mantine/hooks/use-pagination', () => {
+describe('@reactgets/hooks/use-pagination', () => {
   it('setPage function sets active page', () => {
     const { result } = renderHook(() => usePagination({ total: 10 }));
 

@@ -1,14 +1,14 @@
-import { itSupportsSystemProps, itSupportsProviderVariant } from '@mantine/tests';
+import { itSupportsSystemProps, itSupportsProviderVariant } from '@reactgets/tests';
 import { Table, TableProps } from './Table';
 
 const defaultProps: TableProps = {};
 
-describe('@mantine/core/Table', () => {
+describe('@reactgets/core/Table', () => {
   itSupportsProviderVariant(Table, defaultProps, 'Table');
   itSupportsSystemProps({
     component: Table,
     props: defaultProps,
-    displayName: '@mantine/core/Table',
+    displayName: '@reactgets/core/Table',
     refType: HTMLTableElement,
     providerName: 'Table',
   });

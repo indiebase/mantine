@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Stack, StackProps, Button } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Stack, StackProps, Button } from '@reactgets/core';
 
 function Wrapper(props: StackProps) {
   return (
@@ -19,7 +19,7 @@ function Wrapper(props: StackProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Stack, Button } from '@mantine/core';
+import { Stack, Button } from '@reactgets/core';
 
 function Demo() {
   return (

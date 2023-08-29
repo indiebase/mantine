@@ -1,4 +1,4 @@
-import { MantineNumberSize } from '@mantine/styles';
+import { MantineNumberSize } from '@reactgets/styles';
 
 export interface TransferListItem {
   value: string;

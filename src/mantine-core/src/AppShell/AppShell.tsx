@@ -4,7 +4,7 @@ import {
   DefaultProps,
   Selectors,
   useComponentDefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Box } from '../Box';
 import { AppShellProvider } from './AppShell.context';
 import useStyles from './AppShell.styles';
@@ -104,4 +104,4 @@ export const AppShell = forwardRef<HTMLDivElement, AppShellProps>((props: AppShe
   );
 });
 
-AppShell.displayName = '@mantine/core/AppShell';
+AppShell.displayName = '@reactgets/core/AppShell';

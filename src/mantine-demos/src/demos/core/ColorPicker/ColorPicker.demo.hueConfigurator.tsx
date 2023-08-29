@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { DEFAULT_THEME, Text, HueSlider, HueSliderProps, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { DEFAULT_THEME, Text, HueSlider, HueSliderProps, Box } from '@reactgets/core';
 
 function Wrapper(props: HueSliderProps) {
   const [value, onChange] = useState(250);
@@ -21,7 +21,7 @@ function Wrapper(props: HueSliderProps) {
 }
 
 const codeTemplate = (props: string) => `import { useState } from 'react';
-import { HueSlider, Text } from '@mantine/core';
+import { HueSlider, Text } from '@reactgets/core';
 
 function Demo() {
   const [value, onChange] = useState(250);

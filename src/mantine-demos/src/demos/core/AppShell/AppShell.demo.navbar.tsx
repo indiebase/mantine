@@ -1,12 +1,12 @@
 import React from 'react';
-import { Navbar } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Navbar } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { User } from './_user';
 import { Brand } from './_brand';
 import { MainLinks } from './_mainLinks';
 
 const code = `
-import { Navbar } from '@mantine/core';
+import { Navbar } from '@reactgets/core';
 
 function Demo() {
   return (

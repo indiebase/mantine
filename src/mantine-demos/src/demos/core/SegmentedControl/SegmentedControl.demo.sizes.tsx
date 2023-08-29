@@ -1,6 +1,6 @@
 import React from 'react';
-import { MANTINE_SIZES, Box, SegmentedControl } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { MANTINE_SIZES, Box, SegmentedControl } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 
 function Demo() {
   const items = MANTINE_SIZES.map((size, index) => (

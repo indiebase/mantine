@@ -1,6 +1,6 @@
 import React from 'react';
-import { EmotionCache, useEmotionCache } from '@mantine/core';
-import { useIsomorphicEffect } from '@mantine/hooks';
+import { EmotionCache, useEmotionCache } from '@reactgets/core';
+import { useIsomorphicEffect } from '@reactgets/hooks';
 
 interface ClientProviderProps {
   children: React.ReactNode;

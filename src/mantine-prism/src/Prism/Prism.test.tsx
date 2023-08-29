@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itSupportsSystemProps, itSupportsProviderVariant } from '@mantine/tests';
+import { itSupportsSystemProps, itSupportsProviderVariant } from '@reactgets/tests';
 import { Prism, PrismProps } from './Prism';
 
 const defaultProps: PrismProps = {
@@ -9,12 +9,12 @@ const defaultProps: PrismProps = {
   language: 'tsx',
 };
 
-describe('@mantine/prism/Prism', () => {
+describe('@reactgets/prism/Prism', () => {
   itSupportsProviderVariant(Prism, defaultProps, 'Prism');
   itSupportsSystemProps({
     component: Prism,
     props: defaultProps,
-    displayName: '@mantine/prism/Prism',
+    displayName: '@reactgets/prism/Prism',
     refType: HTMLDivElement,
   });
 

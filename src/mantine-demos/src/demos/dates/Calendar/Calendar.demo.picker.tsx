@@ -1,14 +1,14 @@
 import dayjs from 'dayjs';
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group } from '@mantine/core';
-import { Calendar } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { Group } from '@reactgets/core';
+import { Calendar } from '@reactgets/dates';
 
 const code = `
 import dayjs from 'dayjs';
 import { useState } from 'react';
-import { Group } from '@mantine/core';
-import { Calendar } from '@mantine/dates';
+import { Group } from '@reactgets/core';
+import { Calendar } from '@reactgets/dates';
 
 function Demo() {
   const [selected, setSelected] = useState<Date[]>([]);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/styles';
+import { rem } from '@reactgets/styles';
 
 interface ChevronProps {
   size: number | string;

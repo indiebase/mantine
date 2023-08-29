@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/dirty', () => {
+describe('@reactgets/form/dirty', () => {
   it('accepts initial dirty state', () => {
     const hook = renderHook(() => useForm({ initialDirty: { a: true, b: false } }));
     expect(hook.result.current.isDirty('a')).toBe(true);

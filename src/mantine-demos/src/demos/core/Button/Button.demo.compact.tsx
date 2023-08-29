@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Button, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, Group } from '@reactgets/core';
 
 const code = `
-import { Button } from '@mantine/core';
+import { Button } from '@reactgets/core';
 
 function Demo() {
   return <Button compact>My compact button</Button>;

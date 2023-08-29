@@ -4,20 +4,20 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Code, CodeProps } from './Code';
 
 const defaultProps: CodeProps = {
   children: 'test-code',
 };
 
-describe('@mantine/core/Code', () => {
+describe('@reactgets/core/Code', () => {
   itRendersChildren(Code, defaultProps);
   itSupportsProviderVariant(Code, defaultProps, 'Code');
   itSupportsSystemProps({
     component: Code,
     props: defaultProps,
-    displayName: '@mantine/core/Code',
+    displayName: '@reactgets/core/Code',
     refType: HTMLElement,
     providerName: 'Code',
   });

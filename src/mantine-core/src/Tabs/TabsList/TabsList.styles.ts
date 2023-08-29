@@ -1,4 +1,4 @@
-import { createStyles, CSSObject, MantineTheme, rem } from '@mantine/styles';
+import { createStyles, CSSObject, MantineTheme, rem } from '@reactgets/styles';
 import { GROUP_POSITIONS } from '../../Group/Group.styles';
 import { TabsStylesParams, TabsPosition } from '../Tabs.types';
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconUpload } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { FileInput, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { FileInput, rem } from '@reactgets/core';
 
 const code = `
-import { FileInput, rem } from '@mantine/core';
+import { FileInput, rem } from '@reactgets/core';
 import { IconUpload } from '@tabler/icons-react';
 
 function Demo() {

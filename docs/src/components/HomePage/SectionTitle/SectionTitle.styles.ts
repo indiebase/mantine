@@ -1,4 +1,4 @@
-import { createStyles, rem, em } from '@mantine/core';
+import { createStyles, rem, em } from '@reactgets/core';
 
 export default createStyles((theme) => ({
   title: {

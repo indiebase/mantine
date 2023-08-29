@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, rem } from '@mantine/core';
+import { createStyles, MantineNumberSize, rem } from '@reactgets/core';
 
 interface PrismTabsStylesParams {
   radius: MantineNumberSize;

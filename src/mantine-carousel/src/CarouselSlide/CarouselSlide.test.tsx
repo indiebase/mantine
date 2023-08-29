@@ -4,7 +4,7 @@ import {
   createContextContainer,
   itThrowsContextError,
   itRendersChildren,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { CAROUSEL_ERRORS } from '../Carousel.errors';
 import { CarouselSlide, CarouselSlideProps } from './CarouselSlide';
 import { CarouselProvider } from '../Carousel.context';
@@ -30,13 +30,13 @@ const TestContainer = createContextContainer(CarouselSlide, ({ children }) => (
   </CarouselProvider>
 ));
 
-describe('@mantine/carousel/CarouselSlide', () => {
+describe('@reactgets/carousel/CarouselSlide', () => {
   itRendersChildren(TestContainer, defaultProps);
   itThrowsContextError(CarouselSlide, defaultProps, CAROUSEL_ERRORS.context);
   itSupportsSystemProps({
     component: TestContainer,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/carousel/CarouselSlide',
+    displayName: '@reactgets/carousel/CarouselSlide',
   });
 });

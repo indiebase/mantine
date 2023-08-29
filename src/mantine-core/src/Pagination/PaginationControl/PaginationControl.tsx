@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps, Selectors, DefaultProps } from '@mantine/styles';
+import { useComponentDefaultProps, Selectors, DefaultProps } from '@reactgets/styles';
 import { UnstyledButton } from '../../UnstyledButton';
 import { usePaginationContext } from '../Pagination.context';
 import useStyles from './PaginationControl.styles';
@@ -48,4 +48,4 @@ export const PaginationControl = forwardRef<HTMLButtonElement, PaginationControl
   }
 );
 
-PaginationControl.displayName = '@mantine/core/PaginationControl';
+PaginationControl.displayName = '@reactgets/core/PaginationControl';

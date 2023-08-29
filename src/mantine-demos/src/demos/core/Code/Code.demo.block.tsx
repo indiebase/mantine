@@ -1,12 +1,12 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Code } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Code } from '@reactgets/core';
 
 const code = `
-import { Code } from '@mantine/core';
+import { Code } from '@reactgets/core';
 
 const codeForPreviousDemo = \`import React from 'react';
-import { Code } from '@mantine/core';
+import { Code } from '@reactgets/core';
 
 function Demo() {
   return <Code>React.createElement()</Code>;
@@ -18,7 +18,7 @@ function Demo() {
 `;
 
 const codeForPreviousDemo = `import React from 'react';
-import { Code } from '@mantine/core';
+import { Code } from '@reactgets/core';
 
 function Demo() {
   return <Code>React.createElement()</Code>;

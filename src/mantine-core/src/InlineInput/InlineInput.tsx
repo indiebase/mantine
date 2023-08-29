@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, Selectors } from '@mantine/styles';
+import { DefaultProps, MantineNumberSize, Selectors } from '@reactgets/styles';
 import { Box } from '../Box';
 import { Input } from '../Input';
 import useStyles from './InlineInput.styles';
@@ -72,4 +72,4 @@ export const InlineInput = forwardRef<HTMLDivElement, InlineInputProps>(
   }
 );
 
-InlineInput.displayName = '@mantine/core/InlineInput';
+InlineInput.displayName = '@reactgets/core/InlineInput';

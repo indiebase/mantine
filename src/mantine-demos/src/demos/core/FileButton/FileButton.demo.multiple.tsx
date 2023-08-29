@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { FileButton, Button, Group, Text, List } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { FileButton, Button, Group, Text, List } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { FileButton, Button, Group, Text, List } from '@mantine/core';
+import { FileButton, Button, Group, Text, List } from '@reactgets/core';
 
 function Demo() {
   const [files, setFiles] = useState<File[]>([]);

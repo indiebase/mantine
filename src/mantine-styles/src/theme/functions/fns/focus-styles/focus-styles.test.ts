@@ -1,7 +1,7 @@
 import { focusStyles } from './focus-styles';
 import { DEFAULT_THEME } from '../../../default-theme';
 
-describe('@mantine/styles/focus-styles', () => {
+describe('@reactgets/styles/focus-styles', () => {
   it('uses primaryColor from given theme', () => {
     expect(
       (focusStyles({ ...DEFAULT_THEME, primaryColor: 'red' })()['&:focus'] as any).outline.includes(

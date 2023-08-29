@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Divider } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Divider } from '@reactgets/core';
 
 const code = `
-import { Divider } from '@mantine/core';
+import { Divider } from '@reactgets/core';
 
 function Demo() {
   return (

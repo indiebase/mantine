@@ -4,18 +4,18 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Divider, DividerProps } from './Divider';
 
 const defaultProps: DividerProps = {};
 
-describe('@mantine/core/Divider', () => {
+describe('@reactgets/core/Divider', () => {
   itSupportsProviderVariant(Divider, defaultProps, 'Divider');
   itSupportsProviderSize(Divider, defaultProps, 'Divider');
   itSupportsSystemProps({
     component: Divider,
     props: defaultProps,
-    displayName: '@mantine/core/Divider',
+    displayName: '@reactgets/core/Divider',
     refType: HTMLDivElement,
   });
 

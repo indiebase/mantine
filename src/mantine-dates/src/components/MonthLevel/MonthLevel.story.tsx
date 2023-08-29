@@ -1,7 +1,7 @@
 import 'dayjs/locale/ru';
 import dayjs from 'dayjs';
 import React, { useState } from 'react';
-import { MANTINE_SIZES } from '@mantine/core';
+import { MANTINE_SIZES } from '@reactgets/core';
 import { MonthLevel, MonthLevelProps } from './MonthLevel';
 
 export default { title: 'MonthLevel' };

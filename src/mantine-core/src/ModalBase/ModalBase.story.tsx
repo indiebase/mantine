@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDisclosure } from '@mantine/hooks';
+import { useDisclosure } from '@reactgets/hooks';
 import { ModalBase } from './ModalBase';
 import { Button } from '../Button';
 

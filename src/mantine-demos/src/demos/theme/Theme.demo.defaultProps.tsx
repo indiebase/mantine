@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { MantineProvider, Group, Button, Switch, ButtonProps, SwitchProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { MantineProvider, Group, Button, Switch, ButtonProps, SwitchProps } from '@reactgets/core';
 
 const ButtonDefaultProps: Partial<ButtonProps> = {
   size: 'xs',
@@ -14,7 +14,7 @@ const SwitchDefaultProps: Partial<SwitchProps> = {
 };
 
 const code = `
-import { MantineProvider, Group, Button, Switch } from '@mantine/core';
+import { MantineProvider, Group, Button, Switch } from '@reactgets/core';
 
 function Demo() {
   return (

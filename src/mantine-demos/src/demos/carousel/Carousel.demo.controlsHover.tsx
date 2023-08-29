@@ -1,12 +1,12 @@
 import React from 'react';
-import { createStyles, getStylesRef } from '@mantine/core';
-import { Carousel } from '@mantine/carousel';
-import { MantineDemo } from '@mantine/ds';
+import { createStyles, getStylesRef } from '@reactgets/core';
+import { Carousel } from '@reactgets/carousel';
+import { MantineDemo } from '@reactgets/ds';
 import { Slides } from './_slides';
 
 const code = `
-import { createStyles, getStylesRef } from '@mantine/core';
-import { Carousel } from '@mantine/carousel';
+import { createStyles, getStylesRef } from '@reactgets/core';
+import { Carousel } from '@reactgets/carousel';
 
 const useStyles = createStyles(() => ({
   controls: {

@@ -6,8 +6,8 @@ import {
   MantineNumberSize,
   useComponentDefaultProps,
   Variants,
-} from '@mantine/styles';
-import { useId } from '@mantine/hooks';
+} from '@reactgets/styles';
+import { useId } from '@reactgets/hooks';
 import { CloseButton } from '../CloseButton';
 import { Box } from '../Box';
 import useStyles, { AlertStylesParams } from './Alert.styles';
@@ -119,4 +119,4 @@ export const Alert = forwardRef<HTMLDivElement, AlertProps>((props: AlertProps, 
   );
 });
 
-Alert.displayName = '@mantine/core/Alert';
+Alert.displayName = '@reactgets/core/Alert';

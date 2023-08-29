@@ -4,7 +4,7 @@ import {
   itSupportsSystemProps,
   createContextContainer,
   itThrowsContextError,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { ListItem, ListItemProps } from './ListItem';
 import { ListProvider } from '../List.context';
 
@@ -15,13 +15,13 @@ const defaultProps: ListItemProps = {
 
 const TestContainer = createContextContainer(ListItem, ListProvider, { value: {} });
 
-describe('@mantine/core/ListItem', () => {
+describe('@reactgets/core/ListItem', () => {
   itThrowsContextError(ListItem, defaultProps, 'List component was not found in tree');
   itSupportsSystemProps({
     component: TestContainer,
     props: defaultProps,
     refType: HTMLLIElement,
-    displayName: '@mantine/core/ListItem',
+    displayName: '@reactgets/core/ListItem',
     providerName: 'ListItem',
   });
 

@@ -1,5 +1,5 @@
-import { useComponentDefaultProps, DefaultProps, MantineStyleSystemProps } from '@mantine/styles';
-import { useId } from '@mantine/hooks';
+import { useComponentDefaultProps, DefaultProps, MantineStyleSystemProps } from '@reactgets/styles';
+import { useId } from '@reactgets/hooks';
 import { extractSystemStyles } from '../Box';
 import { InputWrapperBaseProps } from './InputWrapper/InputWrapper';
 import { InputSharedProps } from './Input';

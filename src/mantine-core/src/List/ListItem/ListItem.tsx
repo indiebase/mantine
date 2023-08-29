@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { useListContext } from '../List.context';
 import useStyles from './ListItem.styles';
@@ -60,4 +60,4 @@ export const ListItem = forwardRef<HTMLLIElement, ListItemProps>((props, ref) =>
   );
 });
 
-ListItem.displayName = '@mantine/core/ListItem';
+ListItem.displayName = '@reactgets/core/ListItem';

@@ -1,6 +1,6 @@
 # Mantine Spotlight
 
-[![npm](https://img.shields.io/npm/dm/@mantine/spotlight)](https://www.npmjs.com/package/@mantine/spotlight)
+[![npm](https://img.shields.io/npm/dm/@reactgets/spotlight)](https://www.npmjs.com/package/@reactgets/spotlight)
 
 Overlay command center for your application
 
@@ -10,10 +10,10 @@ Overlay command center for your application
 
 ```bash
 # With yarn
-yarn add @mantine/spotlight @mantine/core @mantine/hooks
+yarn add @reactgets/spotlight @reactgets/core @reactgets/hooks
 
 # With npm
-npm install @mantine/spotlight @mantine/core @mantine/hooks
+npm install @reactgets/spotlight @reactgets/core @reactgets/hooks
 ```
 
 ## License

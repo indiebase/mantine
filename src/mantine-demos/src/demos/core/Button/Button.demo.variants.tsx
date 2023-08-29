@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Button, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, Group } from '@reactgets/core';
 
 function Demo() {
   return (

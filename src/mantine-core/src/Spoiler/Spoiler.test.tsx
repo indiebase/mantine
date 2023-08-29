@@ -4,7 +4,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Spoiler, SpoilerProps } from './Spoiler';
 
 const defaultProps: SpoilerProps = {
@@ -14,14 +14,14 @@ const defaultProps: SpoilerProps = {
   children: 'test-children',
 };
 
-describe('@mantine/core/Spoiler', () => {
+describe('@reactgets/core/Spoiler', () => {
   checkAccessibility([<Spoiler {...defaultProps} />]);
   itRendersChildren(Spoiler, defaultProps);
   itSupportsProviderVariant(Spoiler, defaultProps, 'Spoiler');
   itSupportsSystemProps({
     component: Spoiler,
     props: defaultProps,
-    displayName: '@mantine/core/Spoiler',
+    displayName: '@reactgets/core/Spoiler',
     refType: HTMLDivElement,
     providerName: 'Spoiler',
   });

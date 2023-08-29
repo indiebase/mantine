@@ -6,12 +6,12 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Anchor, AnchorProps } from './Anchor';
 
 const defaultProps: AnchorProps = {};
 
-describe('@mantine/core/Anchor', () => {
+describe('@reactgets/core/Anchor', () => {
   itRendersChildren(Anchor, defaultProps);
   itIsPolymorphic(Anchor, defaultProps);
   itSupportsProviderVariant(Anchor, defaultProps, 'Anchor');
@@ -19,7 +19,7 @@ describe('@mantine/core/Anchor', () => {
   itSupportsSystemProps({
     component: Anchor,
     props: defaultProps,
-    displayName: '@mantine/core/Anchor',
+    displayName: '@reactgets/core/Anchor',
     refType: HTMLAnchorElement,
     providerName: 'Anchor',
   });

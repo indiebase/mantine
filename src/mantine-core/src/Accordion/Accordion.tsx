@@ -1,5 +1,5 @@
 import React from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box';
 import { AccordionProviderProps, AccordionProvider } from './AccordionProvider';
 import { AccordionItem, AccordionItemStylesNames } from './AccordionItem/AccordionItem';
@@ -85,4 +85,4 @@ export function Accordion<Multiple extends boolean = false>(props: AccordionProp
 Accordion.Item = AccordionItem;
 Accordion.Control = AccordionControl;
 Accordion.Panel = AccordionPanel;
-Accordion.displayName = '@mantine/core/Accordion';
+Accordion.displayName = '@reactgets/core/Accordion';

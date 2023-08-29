@@ -1,6 +1,6 @@
 import React from 'react';
-import { useDisclosure } from '@mantine/hooks';
-import { MantineProvider } from '@mantine/styles';
+import { useDisclosure } from '@reactgets/hooks';
+import { MantineProvider } from '@reactgets/styles';
 import { Button } from '../Button';
 import { Drawer } from './Drawer';
 

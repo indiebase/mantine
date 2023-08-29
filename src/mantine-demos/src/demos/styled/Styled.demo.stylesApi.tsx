@@ -1,10 +1,10 @@
 import React from 'react';
-import { Slider, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Slider, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import styled from '@emotion/styled';
 
 const code = `
-import { Slider } from '@mantine/core';
+import { Slider } from '@reactgets/core';
 import styled from '@emotion/styled';
 
 const StyledSlider = styled(Slider)\`

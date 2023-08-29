@@ -5,20 +5,20 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import dayjs from 'dayjs';
 import { itSupportsYearsListProps, itHandlesControlsKeyboardEvents } from '../../tests';
 import { YearPicker } from './YearPicker';
 
 const defaultProps = {};
 
-describe('@mantine/dates/YearPicker', () => {
+describe('@reactgets/dates/YearPicker', () => {
   itSupportsSystemProps({
     component: YearPicker,
     props: defaultProps,
     refType: HTMLDivElement,
     providerName: 'YearPicker',
-    displayName: '@mantine/dates/YearPicker',
+    displayName: '@reactgets/dates/YearPicker',
   });
 
   itSupportsProviderVariant(YearPicker, defaultProps, 'YearPicker', 'calendar');

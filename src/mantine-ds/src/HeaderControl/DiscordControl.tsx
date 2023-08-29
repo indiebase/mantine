@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@reactgets/core';
 import { HeaderControl } from './HeaderControl';
 import { DiscordIcon } from '../Icons';
 import { meta } from '../meta';

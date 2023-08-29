@@ -1,10 +1,10 @@
 import dayjs from 'dayjs';
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { DateInput } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { DateInput } from '@reactgets/dates';
 
 const code = `
-import { DateInput } from '@mantine/dates';
+import { DateInput } from '@reactgets/dates';
 
 function Demo() {
   return (

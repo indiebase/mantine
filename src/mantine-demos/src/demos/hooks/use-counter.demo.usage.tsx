@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, Button, Text } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useCounter } from '@mantine/hooks';
+import { Group, Button, Text } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useCounter } from '@reactgets/hooks';
 
 const code = `
-import { Group, Button, Text } from '@mantine/core';
-import { useCounter } from '@mantine/hooks';
+import { Group, Button, Text } from '@reactgets/core';
+import { useCounter } from '@reactgets/hooks';
 
 function Demo() {
   const [count, handlers] = useCounter(0, { min: 0, max: 10 });

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { DateInput } from '@mantine/dates';
-import { Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { DateInput } from '@reactgets/dates';
+import { Box } from '@reactgets/core';
 
 const code = `
-import { DateInput } from '@mantine/dates';
+import { DateInput } from '@reactgets/dates';
 
 function Demo() {
   return (

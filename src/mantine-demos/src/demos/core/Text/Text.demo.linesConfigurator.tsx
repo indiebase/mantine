@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Text, TextProps, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Text, TextProps, Box } from '@reactgets/core';
 
 function Wrapper(props: TextProps) {
   return (
@@ -20,7 +20,7 @@ function Wrapper(props: TextProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Text } from '@mantine/core';
+import { Text } from '@reactgets/core';
 
 function Demo() {
   return (

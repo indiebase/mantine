@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { rem, useComponentDefaultProps } from '@mantine/styles';
+import { rem, useComponentDefaultProps } from '@reactgets/styles';
 import { ColorSlider, BaseColorSliderProps } from '../ColorSlider/ColorSlider';
 
 export type HueSliderProps = BaseColorSliderProps;
@@ -39,4 +39,4 @@ export const HueSlider = forwardRef<HTMLDivElement, HueSliderProps>((props, ref)
   );
 });
 
-HueSlider.displayName = '@mantine/core/HueSlider';
+HueSlider.displayName = '@reactgets/core/HueSlider';

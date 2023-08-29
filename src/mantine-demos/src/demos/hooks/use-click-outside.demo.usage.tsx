@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Paper, Button, Group, useMantineTheme, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useClickOutside } from '@mantine/hooks';
+import { Paper, Button, Group, useMantineTheme, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useClickOutside } from '@reactgets/hooks';
 
 const code = `
 import { useState } from 'react';
-import { Paper, Button } from '@mantine/core';
-import { useClickOutside } from '@mantine/hooks';
+import { Paper, Button } from '@reactgets/core';
+import { useClickOutside } from '@reactgets/hooks';
 
 function Demo() {
   const [opened, setOpened] = useState(false);

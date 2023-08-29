@@ -1,12 +1,12 @@
 import React from 'react';
-import { Modal, Group, Button } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
+import { Modal, Group, Button } from '@reactgets/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
 import { AuthenticationForm } from '../../../shared/AuthenticationForm/AuthenticationForm';
 
 const code = `
-import { useDisclosure } from '@mantine/hooks';
-import { Modal, Button, Group } from '@mantine/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { Modal, Button, Group } from '@reactgets/core';
 
 function Demo() {
   const [opened, { open, close }] = useDisclosure(false);

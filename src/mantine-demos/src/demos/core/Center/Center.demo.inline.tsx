@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Center, useMantineTheme, Anchor, Box, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Center, useMantineTheme, Anchor, Box, rem } from '@reactgets/core';
 
 const code = `
-import { Center, Anchor, Box, rem } from '@mantine/core';
+import { Center, Anchor, Box, rem } from '@reactgets/core';
 import { IconArrowLeft } from '@tabler/icons-react';
 
 function Demo() {

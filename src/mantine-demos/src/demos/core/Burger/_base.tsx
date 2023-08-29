@@ -1,6 +1,6 @@
 import React from 'react';
-import { useDisclosure } from '@mantine/hooks';
-import { Burger } from '@mantine/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { Burger } from '@reactgets/core';
 
 export function DemoBase(
   props: Omit<React.ComponentPropsWithoutRef<typeof Burger>, 'opened' | 'onChange'>

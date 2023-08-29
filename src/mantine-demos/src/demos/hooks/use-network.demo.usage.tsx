@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text, Table } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useNetwork } from '@mantine/hooks';
+import { Text, Table } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useNetwork } from '@reactgets/hooks';
 
 const code = `
-import { Text, Table } from '@mantine/core';
-import { useNetwork } from '@mantine/hooks';
+import { Text, Table } from '@reactgets/core';
+import { useNetwork } from '@reactgets/hooks';
 
 function Demo() {
   const networkStatus = useNetwork();

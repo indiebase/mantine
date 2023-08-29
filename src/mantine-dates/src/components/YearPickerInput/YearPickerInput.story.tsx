@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 import React from 'react';
-import { Button, MANTINE_SIZES } from '@mantine/core';
-import { WithinOverlays } from '@mantine/storybook';
+import { Button, MANTINE_SIZES } from '@reactgets/core';
+import { WithinOverlays } from '@reactgets/storybook';
 import { YearPickerInput } from './YearPickerInput';
 
 export default { title: 'YearPickerInput' };

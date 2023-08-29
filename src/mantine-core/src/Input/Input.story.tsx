@@ -1,5 +1,5 @@
 import React from 'react';
-import { MANTINE_SIZES } from '@mantine/styles';
+import { MANTINE_SIZES } from '@reactgets/styles';
 import { Input } from './Input';
 
 export default { title: 'Input' };

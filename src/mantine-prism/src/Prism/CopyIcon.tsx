@@ -31,4 +31,4 @@ export function CopyIcon({ copied }: CopyIconProps) {
   );
 }
 
-CopyIcon.displayName = '@mantine/prism/CopyIcon';
+CopyIcon.displayName = '@reactgets/prism/CopyIcon';

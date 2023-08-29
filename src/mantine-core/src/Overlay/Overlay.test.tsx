@@ -4,21 +4,21 @@ import {
   itIsPolymorphic,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { render } from '@testing-library/react';
-import { DEFAULT_THEME } from '@mantine/styles';
+import { DEFAULT_THEME } from '@reactgets/styles';
 import { Overlay, OverlayProps } from './Overlay';
 
 const defaultProps: OverlayProps = {};
 
-describe('@mantine/core/Overlay', () => {
+describe('@reactgets/core/Overlay', () => {
   itIsPolymorphic(Overlay, defaultProps);
   itRendersChildren(Overlay, defaultProps);
   itSupportsProviderVariant(Overlay, defaultProps, 'Overlay');
   itSupportsSystemProps({
     component: Overlay,
     props: defaultProps,
-    displayName: '@mantine/core/Overlay',
+    displayName: '@reactgets/core/Overlay',
     refType: HTMLDivElement,
     providerName: 'Overlay',
   });

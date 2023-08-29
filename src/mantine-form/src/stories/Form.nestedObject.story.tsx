@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput, Checkbox } from '@mantine/core';
+import { TextInput, Checkbox } from '@reactgets/core';
 import { FormBase } from './_base';
 import { useForm } from '../use-form';
 

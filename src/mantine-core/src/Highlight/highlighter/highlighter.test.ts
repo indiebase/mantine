@@ -1,6 +1,6 @@
 import { highlighter } from './highlighter';
 
-describe('@mantine/core/Highlight/highlighter', () => {
+describe('@reactgets/core/Highlight/highlighter', () => {
   const VALUE = 'Hello, World';
 
   it('highlights start of string', () => {

@@ -1,6 +1,6 @@
 import { createPinArray } from './create-pin-array';
 
-describe('@mantine/core/PinInput/create-pin-array', () => {
+describe('@reactgets/core/PinInput/create-pin-array', () => {
   it('creates an array of empty strings if value is not provided', () => {
     expect(createPinArray(4, '')).toStrictEqual(['', '', '', '']);
     expect(createPinArray(4, null)).toStrictEqual(['', '', '', '']);

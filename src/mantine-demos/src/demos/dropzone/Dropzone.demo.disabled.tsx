@@ -1,11 +1,11 @@
 import React from 'react';
-import { createStyles } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { createStyles } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { BaseDemo } from './_base';
 
 const code = `
-import { createStyles } from '@mantine/core';
-import { Dropzone } from '@mantine/dropzone';
+import { createStyles } from '@reactgets/core';
+import { Dropzone } from '@reactgets/dropzone';
 
 // Add your own disabled styles
 const useStyles = createStyles((theme) => ({

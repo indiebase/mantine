@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconChevronRight, IconChevronLeft } from '@tabler/icons-react';
-import { UnstyledButton, Group, Avatar, Text, Box, useMantineTheme, rem } from '@mantine/core';
+import { UnstyledButton, Group, Avatar, Text, Box, useMantineTheme, rem } from '@reactgets/core';
 
 export function User() {
   const theme = useMantineTheme();

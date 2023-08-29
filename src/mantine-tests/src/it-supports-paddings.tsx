@@ -1,5 +1,5 @@
 import React from 'react';
-import { DEFAULT_THEME, rem } from '@mantine/styles';
+import { DEFAULT_THEME, rem } from '@reactgets/styles';
 import { render } from '@testing-library/react';
 
 export function itSupportsPaddings<P>(Component: React.ComponentType<P>, requiredProps: P) {

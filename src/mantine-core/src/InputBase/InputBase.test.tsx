@@ -7,14 +7,14 @@ import {
   itIsPolymorphic,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { InputBase, InputBaseProps } from './InputBase';
 
 const defaultProps: InputBaseProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/Input', () => {
+describe('@reactgets/core/Input', () => {
   checkAccessibility([<InputBase label="test-input" />, <InputBase aria-label="test-input" />]);
   itSupportsInputProps(InputBase, defaultProps, 'InputBase');
   itSupportsFocusEvents(InputBase, defaultProps, 'input');
@@ -24,7 +24,7 @@ describe('@mantine/core/Input', () => {
   itSupportsSystemProps({
     component: InputBase,
     props: defaultProps,
-    displayName: '@mantine/core/InputBase',
+    displayName: '@reactgets/core/InputBase',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'InputBase',

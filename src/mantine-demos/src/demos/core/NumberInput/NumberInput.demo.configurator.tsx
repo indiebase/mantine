@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { NumberInput, NumberInputProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { NumberInput, NumberInputProps } from '@reactgets/core';
 
 const codeTemplate = (props: string) => `
-import { NumberInput } from '@mantine/core';
+import { NumberInput } from '@reactgets/core';
 
 function Demo() {
   return (

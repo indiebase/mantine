@@ -10,7 +10,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import userEvent from '@testing-library/user-event';
 import { PasswordInput, PasswordInputProps } from './PasswordInput';
 
@@ -18,7 +18,7 @@ const defaultProps: PasswordInputProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/PasswordInput', () => {
+describe('@reactgets/core/PasswordInput', () => {
   checkAccessibility([<PasswordInput label="test" />, <PasswordInput aria-label="test" />]);
   itSupportsFocusEvents(PasswordInput, defaultProps, 'input');
   itSupportsInputWrapperProps(PasswordInput, defaultProps, 'PasswordInput');
@@ -34,7 +34,7 @@ describe('@mantine/core/PasswordInput', () => {
   itSupportsSystemProps({
     component: PasswordInput,
     props: defaultProps,
-    displayName: '@mantine/core/PasswordInput',
+    displayName: '@reactgets/core/PasswordInput',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'PasswordInput',

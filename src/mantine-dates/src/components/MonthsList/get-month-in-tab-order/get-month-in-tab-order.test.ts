@@ -8,7 +8,7 @@ const defaultMaxMonth = new Date(2100, 0);
 const defaultSelectedMonth = new Date(2010, 5);
 const defaultControlProps = () => ({});
 
-describe('@mantine/dates/get-month-in-tab-order', () => {
+describe('@reactgets/dates/get-month-in-tab-order', () => {
   it('returns selected month', () => {
     expect(
       getMonthInTabOrder(defaultMonths, defaultMinMonth, defaultMaxMonth, (date: Date) => ({

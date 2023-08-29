@@ -1,6 +1,6 @@
 import { linearGradient, radialGradient } from './gradient';
 
-describe('@mantine/styles/linear-gradient', () => {
+describe('@reactgets/styles/linear-gradient', () => {
   it('returns correct gradient with two color stops', () => {
     expect(linearGradient(24, '#000', '#fff')).toBe('linear-gradient(24deg, #000 0%, #fff 100%)');
   });
@@ -12,7 +12,7 @@ describe('@mantine/styles/linear-gradient', () => {
   });
 });
 
-describe('@mantine/styles/radial-gradient', () => {
+describe('@reactgets/styles/radial-gradient', () => {
   it('returns correct gradient with two color stops', () => {
     expect(radialGradient('#000', '#fff')).toBe('radial-gradient(circle, #000 0%, #fff 100%)');
   });

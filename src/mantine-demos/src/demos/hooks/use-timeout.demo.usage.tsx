@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Button, Text, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { randomId, useTimeout } from '@mantine/hooks';
+import { Button, Text, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { randomId, useTimeout } from '@reactgets/hooks';
 
 const code = `
 import { useState } from 'react';
-import { Button, Text, Group } from '@mantine/core';
-import { randomId, useTimeout } from '@mantine/hooks';
+import { Button, Text, Group } from '@reactgets/core';
+import { randomId, useTimeout } from '@reactgets/hooks';
 
 function Demo() {
   const [value, setValue] = useState('');

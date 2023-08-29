@@ -1,13 +1,13 @@
 import React from 'react';
 import { IconSun, IconMoonStars } from '@tabler/icons-react';
-import { AppShell, Navbar, Header, Group, ActionIcon, useMantineColorScheme } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { AppShell, Navbar, Header, Group, ActionIcon, useMantineColorScheme } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { MainLinks } from './_mainLinks';
 import { User } from './_user';
 import { Logo } from './_logo';
 
 const code = `
-import { AppShell, Navbar, Header } from '@mantine/core';
+import { AppShell, Navbar, Header } from '@reactgets/core';
 
 function Demo() {
   return (

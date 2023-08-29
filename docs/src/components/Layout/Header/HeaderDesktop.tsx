@@ -1,9 +1,9 @@
 /* eslint-disable import/no-relative-packages */
 import React from 'react';
 import { IconChevronDown, IconExternalLink } from '@tabler/icons-react';
-import { Code, Menu, UnstyledButton, Text, RemoveScroll, rem } from '@mantine/core';
-import { useSpotlight } from '@mantine/spotlight';
-import { HeaderControls } from '@mantine/ds';
+import { Code, Menu, UnstyledButton, Text, RemoveScroll, rem } from '@reactgets/core';
+import { useSpotlight } from '@reactgets/spotlight';
+import { HeaderControls } from '@reactgets/ds';
 import corePackageJson from '../../../../../package.json';
 import { Logo } from '../../Logo/Logo';
 import { useDirectionContext } from '../DirectionContext';

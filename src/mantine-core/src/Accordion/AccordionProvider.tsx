@@ -1,7 +1,7 @@
 import React from 'react';
-import { getSafeId } from '@mantine/utils';
-import { useUncontrolled, useId } from '@mantine/hooks';
-import { MantineNumberSize, ClassNames, Styles } from '@mantine/styles';
+import { getSafeId } from '@reactgets/utils';
+import { useUncontrolled, useId } from '@reactgets/hooks';
+import { MantineNumberSize, ClassNames, Styles } from '@reactgets/styles';
 import { AccordionContextProvider } from './Accordion.context';
 import {
   AccordionValue,

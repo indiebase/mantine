@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { useForm } from '@mantine/form';
-import { TextInput, Button, Box, Code } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useForm } from '@reactgets/form';
+import { TextInput, Button, Box, Code } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { useForm } from '@mantine/form';
-import { TextInput, Button, Box, Code } from '@mantine/core';
+import { useForm } from '@reactgets/form';
+import { TextInput, Button, Box, Code } from '@reactgets/core';
 
 function Demo() {
   const [submittedValues, setSubmittedValues] = useState('');

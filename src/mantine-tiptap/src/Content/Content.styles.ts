@@ -1,4 +1,4 @@
-import { createStyles, MantineTheme, rem } from '@mantine/core';
+import { createStyles, MantineTheme, rem } from '@reactgets/core';
 
 interface ContentStylesParams {
   withCodeHighlightStyles: boolean;

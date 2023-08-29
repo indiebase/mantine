@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { useReducedMotion } from '@mantine/hooks';
+import { useReducedMotion } from '@reactgets/hooks';
 
 interface UseScrollLock {
   opened: boolean;

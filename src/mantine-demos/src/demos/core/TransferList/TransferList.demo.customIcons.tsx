@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconFilePlus, IconFolderPlus, IconFileMinus, IconFolderMinus } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { Wrapper } from './_wrapper';
 
 const code = `
@@ -10,7 +10,7 @@ import {
   IconFileMinus,
   IconFolderMinus,
 } from '@tabler/icons-react';
-import { TransferList } from '@mantine/core';
+import { TransferList } from '@reactgets/core';
 
 function Demo() {
   return (

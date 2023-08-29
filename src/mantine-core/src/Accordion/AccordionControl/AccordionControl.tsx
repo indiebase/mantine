@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/styles';
-import { createScopedKeydownHandler } from '@mantine/utils';
+import { DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/styles';
+import { createScopedKeydownHandler } from '@reactgets/utils';
 import { UnstyledButton } from '../../UnstyledButton';
 import { useAccordionContext } from '../Accordion.context';
 import { useAccordionItemContext } from '../AccordionItem.context';
@@ -97,4 +97,4 @@ export const AccordionControl = forwardRef<HTMLButtonElement, AccordionControlPr
   }
 );
 
-AccordionControl.displayName = '@mantine/core/AccordionControl';
+AccordionControl.displayName = '@reactgets/core/AccordionControl';

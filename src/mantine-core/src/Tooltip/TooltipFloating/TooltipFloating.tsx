@@ -1,7 +1,7 @@
 import React, { cloneElement } from 'react';
-import { isElement } from '@mantine/utils';
-import { useMergedRef } from '@mantine/hooks';
-import { getDefaultZIndex, useComponentDefaultProps } from '@mantine/styles';
+import { isElement } from '@reactgets/utils';
+import { useMergedRef } from '@reactgets/hooks';
+import { getDefaultZIndex, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { OptionalPortal } from '../../Portal';
 import { TooltipBaseProps } from '../Tooltip.types';
@@ -104,4 +104,4 @@ export function TooltipFloating(props: TooltipFloatingProps) {
   );
 }
 
-TooltipFloating.displayName = '@mantine/core/TooltipFloating';
+TooltipFloating.displayName = '@reactgets/core/TooltipFloating';

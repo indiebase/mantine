@@ -1,4 +1,4 @@
-import type { RadioGroupStylesNames, RadioStylesNames } from '@mantine/core';
+import type { RadioGroupStylesNames, RadioStylesNames } from '@reactgets/core';
 import { InputWrapper } from './InputWrapper.styles-api';
 
 export const RadioGroup: Record<RadioGroupStylesNames, string> = InputWrapper;

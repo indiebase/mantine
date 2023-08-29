@@ -8,13 +8,13 @@ import {
   itSupportsFocusEvents,
   itSupportsProviderSize,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Button, ButtonProps } from './Button';
 import { ButtonGroup } from './ButtonGroup/ButtonGroup';
 
 const defaultProps: ButtonProps = {};
 
-describe('@mantine/core/Button', () => {
+describe('@reactgets/core/Button', () => {
   checkAccessibility([<Button>Mantine button</Button>]);
   itRendersChildren(Button, defaultProps);
   itIsPolymorphic(Button, defaultProps);
@@ -24,7 +24,7 @@ describe('@mantine/core/Button', () => {
   itSupportsSystemProps({
     component: Button,
     props: defaultProps,
-    displayName: '@mantine/core/Button',
+    displayName: '@reactgets/core/Button',
     refType: HTMLButtonElement,
     providerName: 'Button',
     excludePadding: true,

@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Tooltip, Group, Button } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Tooltip, Group, Button } from '@reactgets/core';
 
 const code = `
-import { Button, Tooltip } from '@mantine/core';
+import { Button, Tooltip } from '@reactgets/core';
 
 function Demo() {
   return (

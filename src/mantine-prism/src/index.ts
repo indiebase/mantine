@@ -1,5 +1,5 @@
-import { Tabs } from '@mantine/core';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+import { Tabs } from '@reactgets/core';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { PrismTabs, PrismPanel } from './PrismTabs/PrismTabs';
 import { Prism, PrismProps } from './Prism/Prism';
 

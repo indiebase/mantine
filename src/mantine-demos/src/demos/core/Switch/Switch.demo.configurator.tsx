@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Switch, SwitchProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Switch, SwitchProps } from '@reactgets/core';
 
 const codeTemplate = (props: string) => `
-import { Switch } from '@mantine/core';
+import { Switch } from '@reactgets/core';
 
 function Demo() {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { TextInput, Loader } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { TextInput, Loader } from '@reactgets/core';
 
 const code = `
-import { TextInput, Loader } from '@mantine/core';
+import { TextInput, Loader } from '@reactgets/core';
 
 function Demo() {
   return <TextInput label="Your email" placeholder="Your email" rightSection={<Loader size="xs" />} />;

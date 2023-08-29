@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { createStyles, keyframes, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { createStyles, keyframes, rem } from '@reactgets/core';
 
 const code = `
-import { createStyles, keyframes } from '@mantine/core';
+import { createStyles, keyframes } from '@reactgets/core';
 
 // Export animation to reuse it in other components
 export const bounce = keyframes({

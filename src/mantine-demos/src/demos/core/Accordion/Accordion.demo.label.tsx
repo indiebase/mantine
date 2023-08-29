@@ -1,10 +1,10 @@
 import React from 'react';
-import { Group, Avatar, Text, Accordion, AccordionProps, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Group, Avatar, Text, Accordion, AccordionProps, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { charactersList } from './_mockdata';
 
 const code = `
-import { Group, Avatar, Text, Accordion } from '@mantine/core';
+import { Group, Avatar, Text, Accordion } from '@reactgets/core';
 
 const charactersList = [
   {

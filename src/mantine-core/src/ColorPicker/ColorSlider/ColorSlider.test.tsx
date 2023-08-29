@@ -1,4 +1,4 @@
-import { itSupportsSystemProps } from '@mantine/tests';
+import { itSupportsSystemProps } from '@reactgets/tests';
 import { ColorSlider, ColorSliderProps } from './ColorSlider';
 
 const defaultProps: ColorSliderProps = {
@@ -11,11 +11,11 @@ const defaultProps: ColorSliderProps = {
   round: true,
 };
 
-describe('@mantine/core/ColorSlider', () => {
+describe('@reactgets/core/ColorSlider', () => {
   itSupportsSystemProps({
     component: ColorSlider,
     props: defaultProps,
-    displayName: '@mantine/core/ColorSlider',
+    displayName: '@reactgets/core/ColorSlider',
     refType: HTMLDivElement,
   });
 });

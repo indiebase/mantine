@@ -3,7 +3,7 @@ import { noop } from '../noop/noop';
 
 const mockEvent: any = { key: 'Escape', code: 'Escape' };
 
-describe('@mantine/core/close-on-escape', () => {
+describe('@reactgets/core/close-on-escape', () => {
   it('calls given callback function', () => {
     const spy = jest.fn();
     closeOnEscape(spy)(mockEvent);

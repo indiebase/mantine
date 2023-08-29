@@ -1,4 +1,4 @@
-import type { AccordionStylesNames } from '@mantine/core';
+import type { AccordionStylesNames } from '@reactgets/core';
 
 export const Accordion: Record<AccordionStylesNames, string> = {
   item: 'Accordion item wrapper',

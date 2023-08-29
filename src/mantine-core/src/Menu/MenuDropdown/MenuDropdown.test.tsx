@@ -3,7 +3,7 @@ import {
   itSupportsSystemProps,
   itRendersChildren,
   itThrowsContextError,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { MenuDropdown, MenuDropdownProps } from './MenuDropdown';
 import { Menu } from '../Menu';
 import { MENU_ERRORS } from '../Menu.errors';
@@ -12,13 +12,13 @@ const defaultProps: MenuDropdownProps = {};
 
 const TestContainer = createContextContainer(MenuDropdown, Menu, { opened: true });
 
-describe('@mantine/core/MenuDropdown', () => {
+describe('@reactgets/core/MenuDropdown', () => {
   itThrowsContextError(MenuDropdown, defaultProps, MENU_ERRORS.context);
   itRendersChildren(TestContainer, defaultProps);
   itSupportsSystemProps({
     component: TestContainer,
     props: defaultProps,
-    displayName: '@mantine/core/MenuDropdown',
+    displayName: '@reactgets/core/MenuDropdown',
     providerName: 'MenuDropdown',
   });
 });

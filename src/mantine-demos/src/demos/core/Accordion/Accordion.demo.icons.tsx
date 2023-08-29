@@ -1,11 +1,11 @@
 import React from 'react';
 import { IconPhoto, IconPrinter, IconCameraSelfie } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Accordion, AccordionProps, useMantineTheme, Box, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Accordion, AccordionProps, useMantineTheme, Box, rem } from '@reactgets/core';
 
 const code = `
 import { IconPhoto, IconPrinter, IconCameraSelfie } from '@tabler/icons-react';
-import { Accordion, useMantineTheme, rem } from '@mantine/core';
+import { Accordion, useMantineTheme, rem } from '@reactgets/core';
 
 function Demo() {
   const theme = useMantineTheme();

@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconDatabase } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { DEFAULT_THEME, Button, Group, ButtonProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { DEFAULT_THEME, Button, Group, ButtonProps } from '@reactgets/core';
 
 function Wrapper(props: ButtonProps) {
   return (
@@ -14,7 +14,7 @@ function Wrapper(props: ButtonProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Button } from '@mantine/core';
+import { Button } from '@reactgets/core';
 import { IconDatabase } from '@tabler/icons-react';
 
 function Demo() {

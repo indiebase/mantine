@@ -5,8 +5,8 @@ import {
   Selectors,
   useMantineTheme,
   useComponentDefaultProps,
-} from '@mantine/styles';
-import { ForwardRefWithStaticComponents, packSx } from '@mantine/utils';
+} from '@reactgets/styles';
+import { ForwardRefWithStaticComponents, packSx } from '@reactgets/utils';
 import { Box } from '../Box';
 import useStyles, { ScrollAreaStylesParams } from './ScrollArea.styles';
 
@@ -168,8 +168,8 @@ const ScrollAreaAutosize = forwardRef<HTMLDivElement, ScrollAreaAutosizeProps>((
   );
 });
 
-ScrollAreaAutosize.displayName = '@mantine/core/ScrollAreaAutosize';
-_ScrollArea.displayName = '@mantine/core/ScrollArea';
+ScrollAreaAutosize.displayName = '@reactgets/core/ScrollAreaAutosize';
+_ScrollArea.displayName = '@reactgets/core/ScrollArea';
 _ScrollArea.Autosize = ScrollAreaAutosize;
 
 export const ScrollArea: ForwardRefWithStaticComponents<

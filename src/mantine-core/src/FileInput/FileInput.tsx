@@ -1,6 +1,6 @@
 import React, { forwardRef, useEffect, useRef } from 'react';
-import { DefaultProps, MantineSize, Selectors } from '@mantine/styles';
-import { useUncontrolled } from '@mantine/hooks';
+import { DefaultProps, MantineSize, Selectors } from '@reactgets/styles';
+import { useUncontrolled } from '@reactgets/hooks';
 import {
   Input,
   InputSharedProps,
@@ -178,7 +178,7 @@ export const _FileInput = forwardRef<HTMLButtonElement, FileInputProps>((props, 
   );
 });
 
-_FileInput.displayName = '@mantine/core/FileInput';
+_FileInput.displayName = '@reactgets/core/FileInput';
 
 type FileInputComponent = <Multiple extends boolean = false>(
   props: FileInputProps<Multiple> & {

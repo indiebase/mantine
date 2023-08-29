@@ -1,6 +1,6 @@
 import { getEndOfWeek } from './get-end-of-week';
 
-describe('@mantine/dates/get-end-of-week', () => {
+describe('@reactgets/dates/get-end-of-week', () => {
   it('returns end of week without first day of week param', () => {
     expect(getEndOfWeek(new Date(2021, 1, 5))).toStrictEqual(new Date(2021, 1, 7));
   });

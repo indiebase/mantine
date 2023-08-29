@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconHash } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Autocomplete, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Autocomplete, rem } from '@reactgets/core';
 
 const code = `
-import { Autocomplete } from '@mantine/core';
+import { Autocomplete } from '@reactgets/core';
 import { IconHash } from '@tabler/icons-react';
 
 function Demo() {

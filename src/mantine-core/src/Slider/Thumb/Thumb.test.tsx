@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itSupportsRef, checkAccessibility } from '@mantine/tests';
+import { itSupportsRef, checkAccessibility } from '@reactgets/tests';
 import { Thumb, ThumbProps } from './Thumb';
 
 const defaultProps: ThumbProps = {
@@ -23,7 +23,7 @@ const defaultProps: ThumbProps = {
   variant: '',
 };
 
-describe('@mantine/core/Thumb', () => {
+describe('@reactgets/core/Thumb', () => {
   checkAccessibility([<Thumb {...defaultProps} />]);
   itSupportsRef(Thumb, defaultProps, HTMLDivElement);
 
@@ -49,6 +49,6 @@ describe('@mantine/core/Thumb', () => {
   });
 
   it('has correct displayName', () => {
-    expect(Thumb.displayName).toStrictEqual('@mantine/core/SliderThumb');
+    expect(Thumb.displayName).toStrictEqual('@reactgets/core/SliderThumb');
   });
 });

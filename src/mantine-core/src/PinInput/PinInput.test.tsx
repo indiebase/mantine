@@ -5,17 +5,17 @@ import {
   checkAccessibility,
   itDisablesInputInsideDisabledFieldset,
   itSupportsSystemProps,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { PinInput, PinInputProps } from './PinInput';
 
 const defaultProps: PinInputProps = {};
 
-describe('@mantine/core/PinInput', () => {
+describe('@reactgets/core/PinInput', () => {
   checkAccessibility([<PinInput {...defaultProps} aria-label="Test label" />]);
   itSupportsSystemProps({
     component: PinInput,
     props: defaultProps,
-    displayName: '@mantine/core/PinInput',
+    displayName: '@reactgets/core/PinInput',
     refType: HTMLDivElement,
     providerName: 'PinInput',
   });

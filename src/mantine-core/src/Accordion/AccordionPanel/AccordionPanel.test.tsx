@@ -3,7 +3,7 @@ import {
   itSupportsSystemProps,
   itThrowsContextError,
   itRendersChildren,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { AccordionPanel, AccordionPanelProps } from './AccordionPanel';
 import { AccordionProvider } from '../AccordionProvider';
 import { AccordionItemContextProvider } from '../AccordionItem.context';
@@ -18,7 +18,7 @@ const TestContainer = createContextContainer(
 
 const defaultProps: AccordionPanelProps = {};
 
-describe('@mantine/core/AccordionPanel', () => {
+describe('@reactgets/core/AccordionPanel', () => {
   itThrowsContextError(
     createContextContainer(AccordionPanel, AccordionItemContextProvider, {
       value: { value: 'test-value' },
@@ -31,7 +31,7 @@ describe('@mantine/core/AccordionPanel', () => {
   itSupportsSystemProps({
     component: TestContainer,
     props: defaultProps,
-    displayName: '@mantine/core/AccordionPanel',
+    displayName: '@reactgets/core/AccordionPanel',
     providerName: 'AccordionPanel',
   });
 });

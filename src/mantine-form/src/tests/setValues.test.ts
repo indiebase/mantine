@@ -6,7 +6,7 @@ interface Values {
   b: number;
 }
 
-describe('@mantine/form/setValues', () => {
+describe('@reactgets/form/setValues', () => {
   it('resets errors when setValues is called', () => {
     const hook = renderHook(() => useForm<Values>({ initialErrors: { a: 1, b: 2 } }));
     expect(hook.result.current.errors).toStrictEqual({ a: 1, b: 2 });

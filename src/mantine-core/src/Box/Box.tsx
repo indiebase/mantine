@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { DefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { extractSystemStyles } from './style-system-props/extract-system-styles/extract-system-styles';
 import { useSx } from './use-sx/use-sx';
 
@@ -18,6 +18,6 @@ export const _Box = forwardRef<HTMLDivElement, BoxProps & { component: any }>(
   }
 );
 
-_Box.displayName = '@mantine/core/Box';
+_Box.displayName = '@reactgets/core/Box';
 
 export const Box = createPolymorphicComponent<'div', BoxProps>(_Box);

@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useReducedMotion } from '@mantine/hooks';
-import { DefaultProps, useComponentDefaultProps, useMantineTheme } from '@mantine/styles';
+import { useReducedMotion } from '@reactgets/hooks';
+import { DefaultProps, useComponentDefaultProps, useMantineTheme } from '@reactgets/styles';
 import { Box, extractSystemStyles } from '../Box';
 import { useCollapse } from './use-collapse';
 
@@ -73,4 +73,4 @@ export const Collapse = forwardRef<HTMLDivElement, CollapseProps>((props, ref) =
   );
 });
 
-Collapse.displayName = '@mantine/core/Collapse';
+Collapse.displayName = '@reactgets/core/Collapse';

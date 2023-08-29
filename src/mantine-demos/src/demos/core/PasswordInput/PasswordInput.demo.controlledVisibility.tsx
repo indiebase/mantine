@@ -1,11 +1,11 @@
 import React from 'react';
-import { useDisclosure } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { PasswordInput, Stack } from '@mantine/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { PasswordInput, Stack } from '@reactgets/core';
 
 const code = `
-import { useDisclosure } from '@mantine/hooks';
-import { PasswordInput, Stack } from '@mantine/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { PasswordInput, Stack } from '@reactgets/core';
 
 function Demo() {
   const [visible, { toggle }] = useDisclosure(false);

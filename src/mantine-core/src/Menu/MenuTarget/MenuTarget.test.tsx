@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itThrowsContextError, patchConsoleError, createContextContainer } from '@mantine/tests';
+import { itThrowsContextError, patchConsoleError, createContextContainer } from '@reactgets/tests';
 import { MenuTarget, MenuTargetProps } from './MenuTarget';
 import { MENU_ERRORS } from '../Menu.errors';
 import { Menu } from '../Menu';
@@ -11,7 +11,7 @@ const defaultProps: MenuTargetProps = {
 
 const TestContainer = createContextContainer(MenuTarget, Menu, { opened: true });
 
-describe('@mantine/core/MenuTarget', () => {
+describe('@reactgets/core/MenuTarget', () => {
   itThrowsContextError(MenuTarget, defaultProps, MENU_ERRORS.context);
 
   it('throws error if children cannot be processed', () => {
@@ -38,6 +38,6 @@ describe('@mantine/core/MenuTarget', () => {
   });
 
   it('has correct displayName', () => {
-    expect(MenuTarget.displayName).toEqual('@mantine/core/MenuTarget');
+    expect(MenuTarget.displayName).toEqual('@reactgets/core/MenuTarget');
   });
 });

@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, getSize } from '@mantine/styles';
+import { createStyles, MantineNumberSize, getSize } from '@reactgets/styles';
 
 interface ModalBaseBodyStylesParams {
   padding: MantineNumberSize;

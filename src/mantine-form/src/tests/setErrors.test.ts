@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/setErrors', () => {
+describe('@reactgets/form/setErrors', () => {
   it('filters out errors with undefined and null with setErrors handler', () => {
     const hook = renderHook(() => useForm());
     act(() => hook.result.current.setErrors({ a: 1, b: undefined, c: null, d: 2 }));

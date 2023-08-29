@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconAlertCircle } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Alert, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Alert, Box } from '@reactgets/core';
 
 function Wrapper(props: React.ComponentPropsWithoutRef<typeof Alert>) {
   return (
@@ -12,7 +12,7 @@ function Wrapper(props: React.ComponentPropsWithoutRef<typeof Alert>) {
 }
 
 const codeTemplate = (props: string, children: string) => `
-import { Alert } from '@mantine/core';
+import { Alert } from '@reactgets/core';
 import { IconAlertCircle } from '@tabler/icons-react';
 
 function Demo() {

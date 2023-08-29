@@ -1,10 +1,10 @@
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { BaseDemo } from './_base';
 
 const code = `
-import { Group, Text, useMantineTheme, rem } from '@mantine/core';
+import { Group, Text, useMantineTheme, rem } from '@reactgets/core';
 import { IconUpload, IconPhoto, IconX } from '@tabler/icons-react';
-import { Dropzone, DropzoneProps, IMAGE_MIME_TYPE } from '@mantine/dropzone';
+import { Dropzone, DropzoneProps, IMAGE_MIME_TYPE } from '@reactgets/dropzone';
 
 export function BaseDemo(props: Partial<DropzoneProps>) {
   const theme = useMantineTheme();

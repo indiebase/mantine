@@ -6,7 +6,7 @@ import {
   getSize,
   getBreakpointValue,
   em,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export interface AppShellStylesParams {
   padding: MantineNumberSize;

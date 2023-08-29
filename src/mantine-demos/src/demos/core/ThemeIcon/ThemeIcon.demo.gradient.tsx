@@ -1,11 +1,11 @@
 import React from 'react';
 import { IconPhoto } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, ThemeIcon } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, ThemeIcon } from '@reactgets/core';
 
 const code = `
 import { IconPhoto } from '@tabler/icons-react';
-import { ThemeIcon } from '@mantine/core';
+import { ThemeIcon } from '@reactgets/core';
 
 function Demo() {
   return (

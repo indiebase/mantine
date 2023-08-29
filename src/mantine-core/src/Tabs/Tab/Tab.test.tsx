@@ -5,7 +5,7 @@ import {
   itRendersChildren,
   itSupportsFocusEvents,
   itThrowsContextError,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import userEvent from '@testing-library/user-event';
 import { render, screen } from '@testing-library/react';
 import { Tab, TabProps } from './Tab';
@@ -19,7 +19,7 @@ const defaultProps: TabProps = {
 
 const TestContainer = createContextContainer(Tab, TabsProvider);
 
-describe('@mantine/core/Tab', () => {
+describe('@reactgets/core/Tab', () => {
   itThrowsContextError(Tab, defaultProps, TABS_ERRORS.context);
   itRendersChildren(TestContainer, defaultProps);
   itSupportsFocusEvents(TestContainer, defaultProps, '[role="tab"]');
@@ -27,7 +27,7 @@ describe('@mantine/core/Tab', () => {
     component: TestContainer,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/Tab',
+    displayName: '@reactgets/core/Tab',
     providerName: 'TabsTab',
   });
 

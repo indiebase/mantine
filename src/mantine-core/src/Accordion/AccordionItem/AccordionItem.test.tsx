@@ -3,7 +3,7 @@ import {
   createContextContainer,
   itRendersChildren,
   itThrowsContextError,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { AccordionItem, AccordionItemProps } from './AccordionItem';
 import { AccordionProvider } from '../AccordionProvider';
 import { ACCORDION_ERRORS } from '../Accordion.errors';
@@ -15,14 +15,14 @@ const defaultProps: AccordionItemProps = {
 
 const TestContainer = createContextContainer(AccordionItem, AccordionProvider, { order: 3 });
 
-describe('@mantine/core/AccordionItem', () => {
+describe('@reactgets/core/AccordionItem', () => {
   itRendersChildren(TestContainer, defaultProps);
   itThrowsContextError(AccordionItem, defaultProps, ACCORDION_ERRORS.context);
   itSupportsSystemProps({
     component: TestContainer,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/AccordionItem',
+    displayName: '@reactgets/core/AccordionItem',
     providerName: 'AccordionItem',
   });
 });

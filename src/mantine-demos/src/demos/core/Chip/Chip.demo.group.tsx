@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Chip, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Chip, Group } from '@reactgets/core';
 
 const code = `
-import { Chip } from '@mantine/core';
+import { Chip } from '@reactgets/core';
 
 function Demo() {
   return (

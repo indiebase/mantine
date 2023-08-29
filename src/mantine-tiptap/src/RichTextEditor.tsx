@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { useMemo, forwardRef } from 'react';
-import { Box, useComponentDefaultProps, DefaultProps, Selectors } from '@mantine/core';
+import { Box, useComponentDefaultProps, DefaultProps, Selectors } from '@reactgets/core';
 import { Editor } from '@tiptap/react';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { RichTextEditorProvider } from './RichTextEditor.context';
 import * as controls from './controls';
 import { Content, ContentStylesNames } from './Content/Content';
@@ -171,4 +171,4 @@ RichTextEditor.Highlight = controls.HighlightControl;
 RichTextEditor.Hr = controls.HrControl;
 RichTextEditor.UnsetColor = controls.UnsetColorControl;
 
-RichTextEditor.displayName = '@mantine/tiptap/RichTextEditor';
+RichTextEditor.displayName = '@reactgets/tiptap/RichTextEditor';

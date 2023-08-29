@@ -1,5 +1,5 @@
 import React, { useState, forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, MantineColor, Selectors } from '@mantine/styles';
+import { DefaultProps, MantineNumberSize, MantineColor, Selectors } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { Transition, MantineTransition } from '../../Transition';
 import useStyles from './Thumb.styles';
@@ -114,4 +114,4 @@ export const Thumb = forwardRef<HTMLDivElement, ThumbProps>(
   }
 );
 
-Thumb.displayName = '@mantine/core/SliderThumb';
+Thumb.displayName = '@reactgets/core/SliderThumb';

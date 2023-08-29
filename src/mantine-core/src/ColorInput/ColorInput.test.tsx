@@ -8,7 +8,7 @@ import {
   itSupportsFocusEvents,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { fireEvent, screen, render } from '@testing-library/react';
 import { ColorInput, ColorInputProps } from './ColorInput';
 
@@ -20,7 +20,7 @@ const getInput = () => screen.getByRole('textbox');
 const blurInput = () => fireEvent.blur(getInput());
 const focusInput = () => fireEvent.focus(getInput());
 
-describe('@mantine/core/ColorInput', () => {
+describe('@reactgets/core/ColorInput', () => {
   checkAccessibility([<ColorInput label="Color input" />, <ColorInput aria-label="Color input" />]);
   itSupportsWrapperProps(ColorInput, defaultProps);
   itSupportsProviderVariant(ColorInput, defaultProps, 'ColorInput', ['root', 'input', 'label']);
@@ -30,7 +30,7 @@ describe('@mantine/core/ColorInput', () => {
   itSupportsSystemProps({
     component: ColorInput,
     props: defaultProps,
-    displayName: '@mantine/core/ColorInput',
+    displayName: '@reactgets/core/ColorInput',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'ColorInput',

@@ -1,4 +1,4 @@
-import { MantineProvider } from '@mantine/styles';
+import { MantineProvider } from '@reactgets/styles';
 import React from 'react';
 import { List } from './List';
 import { ListStylesParams } from './List.styles';

@@ -1,6 +1,6 @@
 import { rem, em } from './rem';
 
-describe('@mantine/styles/rem', () => {
+describe('@reactgets/styles/rem', () => {
   it('converts numbers to rem', () => {
     expect(rem(0)).toBe('0rem');
     expect(rem(16)).toBe('1rem');
@@ -18,7 +18,7 @@ describe('@mantine/styles/rem', () => {
   });
 });
 
-describe('@mantine/styles/em', () => {
+describe('@reactgets/styles/em', () => {
   it('converts numbers to em', () => {
     expect(em(0)).toBe('0em');
     expect(em(16)).toBe('1em');

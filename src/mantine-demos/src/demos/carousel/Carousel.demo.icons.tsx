@@ -1,11 +1,11 @@
 import React from 'react';
-import { Carousel } from '@mantine/carousel';
+import { Carousel } from '@reactgets/carousel';
 import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { Slides } from './_slides';
 
 const code = `
-import { Carousel } from '@mantine/carousel';
+import { Carousel } from '@reactgets/carousel';
 import { IconArrowRight, IconArrowLeft } from '@tabler/icons-react';
 
 function Demo() {

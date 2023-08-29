@@ -1,6 +1,6 @@
 # Mantine Hooks
 
-[![npm](https://img.shields.io/npm/dm/@mantine/utils)](https://www.npmjs.com/package/@mantine/utils)
+[![npm](https://img.shields.io/npm/dm/@reactgets/utils)](https://www.npmjs.com/package/@reactgets/utils)
 
 A set of utils used in Mantine packages
 
@@ -10,10 +10,10 @@ A set of utils used in Mantine packages
 
 ```bash
 # With yarn
-yarn add @mantine/utils
+yarn add @reactgets/utils
 
 # With npm
-npm install @mantine/utils
+npm install @reactgets/utils
 ```
 
 ## License

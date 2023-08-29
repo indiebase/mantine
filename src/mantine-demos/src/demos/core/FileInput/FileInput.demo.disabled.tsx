@@ -1,9 +1,9 @@
-import { Box, FileInput } from '@mantine/core';
+import { Box, FileInput } from '@reactgets/core';
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 
 const code = `
-import { FileInput } from '@mantine/core';
+import { FileInput } from '@reactgets/core';
 
 function Demo() {
   return <FileInput disabled />;

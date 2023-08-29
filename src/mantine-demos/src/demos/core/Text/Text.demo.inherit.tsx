@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Text, Title } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Text, Title } from '@reactgets/core';
 
 const code = `
-import { Text, Title } from '@mantine/core';
+import { Text, Title } from '@reactgets/core';
 
 function Demo() {
   return <Title order={3}>Title in which you want to <Text span c="blue" inherit>highlight</Text> something</Title>;

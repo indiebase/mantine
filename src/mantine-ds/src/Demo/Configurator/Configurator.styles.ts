@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, MantineTheme, rem } from '@mantine/core';
+import { createStyles, MantineNumberSize, MantineTheme, rem } from '@reactgets/core';
 
 const BREAKPOINT = rem(885);
 

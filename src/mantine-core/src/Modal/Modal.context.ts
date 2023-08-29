@@ -1,5 +1,5 @@
-import { MantineNumberSize } from '@mantine/styles';
-import { createSafeContext } from '@mantine/utils';
+import { MantineNumberSize } from '@reactgets/styles';
+import { createSafeContext } from '@reactgets/utils';
 
 export type ScrollAreaComponent = React.FC<any>;
 

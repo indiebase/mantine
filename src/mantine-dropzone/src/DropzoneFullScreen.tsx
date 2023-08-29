@@ -7,8 +7,8 @@ import {
   Selectors,
   getDefaultZIndex,
   PortalProps,
-} from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+} from '@reactgets/core';
+import { useDisclosure } from '@reactgets/hooks';
 import { DropzoneStylesNames, DropzoneProps, _Dropzone } from './Dropzone';
 import useFullScreenStyles from './DropzoneFullScreen.styles';
 
@@ -132,6 +132,6 @@ export function DropzoneFullScreen(props: DropzoneFullScreenProps) {
   );
 }
 
-DropzoneFullScreen.displayName = '@mantine/dropzone/DropzoneFullScreen';
+DropzoneFullScreen.displayName = '@reactgets/dropzone/DropzoneFullScreen';
 
 export type DropzoneFullScreenType = typeof DropzoneFullScreen;

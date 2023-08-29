@@ -1,5 +1,5 @@
 import React from 'react';
-import { Group, ActionIcon, useMantineColorScheme, Box, rem } from '@mantine/core';
+import { Group, ActionIcon, useMantineColorScheme, Box, rem } from '@reactgets/core';
 import { IconSun, IconMoonStars } from '@tabler/icons-react';
 import { Logo } from './_logo';
 

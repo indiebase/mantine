@@ -1,6 +1,6 @@
 export { RemoveScroll } from 'react-remove-scroll';
-export { createPolymorphicComponent, packSx } from '@mantine/utils';
-export * from '@mantine/styles';
+export { createPolymorphicComponent, packSx } from '@reactgets/utils';
+export * from '@reactgets/styles';
 
 export * from './Accordion';
 export * from './ActionIcon';

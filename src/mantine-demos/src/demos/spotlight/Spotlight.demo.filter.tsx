@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconSearch } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { Wrapper } from './_wrapper';
 
 const code = `
-import { SpotlightProvider } from '@mantine/spotlight';
+import { SpotlightProvider } from '@reactgets/spotlight';
 
 function Demo() {
   return (

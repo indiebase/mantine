@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button, ButtonProps, createPolymorphicComponent, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Button, ButtonProps, createPolymorphicComponent, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import styled from '@emotion/styled';
 
 const code = `
-import { Button, ButtonProps, createPolymorphicComponent } from '@mantine/core';
+import { Button, ButtonProps, createPolymorphicComponent } from '@reactgets/core';
 import styled from '@emotion/styled';
 
 const _StyledButton = styled(Button)\`

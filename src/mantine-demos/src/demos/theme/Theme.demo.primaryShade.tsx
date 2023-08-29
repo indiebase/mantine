@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { MantineProvider, Group, Button, MantineTheme } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { MantineProvider, Group, Button, MantineTheme } from '@reactgets/core';
 
 function Wrapper({ primaryShade }: { primaryShade: MantineTheme['primaryShade'] }) {
   return (
@@ -15,7 +15,7 @@ function Wrapper({ primaryShade }: { primaryShade: MantineTheme['primaryShade'] 
 }
 
 const codeTemplate = (props: string) => `
-import { MantineProvider, Group, Button } from '@mantine/core';
+import { MantineProvider, Group, Button } from '@reactgets/core';
 
 function Demo() {
   return (

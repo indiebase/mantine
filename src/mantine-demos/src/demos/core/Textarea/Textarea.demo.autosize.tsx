@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Textarea, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Textarea, Box } from '@reactgets/core';
 
 const code = `
-import { Textarea } from '@mantine/core';
+import { Textarea } from '@reactgets/core';
 
 function Demo() {
   return (

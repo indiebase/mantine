@@ -3,7 +3,7 @@ import { defaultFilter, AutocompleteItem } from '../Autocomplete';
 
 const data = [{ value: 'react' }, { value: 'ng' }, { value: 'svelte' }, { value: 'vue' }];
 
-describe('@mantine/core/Autocomplete/filter-data', () => {
+describe('@reactgets/core/Autocomplete/filter-data', () => {
   it('filters data based on value', () => {
     expect(
       filterData({

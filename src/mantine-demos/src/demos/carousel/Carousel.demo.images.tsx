@@ -1,12 +1,12 @@
 import React from 'react';
-import { Carousel } from '@mantine/carousel';
-import { Image } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Carousel } from '@reactgets/carousel';
+import { Image } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { images as _images } from './_images';
 
 const code = `
-import { Carousel } from '@mantine/carousel';
-import { Image } from '@mantine/core';
+import { Carousel } from '@reactgets/carousel';
+import { Image } from '@reactgets/core';
 
 const images = [/* ... urls of images */];
 

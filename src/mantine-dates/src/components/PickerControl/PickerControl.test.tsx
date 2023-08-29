@@ -5,7 +5,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { PickerControl, PickerControlProps } from './PickerControl';
 
 const defaultProps: PickerControlProps = {};
@@ -24,13 +24,13 @@ function validateDataAttribute(prop: string) {
   });
 }
 
-describe('@mantine/dates/PickerControl', () => {
+describe('@reactgets/dates/PickerControl', () => {
   itSupportsSystemProps({
     component: PickerControl,
     props: defaultProps,
     refType: HTMLButtonElement,
     providerName: 'PickerControl',
-    displayName: '@mantine/dates/PickerControl',
+    displayName: '@reactgets/dates/PickerControl',
   });
 
   itSupportsProviderVariant(PickerControl, defaultProps, 'PickerControl', 'pickerControl');

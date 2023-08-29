@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconBrandTwitter } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Button, Group, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, Group, rem } from '@reactgets/core';
 
 const code = `
-import { Group, Button, rem } from '@mantine/core';
+import { Group, Button, rem } from '@reactgets/core';
 import { IconBrandTwitter } from '@tabler/icons-react';
 
 function Demo() {

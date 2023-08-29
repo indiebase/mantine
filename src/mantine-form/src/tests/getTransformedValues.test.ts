@@ -1,7 +1,7 @@
 import { renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/getTransformedValues', () => {
+describe('@reactgets/form/getTransformedValues', () => {
   it('transforms given values object', () => {
     const hook = renderHook(() =>
       useForm({

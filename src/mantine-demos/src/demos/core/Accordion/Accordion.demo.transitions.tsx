@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { BaseDemo } from './_base';
 
 const getCode = (prop: string) => `
-import { Accordion } from '@mantine/core';
+import { Accordion } from '@reactgets/core';
 
 function Demo() {
   return (

@@ -1,14 +1,14 @@
 import React from 'react';
-import { useForm } from '@mantine/form';
-import { TextInput, Switch, Group, ActionIcon, Box, Text, Button, Code } from '@mantine/core';
-import { randomId } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
+import { useForm } from '@reactgets/form';
+import { TextInput, Switch, Group, ActionIcon, Box, Text, Button, Code } from '@reactgets/core';
+import { randomId } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
 import { IconTrash } from '@tabler/icons-react';
 
 const code = `
-import { useForm } from '@mantine/form';
-import { TextInput, Switch, Group, ActionIcon, Box, Text, Button, Code } from '@mantine/core';
-import { randomId } from '@mantine/hooks';
+import { useForm } from '@reactgets/form';
+import { TextInput, Switch, Group, ActionIcon, Box, Text, Button, Code } from '@reactgets/core';
+import { randomId } from '@reactgets/hooks';
 import { IconTrash } from '@tabler/icons-react';
 
 function Demo() {

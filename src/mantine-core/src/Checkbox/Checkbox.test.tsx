@@ -10,14 +10,14 @@ import {
   itHandlesBooleanState,
   itSupportsProviderSize,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Checkbox, CheckboxProps } from './Checkbox';
 
 const defaultProps: CheckboxProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/Checkbox', () => {
+describe('@reactgets/core/Checkbox', () => {
   itSupportsWrapperProps(Checkbox, defaultProps);
   itConnectsLabelAndInput(Checkbox, defaultProps);
   itHandlesBooleanState(Checkbox, defaultProps);
@@ -33,7 +33,7 @@ describe('@mantine/core/Checkbox', () => {
   itSupportsSystemProps({
     component: Checkbox,
     props: defaultProps,
-    displayName: '@mantine/core/Checkbox',
+    displayName: '@reactgets/core/Checkbox',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'Checkbox',

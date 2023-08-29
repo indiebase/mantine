@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/touched', () => {
+describe('@reactgets/form/touched', () => {
   it('accepts initial touched state', () => {
     const hook = renderHook(() => useForm({ initialTouched: { a: true, b: false } }));
     expect(hook.result.current.isTouched('a')).toBe(true);

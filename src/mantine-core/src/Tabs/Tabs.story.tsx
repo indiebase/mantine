@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { IconPackage } from '@tabler/icons-react';
-import { MantineProvider } from '@mantine/styles';
+import { MantineProvider } from '@reactgets/styles';
 import { Tabs, TabsProps } from './Tabs';
 import { Badge } from '../Badge';
 import { Box } from '../Box';

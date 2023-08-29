@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, Badge } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useReducedMotion } from '@mantine/hooks';
+import { Group, Badge } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useReducedMotion } from '@reactgets/hooks';
 
 const code = `
-import { Badge } from '@mantine/core';
-import { useReducedMotion } from '@mantine/hooks';
+import { Badge } from '@reactgets/core';
+import { useReducedMotion } from '@reactgets/hooks';
 
 function Demo() {
   const reduceMotion = useReducedMotion();

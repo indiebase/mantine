@@ -1,6 +1,6 @@
 import { isDateValid } from './is-date-valid';
 
-describe('@mantine/dates/is-date-valid', () => {
+describe('@reactgets/dates/is-date-valid', () => {
   it('detects invalid date', () => {
     expect(
       isDateValid({

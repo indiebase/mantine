@@ -1,10 +1,10 @@
 import React from 'react';
-import { Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { DemoBase } from './_base';
 
 const code = `
-import { Burger } from '@mantine/core';
+import { Burger } from '@reactgets/core';
 
 function Demo() {
   return (

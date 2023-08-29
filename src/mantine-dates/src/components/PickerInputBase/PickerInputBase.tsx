@@ -13,8 +13,8 @@ import {
   PopoverProps,
   ModalProps,
   CloseButton,
-} from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+} from '@reactgets/core';
+import { useDisclosure } from '@reactgets/hooks';
 import { HiddenDatesInput, HiddenDatesInputValue } from '../HiddenDatesInput';
 import { CalendarStylesNames } from '../Calendar';
 import useStyles from './PickerInputBase.styles';
@@ -197,4 +197,4 @@ export const PickerInputBase = forwardRef<HTMLButtonElement, PickerInputBaseProp
   );
 });
 
-PickerInputBase.displayName = '@mantine/dates/PickerInputBase';
+PickerInputBase.displayName = '@reactgets/dates/PickerInputBase';

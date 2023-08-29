@@ -1,11 +1,11 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { rem } from '@mantine/core';
+import { rem } from '@reactgets/core';
 import {
   checkAccessibility,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Image, ImageProps } from './Image';
 
 const defaultProps: ImageProps = {
@@ -13,7 +13,7 @@ const defaultProps: ImageProps = {
   alt: 'Test',
 };
 
-describe('@mantine/core/Image', () => {
+describe('@reactgets/core/Image', () => {
   checkAccessibility([
     <Image {...defaultProps} />,
     <Image {...defaultProps} src={null} />,
@@ -24,7 +24,7 @@ describe('@mantine/core/Image', () => {
   itSupportsSystemProps({
     component: Image,
     props: defaultProps,
-    displayName: '@mantine/core/Image',
+    displayName: '@reactgets/core/Image',
     refType: HTMLDivElement,
   });
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import { IconSearch } from '@tabler/icons-react';
-import { Group, Text, Anchor, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Group, Text, Anchor, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { Wrapper } from './_wrapper';
 
 const code = `
-import { SpotlightProvider } from '@mantine/spotlight';
-import { Group, Text, Anchor, rem } from '@mantine/core';
+import { SpotlightProvider } from '@reactgets/spotlight';
+import { Group, Text, Anchor, rem } from '@reactgets/core';
 
 function ActionsWrapper({ children }: { children: React.ReactNode }) {
   return (

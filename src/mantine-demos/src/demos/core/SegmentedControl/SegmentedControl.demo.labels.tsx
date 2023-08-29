@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconEye, IconCode, IconExternalLink } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Center, SegmentedControl, Box, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Center, SegmentedControl, Box, Group } from '@reactgets/core';
 
 const code = `
-import { Center, SegmentedControl, Box } from '@mantine/core';
+import { Center, SegmentedControl, Box } from '@reactgets/core';
 import { IconEye, IconCode, IconExternalLink } from '@tabler/icons-react';
 
 function Demo() {

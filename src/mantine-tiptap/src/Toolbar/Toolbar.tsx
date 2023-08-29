@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { Group, DefaultProps, useComponentDefaultProps, Selectors } from '@mantine/core';
+import { Group, DefaultProps, useComponentDefaultProps, Selectors } from '@reactgets/core';
 import { useRichTextEditorContext } from '../RichTextEditor.context';
 import useStyles from './Toolbar.styles';
 
@@ -45,4 +45,4 @@ export const Toolbar = forwardRef<HTMLDivElement, RichTextEditorToolbarProps>((p
   );
 });
 
-Toolbar.displayName = '@mantine/tiptap/Toolbar';
+Toolbar.displayName = '@reactgets/tiptap/Toolbar';

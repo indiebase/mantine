@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/insertListItem', () => {
+describe('@reactgets/form/insertListItem', () => {
   it('appends list item to the end of the array if index is not specified', () => {
     const hook = renderHook(() => useForm({ initialValues: { a: [{ b: 1 }, { b: 2 }] } }));
     act(() => hook.result.current.insertListItem('a', { b: 3 }));

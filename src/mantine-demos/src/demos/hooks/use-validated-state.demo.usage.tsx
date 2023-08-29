@@ -1,11 +1,11 @@
 import React from 'react';
-import { TextInput, Text, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useValidatedState } from '@mantine/hooks';
+import { TextInput, Text, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useValidatedState } from '@reactgets/hooks';
 
 const code = `
-import { TextInput, Text, Box } from '@mantine/core';
-import { useValidatedState } from '@mantine/hooks';
+import { TextInput, Text, Box } from '@reactgets/core';
+import { useValidatedState } from '@reactgets/hooks';
 
 function Demo() {
   const [{ value, lastValidValue, valid }, setEmail] = useValidatedState(

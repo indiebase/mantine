@@ -1,11 +1,11 @@
 import React from 'react';
-import { useScrollIntoView } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { Button, Text, Group, Paper, Box } from '@mantine/core';
+import { useScrollIntoView } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, Text, Group, Paper, Box } from '@reactgets/core';
 
 const code = `
-import { useScrollIntoView } from '@mantine/hooks';
-import { Button, Text, Group, Paper, Box } from '@mantine/core';
+import { useScrollIntoView } from '@reactgets/hooks';
+import { Button, Text, Group, Paper, Box } from '@reactgets/core';
 
 function Demo() {
   const { scrollIntoView, targetRef, scrollableRef } = useScrollIntoView<

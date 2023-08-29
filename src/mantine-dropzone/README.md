@@ -1,6 +1,6 @@
 # Mantine Dropzone
 
-[![npm](https://img.shields.io/npm/dm/@mantine/dropzone)](https://www.npmjs.com/package/@mantine/dropzone)
+[![npm](https://img.shields.io/npm/dm/@reactgets/dropzone)](https://www.npmjs.com/package/@reactgets/dropzone)
 
 Capture files from user
 
@@ -10,10 +10,10 @@ Capture files from user
 
 ```bash
 # With yarn
-yarn add @mantine/dropzone @mantine/core @mantine/hooks
+yarn add @reactgets/dropzone @reactgets/core @reactgets/hooks
 
 # With npm
-npm install @mantine/dropzone @mantine/core @mantine/hooks
+npm install @reactgets/dropzone @reactgets/core @reactgets/hooks
 ```
 
 ## License

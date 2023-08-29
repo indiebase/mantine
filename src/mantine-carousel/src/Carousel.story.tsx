@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Button, Modal } from '@mantine/core';
+import { Button, Modal } from '@reactgets/core';
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel } from './Carousel';
 import { useAnimationOffsetEffect } from './use-animation-offset-effect';

@@ -5,7 +5,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Blockquote, BlockquoteProps } from './Blockquote';
 
 const defaultProps: BlockquoteProps = {
@@ -13,14 +13,14 @@ const defaultProps: BlockquoteProps = {
   cite: 'test-cite',
 };
 
-describe('@mantine/core/Blockquote', () => {
+describe('@reactgets/core/Blockquote', () => {
   checkAccessibility([<Blockquote {...defaultProps} />]);
   itRendersChildren(Blockquote, defaultProps);
   itSupportsProviderVariant(Blockquote, defaultProps, 'Blockquote');
   itSupportsSystemProps({
     component: Blockquote,
     props: defaultProps,
-    displayName: '@mantine/core/Blockquote',
+    displayName: '@reactgets/core/Blockquote',
     refType: HTMLQuoteElement,
     providerName: 'Blockquote',
   });

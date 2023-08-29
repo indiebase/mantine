@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Chip, ChipProps, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Chip, ChipProps, Group } from '@reactgets/core';
 
 function Wrapper(props: ChipProps) {
   return (
@@ -13,7 +13,7 @@ function Wrapper(props: ChipProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Chip } from '@mantine/core';
+import { Chip } from '@reactgets/core';
 
 function Demo() {
   return <Chip defaultChecked${props}>Awesome chip</Chip>

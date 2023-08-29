@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Button, ButtonProps, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, ButtonProps, Group } from '@reactgets/core';
 
 function Wrapper(props: ButtonProps) {
   return (
@@ -11,7 +11,7 @@ function Wrapper(props: ButtonProps) {
 }
 
 const codeTemplate = (props: string, children: string) => `
-import { Button } from '@mantine/core';
+import { Button } from '@reactgets/core';
 
 function Demo() {
   return (

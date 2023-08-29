@@ -1,12 +1,12 @@
 import React from 'react';
 import { IconSearch } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { Wrapper } from './_wrapper';
 
 const code = `
-import { Button, Group } from '@mantine/core';
-import { SpotlightProvider, spotlight } from '@mantine/spotlight';
-import type { SpotlightAction } from '@mantine/spotlight';
+import { Button, Group } from '@reactgets/core';
+import { SpotlightProvider, spotlight } from '@reactgets/spotlight';
+import type { SpotlightAction } from '@reactgets/spotlight';
 import { IconHome, IconDashboard, IconFileText, IconSearch } from '@tabler/icons-react';
 
 function SpotlightControl() {

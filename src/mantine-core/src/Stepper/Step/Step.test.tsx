@@ -1,16 +1,16 @@
 import React from 'react';
-import { checkAccessibility, itSupportsSystemProps } from '@mantine/tests';
+import { checkAccessibility, itSupportsSystemProps } from '@reactgets/tests';
 import { render } from '@testing-library/react';
 import { Step, StepProps } from './Step';
 
 const defaultProps: StepProps = {};
 
-describe('@mantine/core/Step', () => {
+describe('@reactgets/core/Step', () => {
   checkAccessibility([<Step aria-label="Test" />, <Step title="Test" />, <Step label="Test" />]);
   itSupportsSystemProps({
     component: Step,
     props: defaultProps,
-    displayName: '@mantine/core/Step',
+    displayName: '@reactgets/core/Step',
     refType: HTMLButtonElement,
     providerName: 'StepperStep',
   });

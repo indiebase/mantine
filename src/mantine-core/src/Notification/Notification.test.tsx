@@ -5,7 +5,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Notification, NotificationProps } from './Notification';
 
 const defaultProps: NotificationProps = {
@@ -13,14 +13,14 @@ const defaultProps: NotificationProps = {
   closeButtonProps: { title: 'test-close' },
 };
 
-describe('@mantine/core/Notification', () => {
+describe('@reactgets/core/Notification', () => {
   itRendersChildren(Notification, defaultProps);
   itSupportsProviderVariant(Notification, defaultProps, 'Notification');
   checkAccessibility([<Notification {...defaultProps} />]);
   itSupportsSystemProps({
     component: Notification,
     props: defaultProps,
-    displayName: '@mantine/core/Notification',
+    displayName: '@reactgets/core/Notification',
     refType: HTMLDivElement,
     providerName: 'Notification',
   });

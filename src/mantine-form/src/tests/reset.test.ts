@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/reset', () => {
+describe('@reactgets/form/reset', () => {
   it('resets errors and values with reset handler', () => {
     const hook = renderHook(() =>
       useForm({ initialErrors: { a: 1, b: 2 }, initialValues: { c: 3, d: 4 } })

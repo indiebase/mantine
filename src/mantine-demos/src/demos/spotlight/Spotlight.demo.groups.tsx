@@ -1,10 +1,10 @@
 import React from 'react';
-import type { SpotlightAction } from '@mantine/spotlight';
-import { MantineDemo } from '@mantine/ds';
+import type { SpotlightAction } from '@reactgets/spotlight';
+import { MantineDemo } from '@reactgets/ds';
 import { Wrapper } from './_wrapper';
 
 const code = `
-import { SpotlightProvider, SpotlightAction } from '@mantine/spotlight';
+import { SpotlightProvider, SpotlightAction } from '@reactgets/spotlight';
 
 const onTrigger = () => {};
 

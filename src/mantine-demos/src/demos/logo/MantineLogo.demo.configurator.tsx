@@ -1,6 +1,6 @@
 import React from 'react';
-import { Group } from '@mantine/core';
-import { MantineDemo, MantineLogo, MantineLogoProps } from '@mantine/ds';
+import { Group } from '@reactgets/core';
+import { MantineDemo, MantineLogo, MantineLogoProps } from '@reactgets/ds';
 
 function Wrapper(props: MantineLogoProps) {
   return (
@@ -11,7 +11,7 @@ function Wrapper(props: MantineLogoProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { MantineLogo } from '@mantine/ds';
+import { MantineLogo } from '@reactgets/ds';
 
 function Demo() {
   return <MantineLogo${props} />

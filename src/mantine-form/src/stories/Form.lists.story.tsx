@@ -1,6 +1,6 @@
 import React from 'react';
-import { TextInput, Switch, ActionIcon, Group, Text, Button } from '@mantine/core';
-import { randomId } from '@mantine/hooks';
+import { TextInput, Switch, ActionIcon, Group, Text, Button } from '@reactgets/core';
+import { randomId } from '@reactgets/hooks';
 import { FormBase } from './_base';
 import { useForm } from '../use-form';
 

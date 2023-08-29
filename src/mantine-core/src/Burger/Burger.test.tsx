@@ -6,7 +6,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Burger, BurgerProps } from './Burger';
 
 const defaultProps: BurgerProps = {
@@ -14,7 +14,7 @@ const defaultProps: BurgerProps = {
   title: 'Close navigation',
 };
 
-describe('@mantine/core/Burger', () => {
+describe('@reactgets/core/Burger', () => {
   checkAccessibility([<Burger {...defaultProps} />]);
   itSupportsFocusEvents(Burger, defaultProps, 'button');
   itSupportsProviderVariant(Burger, defaultProps, 'Burger');
@@ -22,7 +22,7 @@ describe('@mantine/core/Burger', () => {
   itSupportsSystemProps({
     component: Burger,
     props: defaultProps,
-    displayName: '@mantine/core/Burger',
+    displayName: '@reactgets/core/Burger',
     refType: HTMLButtonElement,
     providerName: 'Burger',
   });

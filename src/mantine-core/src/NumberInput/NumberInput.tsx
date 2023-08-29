@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, forwardRef } from 'react';
-import { useMergedRef, assignRef, useOs, clamp } from '@mantine/hooks';
-import { DefaultProps, Selectors, useComponentDefaultProps, rem, getSize } from '@mantine/styles';
+import { useMergedRef, assignRef, useOs, clamp } from '@reactgets/hooks';
+import { DefaultProps, Selectors, useComponentDefaultProps, rem, getSize } from '@reactgets/styles';
 import { TextInput } from '../TextInput';
 import { InputStylesNames, InputWrapperStylesNames } from '../Input';
 import { getInputMode } from './get-input-mode/get-input-mode';
@@ -466,4 +466,4 @@ export const NumberInput = forwardRef<HTMLInputElement, NumberInputProps>((props
   );
 });
 
-NumberInput.displayName = '@mantine/core/NumberInput';
+NumberInput.displayName = '@reactgets/core/NumberInput';

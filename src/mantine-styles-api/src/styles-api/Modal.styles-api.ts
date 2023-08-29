@@ -1,4 +1,4 @@
-import type { ModalStylesNames } from '@mantine/core';
+import type { ModalStylesNames } from '@reactgets/core';
 
 export const Modal: Record<ModalStylesNames, string> = {
   root: 'Root element',

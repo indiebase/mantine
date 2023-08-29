@@ -38,7 +38,7 @@ const values = {
   ],
 };
 
-describe('@mantine/form/set-path', () => {
+describe('@reactgets/form/set-path', () => {
   it('sets value at root property', () => {
     expect(setPath('name', 'Jane', values)).toStrictEqual({ ...values, name: 'Jane' });
     expect(setPath('age', 25, values)).toStrictEqual({ ...values, age: 25 });

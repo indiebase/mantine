@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, keyframes, rem } from '@mantine/styles';
+import { createStyles, MantineNumberSize, keyframes, rem } from '@reactgets/styles';
 
 export interface SkeletonStylesParams {
   height: number | string;

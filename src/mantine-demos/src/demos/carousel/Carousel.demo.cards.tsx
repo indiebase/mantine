@@ -1,14 +1,14 @@
 import React from 'react';
-import { Carousel, CarouselProps } from '@mantine/carousel';
-import { useMediaQuery } from '@mantine/hooks';
-import { useMantineTheme } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Carousel, CarouselProps } from '@reactgets/carousel';
+import { useMediaQuery } from '@reactgets/hooks';
+import { useMantineTheme } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { Card } from './_card';
 
 const code = `
-import { Carousel } from '@mantine/carousel';
-import { useMediaQuery } from '@mantine/hooks';
-import { createStyles, Paper, Text, Title, Button, useMantineTheme, rem } from '@mantine/core';
+import { Carousel } from '@reactgets/carousel';
+import { useMediaQuery } from '@reactgets/hooks';
+import { createStyles, Paper, Text, Title, Button, useMantineTheme, rem } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   card: {

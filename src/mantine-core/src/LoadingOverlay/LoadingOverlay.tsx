@@ -4,7 +4,7 @@ import {
   MantineNumberSize,
   getDefaultZIndex,
   useComponentDefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Overlay } from '../Overlay';
 import { Transition } from '../Transition';
 import { Loader, LoaderProps } from '../Loader';
@@ -114,4 +114,4 @@ export const LoadingOverlay = forwardRef<HTMLDivElement, LoadingOverlayProps>((p
   );
 });
 
-LoadingOverlay.displayName = '@mantine/core/LoadingOverlay';
+LoadingOverlay.displayName = '@reactgets/core/LoadingOverlay';

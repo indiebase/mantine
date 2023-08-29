@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Button, Text, Collapse, CollapseProps, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, Text, Collapse, CollapseProps, Box } from '@reactgets/core';
 
 export function CollapsedDemo({
   children,

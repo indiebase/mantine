@@ -18,7 +18,7 @@ You will need to use [createStyles](/styles/create-styles/) to add [Styles API](
 
 ```tsx
 // MyComponent.styles.ts
-import { createStyles, MantineNumberSize } from '@mantine/core';
+import { createStyles, MantineNumberSize } from '@reactgets/core';
 
 // Styles params are optional
 export interface MyComponentStylesParams {
@@ -37,7 +37,7 @@ export default createStyles((theme, { radius }: MyComponentStylesParams) => ({
 
 ```tsx
 // MyComponent.tsx
-import { DefaultProps, Selectors, MantineNumberSize, Box } from '@mantine/core';
+import { DefaultProps, Selectors, MantineNumberSize, Box } from '@reactgets/core';
 import useStyles, { MyComponentStylesParams } from './MyComponent.styles.ts';
 
 // This type will contain a union with all selectors defined in useStyles,
@@ -101,7 +101,7 @@ function Demo() {
 You can also add `styles` and `classNames` on [MantineProvider](/theming/mantine-provider/):
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@reactgets/core';
 
 function Demo() {
   return (
@@ -131,7 +131,7 @@ You can add [default props](/theming/default-props/) support to any component wi
 `useComponentDefaultProps` hook:
 
 ```tsx
-import { useComponentDefaultProps } from '@mantine/core';
+import { useComponentDefaultProps } from '@reactgets/core';
 
 interface CustomComponentProps {
   radius?: number;
@@ -151,7 +151,7 @@ function CustomComponent(props: CustomComponentProps) {
 Then you will be able to add [default props](/theming/default-props/) on [MantineProvider](/theming/mantine-provider/):
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@reactgets/core';
 
 function Demo() {
   return (
@@ -179,7 +179,7 @@ It accepts 2 types: styles names and styles params, both of them are optional.
 When you build components there might be 4 cases:
 
 ```tsx
-import { DefaultProps } from '@mantine/core';
+import { DefaultProps } from '@reactgets/core';
 
 type StylesNames = 'root' | 'title';
 type StylesParams = { radius: number };

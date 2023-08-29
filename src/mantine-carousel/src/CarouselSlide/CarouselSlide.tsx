@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { Box, DefaultProps, Selectors, MantineNumberSize } from '@mantine/core';
+import { Box, DefaultProps, Selectors, MantineNumberSize } from '@reactgets/core';
 import { useCarouselContext } from '../Carousel.context';
 import useStyles from './CarouselSlide.styles';
 
@@ -44,4 +44,4 @@ export const CarouselSlide = forwardRef<HTMLDivElement, CarouselSlideProps>(
   }
 );
 
-CarouselSlide.displayName = '@mantine/carousel/CarouselSlide';
+CarouselSlide.displayName = '@reactgets/carousel/CarouselSlide';

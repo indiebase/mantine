@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Stepper, createStyles, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Stepper, createStyles, rem } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { Stepper, createStyles, rem } from '@mantine/core';
+import { Stepper, createStyles, rem } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   root: {

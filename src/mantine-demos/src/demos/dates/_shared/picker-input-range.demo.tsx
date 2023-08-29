@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 
 const getCode = (name: string) => `
 import { useState } from 'react';
-import { ${name} } from '@mantine/dates';
+import { ${name} } from '@reactgets/dates';
 
 function Demo() {
   const [value, setValue] = useState<[Date | null, Date | null]>([null, null]);
@@ -41,7 +41,7 @@ function getDemo(Component: React.FC<any>) {
 export function getPickerInputRangeDemo(Component: React.FC<any>): MantineDemo {
   return {
     type: 'demo',
-    code: getCode(Component.displayName.replace('@mantine/dates/', '')),
+    code: getCode(Component.displayName.replace('@reactgets/dates/', '')),
     component: getDemo(Component),
   };
 }

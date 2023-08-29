@@ -1,9 +1,9 @@
 import { fireEvent, render, RenderOptions, RenderResult, screen } from '@testing-library/react';
 import React, { ReactElement, useState } from 'react';
-import { patchConsoleError } from '@mantine/tests';
+import { patchConsoleError } from '@reactgets/tests';
 import { useFocusTrap } from './use-focus-trap';
 
-describe('@mantine/hooks/use-focus-trap', () => {
+describe('@reactgets/hooks/use-focus-trap', () => {
   function InnerComponent({ testId }) {
     const ref = useFocusTrap();
     return (

@@ -56,7 +56,7 @@ export const LargeLine = () => (
 );
 
 const demoCode = `
-import { Button } from '@mantine/core';
+import { Button } from '@reactgets/core';
 
 function Demo() {
   return <Button>Hello</Button>

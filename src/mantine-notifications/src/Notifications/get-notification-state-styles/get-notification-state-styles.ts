@@ -1,5 +1,5 @@
 import { TransitionStatus } from 'react-transition-group';
-import { CSSObject } from '@mantine/core';
+import { CSSObject } from '@reactgets/core';
 import { NotificationsPositioning } from '../../types';
 
 interface NotificationStateStylesProps {

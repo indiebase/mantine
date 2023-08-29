@@ -1,4 +1,4 @@
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@reactgets/core';
 import React from 'react';
 import { createFormContext } from '../index';
 

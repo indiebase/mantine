@@ -1,6 +1,6 @@
 # Mantine core
 
-[![npm](https://img.shields.io/npm/dm/@mantine/core)](https://www.npmjs.com/package/@mantine/core)
+[![npm](https://img.shields.io/npm/dm/@reactgets/core)](https://www.npmjs.com/package/@reactgets/core)
 
 Mantine core components library.
 
@@ -10,10 +10,10 @@ Mantine core components library.
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks
+yarn add @reactgets/core @reactgets/hooks
 
 # With npm
-npm install @mantine/core @mantine/hooks
+npm install @reactgets/core @reactgets/hooks
 ```
 
 ## License

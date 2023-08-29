@@ -51,7 +51,7 @@ function MultipleNames({ classNames, styles }: { classNames?: any; styles?: any 
   return <div className={classes.testObject}>test-element</div>;
 }
 
-describe('@mantine/styles/create-styles', () => {
+describe('@reactgets/styles/create-styles', () => {
   it('assigns styles with css object', () => {
     expectStyles(() => <div className={objectStyles().classes.testObject}>test-element</div>, {
       backgroundColor: '#FEF67F',

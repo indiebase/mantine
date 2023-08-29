@@ -6,7 +6,7 @@ import {
   itSupportsProviderSize,
   itSupportsFocusEvents,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   itSupportsClearableProps,
   itSupportsYearsListProps,
@@ -21,14 +21,14 @@ const defaultProps = {
   modalProps: { withinPortal: false, transitionProps: { duration: 0 } },
 };
 
-describe('@mantine/dates/MonthPickerInput', () => {
+describe('@reactgets/dates/MonthPickerInput', () => {
   itSupportsSystemProps({
     component: MonthPickerInput,
     props: defaultProps,
     refType: HTMLButtonElement,
     providerName: 'MonthPickerInput',
     othersSelector: '.mantine-MonthPickerInput-input',
-    displayName: '@mantine/dates/MonthPickerInput',
+    displayName: '@reactgets/dates/MonthPickerInput',
   });
 
   itSupportsFocusEvents(MonthPickerInput, defaultProps, '.mantine-MonthPickerInput-input');

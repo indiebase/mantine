@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, Badge } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useColorScheme } from '@mantine/hooks';
+import { Group, Badge } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useColorScheme } from '@reactgets/hooks';
 
 const code = `
-import { Badge } from '@mantine/core';
-import { useColorScheme } from '@mantine/hooks';
+import { Badge } from '@reactgets/core';
+import { useColorScheme } from '@reactgets/hooks';
 
 function Demo() {
   const colorScheme = useColorScheme();

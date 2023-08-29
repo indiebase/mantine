@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { PasswordInput, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { PasswordInput, Box } from '@reactgets/core';
 
 const code = `
-import { PasswordInput } from '@mantine/core';
+import { PasswordInput } from '@reactgets/core';
 
 function Demo() {
   return <PasswordInput disabled />;

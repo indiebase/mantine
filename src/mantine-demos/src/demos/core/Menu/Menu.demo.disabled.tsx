@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Menu, Group, Button, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Menu, Group, Button, rem } from '@reactgets/core';
 import {
   IconSettings,
   IconSearch,
@@ -11,7 +11,7 @@ import {
 } from '@tabler/icons-react';
 
 const code = `
-import { Menu, Button, rem } from '@mantine/core';
+import { Menu, Button, rem } from '@reactgets/core';
 import { IconSearch } from '@tabler/icons-react';
 
 function Demo() {

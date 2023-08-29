@@ -12,8 +12,8 @@ import {
   ColorPickerProps,
   useComponentDefaultProps,
   useMantineTheme,
-} from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+} from '@reactgets/core';
+import { useDisclosure } from '@reactgets/hooks';
 import { IconCircleOff, IconColorPicker, IconX, IconPalette, IconCheck } from '@tabler/icons-react';
 import { Control } from '../Control/Control';
 import { useRichTextEditorContext } from '../../RichTextEditor.context';
@@ -181,4 +181,4 @@ export const ColorPickerControl = forwardRef<HTMLButtonElement, ColorPickerContr
   }
 );
 
-ColorPickerControl.displayName = '@mantine/tiptap/ColorPickerControl';
+ColorPickerControl.displayName = '@reactgets/tiptap/ColorPickerControl';

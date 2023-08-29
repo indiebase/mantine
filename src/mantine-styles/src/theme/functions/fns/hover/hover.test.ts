@@ -14,7 +14,7 @@ const testReturnStyle = {
   },
 };
 
-describe('@mantine/core/utils/apply-hover-style', () => {
+describe('@reactgets/core/utils/apply-hover-style', () => {
   it('return style with hover and active effect', () => {
     expect({
       backgroundColor: 'blue',

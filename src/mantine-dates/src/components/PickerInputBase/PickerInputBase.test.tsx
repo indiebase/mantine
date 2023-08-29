@@ -20,7 +20,7 @@ const defaultProps: PickerInputBaseProps = {
   value: null,
 };
 
-describe('@mantine/dates/PickerInputBase', () => {
+describe('@reactgets/dates/PickerInputBase', () => {
   itSupportsClearableProps(PickerInputBase, defaultProps);
 
   it('opens/toggles dropdown with click events', async () => {

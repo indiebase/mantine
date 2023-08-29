@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { BackgroundImage, BackgroundImageProps, Center, Text, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { BackgroundImage, BackgroundImageProps, Center, Text, Box } from '@reactgets/core';
 
 function Wrapper(props: BackgroundImageProps) {
   return (
@@ -21,7 +21,7 @@ function Wrapper(props: BackgroundImageProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { BackgroundImage, Center, Text, Box } from '@mantine/core';
+import { BackgroundImage, Center, Text, Box } from '@reactgets/core';
 
 function Demo() {
   return (

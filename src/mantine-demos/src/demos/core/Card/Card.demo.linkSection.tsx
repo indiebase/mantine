@@ -1,10 +1,10 @@
 import React from 'react';
-import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Card, Image, Text, Badge, Button, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { demoBase } from './_demo-base';
 
 const code = `
-import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
+import { Card, Image, Text, Badge, Button, Group } from '@reactgets/core';
 
 function Demo() {
   return (

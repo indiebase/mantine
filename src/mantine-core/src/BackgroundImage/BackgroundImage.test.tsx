@@ -5,21 +5,21 @@ import {
   itIsPolymorphic,
   itRendersChildren,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { BackgroundImage, BackgroundImageProps } from './BackgroundImage';
 
 const defaultProps: BackgroundImageProps = {
   src: './image.png',
 };
 
-describe('@mantine/core/BackgroundImage', () => {
+describe('@reactgets/core/BackgroundImage', () => {
   itIsPolymorphic(BackgroundImage, defaultProps);
   itRendersChildren(BackgroundImage, defaultProps);
   itSupportsProviderVariant(BackgroundImage, defaultProps, 'BackgroundImage');
   itSupportsSystemProps({
     component: BackgroundImage,
     props: defaultProps,
-    displayName: '@mantine/core/BackgroundImage',
+    displayName: '@reactgets/core/BackgroundImage',
     refType: HTMLDivElement,
     providerName: 'BackgroundImage',
   });

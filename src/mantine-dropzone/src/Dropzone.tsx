@@ -14,9 +14,9 @@ import {
   LoadingOverlay,
   Box,
   useComponentDefaultProps,
-} from '@mantine/core';
-import { assignRef } from '@mantine/hooks';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+} from '@reactgets/core';
+import { assignRef } from '@reactgets/hooks';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { DropzoneProvider } from './Dropzone.context';
 import { DropzoneAccept, DropzoneIdle, DropzoneReject } from './DropzoneStatus';
 import type { DropzoneFullScreenType } from './DropzoneFullScreen';
@@ -218,7 +218,7 @@ export function _Dropzone(props: DropzoneProps) {
   );
 }
 
-_Dropzone.displayName = '@mantine/dropzone/Dropzone';
+_Dropzone.displayName = '@reactgets/dropzone/Dropzone';
 _Dropzone.Accept = DropzoneAccept;
 _Dropzone.Reject = DropzoneReject;
 _Dropzone.Idle = DropzoneIdle;

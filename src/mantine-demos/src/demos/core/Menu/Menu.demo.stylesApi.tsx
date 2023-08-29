@@ -1,10 +1,10 @@
 import React from 'react';
-import { createStyles, Menu, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { createStyles, Menu, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { DemoMenuItems } from './_menu-items';
 
 const code = `
-import { Menu, createStyles } from '@mantine/core';
+import { Menu, createStyles } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   item: {

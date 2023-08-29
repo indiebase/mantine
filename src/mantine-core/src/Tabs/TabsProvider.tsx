@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { getSafeId } from '@mantine/utils';
-import { useUncontrolled, useId } from '@mantine/hooks';
-import { ClassNames, MantineColor, MantineNumberSize, Styles } from '@mantine/styles';
+import { getSafeId } from '@reactgets/utils';
+import { useUncontrolled, useId } from '@reactgets/hooks';
+import { ClassNames, MantineColor, MantineNumberSize, Styles } from '@reactgets/styles';
 import { TabsContextProvider } from './Tabs.context';
 import { TABS_ERRORS } from './Tabs.errors';
 import {
@@ -127,4 +127,4 @@ export function TabsProvider({
   );
 }
 
-TabsProvider.displayName = '@mantine/core/TabsProvider';
+TabsProvider.displayName = '@reactgets/core/TabsProvider';

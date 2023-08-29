@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { itSupportsSystemProps, itSupportsProviderVariant } from '@mantine/tests';
+import { itSupportsSystemProps, itSupportsProviderVariant } from '@reactgets/tests';
 import { RingProgress, RingProgressProps } from './RingProgress';
 
 const defaultProps: RingProgressProps = {
@@ -9,12 +9,12 @@ const defaultProps: RingProgressProps = {
   label: 'test',
 };
 
-describe('@mantine/core/RingProgress', () => {
+describe('@reactgets/core/RingProgress', () => {
   itSupportsProviderVariant(RingProgress, defaultProps, 'RingProgress');
   itSupportsSystemProps({
     component: RingProgress,
     props: defaultProps,
-    displayName: '@mantine/core/RingProgress',
+    displayName: '@reactgets/core/RingProgress',
     refType: HTMLDivElement,
     providerName: 'RingProgress',
   });

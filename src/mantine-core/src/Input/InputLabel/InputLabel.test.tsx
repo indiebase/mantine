@@ -5,19 +5,19 @@ import {
   itRendersChildren,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { InputLabel, InputLabelProps } from './InputLabel';
 
 const defaultProps: InputLabelProps = {};
 
-describe('@mantine/core/InputLabel', () => {
+describe('@reactgets/core/InputLabel', () => {
   itRendersChildren(InputLabel, defaultProps);
   itSupportsProviderVariant(InputLabel, defaultProps, 'InputWrapper', 'label');
   itSupportsProviderSize(InputLabel, defaultProps, 'InputWrapper', 'label');
   itSupportsSystemProps({
     component: InputLabel,
     props: defaultProps,
-    displayName: '@mantine/core/InputLabel',
+    displayName: '@reactgets/core/InputLabel',
     refType: HTMLLabelElement,
     providerName: 'InputLabel',
   });

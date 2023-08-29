@@ -1,5 +1,5 @@
 import React from 'react';
-import { MantineProvider } from '@mantine/styles';
+import { MantineProvider } from '@reactgets/styles';
 import { render } from '@testing-library/react';
 
 export function itSupportsProviderDefaultProps<P>(

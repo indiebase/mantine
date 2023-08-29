@@ -2,7 +2,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   TypographyStylesProvider,
   TypographyStylesProviderProps,
@@ -12,13 +12,13 @@ const defaultProps: TypographyStylesProviderProps = {
   children: 'test-children',
 };
 
-describe('@mantine/core/TypographyStylesProvider', () => {
+describe('@reactgets/core/TypographyStylesProvider', () => {
   itRendersChildren(TypographyStylesProvider, defaultProps);
   itSupportsProviderVariant(TypographyStylesProvider, defaultProps, 'TypographyStylesProvider');
   itSupportsSystemProps({
     component: TypographyStylesProvider,
     props: defaultProps,
-    displayName: '@mantine/core/TypographyStylesProvider',
+    displayName: '@reactgets/core/TypographyStylesProvider',
     refType: HTMLDivElement,
   });
 });

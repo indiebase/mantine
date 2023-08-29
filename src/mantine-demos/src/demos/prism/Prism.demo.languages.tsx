@@ -1,6 +1,6 @@
 import React from 'react';
-import { Prism } from '@mantine/prism';
-import { MantineDemo } from '@mantine/ds';
+import { Prism } from '@reactgets/prism';
+import { MantineDemo } from '@reactgets/ds';
 
 export const go = `
 package main

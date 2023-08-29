@@ -1,4 +1,4 @@
-import { useUncontrolled } from '@mantine/hooks';
+import { useUncontrolled } from '@reactgets/hooks';
 import { useRef } from 'react';
 import { DatePickerType, DatePickerValue } from '../../types';
 
@@ -43,7 +43,7 @@ export function useUncontrolledDates<Type extends DatePickerType = 'default'>({
           if (value !== null && typeof value !== 'string') {
             // eslint-disable-next-line no-console
             console.error(
-              '[@mantine/dates/use-uncontrolled-dates] Value must be type of `null` or `string`'
+              '[@reactgets/dates/use-uncontrolled-dates] Value must be type of `null` or `string`'
             );
           }
           break;
@@ -51,7 +51,7 @@ export function useUncontrolledDates<Type extends DatePickerType = 'default'>({
           if (!(value instanceof Array)) {
             // eslint-disable-next-line no-console
             console.error(
-              '[@mantine/dates/use-uncontrolled-dates] Value must be type of `string[]`'
+              '[@reactgets/dates/use-uncontrolled-dates] Value must be type of `string[]`'
             );
           }
           break;
@@ -59,7 +59,7 @@ export function useUncontrolledDates<Type extends DatePickerType = 'default'>({
           if (!(value instanceof Array) || value.length !== 2) {
             // eslint-disable-next-line no-console
             console.error(
-              '[@mantine/dates/use-uncontrolled-dates] Value must be type of `[string, string]`'
+              '[@reactgets/dates/use-uncontrolled-dates] Value must be type of `[string, string]`'
             );
           }
           break;

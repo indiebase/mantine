@@ -2,7 +2,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Footer, FooterProps } from './Footer';
 
 const defaultProps: FooterProps = {
@@ -10,13 +10,13 @@ const defaultProps: FooterProps = {
   children: 'test-footer',
 };
 
-describe('@mantine/core/Footer', () => {
+describe('@reactgets/core/Footer', () => {
   itRendersChildren(Footer, defaultProps);
   itSupportsProviderVariant(Footer, defaultProps, 'Footer');
   itSupportsSystemProps({
     component: Footer,
     props: defaultProps,
-    displayName: '@mantine/core/Footer',
+    displayName: '@reactgets/core/Footer',
     refType: HTMLElement,
     providerName: 'Footer',
   });

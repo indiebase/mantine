@@ -1,4 +1,4 @@
-import type { MenuStylesNames } from '@mantine/core';
+import type { MenuStylesNames } from '@reactgets/core';
 
 export const Menu: Record<MenuStylesNames, string> = {
   dropdown: 'Menu.Dropdown element',

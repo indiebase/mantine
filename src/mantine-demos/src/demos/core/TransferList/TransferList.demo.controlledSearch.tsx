@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Stack, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Stack, Text } from '@reactgets/core';
 import { Wrapper } from './_wrapper';
 
 const code = `
 import { useState } from 'react'
-import { TransferList, Stack, Text } from '@mantine/core';
+import { TransferList, Stack, Text } from '@reactgets/core';
 
 function Demo() {
   const [search, setSearch] = useState(['', '']);

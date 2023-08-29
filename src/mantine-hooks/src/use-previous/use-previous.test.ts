@@ -1,7 +1,7 @@
 import { renderHook } from '@testing-library/react';
 import { usePrevious } from './use-previous';
 
-describe('@mantine/hooks/use-previous', () => {
+describe('@reactgets/hooks/use-previous', () => {
   it('returns undefined on initial render', () => {
     const hook = renderHook(() => usePrevious(1));
     expect(hook.result.current).toBeUndefined();

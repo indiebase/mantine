@@ -1,7 +1,7 @@
-import { DEFAULT_THEME } from '@mantine/styles';
+import { DEFAULT_THEME } from '@reactgets/styles';
 import { getSortedBreakpoints } from './get-sorted-breakpoints';
 
-describe('@mantine/core/AppShell/get-sorted-breakpoints', () => {
+describe('@reactgets/core/AppShell/get-sorted-breakpoints', () => {
   it('returns sorted breakpoints with theme values', () => {
     expect(getSortedBreakpoints({ lg: 500, sm: 400, xs: 300 }, DEFAULT_THEME)).toStrictEqual([
       [DEFAULT_THEME.breakpoints.xs, 300],

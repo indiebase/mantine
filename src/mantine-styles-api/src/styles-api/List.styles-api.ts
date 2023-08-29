@@ -1,4 +1,4 @@
-import type { ListStylesNames } from '@mantine/core';
+import type { ListStylesNames } from '@reactgets/core';
 
 export const List: Record<ListStylesNames, string> = {
   root: 'Root element (ul or ol)',

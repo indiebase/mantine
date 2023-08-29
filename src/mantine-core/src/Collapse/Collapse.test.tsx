@@ -1,5 +1,5 @@
 import React from 'react';
-import { itRendersChildren, itSupportsSystemProps } from '@mantine/tests';
+import { itRendersChildren, itSupportsSystemProps } from '@reactgets/tests';
 import { Collapse, CollapseProps } from './Collapse';
 
 const defaultProps: CollapseProps = {
@@ -7,13 +7,13 @@ const defaultProps: CollapseProps = {
   children: <div style={{ height: '50rem' }} />,
 };
 
-describe('@mantine/core/Collapse', () => {
+describe('@reactgets/core/Collapse', () => {
   itRendersChildren(Collapse, defaultProps);
   itSupportsSystemProps({
     component: Collapse,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Collapse',
+    displayName: '@reactgets/core/Collapse',
     providerName: 'Collapse',
   });
 });

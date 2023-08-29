@@ -1,13 +1,13 @@
 import React, { forwardRef } from 'react';
-import { useId } from '@mantine/hooks';
+import { useId } from '@reactgets/hooks';
 import {
   DefaultProps,
   MantineSize,
   MantineColor,
   Selectors,
   useComponentDefaultProps,
-} from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+} from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { extractSystemStyles } from '../Box';
 import { RadioIcon } from './RadioIcon';
 import { useRadioGroupContext } from './RadioGroup.context';
@@ -140,5 +140,5 @@ export const Radio: RadioComponent = forwardRef<HTMLInputElement, RadioProps>((p
   );
 }) as any;
 
-Radio.displayName = '@mantine/core/Radio';
+Radio.displayName = '@reactgets/core/Radio';
 Radio.Group = RadioGroup;

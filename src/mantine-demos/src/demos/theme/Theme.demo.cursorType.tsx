@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, Checkbox, Radio, MantineProvider } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, Checkbox, Radio, MantineProvider } from '@reactgets/core';
 
 const code = `
-import { Group, Checkbox, Radio, MantineProvider } from '@mantine/core';
+import { Group, Checkbox, Radio, MantineProvider } from '@reactgets/core';
 
 function Demo() {
   return (

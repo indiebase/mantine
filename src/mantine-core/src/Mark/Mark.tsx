@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineColor, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineColor, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box';
 import useStyles from './Mark.styles';
 
@@ -25,4 +25,4 @@ export const Mark = forwardRef<HTMLElement, MarkProps>((props, ref) => {
   return <Box component="mark" ref={ref} className={cx(classes.root, className)} {...others} />;
 });
 
-Mark.displayName = '@mantine/core/Mark';
+Mark.displayName = '@reactgets/core/Mark';

@@ -1,4 +1,4 @@
-import { ChipStylesNames } from '@mantine/core';
+import { ChipStylesNames } from '@reactgets/core';
 
 export const Chip: Record<ChipStylesNames, string> = {
   root: 'Root element',

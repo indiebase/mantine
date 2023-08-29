@@ -6,7 +6,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Alert, AlertProps } from './Alert';
 
 const defaultProps: AlertProps = {
@@ -16,14 +16,14 @@ const defaultProps: AlertProps = {
   closeButtonLabel: 'test-close',
 };
 
-describe('@mantine/core/Alert', () => {
+describe('@reactgets/core/Alert', () => {
   itRendersChildren(Alert, defaultProps);
   checkAccessibility([<Alert {...defaultProps} />]);
   itSupportsProviderVariant(Alert, defaultProps, 'Alert');
   itSupportsSystemProps({
     component: Alert,
     props: defaultProps,
-    displayName: '@mantine/core/Alert',
+    displayName: '@reactgets/core/Alert',
     refType: HTMLDivElement,
     providerName: 'Alert',
   });

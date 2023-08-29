@@ -8,8 +8,8 @@ import {
   MultiSelectValueProps,
   rem,
   Flex,
-} from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+} from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { countriesData, flags } from './_countries-data';
 
 const code = `
@@ -22,7 +22,7 @@ import {
   MultiSelectValueProps,
   rem,
   Flex,
-} from '@mantine/core';
+} from '@reactgets/core';
 
 const countriesData = [
   { label: 'United States', value: 'US' },

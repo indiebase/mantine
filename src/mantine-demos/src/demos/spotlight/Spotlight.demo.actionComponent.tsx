@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpotlightAction, SpotlightActionProps } from '@mantine/spotlight';
+import { SpotlightAction, SpotlightActionProps } from '@reactgets/spotlight';
 import {
   createStyles,
   UnstyledButton,
@@ -9,13 +9,13 @@ import {
   Center,
   Badge,
   rem,
-} from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+} from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { Wrapper } from './_wrapper';
 
 const code = `
-import { createStyles, UnstyledButton, Group, Text, Image, Center, Badge, rem } from '@mantine/core';
-import { SpotlightProvider, SpotlightAction, SpotlightActionProps } from '@mantine/spotlight';
+import { createStyles, UnstyledButton, Group, Text, Image, Center, Badge, rem } from '@reactgets/core';
+import { SpotlightProvider, SpotlightAction, SpotlightActionProps } from '@reactgets/spotlight';
 
 const actions: SpotlightAction[] = [
   {

@@ -6,7 +6,7 @@ import {
   MantineTheme,
   rem,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export const sizes = {
   xs: rem(24),

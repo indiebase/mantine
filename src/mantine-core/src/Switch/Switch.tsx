@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useId, useUncontrolled } from '@mantine/hooks';
+import { useId, useUncontrolled } from '@reactgets/hooks';
 import {
   DefaultProps,
   MantineNumberSize,
@@ -7,8 +7,8 @@ import {
   MantineColor,
   Selectors,
   useComponentDefaultProps,
-} from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+} from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { extractSystemStyles } from '../Box';
 import { SwitchGroup } from './SwitchGroup/SwitchGroup';
 import { useSwitchGroupContext } from './SwitchGroup.context';
@@ -165,5 +165,5 @@ export const Switch: SwitchComponent = forwardRef<HTMLInputElement, SwitchProps>
   );
 }) as any;
 
-Switch.displayName = '@mantine/core/Switch';
+Switch.displayName = '@reactgets/core/Switch';
 Switch.Group = SwitchGroup;

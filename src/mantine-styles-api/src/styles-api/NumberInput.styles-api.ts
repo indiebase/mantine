@@ -1,4 +1,4 @@
-import type { NumberInputStylesNames } from '@mantine/core';
+import type { NumberInputStylesNames } from '@reactgets/core';
 import { Input } from './Input.styles-api';
 import { InputWrapper } from './InputWrapper.styles-api';
 

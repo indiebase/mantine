@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, getDefaultZIndex, Global, rem, em } from '@mantine/styles';
+import { DefaultProps, getDefaultZIndex, Global, rem, em } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { useAppShellContext } from '../AppShell.context';
 import useStyles, {
@@ -104,4 +104,4 @@ export const VerticalSection = forwardRef<HTMLElement, VerticalSectionProps>(
   }
 );
 
-VerticalSection.displayName = '@mantine/core/VerticalSection';
+VerticalSection.displayName = '@reactgets/core/VerticalSection';

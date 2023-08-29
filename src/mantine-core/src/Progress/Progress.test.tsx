@@ -5,20 +5,20 @@ import {
   checkAccessibility,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Progress, ProgressProps } from './Progress';
 
 const defaultProps: ProgressProps = {
   value: 80,
 };
 
-describe('@mantine/core/Progress', () => {
+describe('@reactgets/core/Progress', () => {
   checkAccessibility([<Progress value={80} aria-label="test-progress" />]);
   itSupportsProviderVariant(Progress, defaultProps, 'Progress');
   itSupportsSystemProps({
     component: Progress,
     props: defaultProps,
-    displayName: '@mantine/core/Progress',
+    displayName: '@reactgets/core/Progress',
     refType: HTMLDivElement,
     providerName: 'Progress',
   });

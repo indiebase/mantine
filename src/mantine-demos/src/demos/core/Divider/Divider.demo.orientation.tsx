@@ -1,10 +1,10 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Divider, Group, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Divider, Group, Text } from '@reactgets/core';
 
 const code = `
 import React from 'react';
-import { Divider, Group, Text } from '@mantine/core';
+import { Divider, Group, Text } from '@reactgets/core';
 
 function Demo() {
   return (

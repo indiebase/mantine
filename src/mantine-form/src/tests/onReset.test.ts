@@ -3,7 +3,7 @@ import { useForm } from '../use-form';
 
 const getFormEvent = () => ({ preventDefault: jest.fn() } as any);
 
-describe('@mantine/form/onReset', () => {
+describe('@reactgets/form/onReset', () => {
   it('resets form with onReset handler', () => {
     const event = getFormEvent();
     const hook = renderHook(() =>

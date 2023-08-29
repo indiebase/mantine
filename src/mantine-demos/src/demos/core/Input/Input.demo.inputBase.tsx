@@ -1,10 +1,10 @@
 import React from 'react';
-import { InputBase, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { InputBase, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { IMaskInput } from 'react-imask';
 
 const code = `
-import { InputBase } from '@mantine/core';
+import { InputBase } from '@reactgets/core';
 import { IMaskInput } from 'react-imask';
 
 function Demo() {

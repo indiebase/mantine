@@ -1,13 +1,13 @@
 import React from 'react';
-import { LoadingOverlay, Button, Group, useMantineTheme, Box, rem } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
+import { LoadingOverlay, Button, Group, useMantineTheme, Box, rem } from '@reactgets/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
 import { AuthenticationForm } from '../../../shared/AuthenticationForm/AuthenticationForm';
 import { demoBase } from './_demo-base';
 
 const code = `
-import { useDisclosure } from '@mantine/hooks';
-import { LoadingOverlay, Button, Group, Box } from '@mantine/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { LoadingOverlay, Button, Group, Box } from '@reactgets/core';
 
 function Demo() {
   const [visible, { toggle }] = useDisclosure(false);

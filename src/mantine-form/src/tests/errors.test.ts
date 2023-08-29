@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/errors', () => {
+describe('@reactgets/form/errors', () => {
   it('initializes form with given initialErrors', () => {
     const hook = renderHook(() => useForm({ initialErrors: { a: true, b: true } }));
     expect(hook.result.current.errors).toStrictEqual({ a: true, b: true });

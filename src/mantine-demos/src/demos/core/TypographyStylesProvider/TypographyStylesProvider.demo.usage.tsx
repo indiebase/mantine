@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { TypographyStylesProvider, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { TypographyStylesProvider, Box } from '@reactgets/core';
 
 const html = `
 <h1>Example article</h1>
@@ -27,7 +27,7 @@ const html = `
 `;
 
 const code = `
-import { TypographyStylesProvider } from '@mantine/core';
+import { TypographyStylesProvider } from '@reactgets/core';
 
 function Demo() {
   return (

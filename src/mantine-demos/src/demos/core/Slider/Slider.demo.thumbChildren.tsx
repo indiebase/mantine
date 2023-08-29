@@ -1,10 +1,10 @@
 import React from 'react';
-import { Slider, RangeSlider, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Slider, RangeSlider, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { IconHeart, IconHeartBroken } from '@tabler/icons-react';
 
 const code = `
-import { Slider, RangeSlider, rem } from '@mantine/core';
+import { Slider, RangeSlider, rem } from '@reactgets/core';
 import { IconHeart, IconHeartBroken } from '@tabler/icons-react';
 
 function Demo() {

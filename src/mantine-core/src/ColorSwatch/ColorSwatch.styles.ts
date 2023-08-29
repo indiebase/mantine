@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, rem } from '@mantine/styles';
+import { createStyles, MantineNumberSize, rem } from '@reactgets/styles';
 
 export interface ColorSwatchStylesParams {
   radius: MantineNumberSize;

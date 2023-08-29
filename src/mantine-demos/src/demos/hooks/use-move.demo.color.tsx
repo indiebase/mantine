@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Group, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useMove } from '@mantine/hooks';
+import { Group, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useMove } from '@reactgets/hooks';
 
 const code = `
 import { useState } from 'react';
-import { Group, rem } from '@mantine/core';
-import { useMove } from '@mantine/hooks';
+import { Group, rem } from '@reactgets/core';
+import { useMove } from '@reactgets/hooks';
 
 function Demo() {
   const [value, setValue] = useState({ x: 0.2, y: 0.6 });

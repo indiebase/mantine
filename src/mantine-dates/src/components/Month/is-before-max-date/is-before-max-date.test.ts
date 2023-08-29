@@ -1,6 +1,6 @@
 import { isBeforeMaxDate } from './is-before-max-date';
 
-describe('@mantine/dates/is-before-max-date', () => {
+describe('@reactgets/dates/is-before-max-date', () => {
   it('correctly detects dates that are before given maxDate', () => {
     expect(isBeforeMaxDate(new Date(2022, 3, 15), new Date(2022, 3, 12))).toBe(false);
     expect(isBeforeMaxDate(new Date(2022, 4, 15), new Date(2022, 3, 12))).toBe(false);

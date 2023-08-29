@@ -1,5 +1,5 @@
 import React from 'react';
-import { MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
+import { MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
 import { ModalBase, ModalBaseDefaultProps, ModalBaseSettings } from '../../ModalBase';
 import { ModalProvider, ScrollAreaComponent } from '../Modal.context';
 import useStyles from './ModalRoot.styles';

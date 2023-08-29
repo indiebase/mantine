@@ -10,7 +10,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { NumberInput, NumberInputHandlers, NumberInputProps } from './NumberInput';
 
 const defaultProps: NumberInputProps = {
@@ -33,7 +33,7 @@ const focusInput = () => fireEvent.focus(getInput());
 const blurInput = () => fireEvent.blur(getInput());
 const clearInput = () => userEvent.clear(getInput());
 
-describe('@mantine/core/NumberInput', () => {
+describe('@reactgets/core/NumberInput', () => {
   checkAccessibility([
     <NumberInput {...defaultProps} label="test" />,
     <NumberInput {...defaultProps} aria-label="test" />,
@@ -42,7 +42,7 @@ describe('@mantine/core/NumberInput', () => {
   itSupportsSystemProps({
     component: NumberInput,
     props: defaultProps,
-    displayName: '@mantine/core/NumberInput',
+    displayName: '@reactgets/core/NumberInput',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'NumberInput',

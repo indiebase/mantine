@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Stepper, Button, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Stepper, Button, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { Content } from './_content';
 
 const code = `
 import { useState } from 'react';
-import { Stepper, Button, Group } from '@mantine/core';
+import { Stepper, Button, Group } from '@reactgets/core';
 
 function Demo() {
   const [active, setActive] = useState(1);

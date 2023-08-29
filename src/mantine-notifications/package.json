@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/notifications",
+  "name": "@reactgets/notifications",
   "description": "Notification system based on Mantine components",
   "version": "6.0.19",
   "main": "cjs/index.js",
@@ -28,13 +28,13 @@
     "notification-system"
   ],
   "peerDependencies": {
-    "@mantine/core": "6.0.19",
-    "@mantine/hooks": "6.0.19",
+    "@reactgets/core": "6.0.19",
+    "@reactgets/hooks": "6.0.19",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "@mantine/utils": "6.0.19",
+    "@reactgets/utils": "6.0.19",
     "react-transition-group": "4.4.2"
   }
 }

@@ -1,6 +1,6 @@
 import { validateJson } from './validate-json';
 
-describe('@mantine/core/JsonInput/validate-json', () => {
+describe('@reactgets/core/JsonInput/validate-json', () => {
   it('considers empty string to be valid json', () => {
     expect(validateJson('', JSON.parse)).toBe(true);
     expect(validateJson(' \t \n', JSON.parse)).toBe(true);

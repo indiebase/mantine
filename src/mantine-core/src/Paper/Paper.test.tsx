@@ -3,19 +3,19 @@ import {
   itIsPolymorphic,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Paper, PaperProps } from './Paper';
 
 const defaultProps: PaperProps = {};
 
-describe('@mantine/core/Paper', () => {
+describe('@reactgets/core/Paper', () => {
   itRendersChildren(Paper, defaultProps);
   itIsPolymorphic(Paper, defaultProps);
   itSupportsProviderVariant(Paper, defaultProps, 'Paper');
   itSupportsSystemProps({
     component: Paper,
     props: defaultProps,
-    displayName: '@mantine/core/Paper',
+    displayName: '@reactgets/core/Paper',
     refType: HTMLDivElement,
     providerName: 'Paper',
   });

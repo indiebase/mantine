@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Text } from '../../Text';
 import { useMenuContext } from '../Menu.context';
 import useStyles from './MenuLabel.styles';
@@ -30,4 +30,4 @@ export const MenuLabel = forwardRef<HTMLDivElement, MenuLabelProps>((props, ref)
   );
 });
 
-MenuLabel.displayName = '@mantine/core/MenuLabel';
+MenuLabel.displayName = '@reactgets/core/MenuLabel';

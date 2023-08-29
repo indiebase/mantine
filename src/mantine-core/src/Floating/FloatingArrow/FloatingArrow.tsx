@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useMantineTheme } from '@mantine/styles';
+import { useMantineTheme } from '@reactgets/styles';
 import { getArrowPositionStyles } from './get-arrow-position-styles';
 import { ArrowPosition, FloatingPosition } from '../types';
 
@@ -53,4 +53,4 @@ export const FloatingArrow = forwardRef<HTMLDivElement, FloatingArrowProps>(
   }
 );
 
-FloatingArrow.displayName = '@mantine/core/FloatingArrow';
+FloatingArrow.displayName = '@reactgets/core/FloatingArrow';

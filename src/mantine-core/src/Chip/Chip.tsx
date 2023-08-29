@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useId, useUncontrolled } from '@mantine/hooks';
+import { useId, useUncontrolled } from '@reactgets/hooks';
 import {
   DefaultProps,
   MantineNumberSize,
@@ -7,8 +7,8 @@ import {
   Selectors,
   useComponentDefaultProps,
   Variants,
-} from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+} from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { Box, extractSystemStyles } from '../Box';
 import { CheckIcon } from '../Checkbox';
 import { ChipGroup } from './ChipGroup/ChipGroup';
@@ -149,5 +149,5 @@ export const Chip: ChipComponent = forwardRef<HTMLInputElement, ChipProps>((prop
   );
 }) as any;
 
-Chip.displayName = '@mantine/core/Chip';
+Chip.displayName = '@reactgets/core/Chip';
 Chip.Group = ChipGroup;

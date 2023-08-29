@@ -26,7 +26,7 @@ const defaultProps: SelectItemsProps = {
   variant: 'filled',
 };
 
-describe('@mantine/core/Select/SelectItems', () => {
+describe('@reactgets/core/Select/SelectItems', () => {
   it('renders nothing found message if data array is empty', () => {
     const { container: withData } = render(<SelectItems {...defaultProps} data={data} />);
     const { container: withoutData } = render(
@@ -81,6 +81,6 @@ describe('@mantine/core/Select/SelectItems', () => {
   });
 
   it('has correct displayName', () => {
-    expect(SelectItems.displayName).toStrictEqual('@mantine/core/SelectItems');
+    expect(SelectItems.displayName).toStrictEqual('@reactgets/core/SelectItems');
   });
 });

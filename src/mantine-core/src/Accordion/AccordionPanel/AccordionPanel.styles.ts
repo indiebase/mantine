@@ -1,4 +1,4 @@
-import { createStyles } from '@mantine/styles';
+import { createStyles } from '@reactgets/styles';
 import { AccordionStylesParams } from '../Accordion.types';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

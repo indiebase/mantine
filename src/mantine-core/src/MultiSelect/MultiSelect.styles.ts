@@ -1,4 +1,4 @@
-import { createStyles, rem, getSize } from '@mantine/styles';
+import { createStyles, rem, getSize } from '@reactgets/styles';
 import { INPUT_SIZES } from '../Input';
 import { sizes as DEFAULT_VALUE_SIZES } from './DefaultValue/DefaultValue.styles';
 

@@ -28,7 +28,7 @@ Init new application:
 npx create-remix@latest my-mantine-app
 ```
 
-<PackagesInstallation extraPackages={['@mantine/remix', '@emotion/server']} />
+<PackagesInstallation extraPackages={['@reactgets/remix', '@emotion/server']} />
 
 Replace your `entry.server.tsx` file with
 
@@ -36,7 +36,7 @@ Replace your `entry.server.tsx` file with
 import { renderToString } from 'react-dom/server';
 import { RemixServer } from '@remix-run/react';
 import type { EntryContext } from '@remix-run/node';
-import { injectStyles, createStylesServer } from '@mantine/remix';
+import { injectStyles, createStylesServer } from '@reactgets/remix';
 
 const server = createStylesServer();
 
@@ -61,8 +61,8 @@ Add [MantineProvider](/theming/mantine-provider/) and `StylesPlaceholder` to the
 ```tsx
 import type { MetaFunction } from '@remix-run/node';
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
-import { MantineProvider, createEmotionCache } from '@mantine/core';
-import { StylesPlaceholder } from '@mantine/remix';
+import { MantineProvider, createEmotionCache } from '@reactgets/core';
+import { StylesPlaceholder } from '@reactgets/remix';
 import { theme } from './theme';
 
 export const meta: MetaFunction = () => ({
@@ -99,7 +99,7 @@ Replace `entry.client.tsx` with
 ```tsx
 import { RemixBrowser } from '@remix-run/react';
 import { hydrate } from 'react-dom';
-import { ClientProvider } from '@mantine/remix';
+import { ClientProvider } from '@reactgets/remix';
 
 hydrate(
   <ClientProvider>

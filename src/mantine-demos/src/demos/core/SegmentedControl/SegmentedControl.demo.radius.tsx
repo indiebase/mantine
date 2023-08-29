@@ -1,6 +1,6 @@
 import React from 'react';
-import { MANTINE_SIZES, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { MANTINE_SIZES, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { SegmentedControlWrapper } from './Wrapper';
 
 function Demo() {

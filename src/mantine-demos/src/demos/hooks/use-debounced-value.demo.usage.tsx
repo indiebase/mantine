@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { useDebouncedValue } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { TextInput, Text, Box } from '@mantine/core';
+import { useDebouncedValue } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { TextInput, Text, Box } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { useDebouncedValue } from '@mantine/hooks';
-import { TextInput, Text } from '@mantine/core';
+import { useDebouncedValue } from '@reactgets/hooks';
+import { TextInput, Text } from '@reactgets/core';
 
 function Demo() {
   const [value, setValue] = useState('');

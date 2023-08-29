@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Autocomplete } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Autocomplete } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { Autocomplete } from '@mantine/core';
+import { Autocomplete } from '@reactgets/core';
 
 function Demo() {
   const [value, setValue] = useState('');

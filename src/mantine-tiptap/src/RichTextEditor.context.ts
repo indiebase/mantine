@@ -1,5 +1,5 @@
-import { Styles, ClassNames } from '@mantine/core';
-import { createSafeContext } from '@mantine/utils';
+import { Styles, ClassNames } from '@reactgets/core';
+import { createSafeContext } from '@reactgets/utils';
 import { Editor } from '@tiptap/react';
 import { RichTextEditorLabels } from './labels';
 import type { RichTextEditorStylesNames } from './RichTextEditor';

@@ -1,6 +1,6 @@
 import { insertPath } from './insert-path';
 
-describe('@mantine/form/insert-path', () => {
+describe('@reactgets/form/insert-path', () => {
   it('inserts item at given index', () => {
     expect(insertPath('a', 4, 1, { a: [1, 2, 3] })).toStrictEqual({ a: [1, 4, 2, 3] });
   });

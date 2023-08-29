@@ -1,7 +1,7 @@
 import { cover } from './cover';
 import { rem } from '../../../utils';
 
-describe('@mantine/styles/cover', () => {
+describe('@reactgets/styles/cover', () => {
   it('returns correct styles', () => {
     expect(cover(16)).toStrictEqual({
       position: 'absolute',

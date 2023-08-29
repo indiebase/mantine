@@ -5,8 +5,8 @@ import {
   getDefaultZIndex,
   MantineColor,
   PortalProps,
-} from '@mantine/core';
-import { useDidUpdate, useInterval, useReducedMotion } from '@mantine/hooks';
+} from '@reactgets/core';
+import { useDidUpdate, useInterval, useReducedMotion } from '@reactgets/hooks';
 import React, { useRef, useState } from 'react';
 import { useNavigationProgressEvents } from './events';
 

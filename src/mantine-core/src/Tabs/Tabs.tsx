@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps, Selectors } from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+import { DefaultProps, useComponentDefaultProps, Selectors } from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { Box } from '../Box';
 import { TabsList, TabsListStylesNames } from './TabsList/TabsList';
 import { TabsPanel, TabsPanelStylesNames } from './TabsPanel/TabsPanel';
@@ -100,4 +100,4 @@ Tabs.List = TabsList;
 Tabs.Tab = Tab;
 Tabs.Panel = TabsPanel;
 
-Tabs.displayName = '@mantine/core/Tabs';
+Tabs.displayName = '@reactgets/core/Tabs';

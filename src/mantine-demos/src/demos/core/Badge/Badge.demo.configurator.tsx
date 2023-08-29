@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Badge, BadgeProps, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Badge, BadgeProps, Group } from '@reactgets/core';
 
 function Wrapper(props: BadgeProps) {
   return (
@@ -11,7 +11,7 @@ function Wrapper(props: BadgeProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Badge } from '@mantine/core';
+import { Badge } from '@reactgets/core';
 
 function Demo() {
   return (

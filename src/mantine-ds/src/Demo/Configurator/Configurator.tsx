@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MantineNumberSize, useMantineTheme, rem } from '@mantine/core';
-import { Prism } from '@mantine/prism';
+import { MantineNumberSize, useMantineTheme, rem } from '@reactgets/core';
+import { Prism } from '@reactgets/prism';
 import controls, { ControlProps } from './controls';
 import { propsToString } from './props-to-string';
 import useStyles from './Configurator.styles';

@@ -7,7 +7,7 @@ import {
   IconTrash,
   IconArrowsLeftRight,
 } from '@tabler/icons-react';
-import { Menu, Text, Button, rem } from '@mantine/core';
+import { Menu, Text, Button, rem } from '@reactgets/core';
 
 export function DemoMenuItems({ widthRightSection = true, withTarget = true }) {
   return (

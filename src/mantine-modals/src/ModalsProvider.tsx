@@ -1,6 +1,6 @@
 import React, { useCallback, useReducer, useRef } from 'react';
-import { Modal, getDefaultZIndex } from '@mantine/core';
-import { randomId } from '@mantine/hooks';
+import { Modal, getDefaultZIndex } from '@reactgets/core';
+import { randomId } from '@reactgets/hooks';
 import {
   ModalsContext,
   ModalSettings,

@@ -1,10 +1,10 @@
 import React from 'react';
-import { FileInput, FileInputProps, Group, Center, rem, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { FileInput, FileInputProps, Group, Center, rem, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { IconPhoto } from '@tabler/icons-react';
 
 const code = `
-import { FileInput, FileInputProps, Group, Center, rem } from '@mantine/core';
+import { FileInput, FileInputProps, Group, Center, rem } from '@reactgets/core';
 import { IconPhoto } from '@tabler/icons-react';
 
 function Value({ file }: { file: File }) {

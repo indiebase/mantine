@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SegmentedControl, SegmentedControlProps } from '@mantine/core';
+import { SegmentedControl, SegmentedControlProps } from '@reactgets/core';
 
 const data = [
   { label: 'React', value: 'react' },

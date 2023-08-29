@@ -8,7 +8,7 @@ import {
   itSupportsFocusEvents,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Autocomplete, AutocompleteProps } from './Autocomplete';
 
 const defaultProps: AutocompleteProps = {
@@ -29,7 +29,7 @@ const queries = {
   getItems: (container: HTMLElement) => container.querySelectorAll('.mantine-Autocomplete-item'),
 };
 
-describe('@mantine/core/Autocomplete', () => {
+describe('@reactgets/core/Autocomplete', () => {
   checkAccessibility([<Autocomplete {...defaultProps} />]);
   itSupportsInputProps(Autocomplete, defaultProps, 'Autocomplete');
   itSupportsProviderVariant(Autocomplete, defaultProps, 'Autocomplete', ['root', 'input', 'label']);
@@ -38,7 +38,7 @@ describe('@mantine/core/Autocomplete', () => {
   itSupportsSystemProps({
     component: Autocomplete,
     props: defaultProps,
-    displayName: '@mantine/core/Autocomplete',
+    displayName: '@reactgets/core/Autocomplete',
     refType: HTMLInputElement,
     othersSelector: '.mantine-Autocomplete-input',
     providerName: 'Autocomplete',

@@ -1,13 +1,13 @@
 import React from 'react';
 import { IconArrowUp } from '@tabler/icons-react';
-import { useWindowScroll } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { Button, Text, Transition, Affix, rem } from '@mantine/core';
+import { useWindowScroll } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, Text, Transition, Affix, rem } from '@reactgets/core';
 
 const code = `
 import { IconArrowUp } from '@tabler/icons-react';
-import { useWindowScroll } from '@mantine/hooks';
-import { Affix, Button, Text, Transition, rem } from '@mantine/core';
+import { useWindowScroll } from '@reactgets/hooks';
+import { Affix, Button, Text, Transition, rem } from '@reactgets/core';
 
 function Demo() {
   const [scroll, scrollTo] = useWindowScroll();

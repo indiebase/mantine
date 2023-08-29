@@ -7,7 +7,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Radio, RadioProps } from './Radio';
 import { RadioGroup } from './RadioGroup/RadioGroup';
 
@@ -16,7 +16,7 @@ const defaultProps: RadioProps = {
   label: 'test-radio-label',
 };
 
-describe('@mantine/core/Radio', () => {
+describe('@reactgets/core/Radio', () => {
   itConnectsLabelAndInput(Radio, defaultProps);
   itSupportsWrapperProps(Radio, defaultProps);
   itSupportsProviderVariant(Radio, defaultProps, 'Radio');
@@ -25,7 +25,7 @@ describe('@mantine/core/Radio', () => {
   itSupportsSystemProps({
     component: Radio,
     props: defaultProps,
-    displayName: '@mantine/core/Radio',
+    displayName: '@reactgets/core/Radio',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'Radio',

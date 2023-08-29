@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconHash } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { NativeSelect } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { NativeSelect } from '@reactgets/core';
 
 const code = `
-import { NativeSelect } from '@mantine/core';
+import { NativeSelect } from '@reactgets/core';
 import { IconHash } from '@tabler/icons-react';
 
 function Demo() {

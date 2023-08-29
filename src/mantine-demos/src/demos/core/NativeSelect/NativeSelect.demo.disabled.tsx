@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Box, NativeSelect } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Box, NativeSelect } from '@reactgets/core';
 
 const code = `
-import { NativeSelect } from '@mantine/core';
+import { NativeSelect } from '@reactgets/core';
 
 function Demo() {
   return <NativeSelect disabled data={[]} />;

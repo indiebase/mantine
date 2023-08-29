@@ -7,7 +7,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { SegmentedControl, SegmentedControlProps } from './SegmentedControl';
 
 const defaultProps: SegmentedControlProps = {
@@ -19,14 +19,14 @@ const defaultProps: SegmentedControlProps = {
   ],
 };
 
-describe('@mantine/core/SegmentedControl', () => {
+describe('@reactgets/core/SegmentedControl', () => {
   checkAccessibility([<SegmentedControl {...defaultProps} />]);
   itSupportsProviderVariant(SegmentedControl, defaultProps, 'SegmentedControl');
   itSupportsProviderSize(SegmentedControl, defaultProps, 'SegmentedControl');
   itSupportsSystemProps({
     component: SegmentedControl,
     props: defaultProps,
-    displayName: '@mantine/core/SegmentedControl',
+    displayName: '@reactgets/core/SegmentedControl',
     refType: HTMLDivElement,
     providerName: 'SegmentedControl',
   });

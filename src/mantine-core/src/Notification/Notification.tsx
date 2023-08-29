@@ -5,7 +5,7 @@ import {
   Selectors,
   MantineNumberSize,
   useComponentDefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Text } from '../Text';
 import { Loader } from '../Loader';
 import { CloseButton } from '../CloseButton';
@@ -116,4 +116,4 @@ export const Notification = forwardRef<HTMLDivElement, NotificationProps>((props
   );
 });
 
-Notification.displayName = '@mantine/core/Notification';
+Notification.displayName = '@reactgets/core/Notification';

@@ -5,7 +5,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   itSupportsMonthsListProps,
   itHandlesControlsKeyboardEvents,
@@ -17,13 +17,13 @@ const defaultProps = {
   defaultDate: new Date(2022, 3, 11),
 };
 
-describe('@mantine/dates/MonthPicker', () => {
+describe('@reactgets/dates/MonthPicker', () => {
   itSupportsSystemProps({
     component: MonthPicker,
     props: defaultProps,
     refType: HTMLDivElement,
     providerName: 'MonthPicker',
-    displayName: '@mantine/dates/MonthPicker',
+    displayName: '@reactgets/dates/MonthPicker',
   });
 
   itSupportsProviderVariant(MonthPicker, defaultProps, 'MonthPicker', 'calendar');

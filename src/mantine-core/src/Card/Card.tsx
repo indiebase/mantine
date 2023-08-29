@@ -1,6 +1,6 @@
 import React, { Children, cloneElement, forwardRef } from 'react';
-import { MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Paper, PaperProps } from '../Paper/Paper';
 import { CardSection } from './CardSection/CardSection';
 import useStyles from './Card.styles';
@@ -55,7 +55,7 @@ export const _Card = forwardRef<HTMLDivElement, CardProps>((props, ref) => {
 }) as any;
 
 _Card.Section = CardSection;
-_Card.displayName = '@mantine/core/Card';
+_Card.displayName = '@reactgets/core/Card';
 
 export const Card = createPolymorphicComponent<'div', CardProps, { Section: typeof CardSection }>(
   _Card

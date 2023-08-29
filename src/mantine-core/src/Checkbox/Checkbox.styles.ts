@@ -5,7 +5,7 @@ import {
   getStylesRef,
   rem,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 const sizes = {
   xs: rem(16),

@@ -10,7 +10,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { IconCrown } from '@tabler/icons-react';
 import { Switch, SwitchProps } from './Switch';
 
@@ -18,7 +18,7 @@ const defaultProps: SwitchProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/Switch', () => {
+describe('@reactgets/core/Switch', () => {
   checkAccessibility([<Switch aria-label="Switch without label" />, <Switch label="With label" />]);
   itHandlesBooleanState(Switch, defaultProps);
   itConnectsLabelAndInput(Switch, defaultProps);
@@ -29,7 +29,7 @@ describe('@mantine/core/Switch', () => {
   itSupportsSystemProps({
     component: Switch,
     props: defaultProps,
-    displayName: '@mantine/core/Switch',
+    displayName: '@reactgets/core/Switch',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'Switch',

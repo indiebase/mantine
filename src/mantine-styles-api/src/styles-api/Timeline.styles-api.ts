@@ -1,4 +1,4 @@
-import type { TimelineStylesNames } from '@mantine/core';
+import type { TimelineStylesNames } from '@reactgets/core';
 
 export const Timeline: Record<TimelineStylesNames, string> = {
   root: 'Root element',

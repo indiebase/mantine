@@ -5,7 +5,7 @@ import {
   MantineNumberSize,
   keyframes,
   rem,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { IndicatorPosition } from './Indicator.types';
 
 export interface IndicatorStylesParams {

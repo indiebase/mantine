@@ -3,7 +3,7 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { SimpleGrid, SimpleGridProps } from './SimpleGrid';
 
 const defaultProps: SimpleGridProps = {
@@ -11,13 +11,13 @@ const defaultProps: SimpleGridProps = {
   children: <span>test</span>,
 };
 
-describe('@mantine/core/SimpleGrid', () => {
+describe('@reactgets/core/SimpleGrid', () => {
   itRendersChildren(SimpleGrid, defaultProps);
   itSupportsProviderVariant(SimpleGrid, defaultProps, 'SimpleGrid');
   itSupportsSystemProps({
     component: SimpleGrid,
     props: defaultProps,
-    displayName: '@mantine/core/SimpleGrid',
+    displayName: '@reactgets/core/SimpleGrid',
     refType: HTMLDivElement,
     providerName: 'SimpleGrid',
   });

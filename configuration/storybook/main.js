@@ -14,7 +14,7 @@ const storiesPath = !argv._[0]
 
 module.exports = {
   core: {
-    builder: 'webpack5',
+    builder: '@storybook/builder-webpack5',
   },
   stories: [...storiesPath],
   addons: ['storybook-addon-turbo-build', 'storybook-dark-mode'],

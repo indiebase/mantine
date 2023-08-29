@@ -2,18 +2,18 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Skeleton, SkeletonProps } from './Skeleton';
 
 const defaultProps: SkeletonProps = {};
 
-describe('@mantine/core/Skeleton', () => {
+describe('@reactgets/core/Skeleton', () => {
   itRendersChildren(Skeleton, defaultProps);
   itSupportsProviderVariant(Skeleton, defaultProps, 'Skeleton');
   itSupportsSystemProps({
     component: Skeleton,
     props: defaultProps,
-    displayName: '@mantine/core/Skeleton',
+    displayName: '@reactgets/core/Skeleton',
     refType: HTMLDivElement,
     providerName: 'Skeleton',
   });

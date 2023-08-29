@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { useMantineTheme, Group, Text, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useMove } from '@mantine/hooks';
+import { useMantineTheme, Group, Text, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useMove } from '@reactgets/hooks';
 
 const code = `
-import { useMantineTheme, Text, rem } from '@mantine/core';
-import { useMove } from '@mantine/hooks';
+import { useMantineTheme, Text, rem } from '@reactgets/core';
+import { useMove } from '@reactgets/hooks';
 
 function Demo() {
   const theme = useMantineTheme();

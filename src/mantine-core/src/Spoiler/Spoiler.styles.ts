@@ -1,4 +1,4 @@
-import { createStyles } from '@mantine/styles';
+import { createStyles } from '@reactgets/styles';
 
 export interface SpoilerStylesParams {
   transitionDuration: number;

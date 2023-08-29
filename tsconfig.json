@@ -22,8 +22,12 @@
   ],
   "compilerOptions": {
     "paths": {
-      "@mantine/*": ["src/mantine-*/src"],
-      "@demos/*": ["src/mantine-*/src/demos"]
+      "@reactgets/*": [
+        "src/mantine-*/src"
+      ],
+      "@demos/*": [
+        "src/mantine-*/src/demos"
+      ]
     }
   }
 }

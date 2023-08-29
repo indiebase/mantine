@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { TimeInput } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { TimeInput } from '@reactgets/dates';
 
 const code = `
-import { TimeInput } from '@mantine/dates';
+import { TimeInput } from '@reactgets/dates';
 
 function Demo() {
   return <TimeInput withSeconds maw={400} mx="auto" />;

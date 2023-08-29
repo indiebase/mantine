@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Kbd } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Kbd } from '@reactgets/core';
 
 const code = `
-import { Kbd } from '@mantine/core';
+import { Kbd } from '@reactgets/core';
 
 function Demo() {
   return (

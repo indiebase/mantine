@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { useModalBaseContext } from '../ModalBase.context';
 import useStyles from './ModalBaseHeader.styles';

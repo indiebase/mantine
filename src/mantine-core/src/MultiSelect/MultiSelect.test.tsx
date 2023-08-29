@@ -13,7 +13,7 @@ import {
   itSupportsProviderSize,
   itSupportsProviderVariant,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { render } from '@testing-library/react';
 import { MultiSelect, MultiSelectProps } from './MultiSelect';
 
@@ -26,7 +26,7 @@ const defaultProps: MultiSelectProps = {
   id: 'test-multi-select',
 };
 
-describe('@mantine/core/MultiSelect', () => {
+describe('@reactgets/core/MultiSelect', () => {
   itSupportsProviderVariant(MultiSelect, defaultProps, 'MultiSelect', ['root', 'input', 'label']);
   itSupportsProviderSize(MultiSelect, defaultProps, 'MultiSelect', ['root', 'input', 'label']);
   checkAccessibility([<MultiSelect {...defaultProps} initiallyOpened />]);
@@ -41,7 +41,7 @@ describe('@mantine/core/MultiSelect', () => {
   itSupportsSystemProps({
     component: MultiSelect,
     props: defaultProps,
-    displayName: '@mantine/core/MultiSelect',
+    displayName: '@reactgets/core/MultiSelect',
     refType: HTMLInputElement,
     othersSelector: '#test-multi-select',
     providerName: 'MultiSelect',

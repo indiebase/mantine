@@ -1,6 +1,6 @@
 import React from 'react';
-import { TimelineProps, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { TimelineProps, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { TimelineBase } from './_base';
 
 function Wrapper(props: TimelineProps) {
@@ -12,7 +12,7 @@ function Wrapper(props: TimelineProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Timeline } from '@mantine/core';
+import { Timeline } from '@reactgets/core';
 
 function Demo() {
   return (

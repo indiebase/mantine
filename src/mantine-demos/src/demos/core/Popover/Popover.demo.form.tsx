@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Popover, Button, TextInput } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Popover, Button, TextInput } from '@reactgets/core';
 
 const code = `
-import { Popover, Button, TextInput } from '@mantine/core';
+import { Popover, Button, TextInput } from '@reactgets/core';
 
 function Demo() {
   return (

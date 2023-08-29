@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/core';
+import { useComponentDefaultProps } from '@reactgets/core';
 import { useDatesInput } from '../../hooks';
 import { pickCalendarProps } from '../Calendar';
 import { DatePicker, DatePickerBaseProps } from '../DatePicker';
@@ -119,4 +119,4 @@ export const DatePickerInput: DatePickerInputComponent = forwardRef((props, ref)
   );
 });
 
-DatePickerInput.displayName = '@mantine/dates/DatePickerInput';
+DatePickerInput.displayName = '@reactgets/dates/DatePickerInput';

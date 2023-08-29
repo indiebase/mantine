@@ -1,7 +1,7 @@
 /* eslint-disable import/no-webpack-loader-syntax */
 import React from 'react';
-import { SimpleGrid, Button, Group, createStyles, DEFAULT_THEME, rem } from '@mantine/core';
-import { useClipboard } from '@mantine/hooks';
+import { SimpleGrid, Button, Group, createStyles, DEFAULT_THEME, rem } from '@reactgets/core';
+import { useClipboard } from '@reactgets/hooks';
 
 import fullLogoCode from '!!raw-loader!./assets/mantine-logo-full.svg';
 import fullLogoImage from './assets/mantine-logo-full.svg';

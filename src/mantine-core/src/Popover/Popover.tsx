@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unused-prop-types */
 
 import React, { useRef, useState, useCallback } from 'react';
-import { useId, useClickOutside } from '@mantine/hooks';
+import { useId, useClickOutside } from '@reactgets/hooks';
 import {
   useMantineTheme,
   ClassNames,
@@ -10,7 +10,7 @@ import {
   MantineShadow,
   getDefaultZIndex,
   useComponentDefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { TransitionOverride } from '../Transition';
 import {
   getFloatingPosition,
@@ -294,4 +294,4 @@ export function Popover(props: PopoverProps) {
 
 Popover.Target = PopoverTarget;
 Popover.Dropdown = PopoverDropdown;
-Popover.displayName = '@mantine/core/Popover';
+Popover.displayName = '@reactgets/core/Popover';

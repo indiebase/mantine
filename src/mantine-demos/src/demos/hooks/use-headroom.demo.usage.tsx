@@ -1,11 +1,11 @@
 import React from 'react';
-import { Box, Portal, rem, Text } from '@mantine/core';
-import { useHeadroom } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
+import { Box, Portal, rem, Text } from '@reactgets/core';
+import { useHeadroom } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
 
 const code = `
-import { Box, Portal, rem, Text } from '@mantine/core';
-import { useHeadroom } from '@mantine/hooks';
+import { Box, Portal, rem, Text } from '@reactgets/core';
+import { useHeadroom } from '@reactgets/hooks';
 
 function Demo() {
   const pinned = useHeadroom({ fixedAt: 120 });

@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React from 'react';
-import type { SpotlightAction } from '@mantine/spotlight';
+import type { SpotlightAction } from '@reactgets/spotlight';
 import { IconHome, IconDashboard, IconFileText } from '@tabler/icons-react';
 
 export const actions: SpotlightAction[] = [

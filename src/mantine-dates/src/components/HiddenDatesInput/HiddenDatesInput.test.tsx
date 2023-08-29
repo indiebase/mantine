@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { HiddenDatesInput } from './HiddenDatesInput';
 
-describe('@mantine/dates/HiddenDatesInput', () => {
+describe('@reactgets/dates/HiddenDatesInput', () => {
   it('sets name and form on the input', () => {
     const { container } = render(
       <HiddenDatesInput

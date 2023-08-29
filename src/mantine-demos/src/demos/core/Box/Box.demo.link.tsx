@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Box } from '@reactgets/core';
 
 const code = `
-import { Box } from '@mantine/core';
+import { Box } from '@reactgets/core';
 
 function Demo() {
   return (

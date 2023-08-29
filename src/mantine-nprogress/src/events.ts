@@ -1,4 +1,4 @@
-import { createUseExternalEvents } from '@mantine/utils';
+import { createUseExternalEvents } from '@reactgets/utils';
 
 export type NavigationProgressEvents = {
   start(): void;

@@ -1,6 +1,6 @@
 import { isMarkFilled } from './is-mark-filled';
 
-describe('@mantine/core/Slider/is-mark-filled', () => {
+describe('@reactgets/core/Slider/is-mark-filled', () => {
   it('correctly detects filled mark without offset', () => {
     expect(isMarkFilled({ mark: { value: 90 }, value: 100 })).toBe(true);
     expect(isMarkFilled({ mark: { value: 10 }, value: 100 })).toBe(true);

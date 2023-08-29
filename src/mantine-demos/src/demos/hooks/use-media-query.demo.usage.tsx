@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, Badge, em } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useMediaQuery } from '@mantine/hooks';
+import { Group, Badge, em } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useMediaQuery } from '@reactgets/hooks';
 
 const code = `
-import { Badge } from '@mantine/core';
-import { useMediaQuery } from '@mantine/hooks';
+import { Badge } from '@reactgets/core';
+import { useMediaQuery } from '@reactgets/hooks';
 
 function Demo() {
   const matches = useMediaQuery('(min-width: ${em(900)})');

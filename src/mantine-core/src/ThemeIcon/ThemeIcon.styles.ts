@@ -6,7 +6,7 @@ import {
   MantineTheme,
   rem,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export interface ThemeIconStylesParams {
   color: MantineColor;

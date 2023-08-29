@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
-import { useUncontrolled } from '@mantine/hooks';
+import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
+import { useUncontrolled } from '@reactgets/hooks';
 import { RenderList, RenderListStylesNames } from './RenderList/RenderList';
 import { SelectScrollArea } from '../Select/SelectScrollArea/SelectScrollArea';
 import { DefaultItem } from './DefaultItem/DefaultItem';
@@ -237,4 +237,4 @@ export const TransferList = forwardRef<HTMLDivElement, TransferListProps>((props
   );
 });
 
-TransferList.displayName = '@mantine/core/TransferList';
+TransferList.displayName = '@reactgets/core/TransferList';

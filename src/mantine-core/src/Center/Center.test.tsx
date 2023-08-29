@@ -3,21 +3,21 @@ import {
   itIsPolymorphic,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Center, CenterProps } from './Center';
 
 const defaultProps: CenterProps = {
   children: 'test-center',
 };
 
-describe('@mantine/core/Center', () => {
+describe('@reactgets/core/Center', () => {
   itRendersChildren(Center, defaultProps);
   itIsPolymorphic(Center, defaultProps);
   itSupportsProviderVariant(Center, defaultProps, 'Center');
   itSupportsSystemProps({
     component: Center,
     props: defaultProps,
-    displayName: '@mantine/core/Center',
+    displayName: '@reactgets/core/Center',
     refType: HTMLDivElement,
     providerName: 'Center',
   });

@@ -5,7 +5,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { DecadeLevel, DecadeLevelProps } from './DecadeLevel';
 import {
   itSupportsWithNextPrevious,
@@ -27,13 +27,13 @@ const defaultProps: DecadeLevelProps = {
   previousLabel: 'prev',
 };
 
-describe('@mantine/dates/DecadeLevel', () => {
+describe('@reactgets/dates/DecadeLevel', () => {
   itSupportsSystemProps({
     component: DecadeLevel,
     props: defaultProps,
     refType: HTMLDivElement,
     providerName: 'DecadeLevel',
-    displayName: '@mantine/dates/DecadeLevel',
+    displayName: '@reactgets/dates/DecadeLevel',
   });
 
   itSupportsProviderVariant(DecadeLevel, defaultProps, 'DecadeLevel', [

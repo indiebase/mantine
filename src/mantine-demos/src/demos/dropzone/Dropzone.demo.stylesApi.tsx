@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone';
+import { Text, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Dropzone, IMAGE_MIME_TYPE } from '@reactgets/dropzone';
 
 const code = `
-import { Text, rem } from '@mantine/core';
-import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone';
+import { Text, rem } from '@reactgets/core';
+import { Dropzone, IMAGE_MIME_TYPE } from '@reactgets/dropzone';
 
 function Demo() {
   return (

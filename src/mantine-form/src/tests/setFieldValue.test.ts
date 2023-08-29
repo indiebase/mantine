@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/setFieldValue', () => {
+describe('@reactgets/form/setFieldValue', () => {
   it('sets given value with root path', () => {
     const hook = renderHook(() => useForm({ initialValues: { a: 1, b: 2 } }));
 

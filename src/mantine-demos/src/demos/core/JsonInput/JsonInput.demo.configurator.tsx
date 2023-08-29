@@ -1,8 +1,8 @@
-import { MantineDemo } from '@mantine/ds';
-import { JsonInput } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { JsonInput } from '@reactgets/core';
 
 const codeTemplate = (props: string) => `
-import { JsonInput } from '@mantine/core';
+import { JsonInput } from '@reactgets/core';
 
 function Demo() {
   return (

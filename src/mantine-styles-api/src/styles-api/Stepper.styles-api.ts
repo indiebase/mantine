@@ -1,4 +1,4 @@
-import type { StepperStylesNames } from '@mantine/core';
+import type { StepperStylesNames } from '@reactgets/core';
 
 export const Stepper: Record<StepperStylesNames, string> = {
   root: 'Root element',

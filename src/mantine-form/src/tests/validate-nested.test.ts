@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/validate with nested rules', () => {
+describe('@reactgets/form/validate with nested rules', () => {
   it('validates object with nested values', () => {
     const hook = renderHook(() =>
       useForm({

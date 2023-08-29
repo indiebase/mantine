@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Checkbox, MANTINE_SIZES, Stack } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Checkbox, MANTINE_SIZES, Stack } from '@reactgets/core';
 
 function Demo() {
   const items = MANTINE_SIZES.map((size) => (

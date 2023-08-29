@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { ActionIcon, Group, ColorSwatch, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { ActionIcon, Group, ColorSwatch, Text } from '@reactgets/core';
 import { IconColorPicker } from '@tabler/icons-react';
-import { useEyeDropper } from '@mantine/hooks';
+import { useEyeDropper } from '@reactgets/hooks';
 
 const code = `
 import { useState } from 'react';
-import { ActionIcon, Group, ColorSwatch, Text } from '@mantine/core';
+import { ActionIcon, Group, ColorSwatch, Text } from '@reactgets/core';
 import { IconColorPicker } from '@tabler/icons-react';
-import { useEyeDropper } from '@mantine/hooks';
+import { useEyeDropper } from '@reactgets/hooks';
 
 function Demo() {
   const [color, setColor] = useState('');

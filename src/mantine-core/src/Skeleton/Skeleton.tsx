@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box';
 import useStyles, { SkeletonStylesParams } from './Skeleton.styles';
 
@@ -62,4 +62,4 @@ export const Skeleton = forwardRef<HTMLDivElement, SkeletonProps>((props, ref) =
   );
 });
 
-Skeleton.displayName = '@mantine/core/Skeleton';
+Skeleton.displayName = '@reactgets/core/Skeleton';

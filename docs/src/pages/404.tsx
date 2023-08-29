@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { Container } from '@mantine/core';
+import { Container } from '@reactgets/core';
 import GatsbyLink from '../components/MdxPage/MdxProvider/GatsbyLink/GatsbyLink';
 import { components } from '../components/MdxPage/MdxProvider/MdxProvider';
 import { PageHead } from '../components/PageHead/PageHead';

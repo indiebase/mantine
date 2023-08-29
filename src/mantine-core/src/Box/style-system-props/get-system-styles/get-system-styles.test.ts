@@ -1,7 +1,7 @@
-import { DEFAULT_THEME, rem } from '@mantine/styles';
+import { DEFAULT_THEME, rem } from '@reactgets/styles';
 import { getSystemStyles } from './get-system-styles';
 
-describe('@mantine/core/Box/get-system-styles', () => {
+describe('@reactgets/core/Box/get-system-styles', () => {
   it('transforms system props in styles', () => {
     expect(
       getSystemStyles(

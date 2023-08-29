@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { PinInput, Group, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { PinInput, Group, Box } from '@reactgets/core';
 
 const code = `
-import { PinInput, Group } from '@mantine/core';
+import { PinInput, Group } from '@reactgets/core';
 
 function Demo() {
   return (

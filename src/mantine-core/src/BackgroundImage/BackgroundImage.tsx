@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box } from '../Box';
 import useStyles, { BackgroundImageStylesParams } from './BackgroundImage.styles';
 
@@ -35,7 +35,7 @@ export const _BackgroundImage = forwardRef<HTMLDivElement, BackgroundImageProps>
   return <Box {...others} ref={ref} className={cx(classes.root, className)} />;
 });
 
-_BackgroundImage.displayName = '@mantine/core/BackgroundImage';
+_BackgroundImage.displayName = '@reactgets/core/BackgroundImage';
 
 export const BackgroundImage = createPolymorphicComponent<'div', BackgroundImageProps>(
   _BackgroundImage

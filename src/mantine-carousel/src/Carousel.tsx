@@ -7,9 +7,9 @@ import {
   Selectors,
   UnstyledButton,
   useComponentDefaultProps,
-} from '@mantine/core';
-import { clamp } from '@mantine/hooks';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+} from '@reactgets/core';
+import { clamp } from '@reactgets/hooks';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import useEmblaCarousel, { EmblaPluginType } from 'embla-carousel-react';
 import React, { Children, forwardRef, useCallback, useEffect, useState } from 'react';
 import { CarouselProvider } from './Carousel.context';
@@ -366,7 +366,7 @@ export const _Carousel = forwardRef<HTMLDivElement, CarouselProps>((props, ref) 
 }) as any;
 
 _Carousel.Slide = CarouselSlide;
-_Carousel.displayName = '@mantine/carousel/Carousel';
+_Carousel.displayName = '@reactgets/carousel/Carousel';
 
 export const Carousel: ForwardRefWithStaticComponents<
   CarouselProps,

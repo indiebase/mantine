@@ -5,8 +5,8 @@ import {
   useComponentDefaultProps,
   Selectors,
   rem,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box } from '../Box';
 import useStyles, { ColorSwatchStylesParams } from './ColorSwatch.styles';
 
@@ -68,6 +68,6 @@ export const _ColorSwatch = forwardRef<HTMLDivElement, ColorSwatchProps>((props,
   );
 });
 
-_ColorSwatch.displayName = '@mantine/core/ColorSwatch';
+_ColorSwatch.displayName = '@reactgets/core/ColorSwatch';
 
 export const ColorSwatch = createPolymorphicComponent<'div', ColorSwatchProps>(_ColorSwatch);

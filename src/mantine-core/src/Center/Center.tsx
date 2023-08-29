@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box } from '../Box';
 import useStyles from './Center.styles';
 
@@ -24,6 +24,6 @@ export const _Center = forwardRef<HTMLDivElement, CenterProps>((props, ref) => {
   return <Box ref={ref} className={cx(classes.root, className)} {...others} />;
 });
 
-_Center.displayName = '@mantine/core/Center';
+_Center.displayName = '@reactgets/core/Center';
 
 export const Center = createPolymorphicComponent<'div', CenterProps>(_Center);

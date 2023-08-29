@@ -4,7 +4,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderSize,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { HueSlider, HueSliderProps } from './HueSlider';
 
 const defaultProps: HueSliderProps = {
@@ -14,14 +14,14 @@ const defaultProps: HueSliderProps = {
   size: 'sm',
 };
 
-describe('@mantine/core/HueSlider', () => {
+describe('@reactgets/core/HueSlider', () => {
   checkAccessibility([<HueSlider {...defaultProps} aria-label="test-label" />]);
   itSupportsProviderSize(HueSlider, defaultProps, 'HueSlider', 'slider');
   itSupportsProviderVariant(HueSlider, defaultProps, 'HueSlider', 'slider');
   itSupportsSystemProps({
     component: HueSlider,
     props: defaultProps,
-    displayName: '@mantine/core/HueSlider',
+    displayName: '@reactgets/core/HueSlider',
     refType: HTMLDivElement,
     providerName: 'HueSlider',
   });

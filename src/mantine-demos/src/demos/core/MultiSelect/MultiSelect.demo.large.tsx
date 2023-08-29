@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { MultiSelect } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { MultiSelect } from '@reactgets/core';
 
 const code = `
-import { MultiSelect } from '@mantine/core';
+import { MultiSelect } from '@reactgets/core';
 
 const data = Array(50).fill(0).map((_, index) => \`Item \${index}\`);
 

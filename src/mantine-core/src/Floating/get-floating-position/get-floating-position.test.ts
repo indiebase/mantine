@@ -1,6 +1,6 @@
 import { getFloatingPosition } from './get-floating-position';
 
-describe('@mantine/core/get-floating-position', () => {
+describe('@reactgets/core/get-floating-position', () => {
   it('returns correct position for ltr direction', () => {
     expect(getFloatingPosition('ltr', 'right')).toBe('right');
     expect(getFloatingPosition('ltr', 'left')).toBe('left');

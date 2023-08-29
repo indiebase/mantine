@@ -1,6 +1,6 @@
 import React, { cloneElement, forwardRef } from 'react';
-import { isElement, createEventHandler } from '@mantine/utils';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { isElement, createEventHandler } from '@reactgets/utils';
+import { useComponentDefaultProps } from '@reactgets/styles';
 import { Popover, PopoverTargetProps } from '../../Popover';
 import { useHoverCardContext } from '../HoverCard.context';
 import { HOVER_CARD_ERRORS } from '../HoverCard.errors';
@@ -33,4 +33,4 @@ export const HoverCardTarget = forwardRef<HTMLElement, HoverCardTargetProps>((pr
   );
 });
 
-HoverCardTarget.displayName = '@mantine/core/HoverCardTarget';
+HoverCardTarget.displayName = '@reactgets/core/HoverCardTarget';

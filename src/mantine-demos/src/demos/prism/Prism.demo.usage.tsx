@@ -1,9 +1,9 @@
 import React from 'react';
-import { Prism } from '@mantine/prism';
-import { MantineDemo } from '@mantine/ds';
+import { Prism } from '@reactgets/prism';
+import { MantineDemo } from '@reactgets/ds';
 
 export const demoCode = `
-import { Button } from '@mantine/core';
+import { Button } from '@reactgets/core';
 
 function Demo() {
   return <Button>Hello</Button>
@@ -11,9 +11,9 @@ function Demo() {
 `;
 
 const code = `
-import { Prism } from '@mantine/prism';
+import { Prism } from '@reactgets/prism';
 
-const demoCode = \`import { Button } from '@mantine/core';
+const demoCode = \`import { Button } from '@reactgets/core';
 
 function Demo() {
   return <Button>Hello</Button>

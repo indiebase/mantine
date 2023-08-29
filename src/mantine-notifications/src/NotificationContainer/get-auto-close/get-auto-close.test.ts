@@ -1,6 +1,6 @@
 import getAutoClose from './get-auto-close';
 
-describe('@mantine/notifications/get-auto-close', () => {
+describe('@reactgets/notifications/get-auto-close', () => {
   it('prioritizes notification autoClose prop', () => {
     expect(getAutoClose(false, 10)).toBe(10);
     expect(getAutoClose(400, 10)).toBe(10);

@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, Avatar, Text, MantineColor, SelectItemProps, Autocomplete } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, Avatar, Text, MantineColor, SelectItemProps, Autocomplete } from '@reactgets/core';
 
 const code = `
 import { forwardRef } from 'react';
-import { Group, Avatar, Text, MantineColor, SelectItemProps, Autocomplete } from '@mantine/core';
+import { Group, Avatar, Text, MantineColor, SelectItemProps, Autocomplete } from '@reactgets/core';
 
 const charactersList = [
   {

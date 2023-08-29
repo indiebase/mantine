@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import useStyles, { ButtonGroupStylesParams } from './ButtonGroup.styles';
 
@@ -32,4 +32,4 @@ export const ButtonGroup = forwardRef<HTMLDivElement, ButtonGroupProps>((props, 
   return <Box className={cx(classes.root, className)} ref={ref} {...others} />;
 });
 
-ButtonGroup.displayName = '@mantine/core/ButtonGroup';
+ButtonGroup.displayName = '@reactgets/core/ButtonGroup';

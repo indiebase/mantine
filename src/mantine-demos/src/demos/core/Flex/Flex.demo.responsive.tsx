@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Flex, Button } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Flex, Button } from '@reactgets/core';
 
 const code = `
-import { Flex, Button } from '@mantine/core';
+import { Flex, Button } from '@reactgets/core';
 
 function Demo() {
   return (

@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, MantineColor, rem, getSize } from '@mantine/styles';
+import { createStyles, MantineNumberSize, MantineColor, rem, getSize } from '@reactgets/styles';
 
 export interface PaginationStylesParams {
   radius: MantineNumberSize;

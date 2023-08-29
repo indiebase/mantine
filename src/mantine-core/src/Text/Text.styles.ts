@@ -5,7 +5,7 @@ import {
   MantineColor,
   MantineGradient,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export interface TextStylesParams {
   color: 'dimmed' | MantineColor;

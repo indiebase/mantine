@@ -1,4 +1,4 @@
-import { createStyles, rem } from '@mantine/styles';
+import { createStyles, rem } from '@reactgets/styles';
 
 export const sizes = {
   xs: rem(4),

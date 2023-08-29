@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconAt } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { TextInput } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { TextInput } from '@reactgets/core';
 
 const code = `
-import { TextInput } from '@mantine/core';
+import { TextInput } from '@reactgets/core';
 import { IconAt } from '@tabler/icons-react';
 
 function Demo() {

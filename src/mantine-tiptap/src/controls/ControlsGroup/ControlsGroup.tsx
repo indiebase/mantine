@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Box, useComponentDefaultProps, Selectors } from '@mantine/core';
+import { DefaultProps, Box, useComponentDefaultProps, Selectors } from '@reactgets/core';
 import { useRichTextEditorContext } from '../../RichTextEditor.context';
 import useStyles from './ControlsGroup.styles';
 
@@ -35,4 +35,4 @@ export const ControlsGroup = forwardRef<HTMLDivElement, RichTextEditorControlsGr
   }
 );
 
-ControlsGroup.displayName = '@mantine/tiptap/ControlsGroup';
+ControlsGroup.displayName = '@reactgets/tiptap/ControlsGroup';

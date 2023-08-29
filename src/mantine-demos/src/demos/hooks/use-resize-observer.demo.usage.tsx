@@ -1,11 +1,11 @@
 import React from 'react';
-import { useMantineTheme, Text, Group, Code, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useResizeObserver } from '@mantine/hooks';
+import { useMantineTheme, Text, Group, Code, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useResizeObserver } from '@reactgets/hooks';
 
 const code = `
-import { Text, Code, rem } from '@mantine/core';
-import { useResizeObserver } from '@mantine/hooks';
+import { Text, Code, rem } from '@reactgets/core';
+import { useResizeObserver } from '@reactgets/hooks';
 
 function Demo() {
   const [ref, rect] = useResizeObserver();

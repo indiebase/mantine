@@ -7,7 +7,7 @@ import {
   MantineGradient,
   rem,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export const AVATAR_VARIANTS = ['filled', 'light', 'gradient', 'outline'];
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { createEventHandler } from '@mantine/utils';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { createEventHandler } from '@reactgets/utils';
+import { useComponentDefaultProps } from '@reactgets/styles';
 import { Popover, PopoverDropdownProps } from '../../Popover';
 import { useHoverCardContext } from '../HoverCard.context';
 
@@ -30,4 +30,4 @@ export function HoverCardDropdown(props: HoverCardDropdownProps) {
   );
 }
 
-HoverCardDropdown.displayName = '@mantine/core/HoverCardDropdown';
+HoverCardDropdown.displayName = '@reactgets/core/HoverCardDropdown';

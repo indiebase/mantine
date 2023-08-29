@@ -1,4 +1,4 @@
-import { createStyles, MantineColor, getStylesRef, rem, getSize } from '@mantine/styles';
+import { createStyles, MantineColor, getStylesRef, rem, getSize } from '@reactgets/styles';
 
 export interface RadioStylesParams {
   color: MantineColor;

@@ -1,5 +1,5 @@
-import { MantineNumberSize, Styles, ClassNames } from '@mantine/core';
-import { createSafeContext } from '@mantine/utils';
+import { MantineNumberSize, Styles, ClassNames } from '@reactgets/core';
+import { createSafeContext } from '@reactgets/utils';
 import { CAROUSEL_ERRORS } from './Carousel.errors';
 import { CarouselOrientation, Embla, CarouselBreakpoint } from './types';
 import type { CarouselStylesNames } from './Carousel';

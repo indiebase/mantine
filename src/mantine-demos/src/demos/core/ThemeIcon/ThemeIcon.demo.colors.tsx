@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconPhoto } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { MANTINE_COLORS, Group, ThemeIcon, ThemeIconProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { MANTINE_COLORS, Group, ThemeIcon, ThemeIconProps } from '@reactgets/core';
 
 const getThemes = (props?: ThemeIconProps) =>
   MANTINE_COLORS.map((color) => <ThemeIcon key={color} color={color} {...props} />);

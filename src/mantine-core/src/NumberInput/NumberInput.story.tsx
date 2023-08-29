@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useForm } from '@mantine/form';
+import { useForm } from '@reactgets/form';
 import { Group } from '../Group';
 import { Button } from '../Button';
 import { NumberInput } from './NumberInput';

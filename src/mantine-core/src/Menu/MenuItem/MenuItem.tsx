@@ -1,11 +1,11 @@
 import React, { useRef, forwardRef } from 'react';
-import { DefaultProps, MantineColor, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineColor, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import {
   createEventHandler,
   createPolymorphicComponent,
   createScopedKeydownHandler,
-} from '@mantine/utils';
-import { useMergedRef } from '@mantine/hooks';
+} from '@reactgets/utils';
+import { useMergedRef } from '@reactgets/hooks';
 import { Box } from '../../Box';
 import { useMenuContext } from '../Menu.context';
 import useStyles from './MenuItem.styles';
@@ -100,6 +100,6 @@ export const _MenuItem = forwardRef<HTMLButtonElement, MenuItemProps>((props, re
   );
 });
 
-_MenuItem.displayName = '@mantine/core/MenuItem';
+_MenuItem.displayName = '@reactgets/core/MenuItem';
 
 export const MenuItem = createPolymorphicComponent<'button', MenuItemProps>(_MenuItem);

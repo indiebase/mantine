@@ -1,10 +1,10 @@
 import React from 'react';
-import { Avatar, Group, Tooltip } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Avatar, Group, Tooltip } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { avatars } from './_mockdata';
 
 const code = `
-import { Avatar, Tooltip } from '@mantine/core';
+import { Avatar, Tooltip } from '@reactgets/core';
 
 function Demo() {
   return (

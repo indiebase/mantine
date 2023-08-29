@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { TypographyStylesProvider, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { TypographyStylesProvider, Text } from '@reactgets/core';
 
 const code = `
-import { TypographyStylesProvider, Text } from '@mantine/core';
+import { TypographyStylesProvider, Text } from '@reactgets/core';
 
 function Demo() {
   return (

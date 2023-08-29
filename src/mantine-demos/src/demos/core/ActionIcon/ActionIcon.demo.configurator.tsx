@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconAdjustments } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { ActionIcon, ActionIconProps, Group, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { ActionIcon, ActionIconProps, Group, rem } from '@reactgets/core';
 
 const iconSizes = {
   xs: rem(12),
@@ -43,7 +43,7 @@ function computeChildIconSizeProp(props: string) {
 const codeTemplate = (props: string) => {
   const childIconSizeProp = computeChildIconSizeProp(props);
   return `
-import { ActionIcon } from '@mantine/core';
+import { ActionIcon } from '@reactgets/core';
 import { IconAdjustments } from '@tabler/icons-react';
 
 function Demo() {

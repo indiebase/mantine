@@ -11,7 +11,7 @@ const defaultExcludeDate = () => false;
 const defaultHideOutsideDates = false;
 const defaultMonth = new Date(2010, 5);
 
-describe('@mantine/dates/get-date-in-tab-order', () => {
+describe('@reactgets/dates/get-date-in-tab-order', () => {
   it('returns selected date', () => {
     expect(
       getDateInTabOrder(

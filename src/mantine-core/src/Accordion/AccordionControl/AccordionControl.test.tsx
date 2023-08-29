@@ -6,7 +6,7 @@ import {
   itSupportsSystemProps,
   itThrowsContextError,
   itRendersChildren,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { AccordionControl, AccordionControlProps } from './AccordionControl';
 import { AccordionProvider } from '../AccordionProvider';
 import { AccordionItemContextProvider } from '../AccordionItem.context';
@@ -21,7 +21,7 @@ const TestContainer = createContextContainer(
 
 const defaultProps: AccordionControlProps = {};
 
-describe('@mantine/core/AccordionControl', () => {
+describe('@reactgets/core/AccordionControl', () => {
   itThrowsContextError(
     createContextContainer(AccordionControl, AccordionItemContextProvider, {
       value: { value: 'test-value' },
@@ -34,7 +34,7 @@ describe('@mantine/core/AccordionControl', () => {
   itSupportsSystemProps({
     component: TestContainer,
     props: defaultProps,
-    displayName: '@mantine/core/AccordionControl',
+    displayName: '@reactgets/core/AccordionControl',
     excludePadding: true,
     refType: HTMLButtonElement,
     providerName: 'AccordionControl',

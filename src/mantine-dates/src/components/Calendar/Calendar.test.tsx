@@ -5,7 +5,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import dayjs from 'dayjs';
 import { Calendar, CalendarProps } from './Calendar';
 import {
@@ -51,13 +51,13 @@ async function clickPrevious(level: 'month' | 'year' | 'decade') {
   await userEvent.click(screen.getByLabelText(`previous-${level}`));
 }
 
-describe('@mantine/dates/Calendar', () => {
+describe('@reactgets/dates/Calendar', () => {
   itSupportsSystemProps({
     component: Calendar,
     props: defaultProps,
     refType: HTMLDivElement,
     providerName: 'Calendar',
-    displayName: '@mantine/dates/Calendar',
+    displayName: '@reactgets/dates/Calendar',
   });
 
   itSupportsProviderVariant(Calendar, defaultProps, 'Calendar', 'calendar');

@@ -1,4 +1,4 @@
-import { createStyles, MantineNumberSize, MantineTheme, rem, getSize } from '@mantine/styles';
+import { createStyles, MantineNumberSize, MantineTheme, rem, getSize } from '@reactgets/styles';
 
 export interface InputStylesParams {
   radius: MantineNumberSize;

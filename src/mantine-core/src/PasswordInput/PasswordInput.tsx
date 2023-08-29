@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useId, useUncontrolled } from '@mantine/hooks';
-import { Selectors, DefaultProps, useComponentDefaultProps, rem, getSize } from '@mantine/styles';
+import { useId, useUncontrolled } from '@reactgets/hooks';
+import { Selectors, DefaultProps, useComponentDefaultProps, rem, getSize } from '@reactgets/styles';
 import { extractSystemStyles } from '../Box';
 import { ActionIcon } from '../ActionIcon';
 import { TextInputProps, TextInputStylesNames } from '../TextInput';
@@ -199,4 +199,4 @@ export const PasswordInput = forwardRef<HTMLInputElement, PasswordInputProps>((p
   );
 });
 
-PasswordInput.displayName = '@mantine/core/PasswordInput';
+PasswordInput.displayName = '@reactgets/core/PasswordInput';

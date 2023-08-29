@@ -1,10 +1,10 @@
 import React from 'react';
-import { Grid } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Grid } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { ColWrapper as Col } from './_col-wrapper';
 
 const code = `
-import { Grid } from '@mantine/core';
+import { Grid } from '@reactgets/core';
 
 function Demo() {
   return (

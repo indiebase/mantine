@@ -1,5 +1,5 @@
 import React from 'react';
-import { MantineSize, Selectors, DefaultProps, MantineColor } from '@mantine/styles';
+import { MantineSize, Selectors, DefaultProps, MantineColor } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { StarSymbol } from '../StarSymbol/StarSymbol';
 import useStyles from './RatingItem.styles';
@@ -94,4 +94,4 @@ export function RatingItem({
   );
 }
 
-RatingItem.displayName = '@mantine/core/RatingItem';
+RatingItem.displayName = '@reactgets/core/RatingItem';

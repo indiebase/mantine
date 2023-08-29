@@ -6,14 +6,14 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Avatar, AvatarProps } from './Avatar';
 
 const defaultProps: AvatarProps = {
   src: './test-image',
 };
 
-describe('@mantine/core/Avatar', () => {
+describe('@reactgets/core/Avatar', () => {
   itIsPolymorphic(Avatar, defaultProps);
   checkAccessibility([
     <Avatar {...defaultProps} alt="It's me!" />,
@@ -25,7 +25,7 @@ describe('@mantine/core/Avatar', () => {
   itSupportsSystemProps({
     component: Avatar,
     props: defaultProps,
-    displayName: '@mantine/core/Avatar',
+    displayName: '@reactgets/core/Avatar',
     refType: HTMLDivElement,
     providerName: 'Avatar',
   });

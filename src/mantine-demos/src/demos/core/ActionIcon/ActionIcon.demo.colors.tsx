@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconSun } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, MANTINE_COLORS, ActionIcon, ActionIconProps, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, MANTINE_COLORS, ActionIcon, ActionIconProps, rem } from '@reactgets/core';
 
 const getColors = (props: Omit<ActionIconProps, 'children'>) =>
   MANTINE_COLORS.slice(1).map((color) => (

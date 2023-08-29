@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { DEFAULT_THEME } from '@mantine/styles';
+import { DEFAULT_THEME } from '@reactgets/styles';
 import { Swatches, SwatchesProps } from './Swatches';
 
 const defaultProps: SwatchesProps = {
@@ -9,7 +9,7 @@ const defaultProps: SwatchesProps = {
   setValue: () => {},
 };
 
-describe('@mantine/core/Swatches', () => {
+describe('@reactgets/core/Swatches', () => {
   it('calls onSelect when color is clicked', async () => {
     const spy = jest.fn();
     render(<Swatches {...defaultProps} setValue={spy} />);
@@ -25,6 +25,6 @@ describe('@mantine/core/Swatches', () => {
   });
 
   it('has correct displayName', () => {
-    expect(Swatches.displayName).toStrictEqual('@mantine/core/Swatches');
+    expect(Swatches.displayName).toStrictEqual('@reactgets/core/Swatches');
   });
 });

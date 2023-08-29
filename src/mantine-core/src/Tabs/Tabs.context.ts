@@ -1,5 +1,5 @@
-import { createSafeContext } from '@mantine/utils';
-import { MantineColor, MantineNumberSize, ClassNames, Styles } from '@mantine/styles';
+import { createSafeContext } from '@reactgets/utils';
+import { MantineColor, MantineNumberSize, ClassNames, Styles } from '@reactgets/styles';
 import {
   TabsOrientation,
   TabsPlacement,

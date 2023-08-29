@@ -1,4 +1,4 @@
-import { createStyles, getStylesRef, getSize } from '@mantine/styles';
+import { createStyles, getStylesRef, getSize } from '@reactgets/styles';
 import type { ListStylesParams } from '../List.styles';
 
 export default createStyles((theme, { spacing, center }: ListStylesParams) => ({

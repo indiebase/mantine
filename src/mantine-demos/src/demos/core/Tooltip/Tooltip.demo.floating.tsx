@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { TooltipFloatingProps, Group, Tooltip, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { TooltipFloatingProps, Group, Tooltip, Box } from '@reactgets/core';
 
 const Wrapper = (props: TooltipFloatingProps) => (
   <Box p="xl">
@@ -22,7 +22,7 @@ const Wrapper = (props: TooltipFloatingProps) => (
 );
 
 const codeTemplate = (props: string) => `
-import { Tooltip, Box } from '@mantine/core';
+import { Tooltip, Box } from '@reactgets/core';
 
 function Demo() {
   return (

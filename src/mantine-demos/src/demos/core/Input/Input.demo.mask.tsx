@@ -1,12 +1,12 @@
 import React from 'react';
-import { Input } from '@mantine/core';
-import { useId } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
+import { Input } from '@reactgets/core';
+import { useId } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
 import { IMaskInput } from 'react-imask';
 
 const code = `
-import { Input } from '@mantine/core';
-import { useId } from '@mantine/hooks';
+import { Input } from '@reactgets/core';
+import { useId } from '@reactgets/hooks';
 import { IMaskInput } from 'react-imask';
 
 function Demo() {

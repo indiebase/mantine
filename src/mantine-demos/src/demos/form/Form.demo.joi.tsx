@@ -1,11 +1,11 @@
 /* eslint-disable no-console */
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { SchemaBase } from './_schema-base';
 
 const code = `
 import Joi from 'joi';
-import { useForm, joiResolver } from '@mantine/form';
-import { NumberInput, TextInput, Button, Box, Group } from '@mantine/core';
+import { useForm, joiResolver } from '@reactgets/form';
+import { NumberInput, TextInput, Button, Box, Group } from '@reactgets/core';
 
 const schema = Joi.object({
   name: Joi.string().min(2).message('Name should have at least 2 letters'),

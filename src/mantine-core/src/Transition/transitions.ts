@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/styles';
+import { rem } from '@reactgets/styles';
 
 export interface MantineTransitionStyles {
   common?: React.CSSProperties;

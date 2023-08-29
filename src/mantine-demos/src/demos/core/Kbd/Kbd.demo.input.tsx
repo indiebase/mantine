@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconSearch } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Kbd, TextInput, Flex } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Kbd, TextInput, Flex } from '@reactgets/core';
 
 const code = `
-import { Kbd, TextInput, Flex } from '@mantine/core';
+import { Kbd, TextInput, Flex } from '@reactgets/core';
 import { IconSearch } from '@tabler/icons-react';
 
 function Demo() {

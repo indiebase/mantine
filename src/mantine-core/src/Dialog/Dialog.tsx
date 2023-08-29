@@ -5,7 +5,7 @@ import {
   Selectors,
   getDefaultZIndex,
   useComponentDefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Transition, MantineTransition } from '../Transition';
 import { CloseButton } from '../CloseButton';
 import { Affix } from '../Affix';
@@ -140,4 +140,4 @@ export const Dialog = forwardRef<HTMLDivElement, DialogProps>(
   }
 );
 
-Dialog.displayName = '@mantine/core/Dialog';
+Dialog.displayName = '@reactgets/core/Dialog';

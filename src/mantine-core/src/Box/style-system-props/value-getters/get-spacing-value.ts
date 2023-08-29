@@ -1,4 +1,4 @@
-import { MantineTheme, getSize } from '@mantine/styles';
+import { MantineTheme, getSize } from '@reactgets/styles';
 
 const NEGATIVE_VALUES = ['-xs', '-sm', '-md', '-lg', '-xl'];
 

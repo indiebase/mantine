@@ -1,6 +1,6 @@
 import React from 'react';
-import { Grid, GridProps, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Grid, GridProps, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { ColWrapper as Col } from './_col-wrapper';
 
 function Wrapper(props: GridProps) {
@@ -18,7 +18,7 @@ function Wrapper(props: GridProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Grid, rem } from '@mantine/core';
+import { Grid, rem } from '@reactgets/core';
 
 function Demo() {
   return (

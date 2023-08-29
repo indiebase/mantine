@@ -1,6 +1,6 @@
 import React, { forwardRef, useEffect } from 'react';
-import { Selectors, DefaultProps, useComponentDefaultProps } from '@mantine/styles';
-import { packSx } from '@mantine/utils';
+import { Selectors, DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
+import { packSx } from '@reactgets/utils';
 import { Box } from '../../Box';
 import { useTabsContext } from '../Tabs.context';
 import useStyles from './TabsPanel.styles';
@@ -67,4 +67,4 @@ export const TabsPanel = forwardRef<HTMLDivElement, TabsPanelProps>((props, ref)
   );
 });
 
-TabsPanel.displayName = '@mantine/core/TabsPanel';
+TabsPanel.displayName = '@reactgets/core/TabsPanel';

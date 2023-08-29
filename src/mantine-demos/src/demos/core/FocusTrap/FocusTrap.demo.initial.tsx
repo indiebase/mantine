@@ -1,11 +1,11 @@
 import React from 'react';
-import { useDisclosure } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { FocusTrap, TextInput, Button, Box } from '@mantine/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { FocusTrap, TextInput, Button, Box } from '@reactgets/core';
 
 const code = `
-import { useDisclosure } from '@mantine/hooks';
-import { FocusTrap, TextInput, Button, Box } from '@mantine/core';
+import { useDisclosure } from '@reactgets/hooks';
+import { FocusTrap, TextInput, Button, Box } from '@reactgets/core';
 
 function Demo() {
   const [active, { toggle }] = useDisclosure(false);

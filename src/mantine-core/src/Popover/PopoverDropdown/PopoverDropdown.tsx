@@ -1,7 +1,7 @@
 import React from 'react';
-import { DefaultProps, useComponentDefaultProps, rem } from '@mantine/styles';
-import { closeOnEscape } from '@mantine/utils';
-import { useFocusReturn } from '@mantine/hooks';
+import { DefaultProps, useComponentDefaultProps, rem } from '@reactgets/styles';
+import { closeOnEscape } from '@reactgets/utils';
+import { useFocusReturn } from '@reactgets/hooks';
 import { FloatingArrow } from '../../Floating';
 import { Box } from '../../Box';
 import { Transition } from '../../Transition';
@@ -112,4 +112,4 @@ export function PopoverDropdown(props: PopoverDropdownProps) {
   );
 }
 
-PopoverDropdown.displayName = '@mantine/core/PopoverDropdown';
+PopoverDropdown.displayName = '@reactgets/core/PopoverDropdown';

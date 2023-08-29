@@ -1,16 +1,16 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itSupportsSystemProps } from '@mantine/tests';
-import { DEFAULT_THEME } from '@mantine/styles';
+import { itSupportsSystemProps } from '@reactgets/tests';
+import { DEFAULT_THEME } from '@reactgets/styles';
 import { Loader, LoaderProps } from './Loader';
 
 const defaultProps: LoaderProps = {};
 
-describe('@mantine/core/Loader', () => {
+describe('@reactgets/core/Loader', () => {
   itSupportsSystemProps({
     component: Loader,
     props: defaultProps,
-    displayName: '@mantine/core/Loader',
+    displayName: '@reactgets/core/Loader',
     providerName: 'Loader',
   });
 

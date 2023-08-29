@@ -1,5 +1,5 @@
 import React from 'react';
-import { MantineTheme } from '@mantine/styles';
+import { MantineTheme } from '@reactgets/styles';
 import { SelectRightSection, SelectRightSectionProps } from './SelectRightSection';
 
 interface GetRightSectionProps extends SelectRightSectionProps {

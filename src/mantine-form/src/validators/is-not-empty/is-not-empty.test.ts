@@ -2,7 +2,7 @@ import { isNotEmpty } from './is-not-empty';
 
 const TEST_ERROR = 'not-empty-error';
 
-describe('@mantine/form/isNotEmpty', () => {
+describe('@reactgets/form/isNotEmpty', () => {
   it('correctly detects empty values', () => {
     const validator = isNotEmpty(TEST_ERROR);
     expect(validator('')).toBe(TEST_ERROR);

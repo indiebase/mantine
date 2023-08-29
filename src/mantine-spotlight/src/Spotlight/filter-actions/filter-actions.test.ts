@@ -2,7 +2,7 @@ import { filterActions } from './filter-actions';
 
 const onTrigger = jest.fn();
 
-describe('@mantine/spotlight/filter-actions', () => {
+describe('@reactgets/spotlight/filter-actions', () => {
   it('filters actions by title', () => {
     expect(
       filterActions('test', [

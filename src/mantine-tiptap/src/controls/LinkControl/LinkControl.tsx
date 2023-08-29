@@ -10,8 +10,8 @@ import {
   Selectors,
   useComponentDefaultProps,
   rem,
-} from '@mantine/core';
-import { useDisclosure, useInputState, useWindowEvent } from '@mantine/hooks';
+} from '@reactgets/core';
+import { useDisclosure, useInputState, useWindowEvent } from '@reactgets/hooks';
 import { ControlBase, RichTextEditorControlBaseProps } from '../ControlBase/ControlBase';
 import { useRichTextEditorContext } from '../../RichTextEditor.context';
 import useStyles from './LinkControl.styles';

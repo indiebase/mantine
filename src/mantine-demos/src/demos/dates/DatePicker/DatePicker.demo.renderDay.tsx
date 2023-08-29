@@ -1,11 +1,11 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, Indicator } from '@mantine/core';
-import { DatePicker } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, Indicator } from '@reactgets/core';
+import { DatePicker } from '@reactgets/dates';
 
 const code = `
-import { Group, Indicator } from '@mantine/core';
-import { DatePicker } from '@mantine/dates';
+import { Group, Indicator } from '@reactgets/core';
+import { DatePicker } from '@reactgets/dates';
 
 function Demo() {
   return (

@@ -8,7 +8,7 @@ const defaultMaxYear = new Date(2100, 0);
 const defaultSelectedYear = new Date(2012, 0);
 const defaultControlProps = () => ({});
 
-describe('@mantine/dates/get-year-in-tab-order', () => {
+describe('@reactgets/dates/get-year-in-tab-order', () => {
   it('returns selected year', () => {
     expect(
       getYearInTabOrder(defaultYears, defaultMinYear, defaultMaxYear, (date: Date) => ({

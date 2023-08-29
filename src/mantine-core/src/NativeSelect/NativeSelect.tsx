@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineSize, useMantineTheme } from '@mantine/styles';
+import { DefaultProps, MantineSize, useMantineTheme } from '@reactgets/styles';
 import {
   InputWrapperBaseProps,
   InputWrapperStylesNames,
@@ -88,4 +88,4 @@ export const NativeSelect = forwardRef<HTMLSelectElement, NativeSelectProps>((pr
   );
 });
 
-NativeSelect.displayName = '@mantine/core/NativeSelect';
+NativeSelect.displayName = '@reactgets/core/NativeSelect';

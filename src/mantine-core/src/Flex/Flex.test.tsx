@@ -1,18 +1,18 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { rem } from '@mantine/styles';
-import { itSupportsSystemProps, itRendersChildren } from '@mantine/tests';
+import { rem } from '@reactgets/styles';
+import { itSupportsSystemProps, itRendersChildren } from '@reactgets/tests';
 import { Flex, FlexProps } from './Flex';
 
 const defaultProps: FlexProps = {};
 
-describe('@mantine/core/Flex', () => {
+describe('@reactgets/core/Flex', () => {
   itRendersChildren(Flex, defaultProps);
   itSupportsSystemProps({
     component: Flex,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Flex',
+    displayName: '@reactgets/core/Flex',
     providerName: 'Flex',
   });
 

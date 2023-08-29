@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/tests",
+  "name": "@reactgets/tests",
   "private": true,
   "version": "6.0.19",
   "main": "cjs/index.js",

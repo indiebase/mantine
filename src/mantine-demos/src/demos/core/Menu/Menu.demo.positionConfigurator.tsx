@@ -1,6 +1,6 @@
 import React from 'react';
-import { Menu, MenuProps, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Menu, MenuProps, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { DemoMenuItems } from './_menu-items';
 import { FLOATING_ARROW_POSITION_DATA } from '../../../shared/floating-position-data';
 
@@ -15,7 +15,7 @@ function Wrapper(props: MenuProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Menu } from '@mantine/core';
+import { Menu } from '@reactgets/core';
 
 function Demo() {
   return (

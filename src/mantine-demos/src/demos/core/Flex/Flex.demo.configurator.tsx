@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { IndicatorProps, Button, Flex } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { IndicatorProps, Button, Flex } from '@reactgets/core';
 
 function Wrapper(props: IndicatorProps) {
   return (
@@ -13,7 +13,7 @@ function Wrapper(props: IndicatorProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Flex, Button } from '@mantine/core';
+import { Flex, Button } from '@reactgets/core';
 
 function Demo() {
   return (

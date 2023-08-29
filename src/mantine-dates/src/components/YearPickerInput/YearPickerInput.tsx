@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/core';
+import { useComponentDefaultProps } from '@reactgets/core';
 import { useDatesInput } from '../../hooks';
 import { pickCalendarProps } from '../Calendar';
 import { YearPicker, YearPickerBaseProps } from '../YearPicker';
@@ -120,4 +120,4 @@ export const YearPickerInput: YearPickerInputComponent = forwardRef((props, ref)
   );
 });
 
-YearPickerInput.displayName = '@mantine/dates/YearPickerInput';
+YearPickerInput.displayName = '@reactgets/dates/YearPickerInput';

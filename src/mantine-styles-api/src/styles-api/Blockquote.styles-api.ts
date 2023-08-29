@@ -1,4 +1,4 @@
-import { BlockquoteStylesNames } from '@mantine/core';
+import { BlockquoteStylesNames } from '@reactgets/core';
 
 export const Blockquote: Record<BlockquoteStylesNames, string> = {
   root: 'Root element',

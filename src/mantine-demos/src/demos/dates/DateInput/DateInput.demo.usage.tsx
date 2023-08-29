@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { DateInput } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { DateInput } from '@reactgets/dates';
 
 const code = `
 import { useState } from 'react';
-import { DateInput } from '@mantine/dates';
+import { DateInput } from '@reactgets/dates';
 
 function Demo() {
   const [value, setValue] = useState<Date | null>(null);

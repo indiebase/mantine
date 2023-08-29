@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { TransferList, TransferListData } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { TransferList, TransferListData } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { TransferList, TransferListData } from '@mantine/core';
+import { TransferList, TransferListData } from '@reactgets/core';
 
 const initialValues: TransferListData = [
   [

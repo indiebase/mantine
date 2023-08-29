@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { createStyles, getStylesRef } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { createStyles, getStylesRef } from '@reactgets/core';
 
 const code = `
-import { createStyles, getStylesRef } from '@mantine/core';
+import { createStyles, getStylesRef } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   button: {

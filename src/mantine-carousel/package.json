@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/carousel",
+  "name": "@reactgets/carousel",
   "description": "Embla based carousel",
   "version": "6.0.19",
   "main": "cjs/index.js",
@@ -28,12 +28,12 @@
     "slick"
   ],
   "peerDependencies": {
-    "@mantine/core": "6.0.19",
-    "@mantine/hooks": "6.0.19",
+    "@reactgets/core": "6.0.19",
+    "@reactgets/hooks": "6.0.19",
     "embla-carousel-react": "^7.0.0",
     "react": ">=16.8.0"
   },
   "dependencies": {
-    "@mantine/utils": "6.0.19"
+    "@reactgets/utils": "6.0.19"
   }
 }

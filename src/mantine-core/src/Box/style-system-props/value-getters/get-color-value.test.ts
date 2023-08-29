@@ -1,7 +1,7 @@
-import { DEFAULT_THEME } from '@mantine/styles';
+import { DEFAULT_THEME } from '@reactgets/styles';
 import { getColorValue } from './get-color-value';
 
-describe('@mantine/core/Box/get-color-value', () => {
+describe('@reactgets/core/Box/get-color-value', () => {
   it('returns correct color value from theme', () => {
     expect(getColorValue('orange', DEFAULT_THEME)).toBe(DEFAULT_THEME.colors.orange[6]);
     expect(getColorValue('pink.1', DEFAULT_THEME)).toBe(DEFAULT_THEME.colors.pink[1]);

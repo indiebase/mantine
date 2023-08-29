@@ -5,7 +5,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   itSupportsGetControlRef,
   itSupportsMonthsListProps,
@@ -19,13 +19,13 @@ const defaultProps: MonthsListProps = {
   year: new Date(2022, 3, 11),
 };
 
-describe('@mantine/dates/MonthsList', () => {
+describe('@reactgets/dates/MonthsList', () => {
   itSupportsSystemProps({
     component: MonthsList,
     props: defaultProps,
     refType: HTMLTableElement,
     providerName: 'MonthsList',
-    displayName: '@mantine/dates/MonthsList',
+    displayName: '@reactgets/dates/MonthsList',
   });
 
   itSupportsProviderSize(MonthsList, defaultProps, 'MonthsList', ['monthsList', 'pickerControl']);

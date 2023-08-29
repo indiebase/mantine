@@ -1,5 +1,5 @@
-import { MantineNumberSize, ClassNames, Styles } from '@mantine/styles';
-import { createSafeContext } from '@mantine/utils';
+import { MantineNumberSize, ClassNames, Styles } from '@reactgets/styles';
+import { createSafeContext } from '@reactgets/utils';
 import { MENU_ERRORS } from './Menu.errors';
 import { MenuTriggerEvent } from './Menu.types';
 import type { MenuStylesNames } from './Menu';

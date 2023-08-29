@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/hooks",
+  "name": "@reactgets/hooks",
   "version": "6.0.19",
   "main": "cjs/index.js",
   "module": "esm/index.js",

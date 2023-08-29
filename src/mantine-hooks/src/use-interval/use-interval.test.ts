@@ -13,7 +13,7 @@ const setupTimer = (timeout: number = defaultTimeout) => ({
 const setupHook = (cb: (...args) => void = callback, timeout: number = defaultTimeout) =>
   renderHook(() => useInterval(cb, timeout));
 
-describe('@mantine/hooks/use-interval', () => {
+describe('@reactgets/hooks/use-interval', () => {
   beforeAll(() => {
     jest.useFakeTimers();
     jest.spyOn(global, 'setInterval');

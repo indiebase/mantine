@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Button, Overlay, Image, AspectRatio } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, Overlay, Image, AspectRatio } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { Button, Overlay, Image, AspectRatio } from '@mantine/core';
+import { Button, Overlay, Image, AspectRatio } from '@reactgets/core';
 
 function Demo() {
   const [visible, setVisible] = useState(false);

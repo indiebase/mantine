@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Tooltip, Badge, Group, AVAILABLE_TRANSITIONS } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Tooltip, Badge, Group, AVAILABLE_TRANSITIONS } from '@reactgets/core';
 
 export function Demo() {
   const transitions = AVAILABLE_TRANSITIONS.map((transition) => (

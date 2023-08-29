@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { useFavicon } from '@mantine/hooks';
-import { Group, Button } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useFavicon } from '@reactgets/hooks';
+import { Group, Button } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { useFavicon } from '@mantine/hooks';
-import { Group, Button } from '@mantine/core';
+import { useFavicon } from '@reactgets/hooks';
+import { Group, Button } from '@reactgets/core';
 
 function Demo() {
   const [favicon, setFavicon] = useState('https://mantine.dev/favicon.svg');

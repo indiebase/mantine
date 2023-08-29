@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { NativeSelect } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { NativeSelect } from '@reactgets/core';
 
 const codeTemplate = (props: string) => `
-import { NativeSelect } from '@mantine/core';
+import { NativeSelect } from '@reactgets/core';
 
 function Demo() {
   return (

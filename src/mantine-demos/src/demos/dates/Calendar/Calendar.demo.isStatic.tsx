@@ -1,11 +1,11 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, Indicator } from '@mantine/core';
-import { Calendar } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, Indicator } from '@reactgets/core';
+import { Calendar } from '@reactgets/dates';
 
 const code = `
-import { Group, Indicator } from '@mantine/core';
-import { Calendar } from '@mantine/dates';
+import { Group, Indicator } from '@reactgets/core';
+import { Calendar } from '@reactgets/dates';
 
 function Demo() {
   return (

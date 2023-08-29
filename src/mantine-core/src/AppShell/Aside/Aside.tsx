@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+import { useComponentDefaultProps } from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import {
   HorizontalSection,
   HorizontalSectionSharedProps,
@@ -31,4 +31,4 @@ export const Aside: AsideComponent = forwardRef<HTMLElement, AsideProps>(
 ) as any;
 
 Aside.Section = Section;
-Aside.displayName = '@mantine/core/Aside';
+Aside.displayName = '@reactgets/core/Aside';

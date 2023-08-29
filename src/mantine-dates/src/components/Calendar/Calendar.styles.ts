@@ -1,4 +1,4 @@
-import { createStyles } from '@mantine/core';
+import { createStyles } from '@reactgets/core';
 
 export default createStyles(() => ({
   calendar: {},

@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Checkbox, Stack } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Checkbox, Stack } from '@reactgets/core';
 
 const code = `
-import { Checkbox } from '@mantine/core';
+import { Checkbox } from '@reactgets/core';
 
 function Demo() {
   return (

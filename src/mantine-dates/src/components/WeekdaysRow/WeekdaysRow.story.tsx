@@ -1,4 +1,4 @@
-import { MANTINE_SIZES } from '@mantine/core';
+import { MANTINE_SIZES } from '@reactgets/core';
 import 'dayjs/locale/ru';
 import React from 'react';
 import { WeekdaysRow, WeekdaysRowProps } from './WeekdaysRow';

@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Slider, Text, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Slider, Text, Box } from '@reactgets/core';
 
 const code = `
-import { Slider } from '@mantine/core';
+import { Slider } from '@reactgets/core';
 
 // Configure marks to match step
 const MARKS = [

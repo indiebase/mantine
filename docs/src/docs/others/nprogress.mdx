@@ -1,34 +1,34 @@
 ---
 group: 'Other packages'
-package: '@mantine/nprogress'
+package: '@reactgets/nprogress'
 title: 'Navigation progress'
 order: 1
 slug: /others/nprogress/
 description: 'Navigation progress bar'
 props: ['NavigationProgress']
-import: "import { NavigationProgress } from '@mantine/nprogress';"
+import: "import { NavigationProgress } from '@reactgets/nprogress';"
 source: 'mantine-nprogress/src'
 docs: 'others/nprogress.mdx'
-installation: '@mantine/nprogress'
+installation: '@reactgets/nprogress'
 license: MIT
 ---
 
-import { NProgressDemos } from '@mantine/demos';
+import { NProgressDemos } from '@reactgets/demos';
 
 ## Installation
 
-Package depends on `@mantine/core` and `@mantine/hooks`.
+Package depends on `@reactgets/core` and `@reactgets/hooks`.
 
 Install with yarn:
 
 ```bash
-yarn add @mantine/nprogress
+yarn add @reactgets/nprogress
 ```
 
 Install with npm:
 
 ```bash
-npm install @mantine/nprogress
+npm install @reactgets/nprogress
 ```
 
 ## Setup NavigationProgress
@@ -36,8 +36,8 @@ npm install @mantine/nprogress
 Render `NavigationProgress` anywhere in your app within [MantineProvider](/theming/mantine-provider/):
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
-import { NavigationProgress } from '@mantine/nprogress';
+import { MantineProvider } from '@reactgets/core';
+import { NavigationProgress } from '@reactgets/nprogress';
 
 function Demo() {
   return (
@@ -61,7 +61,7 @@ Create `RouterTransition` component that will handle router events:
 // components/RouterTransition.tsx
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { NavigationProgress, nprogress } from '@mantine/nprogress';
+import { NavigationProgress, nprogress } from '@reactgets/nprogress';
 
 export function RouterTransition() {
   const router = useRouter();
@@ -90,7 +90,7 @@ Then render it in `_app.tsx` within [MantineProvider](/theming/mantine-provider/
 ```tsx
 // pages/_app.tsx
 import { AppProps } from 'next/app';
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@reactgets/core';
 import { RouterTransition } from '../components/RouterTransition';
 
 export default function App(props: AppProps) {

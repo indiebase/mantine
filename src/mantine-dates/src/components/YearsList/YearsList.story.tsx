@@ -1,4 +1,4 @@
-import { MANTINE_SIZES } from '@mantine/core';
+import { MANTINE_SIZES } from '@reactgets/core';
 import dayjs from 'dayjs';
 import React, { useState } from 'react';
 import { YearsList } from './YearsList';

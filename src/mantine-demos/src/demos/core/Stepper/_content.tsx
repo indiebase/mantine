@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, BoxProps } from '@mantine/core';
+import { Box, BoxProps } from '@reactgets/core';
 
 export function Content(props: BoxProps) {
   return (

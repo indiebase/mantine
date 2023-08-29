@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { Selectors, useComponentDefaultProps, DefaultProps } from '@mantine/styles';
+import { Selectors, useComponentDefaultProps, DefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { PaginationDotsIcon, PaginationIconProps, getIconSize } from '../Pagination.icons';
 import useStyles from './PaginationDots.styles';
@@ -35,4 +35,4 @@ export const PaginationDots = forwardRef<HTMLDivElement, PaginationDotsProps>((p
   );
 });
 
-PaginationDots.displayName = '@mantine/core/PaginationDots';
+PaginationDots.displayName = '@reactgets/core/PaginationDots';

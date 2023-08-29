@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Autocomplete } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Autocomplete } from '@reactgets/core';
 
 const codeTemplate = (props: string) => `
-import { Autocomplete } from '@mantine/core';
+import { Autocomplete } from '@reactgets/core';
 
 function Demo() {
   return (

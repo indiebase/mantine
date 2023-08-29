@@ -4,18 +4,18 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Group, GroupProps } from './Group';
 
 const defaultProps: GroupProps = {};
 
-describe('@mantine/core/Group', () => {
+describe('@reactgets/core/Group', () => {
   itRendersChildren(Group, defaultProps);
   itSupportsProviderVariant(Group, defaultProps, 'Group');
   itSupportsSystemProps({
     component: Group,
     props: defaultProps,
-    displayName: '@mantine/core/Group',
+    displayName: '@reactgets/core/Group',
     refType: HTMLDivElement,
   });
 

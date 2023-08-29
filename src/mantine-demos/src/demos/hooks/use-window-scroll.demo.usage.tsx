@@ -1,11 +1,11 @@
 import React from 'react';
-import { useWindowScroll } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { Button, Text, Group } from '@mantine/core';
+import { useWindowScroll } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { Button, Text, Group } from '@reactgets/core';
 
 const code = `
-import { useWindowScroll } from '@mantine/hooks';
-import { Button, Text, Group } from '@mantine/core';
+import { useWindowScroll } from '@reactgets/hooks';
+import { Button, Text, Group } from '@reactgets/core';
 
 function Demo() {
   const [scroll, scrollTo] = useWindowScroll();

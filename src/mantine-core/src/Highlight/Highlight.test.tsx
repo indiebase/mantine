@@ -5,19 +5,19 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Highlight, HighlightProps } from './Highlight';
 
 const defaultProps: HighlightProps = { children: 'Hello', highlight: 'He' };
 
-describe('@mantine/core/Highlight', () => {
+describe('@reactgets/core/Highlight', () => {
   itIsPolymorphic(Highlight as any, defaultProps);
   itSupportsProviderVariant(Highlight, defaultProps, 'Highlight');
   itSupportsProviderSize(Highlight, defaultProps, 'Highlight');
   itSupportsSystemProps({
     component: Highlight,
     props: defaultProps,
-    displayName: '@mantine/core/Highlight',
+    displayName: '@reactgets/core/Highlight',
     refType: HTMLDivElement,
   });
 

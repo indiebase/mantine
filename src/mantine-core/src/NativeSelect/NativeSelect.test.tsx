@@ -9,7 +9,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { NativeSelect, NativeSelectProps } from './NativeSelect';
 
 const defaultProps: NativeSelectProps = {
@@ -17,7 +17,7 @@ const defaultProps: NativeSelectProps = {
   data: ['test-item-1', 'test-item-2', 'test-item-3'],
 };
 
-describe('@mantine/core/NativeSelect', () => {
+describe('@reactgets/core/NativeSelect', () => {
   itSupportsInputProps(NativeSelect, defaultProps, 'NativeSelect');
   itSupportsFocusEvents(NativeSelect, defaultProps, 'select');
   itSupportsProviderVariant(NativeSelect, defaultProps, 'NativeSelect', ['root', 'input', 'label']);
@@ -25,7 +25,7 @@ describe('@mantine/core/NativeSelect', () => {
   itSupportsSystemProps({
     component: NativeSelect,
     props: defaultProps,
-    displayName: '@mantine/core/NativeSelect',
+    displayName: '@reactgets/core/NativeSelect',
     refType: HTMLSelectElement,
     othersSelector: '.mantine-NativeSelect-input',
     providerName: 'NativeSelect',

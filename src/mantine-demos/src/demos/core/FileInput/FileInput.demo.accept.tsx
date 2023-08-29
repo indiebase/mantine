@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { FileInput } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { FileInput } from '@reactgets/core';
 
 const code = `
-import { FileInput } from '@mantine/core';
+import { FileInput } from '@reactgets/core';
 
 function Demo() {
   return <FileInput label="Upload files" placeholder="Upload files" accept="image/png,image/jpeg" />;

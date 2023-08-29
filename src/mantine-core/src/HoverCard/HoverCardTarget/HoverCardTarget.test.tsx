@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itThrowsContextError, patchConsoleError, createContextContainer } from '@mantine/tests';
+import { itThrowsContextError, patchConsoleError, createContextContainer } from '@reactgets/tests';
 import { HoverCardTarget, HoverCardTargetProps } from './HoverCardTarget';
 import { HOVER_CARD_ERRORS } from '../HoverCard.errors';
 import { HoverCard } from '../HoverCard';
@@ -11,7 +11,7 @@ const defaultProps: HoverCardTargetProps = {
 
 const TestContainer = createContextContainer(HoverCardTarget, HoverCard, { opened: true });
 
-describe('@mantine/core/HoverCardTarget', () => {
+describe('@reactgets/core/HoverCardTarget', () => {
   itThrowsContextError(HoverCardTarget, defaultProps, HOVER_CARD_ERRORS.context);
 
   it('throws error if children cannot be processed', () => {
@@ -38,6 +38,6 @@ describe('@mantine/core/HoverCardTarget', () => {
   });
 
   it('has correct displayName', () => {
-    expect(HoverCardTarget.displayName).toEqual('@mantine/core/HoverCardTarget');
+    expect(HoverCardTarget.displayName).toEqual('@reactgets/core/HoverCardTarget');
   });
 });

@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { cloneElement, forwardRef } from 'react';
-import { useMergedRef } from '@mantine/hooks';
-import { isElement } from '@mantine/utils';
-import { clsx, useComponentDefaultProps } from '@mantine/styles';
+import { useMergedRef } from '@reactgets/hooks';
+import { isElement } from '@reactgets/utils';
+import { clsx, useComponentDefaultProps } from '@reactgets/styles';
 import { usePopoverContext } from '../Popover.context';
 import { POPOVER_ERRORS } from '../Popover.errors';
 
@@ -56,4 +56,4 @@ export const PopoverTarget = forwardRef<HTMLElement, PopoverTargetProps>((props,
   });
 });
 
-PopoverTarget.displayName = '@mantine/core/PopoverTarget';
+PopoverTarget.displayName = '@reactgets/core/PopoverTarget';

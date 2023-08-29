@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unused-prop-types */
 import dayjs from 'dayjs';
 import React, { forwardRef } from 'react';
-import { Box, DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/core';
-import { useUncontrolled } from '@mantine/hooks';
+import { Box, DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/core';
+import { useUncontrolled } from '@reactgets/hooks';
 import { MonthLevelGroup, MonthLevelGroupStylesNames } from '../MonthLevelGroup';
 import { YearLevelGroup, YearLevelGroupStylesNames } from '../YearLevelGroup';
 import { DecadeLevelGroup, DecadeLevelGroupStylesNames } from '../DecadeLevelGroup';
@@ -389,4 +389,4 @@ export const Calendar = forwardRef<HTMLDivElement, CalendarProps>((props, ref) =
   );
 });
 
-Calendar.displayName = '@mantine/dates/Calendar';
+Calendar.displayName = '@reactgets/dates/Calendar';

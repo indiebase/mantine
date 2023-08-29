@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, MantineColor, useComponentDefaultProps } from '@mantine/styles';
-import { createScopedKeydownHandler } from '@mantine/utils';
+import { DefaultProps, Selectors, MantineColor, useComponentDefaultProps } from '@reactgets/styles';
+import { createScopedKeydownHandler } from '@reactgets/utils';
 import { UnstyledButton } from '../../UnstyledButton';
 import { useTabsContext } from '../Tabs.context';
 import useStyles from './Tab.styles';
@@ -92,4 +92,4 @@ export const Tab = forwardRef<HTMLButtonElement, TabProps>((props, ref) => {
   );
 });
 
-Tab.displayName = '@mantine/core/Tab';
+Tab.displayName = '@reactgets/core/Tab';

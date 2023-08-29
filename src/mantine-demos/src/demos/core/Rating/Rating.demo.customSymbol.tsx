@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Rating, useMantineTheme, Group, rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Rating, useMantineTheme, Group, rem } from '@reactgets/core';
 import {
   IconMoodCry,
   IconMoodSad,
@@ -11,7 +11,7 @@ import {
 } from '@tabler/icons-react';
 
 const code = `
-import { Rating, useMantineTheme, rem } from '@mantine/core';
+import { Rating, useMantineTheme, rem } from '@reactgets/core';
 import {
   IconMoodEmpty,
   IconMoodCry,

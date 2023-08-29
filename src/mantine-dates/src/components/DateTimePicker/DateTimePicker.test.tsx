@@ -8,7 +8,7 @@ import {
   itSupportsProviderSize,
   itSupportsFocusEvents,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { DatesProvider } from '../DatesProvider';
 import {
   itSupportsMonthsListProps,
@@ -45,13 +45,13 @@ const getTimeInput = () => screen.getByLabelText('test-time-input');
 const getSubmitButton = () => screen.getByLabelText('test-submit');
 const getClearButton = () => screen.queryAllByLabelText('test-clear')[0];
 
-describe('@mantine/dates/DateTimePicker', () => {
+describe('@reactgets/dates/DateTimePicker', () => {
   itSupportsSystemProps({
     component: DateTimePicker,
     props: defaultProps,
     providerName: 'DateTimePicker',
     othersSelector: '.mantine-DateTimePicker-input',
-    displayName: '@mantine/dates/DateTimePicker',
+    displayName: '@reactgets/dates/DateTimePicker',
   });
 
   itSupportsFocusEvents(DateTimePicker, defaultProps, '.mantine-DateTimePicker-input');

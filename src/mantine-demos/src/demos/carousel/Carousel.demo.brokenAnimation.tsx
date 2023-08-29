@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Button, Modal, Group, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { Carousel } from '@mantine/carousel';
+import { Button, Modal, Group, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Carousel } from '@reactgets/carousel';
 
 const code = `
 import { useState } from 'react';
-import { Button, Modal, Group, rem } from '@mantine/core';
-import { Carousel } from '@mantine/carousel';
+import { Button, Modal, Group, rem } from '@reactgets/core';
+import { Carousel } from '@reactgets/carousel';
 
 function Demo() {
   const TRANSITION_DURATION = 200;

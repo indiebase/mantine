@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { MantineColor, MantineTheme, CSSObject, useComponentDefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { MantineColor, MantineTheme, CSSObject, useComponentDefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Text, TextProps } from '../Text/Text';
 import { Mark } from '../Mark/Mark';
 import { highlighter } from './highlighter/highlighter';
@@ -49,6 +49,6 @@ export const _Highlight = forwardRef<HTMLDivElement, HighlightProps>((props, ref
   );
 });
 
-_Highlight.displayName = '@mantine/core/Highlight';
+_Highlight.displayName = '@reactgets/core/Highlight';
 
 export const Highlight = createPolymorphicComponent<'div', HighlightProps>(_Highlight);

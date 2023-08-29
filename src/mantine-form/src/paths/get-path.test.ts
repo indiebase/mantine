@@ -38,7 +38,7 @@ const values = {
   ],
 };
 
-describe('@mantine/form/get-path', () => {
+describe('@reactgets/form/get-path', () => {
   it('supports getting property from root', () => {
     expect(getPath('name', values)).toBe('John');
     expect(getPath('age', values)).toBe(42);

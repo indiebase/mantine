@@ -1,15 +1,15 @@
 /* eslint-disable no-console */
 import React, { useState } from 'react';
-import { Button, Group } from '@mantine/core';
-import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone';
-import { MantineDemo } from '@mantine/ds';
+import { Button, Group } from '@reactgets/core';
+import { Dropzone, IMAGE_MIME_TYPE } from '@reactgets/dropzone';
+import { MantineDemo } from '@reactgets/ds';
 import { DropzoneDemoChildren } from './_base';
 
 const code = `
 import { useState } from 'react';
-import { Group, Text, useMantineTheme, Button } from '@mantine/core';
+import { Group, Text, useMantineTheme, Button } from '@reactgets/core';
 import { IconUpload, IconPhoto, IconX } from '@tabler/icons-react';
-import { Dropzone, DropzoneProps, IMAGE_MIME_TYPE } from '@mantine/dropzone';
+import { Dropzone, DropzoneProps, IMAGE_MIME_TYPE } from '@reactgets/dropzone';
 
 function Demo() {
   const [active, setActive] = useState(false);

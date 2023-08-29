@@ -1,6 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
-  "include": ["./src", "./types", "../../configuration/types"],
+  "include": [
+    "./src",
+    "./types",
+    "../../configuration/types"
+  ],
   "compilerOptions": {
     "rootDir": "src",
     "baseUrl": ".",
@@ -10,10 +14,23 @@
     "declarationDir": "lib",
     "composite": true,
     "paths": {
-      "@mantine/core": ["../mantine-core/src"],
-      "@mantine/hooks": ["../mantine-hooks/src"],
-      "@mantine/prism": ["../mantine-prism/src"]
+      "@reactgets/core": [
+        "../mantine-core/src"
+      ],
+      "@reactgets/hooks": [
+        "../mantine-hooks/src"
+      ],
+      "@reactgets/prism": [
+        "../mantine-prism/src"
+      ]
     }
   },
-  "references": [{ "path": "../mantine-hooks" }, { "path": "../mantine-core" }]
+  "references": [
+    {
+      "path": "../mantine-hooks"
+    },
+    {
+      "path": "../mantine-core"
+    }
+  ]
 }

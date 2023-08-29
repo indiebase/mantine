@@ -10,7 +10,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { InputWrapper } from './InputWrapper/InputWrapper';
 import { InputDescription } from './InputDescription/InputDescription';
 import { InputLabel } from './InputLabel/InputLabel';
@@ -20,7 +20,7 @@ import { Input, InputProps } from './Input';
 
 const defaultProps: InputProps = {};
 
-describe('@mantine/core/Input', () => {
+describe('@reactgets/core/Input', () => {
   itIsPolymorphic(Input, defaultProps, '.mantine-Input-input');
   itSupportsWrapperProps(Input, defaultProps);
   itSupportsInputIcon(Input, defaultProps);
@@ -36,7 +36,7 @@ describe('@mantine/core/Input', () => {
   itSupportsSystemProps({
     component: Input,
     props: defaultProps,
-    displayName: '@mantine/core/Input',
+    displayName: '@reactgets/core/Input',
     refType: HTMLInputElement,
     excludeOthers: true,
   });

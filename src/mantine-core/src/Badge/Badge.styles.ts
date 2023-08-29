@@ -6,7 +6,7 @@ import {
   MantineTheme,
   rem,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 const BADGE_VARIANTS = ['light', 'filled', 'outline', 'dot', 'gradient'];
 

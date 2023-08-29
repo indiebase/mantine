@@ -1,6 +1,6 @@
 import React from 'react';
-import { DefaultProps, Button, rem } from '@mantine/core';
-import { packSx } from '@mantine/utils';
+import { DefaultProps, Button, rem } from '@reactgets/core';
+import { packSx } from '@reactgets/utils';
 import { meta } from '../meta';
 import { DiscordIcon, TwitterIcon } from '../Icons';
 

@@ -6,7 +6,7 @@ import {
   itSupportsFocusEvents,
   itIsPolymorphic,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { NavLink, NavLinkProps } from './NavLink';
@@ -15,7 +15,7 @@ const defaultProps: NavLinkProps = {
   label: 'test-link',
 };
 
-describe('@mantine/core/NavLink', () => {
+describe('@reactgets/core/NavLink', () => {
   checkAccessibility([
     <NavLink {...defaultProps} />,
     <NavLink {...defaultProps}>
@@ -28,7 +28,7 @@ describe('@mantine/core/NavLink', () => {
     component: NavLink,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/NavLink',
+    displayName: '@reactgets/core/NavLink',
     providerName: 'NavLink',
   });
 

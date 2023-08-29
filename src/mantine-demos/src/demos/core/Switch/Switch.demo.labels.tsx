@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Switch, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Switch, Group } from '@reactgets/core';
 
 const code = `
-import { Switch } from '@mantine/core';
+import { Switch } from '@reactgets/core';
 
 function Demo() {
   return <Switch onLabel="ON" offLabel="OFF" />;

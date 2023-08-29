@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineNumberSize, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../Box';
 import { filterFalsyChildren } from './filter-falsy-children/filter-falsy-children';
 import useStyles, { GroupPosition } from './Group.styles';
@@ -62,4 +62,4 @@ export const Group = forwardRef<HTMLDivElement, GroupProps>((props: GroupProps, 
   );
 });
 
-Group.displayName = '@mantine/core/Group';
+Group.displayName = '@reactgets/core/Group';

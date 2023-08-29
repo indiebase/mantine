@@ -1,7 +1,7 @@
 import React, { useState, forwardRef, useRef } from 'react';
-import { useUncontrolled, useDidUpdate, useMergedRef } from '@mantine/hooks';
-import { DefaultProps, getDefaultZIndex } from '@mantine/styles';
-import { groupOptions } from '@mantine/utils';
+import { useUncontrolled, useDidUpdate, useMergedRef } from '@reactgets/hooks';
+import { DefaultProps, getDefaultZIndex } from '@reactgets/styles';
+import { groupOptions } from '@reactgets/utils';
 import { Input, InputWrapperBaseProps, InputSharedProps, useInputProps } from '../Input';
 import { SelectStylesNames } from '../Select';
 import { SelectItems } from '../Select/SelectItems/SelectItems';
@@ -287,4 +287,4 @@ export const Autocomplete = forwardRef<HTMLInputElement, AutocompleteProps>((pro
   );
 });
 
-Autocomplete.displayName = '@mantine/core/Autocomplete';
+Autocomplete.displayName = '@reactgets/core/Autocomplete';

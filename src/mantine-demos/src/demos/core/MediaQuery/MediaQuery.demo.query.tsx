@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { MediaQuery, Text, rem, em } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { MediaQuery, Text, rem, em } from '@reactgets/core';
 
 const code = `
-import { MediaQuery, Text, rem } from '@mantine/core';
+import { MediaQuery, Text, rem } from '@reactgets/core';
 
 function Demo() {
   return (

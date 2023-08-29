@@ -1,4 +1,4 @@
-import type { TransferListStylesNames } from '@mantine/core';
+import type { TransferListStylesNames } from '@reactgets/core';
 
 export const TransferList: Record<TransferListStylesNames, string> = {
   transferList: 'One of list',

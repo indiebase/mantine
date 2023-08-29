@@ -1,4 +1,4 @@
-import { createStyles, MantineColor, rem } from '@mantine/styles';
+import { createStyles, MantineColor, rem } from '@reactgets/styles';
 
 export interface CodeStylesParams {
   color: MantineColor;

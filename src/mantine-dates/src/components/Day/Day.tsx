@@ -6,7 +6,7 @@ import {
   MantineNumberSize,
   Selectors,
   MantineSize,
-} from '@mantine/core';
+} from '@reactgets/core';
 import dayjs from 'dayjs';
 import useStyles, { DayStylesParams } from './Day.styles';
 
@@ -112,4 +112,4 @@ export const Day = forwardRef<HTMLButtonElement, DayProps>((props, ref) => {
   );
 });
 
-Day.displayName = '@mantine/dates/Day';
+Day.displayName = '@reactgets/dates/Day';

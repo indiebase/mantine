@@ -3,12 +3,12 @@ import {
   itRendersChildren,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { InputError, InputErrorProps } from './InputError';
 
 const defaultProps: InputErrorProps = {};
 
-describe('@mantine/core/InputError', () => {
+describe('@reactgets/core/InputError', () => {
   itRendersChildren(InputError, defaultProps);
   itSupportsProviderVariant(InputError, defaultProps, 'InputWrapper', 'error');
   itSupportsProviderSize(InputError, defaultProps, 'InputWrapper', 'error');
@@ -16,7 +16,7 @@ describe('@mantine/core/InputError', () => {
     component: InputError,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/InputError',
+    displayName: '@reactgets/core/InputError',
     providerName: 'InputError',
   });
 });

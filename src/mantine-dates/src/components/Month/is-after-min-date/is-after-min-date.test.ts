@@ -1,6 +1,6 @@
 import { isAfterMinDate } from './is-after-min-date';
 
-describe('@mantine/dates/is-after-min-date', () => {
+describe('@reactgets/dates/is-after-min-date', () => {
   it('correctly detects dates that are after given minDate', () => {
     expect(isAfterMinDate(new Date(2022, 3, 15), new Date(2022, 3, 12))).toBe(true);
     expect(isAfterMinDate(new Date(2022, 4, 15), new Date(2022, 3, 12))).toBe(true);

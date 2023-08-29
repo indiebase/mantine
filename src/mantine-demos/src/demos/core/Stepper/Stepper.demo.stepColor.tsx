@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconCircleX } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Stepper } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Stepper } from '@reactgets/core';
 
 const code = `
-import { Stepper } from '@mantine/core';
+import { Stepper } from '@reactgets/core';
 import { IconCircleX } from '@tabler/icons-react';
 
 function Demo() {

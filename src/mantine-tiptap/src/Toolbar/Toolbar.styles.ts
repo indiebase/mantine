@@ -1,4 +1,4 @@
-import { createStyles, rem } from '@mantine/core';
+import { createStyles, rem } from '@reactgets/core';
 
 export interface ToolbarStylesParams {
   sticky: boolean;

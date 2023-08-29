@@ -12,9 +12,9 @@ import {
   useComponentDefaultProps,
   ScrollArea,
   ScrollAreaAutosizeProps,
-} from '@mantine/core';
-import { getGroupedOptions } from '@mantine/utils';
-import { useDidUpdate } from '@mantine/hooks';
+} from '@reactgets/core';
+import { getGroupedOptions } from '@reactgets/utils';
+import { useDidUpdate } from '@reactgets/hooks';
 import { DefaultAction, DefaultActionProps } from '../DefaultAction/DefaultAction';
 import { ActionsList, ActionsListStylesNames } from '../ActionsList/ActionsList';
 import type { SpotlightAction } from '../types';
@@ -241,4 +241,4 @@ export function Spotlight(props: SpotlightProps) {
   );
 }
 
-Spotlight.displayName = '@mantine/spotlight/Spotlight';
+Spotlight.displayName = '@reactgets/spotlight/Spotlight';

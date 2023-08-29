@@ -1,6 +1,6 @@
 import React from 'react';
-import { ScrollArea, ScrollAreaProps, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { ScrollArea, ScrollAreaProps, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { Content } from './_content';
 
 function Wrapper(props: ScrollAreaProps) {
@@ -14,7 +14,7 @@ function Wrapper(props: ScrollAreaProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { ScrollArea } from '@mantine/core';
+import { ScrollArea } from '@reactgets/core';
 
 function Demo() {
   return (

@@ -1,9 +1,9 @@
-import { Box, JsonInput } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Box, JsonInput } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import React from 'react';
 
 const code = `
-import { JsonInput } from '@mantine/core';
+import { JsonInput } from '@reactgets/core';
 
 function Demo() {
   return <JsonInput disabled />;

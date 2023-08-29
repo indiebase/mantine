@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { Portal } from './Portal';
 
-describe('@mantine/core/Portal', () => {
+describe('@reactgets/core/Portal', () => {
   it('renders content inside portal', () => {
     render(<Portal className="test-portal">test-portal</Portal>);
     const portal = document.querySelector('.test-portal');
@@ -50,6 +50,6 @@ describe('@mantine/core/Portal', () => {
   });
 
   it('has correct displayName', () => {
-    expect(Portal.displayName).toStrictEqual('@mantine/core/Portal');
+    expect(Portal.displayName).toStrictEqual('@reactgets/core/Portal');
   });
 });

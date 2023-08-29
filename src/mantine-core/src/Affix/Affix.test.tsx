@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { itSupportsSystemProps, itRendersChildren } from '@mantine/tests';
+import { itSupportsSystemProps, itRendersChildren } from '@reactgets/tests';
 import { Affix, AffixProps } from './Affix';
 
 const defaultProps: AffixProps = {
@@ -8,12 +8,12 @@ const defaultProps: AffixProps = {
   children: 'test-element',
 };
 
-describe('@mantine/core/Affix', () => {
+describe('@reactgets/core/Affix', () => {
   itRendersChildren(Affix, defaultProps);
   itSupportsSystemProps({
     component: Affix,
     props: defaultProps,
-    displayName: '@mantine/core/Affix',
+    displayName: '@reactgets/core/Affix',
     refType: HTMLDivElement,
     providerName: 'Affix',
   });

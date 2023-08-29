@@ -3,19 +3,19 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Title, TitleProps } from './Title';
 
 const defaultProps: TitleProps = {};
 
-describe('@mantine/core/Title', () => {
+describe('@reactgets/core/Title', () => {
   itRendersChildren(Title, defaultProps);
   itSupportsProviderVariant(Title, defaultProps, 'Title');
   itSupportsProviderSize(Title, defaultProps, 'Title');
   itSupportsSystemProps({
     component: Title,
     props: defaultProps,
-    displayName: '@mantine/core/Title',
+    displayName: '@reactgets/core/Title',
     refType: HTMLHeadingElement,
     providerName: 'Title',
   });

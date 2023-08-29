@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { useToggle } from './use-toggle';
 
-describe('@mantine/hooks/use-toggle', () => {
+describe('@reactgets/hooks/use-toggle', () => {
   it('returns correct initial state', () => {
     const hook = renderHook(() => useToggle(['dark', 'light'] as const));
     expect(hook.result.current[0]).toBe('dark');

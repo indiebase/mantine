@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpotlightProvider, SpotlightProviderProps } from '@mantine/spotlight';
+import { SpotlightProvider, SpotlightProviderProps } from '@reactgets/spotlight';
 import { actions } from './_actions';
 import { SpotlightControl } from './_control';
 

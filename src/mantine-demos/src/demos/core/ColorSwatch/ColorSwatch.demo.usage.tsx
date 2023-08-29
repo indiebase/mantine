@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { useMantineTheme, ColorSwatch, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useMantineTheme, ColorSwatch, Group } from '@reactgets/core';
 
 const code = `
-import { ColorSwatch, Group, useMantineTheme } from '@mantine/core';
+import { ColorSwatch, Group, useMantineTheme } from '@reactgets/core';
 
 function Demo() {
   const theme = useMantineTheme();

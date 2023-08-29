@@ -2,19 +2,19 @@ import {
   itRendersChildren,
   itSupportsSystemProps,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Navbar, NavbarProps } from './Navbar';
 import { Section } from '../HorizontalSection/Section/Section';
 
 const defaultProps: NavbarProps = { children: 'test-navbar' };
 
-describe('@mantine/core/Navbar', () => {
+describe('@reactgets/core/Navbar', () => {
   itRendersChildren(Navbar, defaultProps);
   itSupportsProviderVariant(Navbar, defaultProps, 'Navbar');
   itSupportsSystemProps({
     component: Navbar,
     props: defaultProps,
-    displayName: '@mantine/core/Navbar',
+    displayName: '@reactgets/core/Navbar',
     refType: HTMLElement,
     providerName: 'Navbar',
   });

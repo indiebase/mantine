@@ -1,10 +1,10 @@
 import React from 'react';
-import { Carousel } from '@mantine/carousel';
-import { MantineDemo } from '@mantine/ds';
+import { Carousel } from '@reactgets/carousel';
+import { MantineDemo } from '@reactgets/ds';
 import { Slides } from './_slides';
 
 const code = `
-import { Carousel } from '@mantine/carousel';
+import { Carousel } from '@reactgets/carousel';
 
 function Demo() {
   return (

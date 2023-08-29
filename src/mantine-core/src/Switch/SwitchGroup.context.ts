@@ -1,4 +1,4 @@
-import { MantineSize } from '@mantine/styles';
+import { MantineSize } from '@reactgets/styles';
 import { createContext, useContext } from 'react';
 
 interface SwitchGroupContextValue {

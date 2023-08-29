@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStyles, Paper, Text, Title, Button, rem } from '@mantine/core';
+import { createStyles, Paper, Text, Title, Button, rem } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   card: {

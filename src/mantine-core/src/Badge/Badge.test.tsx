@@ -6,12 +6,12 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Badge, BadgeProps } from './Badge';
 
 const defaultProps: BadgeProps = {};
 
-describe('@mantine/core/Badge', () => {
+describe('@reactgets/core/Badge', () => {
   itRendersChildren(Badge, defaultProps);
   itIsPolymorphic(Badge, defaultProps);
   itSupportsProviderVariant(Badge, defaultProps, 'Badge');
@@ -19,7 +19,7 @@ describe('@mantine/core/Badge', () => {
   itSupportsSystemProps({
     component: Badge,
     props: defaultProps,
-    displayName: '@mantine/core/Badge',
+    displayName: '@reactgets/core/Badge',
     refType: HTMLDivElement,
   });
 

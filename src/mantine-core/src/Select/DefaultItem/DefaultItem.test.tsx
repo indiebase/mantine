@@ -5,14 +5,14 @@ import {
   itSupportsOthers,
   itSupportsStyle,
   itSupportsRef,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { DefaultItem, SelectItemProps } from './DefaultItem';
 
 const defaultProps: SelectItemProps = {
   label: 'test',
 };
 
-describe('@mantine/core/Autocomplete/DefaultItem', () => {
+describe('@reactgets/core/Autocomplete/DefaultItem', () => {
   itSupportsClassName(DefaultItem, defaultProps);
   itSupportsOthers(DefaultItem, defaultProps);
   itSupportsStyle(DefaultItem, defaultProps);
@@ -29,6 +29,6 @@ describe('@mantine/core/Autocomplete/DefaultItem', () => {
   });
 
   it('has correct displayName', () => {
-    expect(DefaultItem.displayName).toStrictEqual('@mantine/core/DefaultItem');
+    expect(DefaultItem.displayName).toStrictEqual('@reactgets/core/DefaultItem');
   });
 });

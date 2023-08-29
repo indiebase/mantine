@@ -4,7 +4,7 @@ import {
   itIsPolymorphic,
   createContextContainer,
   itThrowsContextError,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { render, screen } from '@testing-library/react';
 import { PaginationControl, PaginationControlProps } from './PaginationControl';
 import { PaginationRoot } from '../PaginationRoot/PaginationRoot';
@@ -15,7 +15,7 @@ const defaultProps: PaginationControlProps = {
   children: 10,
 };
 
-describe('@mantine/core/PaginationControl', () => {
+describe('@reactgets/core/PaginationControl', () => {
   itThrowsContextError(
     PaginationControl,
     defaultProps,
@@ -27,7 +27,7 @@ describe('@mantine/core/PaginationControl', () => {
     component: TestComponent,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/PaginationControl',
+    displayName: '@reactgets/core/PaginationControl',
     providerName: 'PaginationControl',
   });
 

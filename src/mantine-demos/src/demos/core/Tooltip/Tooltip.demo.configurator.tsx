@@ -1,6 +1,6 @@
 import React from 'react';
-import { Tooltip, TooltipProps, Group, Button, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Tooltip, TooltipProps, Group, Button, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import {
   FLOATING_ARROW_POSITION_DATA,
   FLOATING_POSITION_DATA,
@@ -19,7 +19,7 @@ const Wrapper = (props: TooltipProps) => (
 );
 
 const codeTemplate = (props: string) => `
-import { Tooltip, Button } from '@mantine/core';
+import { Tooltip, Button } from '@reactgets/core';
 
 function Demo() {
   return (

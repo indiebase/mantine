@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { createStyles, rem, em, getBreakpointValue } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { createStyles, rem, em, getBreakpointValue } from '@reactgets/core';
 
 const code = `
-import { createStyles, getBreakpointValue, rem, em } from '@mantine/core';
+import { createStyles, getBreakpointValue, rem, em } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   container: {

@@ -1,7 +1,7 @@
 import React from 'react';
-import { getContextItemIndex, useHovered } from '@mantine/utils';
-import { useDidUpdate, useUncontrolled } from '@mantine/hooks';
-import { ClassNames, Styles, useComponentDefaultProps } from '@mantine/styles';
+import { getContextItemIndex, useHovered } from '@reactgets/utils';
+import { useDidUpdate, useUncontrolled } from '@reactgets/hooks';
+import { ClassNames, Styles, useComponentDefaultProps } from '@reactgets/styles';
 import { useDelayedHover } from '../Floating';
 import { Popover, PopoverBaseProps, PopoverStylesNames } from '../Popover';
 import { MenuDivider, MenuDividerStylesNames } from './MenuDivider/MenuDivider';
@@ -172,7 +172,7 @@ export function Menu(props: MenuProps) {
   );
 }
 
-Menu.displayName = '@mantine/core/Menu';
+Menu.displayName = '@reactgets/core/Menu';
 Menu.Item = MenuItem;
 Menu.Label = MenuLabel;
 Menu.Dropdown = MenuDropdown;

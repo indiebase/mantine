@@ -6,8 +6,8 @@ import {
   MantineColor,
   MantineNumberSize,
   Variants,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Box } from '../Box';
 import useStyles from './Text.styles';
 
@@ -120,6 +120,6 @@ export const _Text = forwardRef<HTMLDivElement, TextProps>((props, ref) => {
   );
 });
 
-_Text.displayName = '@mantine/core/Text';
+_Text.displayName = '@reactgets/core/Text';
 
 export const Text = createPolymorphicComponent<'div', TextProps>(_Text);

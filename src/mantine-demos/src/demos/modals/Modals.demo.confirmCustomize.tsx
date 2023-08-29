@@ -1,12 +1,12 @@
 import React from 'react';
-import { Group, Button, Text } from '@mantine/core';
-import { modals } from '@mantine/modals';
-import { MantineDemo } from '@mantine/ds';
-import { notifications } from '@mantine/notifications';
+import { Group, Button, Text } from '@reactgets/core';
+import { modals } from '@reactgets/modals';
+import { MantineDemo } from '@reactgets/ds';
+import { notifications } from '@reactgets/notifications';
 
 const code = `
-import { Button, Text } from '@mantine/core';
-import { modals } from '@mantine/modals';
+import { Button, Text } from '@reactgets/core';
+import { modals } from '@reactgets/modals';
 
 function Demo() {
   const openDeleteModal = () =>

@@ -5,9 +5,9 @@ import {
   Selectors,
   MantineNumberSize,
   useComponentDefaultProps,
-} from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
-import { useId } from '@mantine/hooks';
+} from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
+import { useId } from '@reactgets/hooks';
 import { extractSystemStyles } from '../Box';
 import { InlineInput, InlineInputStylesNames } from '../InlineInput';
 import { useCheckboxGroupContext } from './CheckboxGroup.context';
@@ -158,5 +158,5 @@ export const Checkbox: CheckboxComponent = forwardRef<HTMLInputElement, Checkbox
   }
 ) as any;
 
-Checkbox.displayName = '@mantine/core/Checkbox';
+Checkbox.displayName = '@reactgets/core/Checkbox';
 Checkbox.Group = CheckboxGroup;

@@ -7,7 +7,7 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { render, screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { JsonInput, JsonInputProps } from './JsonInput';
@@ -24,7 +24,7 @@ const expectValidity = (valid: boolean) =>
 const focusInput = () => fireEvent.focus(getInput());
 const blurInput = () => fireEvent.blur(getInput());
 
-describe('@mantine/core/JsonInput', () => {
+describe('@reactgets/core/JsonInput', () => {
   checkAccessibility([<JsonInput {...defaultProps} />]);
   itSupportsFocusEvents(JsonInput, defaultProps, 'textarea');
   itSupportsInputProps(JsonInput, defaultProps, 'JsonInput');
@@ -33,7 +33,7 @@ describe('@mantine/core/JsonInput', () => {
   itSupportsSystemProps({
     component: JsonInput,
     props: defaultProps,
-    displayName: '@mantine/core/JsonInput',
+    displayName: '@reactgets/core/JsonInput',
     refType: HTMLTextAreaElement,
     excludeOthers: true,
   });

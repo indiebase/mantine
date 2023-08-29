@@ -6,7 +6,7 @@ import {
   Global,
   rem,
   em,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Box } from '../../Box';
 import { useAppShellContext } from '../AppShell.context';
 import { getSortedBreakpoints } from './get-sorted-breakpoints/get-sorted-breakpoints';
@@ -127,4 +127,4 @@ export const HorizontalSection = forwardRef<HTMLElement, HorizontalSectionProps>
   }
 );
 
-HorizontalSection.displayName = '@mantine/core/HorizontalSection';
+HorizontalSection.displayName = '@reactgets/core/HorizontalSection';

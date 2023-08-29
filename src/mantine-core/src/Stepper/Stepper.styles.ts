@@ -6,7 +6,7 @@ import {
   getBreakpointValue,
   getSize,
   em,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { iconSizes } from './Step/Step.styles';
 
 export interface StepperStylesParams {

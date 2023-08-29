@@ -1,5 +1,5 @@
-import { Group } from '@mantine/core';
-import { noop } from '@mantine/utils';
+import { Group } from '@reactgets/core';
+import { noop } from '@reactgets/utils';
 import React from 'react';
 import { ColorSchemeControl } from './ColorSchemeControl';
 import { GithubControl } from './GithubControl';

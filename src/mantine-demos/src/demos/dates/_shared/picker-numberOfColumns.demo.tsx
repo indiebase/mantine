@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, MediaQuery, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, MediaQuery, Text } from '@reactgets/core';
 
 const getCode = (name: string) => `
 import { useState } from 'react';
-import { Group } from '@mantine/core';
-import { ${name} } from '@mantine/dates';
+import { Group } from '@reactgets/core';
+import { ${name} } from '@reactgets/dates';
 
 function Demo() {
   const [value, setValue] = useState<[Date | null, Date | null]>([null, null]);
@@ -40,7 +40,7 @@ function getDemo(Component: React.FC<any>) {
 export function getPickerNumberOfColumnsDemo(Component: React.FC<any>): MantineDemo {
   return {
     type: 'demo',
-    code: getCode(Component.displayName.replace('@mantine/dates/', '')),
+    code: getCode(Component.displayName.replace('@reactgets/dates/', '')),
     component: getDemo(Component),
   };
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import { DefaultProps, MantineSize, Selectors } from '@mantine/styles';
-import { randomId } from '@mantine/hooks';
+import { DefaultProps, MantineSize, Selectors } from '@reactgets/styles';
+import { randomId } from '@reactgets/hooks';
 import { Text } from '../../Text/Text';
 import { Divider } from '../../Divider/Divider';
 import { SelectItem } from '../types';
@@ -159,4 +159,4 @@ export function SelectItems({
   );
 }
 
-SelectItems.displayName = '@mantine/core/SelectItems';
+SelectItems.displayName = '@reactgets/core/SelectItems';

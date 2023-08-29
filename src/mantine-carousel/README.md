@@ -1,6 +1,6 @@
 # Mantine carousel
 
-[![npm](https://img.shields.io/npm/dm/@mantine/carousel)](https://www.npmjs.com/package/@mantine/carousel)
+[![npm](https://img.shields.io/npm/dm/@reactgets/carousel)](https://www.npmjs.com/package/@reactgets/carousel)
 
 Embla based carousel
 
@@ -10,10 +10,10 @@ Embla based carousel
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks @mantine/carousel
+yarn add @reactgets/core @reactgets/hooks @reactgets/carousel
 
 # With npm
-npm install @mantine/core @mantine/hooks @mantine/carousel
+npm install @reactgets/core @reactgets/hooks @reactgets/carousel
 ```
 
 ## License

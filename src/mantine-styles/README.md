@@ -1,6 +1,6 @@
 # Mantine styles
 
-[![npm](https://img.shields.io/npm/dm/@mantine/styles)](https://www.npmjs.com/package/@mantine/styles)
+[![npm](https://img.shields.io/npm/dm/@reactgets/styles)](https://www.npmjs.com/package/@reactgets/styles)
 
 Mantine CSS-in-JS library built on top of emotion
 
@@ -10,10 +10,10 @@ Mantine CSS-in-JS library built on top of emotion
 
 ```bash
 # With yarn
-yarn add @mantine/styles
+yarn add @reactgets/styles
 
 # With npm
-npm install @mantine/styles
+npm install @reactgets/styles
 ```
 
 ## License

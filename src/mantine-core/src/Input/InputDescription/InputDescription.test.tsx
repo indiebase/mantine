@@ -3,12 +3,12 @@ import {
   itRendersChildren,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { InputDescription, InputDescriptionProps } from './InputDescription';
 
 const defaultProps: InputDescriptionProps = {};
 
-describe('@mantine/core/InputDescription', () => {
+describe('@reactgets/core/InputDescription', () => {
   itRendersChildren(InputDescription, defaultProps);
   itSupportsProviderVariant(InputDescription, defaultProps, 'InputWrapper', 'description');
   itSupportsProviderSize(InputDescription, defaultProps, 'InputWrapper', 'description');
@@ -16,7 +16,7 @@ describe('@mantine/core/InputDescription', () => {
     component: InputDescription,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/InputDescription',
+    displayName: '@reactgets/core/InputDescription',
     providerName: 'InputDescription',
   });
 });

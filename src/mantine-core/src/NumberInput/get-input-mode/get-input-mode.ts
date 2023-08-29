@@ -1,4 +1,4 @@
-import { OS } from '@mantine/hooks';
+import { OS } from '@reactgets/hooks';
 
 export const getInputMode = (
   step: number,

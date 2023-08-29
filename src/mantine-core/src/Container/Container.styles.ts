@@ -1,4 +1,4 @@
-import { createStyles, MantineSize, getSize } from '@mantine/styles';
+import { createStyles, MantineSize, getSize } from '@reactgets/styles';
 
 export interface ContainerStylesParams {
   fluid: boolean;

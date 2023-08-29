@@ -1,10 +1,10 @@
 import React from 'react';
-import { useViewportSize } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { Text } from '@mantine/core';
+import { useViewportSize } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { Text } from '@reactgets/core';
 
 const code = `
-import { useViewportSize } from '@mantine/hooks';
+import { useViewportSize } from '@reactgets/hooks';
 
 function Demo() {
   const { height, width } = useViewportSize();

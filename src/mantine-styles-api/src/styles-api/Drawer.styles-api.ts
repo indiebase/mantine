@@ -1,4 +1,4 @@
-import type { DrawerStylesNames } from '@mantine/core';
+import type { DrawerStylesNames } from '@reactgets/core';
 
 export const Drawer: Record<DrawerStylesNames, string> = {
   root: 'Root element',

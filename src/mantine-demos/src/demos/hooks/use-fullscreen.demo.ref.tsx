@@ -1,11 +1,11 @@
 import React from 'react';
-import { useFullscreen } from '@mantine/hooks';
-import { Button, Stack, Image } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { useFullscreen } from '@reactgets/hooks';
+import { Button, Stack, Image } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 
 const refCode = `
-import { useFullscreen } from '@mantine/hooks';
-import { Button, Image } from '@mantine/core';
+import { useFullscreen } from '@reactgets/hooks';
+import { Button, Image } from '@reactgets/core';
 
 function Demo() {
   const { ref, toggle, fullscreen } = useFullscreen();

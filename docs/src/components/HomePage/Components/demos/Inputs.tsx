@@ -8,7 +8,7 @@ import {
   NativeSelect,
   MultiSelect,
   Autocomplete,
-} from '@mantine/core';
+} from '@reactgets/core';
 
 export function Inputs() {
   return (

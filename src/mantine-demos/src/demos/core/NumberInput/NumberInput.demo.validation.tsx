@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { NumberInput, Box } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { NumberInput, Box } from '@reactgets/core';
 
 const code = `
 // Error as boolean – red border color

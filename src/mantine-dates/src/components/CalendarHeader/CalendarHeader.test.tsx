@@ -4,7 +4,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { itSupportsHeaderProps, itSupportsWithNextPrevious } from '../../tests';
 import { CalendarHeader, CalendarHeaderProps } from './CalendarHeader';
 
@@ -14,13 +14,13 @@ const defaultProps: CalendarHeaderProps = {
   label: '',
 };
 
-describe('@mantine/dates/CalendarHeader', () => {
+describe('@reactgets/dates/CalendarHeader', () => {
   itSupportsSystemProps({
     component: CalendarHeader,
     props: defaultProps,
     refType: HTMLDivElement,
     providerName: 'CalendarHeader',
-    displayName: '@mantine/dates/CalendarHeader',
+    displayName: '@reactgets/dates/CalendarHeader',
   });
 
   itSupportsProviderVariant(CalendarHeader, defaultProps, 'CalendarHeader', 'calendarHeader');

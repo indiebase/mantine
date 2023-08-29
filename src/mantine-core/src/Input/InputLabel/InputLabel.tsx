@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineSize, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineSize, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import useStyles from './InputLabel.styles';
 
@@ -81,4 +81,4 @@ export const InputLabel = forwardRef<HTMLLabelElement, InputLabelProps>((props, 
   );
 });
 
-InputLabel.displayName = '@mantine/core/InputLabel';
+InputLabel.displayName = '@reactgets/core/InputLabel';

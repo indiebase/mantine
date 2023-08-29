@@ -1,10 +1,10 @@
 import React from 'react';
-import { Accordion, createStyles, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Accordion, createStyles, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { baseDemoItems } from './_base';
 
 const code = `
-import { Accordion, createStyles, rem } from '@mantine/core';
+import { Accordion, createStyles, rem } from '@reactgets/core';
 
 const useStyles = createStyles((theme) => ({
   root: {

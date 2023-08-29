@@ -1,4 +1,4 @@
-import type { NotificationProps as NotificationComponentProps } from '@mantine/core';
+import type { NotificationProps as NotificationComponentProps } from '@reactgets/core';
 
 export interface NotificationProps extends Omit<NotificationComponentProps, 'onClose'> {
   id?: string;

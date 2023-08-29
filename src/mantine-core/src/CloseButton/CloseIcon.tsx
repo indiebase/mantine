@@ -20,4 +20,4 @@ export function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   );
 }
 
-CloseIcon.displayName = '@mantine/core/CloseIcon';
+CloseIcon.displayName = '@reactgets/core/CloseIcon';

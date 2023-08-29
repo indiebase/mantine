@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconMedal } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { NumberInput } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { NumberInput } from '@reactgets/core';
 
 const code = `
-import { NumberInput } from '@mantine/core';
+import { NumberInput } from '@reactgets/core';
 import { IconMedal } from '@tabler/icons-react';
 
 function Demo() {

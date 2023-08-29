@@ -1,4 +1,4 @@
-import { createSafeContext } from '@mantine/utils';
+import { createSafeContext } from '@reactgets/utils';
 
 export type ScrollAreaComponent = React.FC<any>;
 

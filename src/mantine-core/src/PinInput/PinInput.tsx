@@ -1,12 +1,12 @@
 import React, { forwardRef, useRef, useState, useEffect } from 'react';
-import { useUncontrolled, useId } from '@mantine/hooks';
+import { useUncontrolled, useId } from '@reactgets/hooks';
 import {
   DefaultProps,
   MantineNumberSize,
   MantineSize,
   useComponentDefaultProps,
   Selectors,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Group } from '../Group';
 import { Input, InputSharedProps, InputStylesNames } from '../Input';
 import { createPinArray } from './create-pin-array/create-pin-array';
@@ -304,4 +304,4 @@ export const PinInput = forwardRef<HTMLDivElement, PinInputProps>((props, ref) =
   );
 });
 
-PinInput.displayName = '@mantine/core/PinInput';
+PinInput.displayName = '@reactgets/core/PinInput';

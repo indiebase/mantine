@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, Badge } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useIdle } from '@mantine/hooks';
+import { Group, Badge } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useIdle } from '@reactgets/hooks';
 
 const eventsCode = `
-import { Badge } from '@mantine/core';
-import { useIdle } from '@mantine/hooks';
+import { Badge } from '@reactgets/core';
+import { useIdle } from '@reactgets/hooks';
 
 function Demo() {
   const idle = useIdle(2000, { events: ['click', 'touchstart'] });

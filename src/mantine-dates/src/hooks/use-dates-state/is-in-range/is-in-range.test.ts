@@ -12,7 +12,7 @@ const unsortedRange: DateRange = [sortedRange[1], sortedRange[0]];
 
 const sameDateRange: DateRange = [sortedRange[0], sortedRange[0]];
 
-describe('@mantine/dates/hooks/use-dates-state/is-in-range', () => {
+describe('@reactgets/dates/hooks/use-dates-state/is-in-range', () => {
   // Sorted range
   it('returns false for dates well before the sorted range', () => {
     expect(isInRange(dayjs(sortedRange[0]).subtract(1, 'day').toDate(), sortedRange)).toBe(false);

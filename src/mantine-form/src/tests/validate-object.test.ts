@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/validate with record rules', () => {
+describe('@reactgets/form/validate with record rules', () => {
   it('validates all fields with validate handler', () => {
     const hook = renderHook(() =>
       useForm<{ banana: string; orange: string; bar: number }>({

@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/isValid', () => {
+describe('@reactgets/form/isValid', () => {
   it('returns correct form validation state', () => {
     const hook = renderHook(() =>
       useForm({

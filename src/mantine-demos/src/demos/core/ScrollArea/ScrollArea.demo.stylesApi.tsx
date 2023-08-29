@@ -1,10 +1,10 @@
 import React from 'react';
-import { Group, ScrollArea, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Group, ScrollArea, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { Content } from './_content';
 
 const code = `
-import { ScrollArea, Box } from '@mantine/core';
+import { ScrollArea, Box } from '@reactgets/core';
 
 function Demo() {
   return (

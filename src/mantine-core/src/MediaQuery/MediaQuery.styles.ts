@@ -6,7 +6,7 @@ import {
   em,
   getBreakpointValue,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export interface MediaQueryStylesParams {
   smallerThan: MantineNumberSize;

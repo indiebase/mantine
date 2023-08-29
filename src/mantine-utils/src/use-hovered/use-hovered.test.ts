@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useHovered } from './use-hovered';
 
-describe('@mantine/utils/use-hovered', () => {
+describe('@reactgets/utils/use-hovered', () => {
   it('works correctly', () => {
     const hook = renderHook(() => useHovered());
     expect(hook.result.current[0]).toBe(-1);

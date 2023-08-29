@@ -6,7 +6,7 @@ import {
   itSupportsInputWrapperProps,
   itSupportsInputAsterisk,
   itSupportsSystemProps,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { RadioGroup, RadioGroupProps } from './RadioGroup';
 import { Radio } from '../Radio';
 
@@ -20,13 +20,13 @@ const defaultProps: RadioGroupProps = {
   ),
 };
 
-describe('@mantine/core/RadioGroup', () => {
+describe('@reactgets/core/RadioGroup', () => {
   itSupportsInputWrapperProps(RadioGroup, defaultProps, 'RadioGroup');
   itSupportsInputAsterisk(RadioGroup, defaultProps, 'RadioGroup');
   itSupportsSystemProps({
     component: RadioGroup,
     props: defaultProps,
-    displayName: '@mantine/core/RadioGroup',
+    displayName: '@reactgets/core/RadioGroup',
     excludeOthers: true,
     refType: HTMLDivElement,
   });

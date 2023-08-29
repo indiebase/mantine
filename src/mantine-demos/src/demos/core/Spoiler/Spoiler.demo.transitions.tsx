@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { Wrapper } from './_wrapper';
 
 const code = `
-import { Spoiler } from '@mantine/core';
+import { Spoiler } from '@reactgets/core';
 
 function Demo() {
   return (

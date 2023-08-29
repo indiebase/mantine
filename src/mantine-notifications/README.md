@@ -1,6 +1,6 @@
 # Mantine notifications system
 
-[![npm](https://img.shields.io/npm/dm/@mantine/notifications)](https://www.npmjs.com/package/@mantine/notifications)
+[![npm](https://img.shields.io/npm/dm/@reactgets/notifications)](https://www.npmjs.com/package/@reactgets/notifications)
 
 Notifications system
 
@@ -10,10 +10,10 @@ Notifications system
 
 ```bash
 # With yarn
-yarn add @mantine/hooks @mantine/core @mantine/notifications
+yarn add @reactgets/hooks @reactgets/core @reactgets/notifications
 
 # With npm
-npm install @mantine/hooks @mantine/core @mantine/notifications
+npm install @reactgets/hooks @reactgets/core @reactgets/notifications
 ```
 
 ## License

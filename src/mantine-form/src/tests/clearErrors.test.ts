@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/clearErrors', () => {
+describe('@reactgets/form/clearErrors', () => {
   it('clears errors when clearErrors handler is called', () => {
     const hook = renderHook(() => useForm({ initialErrors: { a: 1, b: 2 } }));
     expect(hook.result.current.errors).toStrictEqual({ a: 1, b: 2 });

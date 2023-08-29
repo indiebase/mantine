@@ -1,6 +1,6 @@
 import { reorderErrors } from './reorder-errors';
 
-describe('@mantine/form/reorder-errors', () => {
+describe('@reactgets/form/reorder-errors', () => {
   it('reorders errors at given path', () => {
     expect(reorderErrors('a', { from: 2, to: 0 }, { 'a.0': true })).toStrictEqual({
       'a.2': true,

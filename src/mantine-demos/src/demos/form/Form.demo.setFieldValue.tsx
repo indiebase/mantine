@@ -1,13 +1,13 @@
 import React from 'react';
-import { useForm } from '@mantine/form';
-import { TextInput, Button, Group, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { randomId } from '@mantine/hooks';
+import { useForm } from '@reactgets/form';
+import { TextInput, Button, Group, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { randomId } from '@reactgets/hooks';
 
 const code = `
-import { useForm } from '@mantine/form';
-import { TextInput, Button, Group, Box } from '@mantine/core';
-import { randomId } from '@mantine/hooks';
+import { useForm } from '@reactgets/form';
+import { TextInput, Button, Group, Box } from '@reactgets/core';
+import { randomId } from '@reactgets/hooks';
 
 function Demo() {
   const form = useForm({

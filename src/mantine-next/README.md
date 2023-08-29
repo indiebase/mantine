@@ -1,6 +1,6 @@
 # Mantine integration for Next.js
 
-[![npm](https://img.shields.io/npm/dm/@mantine/next)](https://www.npmjs.com/package/@mantine/next)
+[![npm](https://img.shields.io/npm/dm/@reactgets/next)](https://www.npmjs.com/package/@reactgets/next)
 
 Utilities to setup Mantine server side rendering with Next.js
 
@@ -10,10 +10,10 @@ Utilities to setup Mantine server side rendering with Next.js
 
 ```bash
 # With yarn
-yarn add @mantine/hooks @mantine/core @mantine/next
+yarn add @reactgets/hooks @reactgets/core @reactgets/next
 
 # With npm
-npm install @mantine/hooks @mantine/core @mantine/next
+npm install @reactgets/hooks @reactgets/core @reactgets/next
 ```
 
 ## License

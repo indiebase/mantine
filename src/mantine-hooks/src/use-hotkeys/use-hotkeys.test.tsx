@@ -6,7 +6,7 @@ const dispatchEvent = (data: any) => {
   document.documentElement.dispatchEvent(event);
 };
 
-describe('@mantine/hooks/use-hotkey', () => {
+describe('@reactgets/hooks/use-hotkey', () => {
   it('should listen to document events', () => {
     const handler = jest.fn();
     renderHook(() => useHotkeys([['shift+ctrl+S', handler]]));

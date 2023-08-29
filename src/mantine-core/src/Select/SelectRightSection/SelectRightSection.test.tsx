@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { SelectRightSection } from './SelectRightSection';
 
-describe('@mantine/core/SelectRightSection', () => {
+describe('@reactgets/core/SelectRightSection', () => {
   it('renders ChevronIcon when shouldClear is false', () => {
     const { container } = render(<SelectRightSection shouldClear={false} size="sm" />);
     expect(container.querySelector('[data-chevron]')).toBeInTheDocument();
@@ -31,6 +31,6 @@ describe('@mantine/core/SelectRightSection', () => {
   });
 
   it('has correct displayName', () => {
-    expect(SelectRightSection.displayName).toStrictEqual('@mantine/core/SelectRightSection');
+    expect(SelectRightSection.displayName).toStrictEqual('@reactgets/core/SelectRightSection');
   });
 });

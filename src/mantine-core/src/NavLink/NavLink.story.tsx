@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconHome2, IconChevronRight } from '@tabler/icons-react';
-import { useCounter } from '@mantine/hooks';
+import { useCounter } from '@reactgets/hooks';
 import { Button } from '../Button';
 import { NavLink } from './NavLink';
 

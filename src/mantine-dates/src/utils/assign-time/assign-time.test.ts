@@ -1,6 +1,6 @@
 import { assignTime } from './assign-time';
 
-describe('@mantine/dates/assign-time', () => {
+describe('@reactgets/dates/assign-time', () => {
   it('preserves time from the given original date', () => {
     const originalDate = new Date(2022, 3, 11, 3, 45, 13, 53);
     const nextDate = new Date(2023, 4, 12);

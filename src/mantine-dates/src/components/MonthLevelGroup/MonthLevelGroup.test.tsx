@@ -4,7 +4,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { MonthLevelGroup, MonthLevelGroupProps } from './MonthLevelGroup';
 import {
   itSupportsMonthProps,
@@ -20,13 +20,13 @@ const defaultProps: MonthLevelGroupProps = {
   previousLabel: 'prev',
 };
 
-describe('@mantine/dates/MonthLevelGroup', () => {
+describe('@reactgets/dates/MonthLevelGroup', () => {
   itSupportsSystemProps({
     component: MonthLevelGroup,
     props: defaultProps,
     refType: HTMLDivElement,
     providerName: 'MonthLevelGroup',
-    displayName: '@mantine/dates/MonthLevelGroup',
+    displayName: '@reactgets/dates/MonthLevelGroup',
   });
 
   itSupportsProviderVariant(MonthLevelGroup, defaultProps, 'MonthLevelGroup', [

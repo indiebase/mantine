@@ -1,4 +1,4 @@
-import { createStyles } from '@mantine/styles';
+import { createStyles } from '@reactgets/styles';
 
 export default createStyles((theme) => ({
   icon: {

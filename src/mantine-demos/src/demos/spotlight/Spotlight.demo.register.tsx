@@ -1,15 +1,15 @@
 /* eslint-disable no-console */
 import React, { useState } from 'react';
-import { Group, Button } from '@mantine/core';
-import { SpotlightProvider, useSpotlight } from '@mantine/spotlight';
+import { Group, Button } from '@reactgets/core';
+import { SpotlightProvider, useSpotlight } from '@reactgets/spotlight';
 import { IconAlien, IconSearch } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { actions } from './_actions';
 
 const code = `
 import { useState } from 'react';
-import { Group, Button } from '@mantine/core';
-import { SpotlightProvider, spotlight } from '@mantine/spotlight';
+import { Group, Button } from '@reactgets/core';
+import { SpotlightProvider, spotlight } from '@reactgets/spotlight';
 import { IconAlien, IconSearch } from '@tabler/icons-react';
 
 function SpotlightControls() {

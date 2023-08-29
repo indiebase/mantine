@@ -1,8 +1,8 @@
-import { MantineDemo } from '@mantine/ds';
-import { DateTimePicker } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { DateTimePicker } from '@reactgets/dates';
 
 const codeTemplate = (props: string) => `
-import { DateTimePicker } from '@mantine/dates';
+import { DateTimePicker } from '@reactgets/dates';
 
 function Demo() {
   return (

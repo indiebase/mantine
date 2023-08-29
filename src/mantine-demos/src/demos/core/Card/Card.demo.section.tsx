@@ -1,11 +1,11 @@
 import React from 'react';
-import { Card, Group, Text, Menu, ActionIcon, Image, SimpleGrid, rem } from '@mantine/core';
+import { Card, Group, Text, Menu, ActionIcon, Image, SimpleGrid, rem } from '@reactgets/core';
 import { IconDots, IconEye, IconFileZip, IconTrash } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { demoBase } from './_demo-base';
 
 const code = `
-import { Card, Group, Text, Menu, ActionIcon, Image, SimpleGrid, rem } from '@mantine/core';
+import { Card, Group, Text, Menu, ActionIcon, Image, SimpleGrid, rem } from '@reactgets/core';
 import { IconDots, IconEye, IconFileZip, IconTrash } from '@tabler/icons-react';
 
 const images = [

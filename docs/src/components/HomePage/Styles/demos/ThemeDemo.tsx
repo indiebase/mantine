@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Text, Box, Anchor, em } from '@mantine/core';
-import { Prism } from '@mantine/prism';
+import { Text, Box, Anchor, em } from '@reactgets/core';
+import { Prism } from '@reactgets/prism';
 
 const code = `
-import { Text } from '@mantine/core';
+import { Text } from '@reactgets/core';
 
 function Demo() {
   return (

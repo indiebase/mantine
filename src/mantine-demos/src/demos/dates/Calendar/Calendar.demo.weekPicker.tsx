@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group } from '@mantine/core';
-import { Calendar } from '@mantine/dates';
+import { MantineDemo } from '@reactgets/ds';
+import { Group } from '@reactgets/core';
+import { Calendar } from '@reactgets/dates';
 import dayjs from 'dayjs';
 
 const code = `
 import { useState } from 'react';
-import { Group } from '@mantine/core';
-import { Calendar } from '@mantine/dates';
+import { Group } from '@reactgets/core';
+import { Calendar } from '@reactgets/dates';
 import dayjs from 'dayjs';
 
 function getDay(date: Date) {

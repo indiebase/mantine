@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unused-prop-types */
 import React from 'react';
-import { useUncontrolled } from '@mantine/hooks';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { useUncontrolled } from '@reactgets/hooks';
+import { useComponentDefaultProps } from '@reactgets/styles';
 import { ChipGroupProvider } from '../ChipGroup.context';
 
 export interface ChipGroupProps<T extends boolean = false> {
@@ -56,4 +56,4 @@ export function ChipGroup<T extends boolean>(props: ChipGroupProps<T>) {
   );
 }
 
-ChipGroup.displayName = '@mantine/core/ChipGroup';
+ChipGroup.displayName = '@reactgets/core/ChipGroup';

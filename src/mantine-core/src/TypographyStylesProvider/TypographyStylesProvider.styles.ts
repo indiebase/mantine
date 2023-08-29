@@ -1,5 +1,5 @@
-import { createStyles, rem } from '@mantine/styles';
-import { keys } from '@mantine/utils';
+import { createStyles, rem } from '@reactgets/styles';
+import { keys } from '@reactgets/utils';
 
 export default createStyles((theme) => {
   const headings = keys(theme.headings.sizes).reduce((acc, h) => {

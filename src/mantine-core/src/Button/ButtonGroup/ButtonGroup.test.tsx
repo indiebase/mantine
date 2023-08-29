@@ -1,15 +1,15 @@
-import { itSupportsSystemProps, itRendersChildren } from '@mantine/tests';
+import { itSupportsSystemProps, itRendersChildren } from '@reactgets/tests';
 import { ButtonGroup, ButtonGroupProps } from './ButtonGroup';
 
 const defaultProps: ButtonGroupProps = {};
 
-describe('@mantine/core/ButtonGroup', () => {
+describe('@reactgets/core/ButtonGroup', () => {
   itRendersChildren(ButtonGroup, defaultProps);
   itSupportsSystemProps({
     component: ButtonGroup,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/ButtonGroup',
+    displayName: '@reactgets/core/ButtonGroup',
     providerName: 'ButtonGroup',
   });
 });

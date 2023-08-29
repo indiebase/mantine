@@ -5,7 +5,7 @@ import {
   MantineTheme,
   rem,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export interface NavLinkStylesParams {
   color: MantineColor;

@@ -1,13 +1,13 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Progress, ProgressProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Progress, ProgressProps } from '@reactgets/core';
 
 function Wrapper(props: ProgressProps) {
   return <Progress {...props} />;
 }
 
 const codeTemplate = (props: string) => `
-import { Progress } from '@mantine/core';
+import { Progress } from '@reactgets/core';
 
 function Demo() {
   return <Progress${props} />;

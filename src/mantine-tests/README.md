@@ -1,6 +1,6 @@
 # Mantine tests
 
-@mantine/tests is a helper package that is used to contain commonly repeated tests logic. It is not published on npm.
+@reactgets/tests is a helper package that is used to contain commonly repeated tests logic. It is not published on npm.
 
 ## checkAccessibility
 
@@ -8,8 +8,8 @@ checkAccessibility test checks markup of given component with axe. It allows to 
 
 ```tsx
 import { render } from '@testing-library/react';
-import { checkAccessibility } from '@mantine/tests';
-import { Tabs, Tab } from '@mantine/core';
+import { checkAccessibility } from '@reactgets/tests';
+import { Tabs, Tab } from '@reactgets/core';
 
 const content = [
   <Tab label="tab-1" key="tab-1">
@@ -23,7 +23,7 @@ const content = [
   </Tab>,
 ];
 
-describe('@mantine/core/Tabs', () => {
+describe('@reactgets/core/Tabs', () => {
   checkAccessibility([<Tabs>{content}</Tabs>, <Tabs initialTab={2}>{content}</Tabs>]);
 });
 ```
@@ -33,10 +33,10 @@ describe('@mantine/core/Tabs', () => {
 Checks if component renders React node at any position. itRendersChildren accepts 2 arguments: component and required component props.
 
 ```tsx
-import { itRendersChildren } from '@mantine/tests';
-import { Button } from '@mantine/core';
+import { itRendersChildren } from '@reactgets/tests';
+import { Button } from '@reactgets/core';
 
-describe('@mantine/core/Button', () => {
+describe('@reactgets/core/Button', () => {
   itRendersChildren(Button, { color: 'red' });
 });
 ```
@@ -46,10 +46,10 @@ describe('@mantine/core/Button', () => {
 Checks if component sets given className on root element. itSupportsClassName accepts 2 arguments: component and required component props.
 
 ```tsx
-import { itSupportsClassName } from '@mantine/tests';
-import { Button } from '@mantine/core';
+import { itSupportsClassName } from '@reactgets/tests';
+import { Button } from '@reactgets/core';
 
-describe('@mantine/core/Button', () => {
+describe('@reactgets/core/Button', () => {
   itSupportsClassName(Button, { color: 'red' });
 });
 ```
@@ -59,10 +59,10 @@ describe('@mantine/core/Button', () => {
 Checks if component spreads ...others props on root element. itSupportsOthers accepts 2 arguments: component and required component props.
 
 ```tsx
-import { itSupportsOthers } from '@mantine/tests';
-import { Button } from '@mantine/core';
+import { itSupportsOthers } from '@reactgets/tests';
+import { Button } from '@reactgets/core';
 
-describe('@mantine/core/Button', () => {
+describe('@reactgets/core/Button', () => {
   itSupportsOthers(Button, { children: 'test' });
 });
 ```
@@ -72,10 +72,10 @@ describe('@mantine/core/Button', () => {
 Checks it component sets given styles object to style property of root element. itSupportsStyle accepts 2 arguments: component and required component props.
 
 ```tsx
-import { itSupportsStyle } from '@mantine/tests';
-import { Button } from '@mantine/core';
+import { itSupportsStyle } from '@reactgets/tests';
+import { Button } from '@reactgets/core';
 
-describe('@mantine/core/Button', () => {
+describe('@reactgets/core/Button', () => {
   itSupportsStyle(Button, { children: 'test' });
 });
 ```
@@ -90,10 +90,10 @@ Checks if component produces ref on mount. itSupportsRef accepts 4 arguments:
 - ref prop key (optional, defaults to 'ref')
 
 ```tsx
-import { itSupportsRef } from '@mantine/tests';
-import { Button } from '@mantine/core';
+import { itSupportsRef } from '@reactgets/tests';
+import { Button } from '@reactgets/core';
 
-describe('@mantine/core/Button', () => {
+describe('@reactgets/core/Button', () => {
   itSupportsRef(Button, { children: 'test' }, HTMLButtonElement, 'customRefPath');
 });
 ```
@@ -103,11 +103,11 @@ describe('@mantine/core/Button', () => {
 Checks if component attaches correct styles to inner elements:
 
 ```tsx
-import { itSupportsStylesApi } from '@mantine/tests';
+import { itSupportsStylesApi } from '@reactgets/tests';
 import { Button } from './Button';
 import { Button as ButtonStylesApi } from './styles.api';
 
-describe('@mantine/core/Button', () => {
+describe('@reactgets/core/Button', () => {
   itSupportsRef(Button, { children: 'test' }, Object.keys(ButtonStylesApi), 'button');
 });
 ```

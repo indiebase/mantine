@@ -4,7 +4,7 @@ import {
   MantineNumberSize,
   Selectors,
   useComponentDefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { UnstyledButton } from '../UnstyledButton';
 import useStyles, { BurgerStylesParams } from './Burger.styles';
 
@@ -58,4 +58,4 @@ export const Burger = forwardRef<HTMLButtonElement, BurgerProps>((props: BurgerP
   );
 });
 
-Burger.displayName = '@mantine/core/Burger';
+Burger.displayName = '@reactgets/core/Burger';

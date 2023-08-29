@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, useComponentDefaultProps } from '@reactgets/styles';
 import { Text, TextProps } from '../Text';
 import useStyles, { TitleStylesParams } from './Title.styles';
 
@@ -49,4 +49,4 @@ export const Title = forwardRef<HTMLHeadingElement, TitleProps>((props, ref) => 
   );
 });
 
-Title.displayName = '@mantine/core/Title';
+Title.displayName = '@reactgets/core/Title';

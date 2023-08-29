@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { IconTable, IconSearch } from '@tabler/icons-react';
-import { WithinOverlays } from '@mantine/storybook';
-import { useDisclosure } from '@mantine/hooks';
+import { WithinOverlays } from '@reactgets/storybook';
+import { useDisclosure } from '@reactgets/hooks';
 import { Menu } from './Menu';
 import { Button } from '../Button';
 import { Tooltip } from '../Tooltip';

@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { CloseButton, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { CloseButton, Group } from '@reactgets/core';
 
 const code = `
-import { CloseButton, Group } from '@mantine/core';
+import { CloseButton, Group } from '@reactgets/core';
 
 function Demo() {
   return (

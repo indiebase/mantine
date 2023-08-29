@@ -5,7 +5,7 @@ import {
   MANTINE_SIZES,
   MantineSize,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export interface GridStylesParams {
   gutter: MantineNumberSize;

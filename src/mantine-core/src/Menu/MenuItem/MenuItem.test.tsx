@@ -5,7 +5,7 @@ import {
   itRendersChildren,
   itIsPolymorphic,
   itThrowsContextError,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MenuItem, MenuItemProps } from './MenuItem';
@@ -16,7 +16,7 @@ const defaultProps: MenuItemProps = {};
 
 const TestContainer = createContextContainer<any>(MenuItem, Menu, { opened: true });
 
-describe('@mantine/core/MenuItem', () => {
+describe('@reactgets/core/MenuItem', () => {
   itThrowsContextError(MenuItem, defaultProps, MENU_ERRORS.context);
   itRendersChildren(TestContainer, defaultProps);
   itIsPolymorphic(TestContainer, defaultProps);
@@ -24,7 +24,7 @@ describe('@mantine/core/MenuItem', () => {
     component: TestContainer,
     props: defaultProps,
     refType: HTMLButtonElement,
-    displayName: '@mantine/core/MenuItem',
+    displayName: '@reactgets/core/MenuItem',
     providerName: 'MenuItem',
   });
 

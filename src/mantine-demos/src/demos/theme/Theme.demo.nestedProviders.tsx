@@ -1,8 +1,8 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Group, Button, Text, MantineProvider, useMantineColorScheme } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, Button, Text, MantineProvider, useMantineColorScheme } from '@reactgets/core';
 
-const code = `import { Button, MantineProvider, Text } from '@mantine/core';
+const code = `import { Button, MantineProvider, Text } from '@reactgets/core';
 
 function Demo() {
   return (

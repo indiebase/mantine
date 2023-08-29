@@ -1,4 +1,4 @@
-import { DEFAULT_THEME, rem } from '@mantine/styles';
+import { DEFAULT_THEME, rem } from '@reactgets/styles';
 import { getResponsiveValue } from './get-responsive-value';
 import { valueGetters } from '../value-getters/value-getters';
 
@@ -7,7 +7,7 @@ const defaultProps = {
   getValue: valueGetters.spacing,
 };
 
-describe('@mantine/core/Box/get-responsive-value', () => {
+describe('@reactgets/core/Box/get-responsive-value', () => {
   it('returns correct styles when value is not responsive', () => {
     expect(getResponsiveValue({ ...defaultProps, value: 'lg', property: 'margin' })).toStrictEqual({
       margin: DEFAULT_THEME.spacing.lg,

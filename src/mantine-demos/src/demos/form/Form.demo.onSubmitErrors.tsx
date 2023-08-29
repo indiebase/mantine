@@ -1,14 +1,14 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { useForm } from '@mantine/form';
-import { TextInput, Button, Box } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { notifications } from '@mantine/notifications';
+import { useForm } from '@reactgets/form';
+import { TextInput, Button, Box } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { notifications } from '@reactgets/notifications';
 
 const code = `
-import { useForm } from '@mantine/form';
-import { TextInput, Button, Box } from '@mantine/core';
-import { notifications } from '@mantine/notifications';
+import { useForm } from '@reactgets/form';
+import { TextInput, Button, Box } from '@reactgets/core';
+import { notifications } from '@reactgets/notifications';
 
 function Demo() {
   const form = useForm({

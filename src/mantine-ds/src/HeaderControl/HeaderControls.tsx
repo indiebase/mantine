@@ -1,5 +1,5 @@
 import React from 'react';
-import { DefaultProps, Group, Tooltip } from '@mantine/core';
+import { DefaultProps, Group, Tooltip } from '@reactgets/core';
 import { ColorSchemeControl } from './ColorSchemeControl';
 import { DirectionControl } from './DirectionControl';
 import { GithubControl } from './GithubControl';

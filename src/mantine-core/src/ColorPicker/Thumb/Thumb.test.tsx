@@ -1,4 +1,4 @@
-import { itSupportsClassName, itSupportsStyle } from '@mantine/tests';
+import { itSupportsClassName, itSupportsStyle } from '@reactgets/tests';
 import { Thumb, ThumbProps } from './Thumb';
 
 const defaultProps: ThumbProps = {
@@ -7,11 +7,11 @@ const defaultProps: ThumbProps = {
   size: 'sm',
 };
 
-describe('@mantine/core/Thumb', () => {
+describe('@reactgets/core/Thumb', () => {
   itSupportsClassName(Thumb, defaultProps);
   itSupportsStyle(Thumb, defaultProps);
 
   it('has correct displayName', () => {
-    expect(Thumb.displayName).toStrictEqual('@mantine/core/Thumb');
+    expect(Thumb.displayName).toStrictEqual('@reactgets/core/Thumb');
   });
 });

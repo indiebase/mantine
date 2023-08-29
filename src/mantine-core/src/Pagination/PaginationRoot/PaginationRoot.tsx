@@ -6,9 +6,9 @@ import {
   useComponentDefaultProps,
   ClassNames,
   Styles,
-} from '@mantine/styles';
-import { usePagination } from '@mantine/hooks';
-import { createEventHandler } from '@mantine/utils';
+} from '@reactgets/styles';
+import { usePagination } from '@reactgets/hooks';
+import { createEventHandler } from '@reactgets/utils';
 import { PaginationProvider } from '../Pagination.context';
 import type { PaginationControlStylesNames } from '../PaginationControl/PaginationControl';
 import type { PaginationDotsStylesNames } from '../PaginationDots/PaginationDots';

@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/validateInputOnChange', () => {
+describe('@reactgets/form/validateInputOnChange', () => {
   it('validates root property on change', () => {
     const hook = renderHook(() =>
       useForm({

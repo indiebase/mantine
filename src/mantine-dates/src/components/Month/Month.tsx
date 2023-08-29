@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unused-prop-types */
 import dayjs from 'dayjs';
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, Box, useComponentDefaultProps, MantineSize } from '@mantine/core';
+import { DefaultProps, Selectors, Box, useComponentDefaultProps, MantineSize } from '@reactgets/core';
 import { useDatesContext } from '../DatesProvider';
 import { WeekdaysRow, WeekdaysRowStylesNames } from '../WeekdaysRow';
 import { Day, DayStylesNames, DayProps } from '../Day';
@@ -247,4 +247,4 @@ export const Month = forwardRef<HTMLTableElement, MonthProps>((props, ref) => {
   );
 });
 
-Month.displayName = '@mantine/dates/Month';
+Month.displayName = '@reactgets/dates/Month';

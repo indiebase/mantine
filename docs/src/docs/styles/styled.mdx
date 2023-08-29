@@ -6,7 +6,7 @@ order: 5
 search: 'Add styles to components with styled components syntax'
 ---
 
-import { StyledDemos } from '@mantine/demos';
+import { StyledDemos } from '@reactgets/demos';
 
 ## Installation
 
@@ -24,7 +24,7 @@ npm install @emotion/styled
 to access [theme](/theming/theme-object/) in styles.
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@reactgets/core';
 
 function App() {
   return (
@@ -64,7 +64,7 @@ Add `emotion.d.ts` declaration file to your `src` folder or to any place include
 
 ```tsx
 import '@emotion/react';
-import type { MantineTheme } from '@mantine/core';
+import type { MantineTheme } from '@reactgets/core';
 
 declare module '@emotion/react' {
   export interface Theme extends MantineTheme {}

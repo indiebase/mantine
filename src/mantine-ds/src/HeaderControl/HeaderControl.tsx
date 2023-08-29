@@ -1,6 +1,6 @@
 import React from 'react';
-import { UnstyledButton, Tooltip, DefaultProps } from '@mantine/core';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { UnstyledButton, Tooltip, DefaultProps } from '@reactgets/core';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import useStyles from './HeaderControl.styles';
 
 export interface HeaderControlProps extends DefaultProps {

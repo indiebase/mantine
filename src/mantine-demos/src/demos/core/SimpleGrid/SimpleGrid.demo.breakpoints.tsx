@@ -1,10 +1,10 @@
 import React from 'react';
-import { SimpleGrid } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { SimpleGrid } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { defaultItems } from './_Item';
 
 const code = `
-import { SimpleGrid } from '@mantine/core';
+import { SimpleGrid } from '@reactgets/core';
 
 function Demo() {
   return (

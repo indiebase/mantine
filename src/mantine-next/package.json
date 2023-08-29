@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/next",
+  "name": "@reactgets/next",
   "description": "Mantine integration for Next.js",
   "version": "6.0.19",
   "main": "cjs/index.js",
@@ -25,7 +25,7 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "@mantine/ssr": "6.0.19",
-    "@mantine/styles": "6.0.19"
+    "@reactgets/ssr": "6.0.19",
+    "@reactgets/styles": "6.0.19"
   }
 }

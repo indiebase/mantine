@@ -9,14 +9,14 @@ import {
   itSupportsProviderVariant,
   itSupportsProviderSize,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Textarea, TextareaProps } from './Textarea';
 
 const defaultProps: TextareaProps = {
   label: 'test-label',
 };
 
-describe('@mantine/core/Textarea', () => {
+describe('@reactgets/core/Textarea', () => {
   itSupportsFocusEvents(Textarea, defaultProps, 'textarea');
   itSupportsInputProps(Textarea, defaultProps, 'Textarea');
   itSupportsProviderVariant(Textarea, defaultProps, 'Textarea', ['root', 'input', 'label']);
@@ -25,7 +25,7 @@ describe('@mantine/core/Textarea', () => {
   itSupportsSystemProps({
     component: Textarea,
     props: defaultProps,
-    displayName: '@mantine/core/Textarea',
+    displayName: '@reactgets/core/Textarea',
     refType: HTMLTextAreaElement,
     othersSelector: 'textarea',
     providerName: 'Textarea',

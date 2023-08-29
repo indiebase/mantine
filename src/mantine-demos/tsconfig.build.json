@@ -1,6 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
-  "include": ["./src", "./types", "../../configuration/types"],
+  "include": [
+    "./src",
+    "./types",
+    "../../configuration/types"
+  ],
   "exclude": [
     "./lib",
     "./esm",
@@ -21,32 +25,80 @@
     "declarationDir": "lib",
     "composite": true,
     "paths": {
-      "@mantine/core": ["../mantine-core/src"],
-      "@mantine/dates": ["../mantine-dates/src"],
-      "@mantine/hooks": ["../mantine-hooks/src"],
-      "@mantine/form": ["../mantine-form/src"],
-      "@mantine/spotlight": ["../mantine-spotlight/src"],
-      "@mantine/carousel": ["../mantine-carousel/src"],
-      "@mantine/prism": ["../mantine-prism/src"],
-      "@mantine/dropzone": ["../mantine-dropzone/src"],
-      "@mantine/notifications": ["../mantine-notifications/src"],
-      "@mantine/modals": ["../mantine-modals/src"],
-      "@mantine/nprogress": ["../mantine-nprogress/src"],
-      "@mantine/tiptap": ["../mantine-tiptap/src"]
+      "@reactgets/core": [
+        "../mantine-core/src"
+      ],
+      "@reactgets/dates": [
+        "../mantine-dates/src"
+      ],
+      "@reactgets/hooks": [
+        "../mantine-hooks/src"
+      ],
+      "@reactgets/form": [
+        "../mantine-form/src"
+      ],
+      "@reactgets/spotlight": [
+        "../mantine-spotlight/src"
+      ],
+      "@reactgets/carousel": [
+        "../mantine-carousel/src"
+      ],
+      "@reactgets/prism": [
+        "../mantine-prism/src"
+      ],
+      "@reactgets/dropzone": [
+        "../mantine-dropzone/src"
+      ],
+      "@reactgets/notifications": [
+        "../mantine-notifications/src"
+      ],
+      "@reactgets/modals": [
+        "../mantine-modals/src"
+      ],
+      "@reactgets/nprogress": [
+        "../mantine-nprogress/src"
+      ],
+      "@reactgets/tiptap": [
+        "../mantine-tiptap/src"
+      ]
     }
   },
   "references": [
-    { "path": "../mantine-core" },
-    { "path": "../mantine-dates" },
-    { "path": "../mantine-hooks" },
-    { "path": "../mantine-spotlight" },
-    { "path": "../mantine-carousel" },
-    { "path": "../mantine-form" },
-    { "path": "../mantine-prism" },
-    { "path": "../mantine-dropzone" },
-    { "path": "../mantine-notifications" },
-    { "path": "../mantine-modals" },
-    { "path": "../mantine-nprogress" },
-    { "path": "../mantine-tiptap" }
+    {
+      "path": "../mantine-core"
+    },
+    {
+      "path": "../mantine-dates"
+    },
+    {
+      "path": "../mantine-hooks"
+    },
+    {
+      "path": "../mantine-spotlight"
+    },
+    {
+      "path": "../mantine-carousel"
+    },
+    {
+      "path": "../mantine-form"
+    },
+    {
+      "path": "../mantine-prism"
+    },
+    {
+      "path": "../mantine-dropzone"
+    },
+    {
+      "path": "../mantine-notifications"
+    },
+    {
+      "path": "../mantine-modals"
+    },
+    {
+      "path": "../mantine-nprogress"
+    },
+    {
+      "path": "../mantine-tiptap"
+    }
   ]
 }

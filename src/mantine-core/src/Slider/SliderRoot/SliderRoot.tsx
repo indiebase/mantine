@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { MantineNumberSize, DefaultProps, Selectors } from '@mantine/styles';
+import { MantineNumberSize, DefaultProps, Selectors } from '@reactgets/styles';
 import { Box } from '../../Box';
 import useStyles from './SliderRoot.styles';
 
@@ -40,4 +40,4 @@ export const SliderRoot = forwardRef<HTMLDivElement, SliderRootProps>(
   }
 );
 
-SliderRoot.displayName = '@mantine/core/SliderRoot';
+SliderRoot.displayName = '@reactgets/core/SliderRoot';

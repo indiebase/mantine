@@ -12,7 +12,7 @@ export * as CreateStylesDemos from './demos/create-styles';
 export * as ThemeDemos from './demos/theme';
 export * as StyledDemos from './demos/styled';
 
-// @mantine/core
+// @reactgets/core
 export * as AccordionDemos from './demos/core/Accordion';
 export * as ActionIconDemos from './demos/core/ActionIcon';
 export * as AffixDemos from './demos/core/Affix';
@@ -117,7 +117,7 @@ export * as CarouselDemos from './demos/carousel';
 export * as MantineLogoDemos from './demos/logo';
 export * as TipTapDemos from './demos/tiptap';
 
-// @mantine/dates
+// @reactgets/dates
 export * as YearPickerDemos from './demos/dates/YearPicker';
 export * as YearPickerInputDemos from './demos/dates/YearPickerInput';
 export * as MonthPickerDemos from './demos/dates/MonthPicker';

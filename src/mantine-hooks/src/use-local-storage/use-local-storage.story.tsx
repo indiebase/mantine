@@ -7,7 +7,7 @@ export default {
 
 export function Usage() {
   const [value, setValue] = useLocalStorage<string>({
-    key: '@mantine/localStorage/val',
+    key: '@reactgets/localStorage/val',
     defaultValue: 'Value persists through reloads and changes across multiple tabs',
   });
 
@@ -20,17 +20,17 @@ export function Usage() {
 
 export function SerializeJson() {
   const [value, setValue] = useLocalStorage<{ mantine: string }>({
-    key: '@mantine/localStorage/val',
+    key: '@reactgets/localStorage/val',
     defaultValue: { mantine: 'is awesome' },
   });
 
   const [value2, setValue2] = useLocalStorage<{ mantine: string }>({
-    key: '@mantine/localStorage/val',
+    key: '@reactgets/localStorage/val',
     defaultValue: { mantine: 'is awesome' },
   });
 
   const [value3, setValue3] = useLocalStorage<{ mantine: string }>({
-    key: '@mantine/localStorage/another-value',
+    key: '@reactgets/localStorage/another-value',
     defaultValue: { mantine: 'is awesome' },
   });
 
@@ -54,7 +54,7 @@ export function SerializeJson() {
 
 export function SerializeBoolean() {
   const [value, setValue] = useLocalStorage<boolean>({
-    key: '@mantine/localStorage/val',
+    key: '@reactgets/localStorage/val',
     defaultValue: true,
   });
 

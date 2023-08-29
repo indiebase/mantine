@@ -1,5 +1,5 @@
 import React from 'react';
-import { ActionIcon, Code, Group, MantineProvider, TextInput, Text, Button } from '@mantine/core';
+import { ActionIcon, Code, Group, MantineProvider, TextInput, Text, Button } from '@reactgets/core';
 import { IconTrash } from '@tabler/icons-react';
 import { useForm } from '../use-form';
 

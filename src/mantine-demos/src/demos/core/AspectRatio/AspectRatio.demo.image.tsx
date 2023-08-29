@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { AspectRatio, Image } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { AspectRatio, Image } from '@reactgets/core';
 
 const code = `
-import { AspectRatio, Image } from '@mantine/core';
+import { AspectRatio, Image } from '@reactgets/core';
 
 function Demo() {
   return (

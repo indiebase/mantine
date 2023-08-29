@@ -1,4 +1,4 @@
-import { randomId } from '@mantine/hooks';
+import { randomId } from '@reactgets/hooks';
 import { useMemo } from 'react';
 import type { SpotlightAction } from '../types';
 

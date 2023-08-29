@@ -1,9 +1,9 @@
-import { Box, Radio } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Box, Radio } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import React from 'react';
 
 const code = `
-import { Radio } from '@mantine/core';
+import { Radio } from '@reactgets/core';
 
 function Demo() {
   return (

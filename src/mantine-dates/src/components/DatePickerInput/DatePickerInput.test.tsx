@@ -6,7 +6,7 @@ import {
   itSupportsProviderSize,
   itSupportsFocusEvents,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   itSupportsClearableProps,
   itSupportsYearsListProps,
@@ -21,14 +21,14 @@ const defaultProps = {
   modalProps: { withinPortal: false, transitionProps: { duration: 0 } },
 };
 
-describe('@mantine/dates/DatePickerInput', () => {
+describe('@reactgets/dates/DatePickerInput', () => {
   itSupportsSystemProps({
     component: DatePickerInput,
     props: defaultProps,
     refType: HTMLButtonElement,
     providerName: 'DatePickerInput',
     othersSelector: '.mantine-DatePickerInput-input',
-    displayName: '@mantine/dates/DatePickerInput',
+    displayName: '@reactgets/dates/DatePickerInput',
   });
 
   itSupportsFocusEvents(DatePickerInput, defaultProps, '.mantine-DatePickerInput-input');

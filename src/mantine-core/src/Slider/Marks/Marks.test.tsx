@@ -18,7 +18,7 @@ const defaultProps: MarksProps = {
   variant: '',
 };
 
-describe('@mantine/core/Slider/Marks', () => {
+describe('@reactgets/core/Slider/Marks', () => {
   it('renders correct marks labels', () => {
     const { container } = render(<Marks {...defaultProps} />);
     const labels = container.querySelectorAll('.mantine-Slider-markLabel');
@@ -55,6 +55,6 @@ describe('@mantine/core/Slider/Marks', () => {
   });
 
   it('has correct displayName', () => {
-    expect(Marks.displayName).toStrictEqual('@mantine/core/SliderMarks');
+    expect(Marks.displayName).toStrictEqual('@reactgets/core/SliderMarks');
   });
 });

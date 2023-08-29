@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+import { useComponentDefaultProps } from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { Text, TextProps } from '../Text/Text';
 import useStyles from './Anchor.styles';
 
@@ -37,6 +37,6 @@ export const _Anchor = forwardRef<HTMLAnchorElement, AnchorProps & { component: 
   }
 );
 
-_Anchor.displayName = '@mantine/core/Anchor';
+_Anchor.displayName = '@reactgets/core/Anchor';
 
 export const Anchor = createPolymorphicComponent<'a', AnchorProps>(_Anchor);

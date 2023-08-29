@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Badge, Box, Flex } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Badge, Box, Flex } from '@reactgets/core';
 
 const code = `
-import { Badge, Box, Flex } from '@mantine/core';
+import { Badge, Box, Flex } from '@reactgets/core';
 
 function Demo() {
   return (

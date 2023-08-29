@@ -1,4 +1,4 @@
-import type { IndicatorStylesNames } from '@mantine/core';
+import type { IndicatorStylesNames } from '@reactgets/core';
 
 export const Indicator: Record<IndicatorStylesNames, string> = {
   root: 'Root element',

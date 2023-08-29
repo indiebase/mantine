@@ -6,7 +6,7 @@ import {
   itSupportsStyle,
   itSupportsOthers,
   checkAccessibility,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { DefaultValue, MultiSelectValueProps } from './DefaultValue';
 
 const defaultProps: MultiSelectValueProps = {
@@ -19,7 +19,7 @@ const defaultProps: MultiSelectValueProps = {
   variant: 'filled',
 };
 
-describe('@mantine/core/MultiSelect/DefaultValue', () => {
+describe('@reactgets/core/MultiSelect/DefaultValue', () => {
   checkAccessibility([<DefaultValue {...defaultProps} />]);
   itSupportsClassName(DefaultValue, defaultProps);
   itSupportsStyle(DefaultValue, defaultProps);
@@ -45,6 +45,6 @@ describe('@mantine/core/MultiSelect/DefaultValue', () => {
   });
 
   it('has correct displayName', () => {
-    expect(DefaultValue.displayName).toStrictEqual('@mantine/core/MultiSelect/DefaultValue');
+    expect(DefaultValue.displayName).toStrictEqual('@reactgets/core/MultiSelect/DefaultValue');
   });
 });

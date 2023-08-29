@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { useDisclosure, useUncontrolled } from '@mantine/hooks';
+import { useDisclosure, useUncontrolled } from '@reactgets/hooks';
 import { useSpotlightEvents } from './events';
 import { SpotlightContext } from './Spotlight.context';
 import { InnerSpotlightProps, Spotlight } from './Spotlight/Spotlight';
@@ -128,4 +128,4 @@ export function SpotlightProvider({
   );
 }
 
-SpotlightProvider.displayName = '@mantine/spotlight/SpotlightProvider';
+SpotlightProvider.displayName = '@reactgets/spotlight/SpotlightProvider';

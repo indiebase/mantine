@@ -1,4 +1,4 @@
-import type { SpotlightStylesNames } from '@mantine/spotlight';
+import type { SpotlightStylesNames } from '@reactgets/spotlight';
 
 export const SpotlightProvider: Record<SpotlightStylesNames, string> = {
   root: 'Root element',

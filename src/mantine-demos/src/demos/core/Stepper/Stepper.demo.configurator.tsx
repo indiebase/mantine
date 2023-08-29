@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Stepper, StepperProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Stepper, StepperProps } from '@reactgets/core';
 
 function Wrapper(props: Partial<StepperProps>) {
   return (
@@ -12,7 +12,7 @@ function Wrapper(props: Partial<StepperProps>) {
 }
 
 const codeTemplate = (props: string) => `
-import { Stepper } from '@mantine/core';
+import { Stepper } from '@reactgets/core';
 
 function Demo() {
   return (

@@ -2,21 +2,21 @@ import {
   itSupportsSystemProps,
   itRendersChildren,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { AvatarGroup, AvatarGroupProps } from './AvatarGroup';
 
 const defaultProps: AvatarGroupProps = {
   children: 'test-children',
 };
 
-describe('@mantine/core/AvatarGroup', () => {
+describe('@reactgets/core/AvatarGroup', () => {
   itRendersChildren(AvatarGroup, defaultProps);
   itSupportsProviderVariant(AvatarGroup, defaultProps, 'AvatarGroup');
   itSupportsSystemProps({
     component: AvatarGroup,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/AvatarGroup',
+    displayName: '@reactgets/core/AvatarGroup',
     providerName: 'AvatarGroup',
   });
 });

@@ -1,5 +1,5 @@
 import React, { forwardRef, useRef } from 'react';
-import { DefaultProps, Box, Selectors, useComponentDefaultProps } from '@mantine/core';
+import { DefaultProps, Box, Selectors, useComponentDefaultProps } from '@reactgets/core';
 import dayjs from 'dayjs';
 import { DecadeLevel, DecadeLevelStylesNames, DecadeLevelSettings } from '../DecadeLevel';
 import { handleControlKeyDown } from '../../utils';
@@ -155,4 +155,4 @@ export const DecadeLevelGroup = forwardRef<HTMLDivElement, DecadeLevelGroupProps
   );
 });
 
-DecadeLevelGroup.displayName = '@mantine/dates/DecadeLevelGroup';
+DecadeLevelGroup.displayName = '@reactgets/dates/DecadeLevelGroup';

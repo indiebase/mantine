@@ -1,4 +1,4 @@
-import { createStyles, rem, em } from '@mantine/styles';
+import { createStyles, rem, em } from '@reactgets/styles';
 import { getSortedBreakpoints } from '../HorizontalSection/get-sorted-breakpoints/get-sorted-breakpoints';
 
 export type VerticalSectionHeight = number | string | Partial<Record<string, string | number>>;

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { UnstyledButton, DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/core';
+import { UnstyledButton, DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/core';
 import { useRichTextEditorContext } from '../../RichTextEditor.context';
 import useStyles from './Control.styles';
 
@@ -58,4 +58,4 @@ export const Control = forwardRef<HTMLButtonElement, RichTextEditorControlProps>
   );
 });
 
-Control.displayName = '@mantine/tiptap/Control';
+Control.displayName = '@reactgets/tiptap/Control';

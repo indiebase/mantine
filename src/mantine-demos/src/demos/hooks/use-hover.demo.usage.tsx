@@ -1,10 +1,10 @@
 import React from 'react';
-import { useHover } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { useMantineTheme, Text, rem } from '@mantine/core';
+import { useHover } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { useMantineTheme, Text, rem } from '@reactgets/core';
 
 const code = `
-import { useHover } from '@mantine/hooks';
+import { useHover } from '@reactgets/hooks';
 
 function Demo() {
   const { hovered, ref } = useHover();

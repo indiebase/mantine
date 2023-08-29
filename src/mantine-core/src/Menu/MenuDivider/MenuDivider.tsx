@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Box } from '../../Box';
 import { useMenuContext } from '../Menu.context';
 import useStyles from './MenuDivider.styles';
@@ -22,4 +22,4 @@ export const MenuDivider = forwardRef<HTMLDivElement, MenuDividerProps>((props, 
   return <Box className={cx(classes.divider, className)} ref={ref} {...others} />;
 });
 
-MenuDivider.displayName = '@mantine/core/MenuDivider';
+MenuDivider.displayName = '@reactgets/core/MenuDivider';

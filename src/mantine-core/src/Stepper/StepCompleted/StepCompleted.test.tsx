@@ -1,7 +1,7 @@
 import { StepCompleted } from './StepCompleted';
 
-describe('@mantine/core/StepCompleted', () => {
+describe('@reactgets/core/StepCompleted', () => {
   it('has correct displayName', () => {
-    expect(StepCompleted.displayName).toStrictEqual('@mantine/core/StepCompleted');
+    expect(StepCompleted.displayName).toStrictEqual('@reactgets/core/StepCompleted');
   });
 });

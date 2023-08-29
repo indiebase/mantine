@@ -1,4 +1,4 @@
-import type { SliderStylesNames } from '@mantine/core';
+import type { SliderStylesNames } from '@reactgets/core';
 
 export const Slider: Record<SliderStylesNames, string> = {
   root: 'Root element',

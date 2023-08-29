@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 import { IconClock } from '@tabler/icons-react';
-import { ActionIcon } from '@mantine/core';
-import { TimeInput } from '@mantine/dates';
+import { ActionIcon } from '@reactgets/core';
+import { TimeInput } from '@reactgets/dates';
 
 const code = `
 import { useRef } from 'react';
-import { ActionIcon } from '@mantine/core';
-import { TimeInput } from '@mantine/dates';
+import { ActionIcon } from '@reactgets/core';
+import { TimeInput } from '@reactgets/dates';
 import { IconClock } from '@tabler/icons-react';
 
 function Demo() {

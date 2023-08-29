@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, Button, Popover, Group, Drawer } from '@mantine/core';
+import { Modal, Button, Popover, Group, Drawer } from '@reactgets/core';
 
 interface WithinOverlayProps {
   children: React.ReactNode;

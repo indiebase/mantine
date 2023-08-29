@@ -7,8 +7,8 @@ import {
   useComponentDefaultProps,
   rem,
   Selectors,
-} from '@mantine/styles';
-import { ForwardRefWithStaticComponents, packSx } from '@mantine/utils';
+} from '@reactgets/styles';
+import { ForwardRefWithStaticComponents, packSx } from '@reactgets/utils';
 import { Box } from '../Box';
 import { TimelineItem, TimelineItemStylesNames } from './TimelineItem/TimelineItem';
 import useStyles from './Timeline.styles';
@@ -127,4 +127,4 @@ export const Timeline: TimelineComponent = forwardRef<HTMLDivElement, TimelinePr
 ) as any;
 
 Timeline.Item = TimelineItem;
-Timeline.displayName = '@mantine/core/Timeline';
+Timeline.displayName = '@reactgets/core/Timeline';

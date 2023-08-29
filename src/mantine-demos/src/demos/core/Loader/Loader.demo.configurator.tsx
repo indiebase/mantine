@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Loader, LoaderProps, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Loader, LoaderProps, Group } from '@reactgets/core';
 
 function Wrapper(props: LoaderProps) {
   return (
@@ -11,7 +11,7 @@ function Wrapper(props: LoaderProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Loader } from '@mantine/core';
+import { Loader } from '@reactgets/core';
 
 function Demo() {
   return <Loader${props} />;

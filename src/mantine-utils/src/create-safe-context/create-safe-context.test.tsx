@@ -1,6 +1,6 @@
 import React from 'react';
 import { renderHook } from '@testing-library/react';
-import { patchConsoleError } from '@mantine/tests';
+import { patchConsoleError } from '@reactgets/tests';
 import { createSafeContext } from './create-safe-context';
 
 interface ContextType {
@@ -8,7 +8,7 @@ interface ContextType {
   onChange(value: number): void;
 }
 
-describe('@mantine/utils/create-safe-context', () => {
+describe('@reactgets/utils/create-safe-context', () => {
   it('throws error if useSafeContext hook was called without Provider', () => {
     patchConsoleError();
     const [, useContext] = createSafeContext<ContextType>('test-error');

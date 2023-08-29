@@ -1,10 +1,10 @@
 import React from 'react';
 import { IconFlame } from '@tabler/icons-react';
-import { MantineDemo } from '@mantine/ds';
-import { Blockquote } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Blockquote } from '@reactgets/core';
 
 const code = `
-import { Blockquote } from '@mantine/core';
+import { Blockquote } from '@reactgets/core';
 import { IconFlame } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,4 +1,4 @@
-import { rem } from '@mantine/styles';
+import { rem } from '@reactgets/styles';
 
 export function getSizeValue<T>(value: T) {
   return rem(value);

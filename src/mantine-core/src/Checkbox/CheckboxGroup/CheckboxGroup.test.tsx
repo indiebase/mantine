@@ -6,7 +6,7 @@ import {
   itSupportsInputWrapperProps,
   itSupportsInputAsterisk,
   itSupportsSystemProps,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { CheckboxGroup, CheckboxGroupProps } from './CheckboxGroup';
 import { Checkbox } from '../Checkbox';
 
@@ -18,13 +18,13 @@ const defaultProps: CheckboxGroupProps = {
   ],
 };
 
-describe('@mantine/core/CheckboxGroup', () => {
+describe('@reactgets/core/CheckboxGroup', () => {
   itSupportsInputWrapperProps(CheckboxGroup, defaultProps, 'CheckboxGroup');
   itSupportsInputAsterisk(CheckboxGroup, defaultProps, 'CheckboxGroup');
   itSupportsSystemProps({
     component: CheckboxGroup,
     props: defaultProps,
-    displayName: '@mantine/core/CheckboxGroup',
+    displayName: '@reactgets/core/CheckboxGroup',
     refType: HTMLDivElement,
     providerName: 'CheckboxGroup',
   });

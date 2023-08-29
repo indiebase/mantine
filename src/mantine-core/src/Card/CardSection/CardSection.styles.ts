@@ -1,4 +1,4 @@
-import { createStyles, getSize, rem } from '@mantine/styles';
+import { createStyles, getSize, rem } from '@reactgets/styles';
 
 interface CardSectionStyles {
   padding: string | number;

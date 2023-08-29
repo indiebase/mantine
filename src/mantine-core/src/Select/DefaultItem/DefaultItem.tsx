@@ -13,4 +13,4 @@ export const DefaultItem = forwardRef<HTMLDivElement, SelectItemProps>(
   )
 );
 
-DefaultItem.displayName = '@mantine/core/DefaultItem';
+DefaultItem.displayName = '@reactgets/core/DefaultItem';

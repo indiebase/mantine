@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMantineTheme } from '@mantine/core';
+import { useMantineTheme } from '@reactgets/core';
 import { MantineDemo } from './types';
 import CodeDemo from './CodeDemo/CodeDemo';
 import Configurator from './Configurator/Configurator';

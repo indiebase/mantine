@@ -1,6 +1,6 @@
 # Mantine Navigation Progress
 
-[![npm](https://img.shields.io/npm/dm/@mantine/nprogress)](https://www.npmjs.com/package/@mantine/nprogress)
+[![npm](https://img.shields.io/npm/dm/@reactgets/nprogress)](https://www.npmjs.com/package/@reactgets/nprogress)
 
 A navigation progress bar
 
@@ -10,10 +10,10 @@ A navigation progress bar
 
 ```bash
 # With yarn
-yarn add @mantine/nprogress @mantine/core @mantine/hooks
+yarn add @reactgets/nprogress @reactgets/core @reactgets/hooks
 
 # With npm
-npm install @mantine/nprogress @mantine/core @mantine/hooks
+npm install @reactgets/nprogress @reactgets/core @reactgets/hooks
 ```
 
 ## License

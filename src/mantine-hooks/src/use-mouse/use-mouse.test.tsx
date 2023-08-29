@@ -12,7 +12,7 @@ const Target: React.FunctionComponent<any> = () => {
   );
 };
 
-describe('@mantine/hook/use-mouse', () => {
+describe('@reactgets/hook/use-mouse', () => {
   it('returns correct initial position (0, 0)', () => {
     const { result } = renderHook(() => useMouse());
 

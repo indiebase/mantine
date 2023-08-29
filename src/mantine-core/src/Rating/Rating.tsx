@@ -5,8 +5,8 @@ import {
   useComponentDefaultProps,
   Selectors,
   MantineColor,
-} from '@mantine/styles';
-import { useUncontrolled, clamp, useMergedRef, useId } from '@mantine/hooks';
+} from '@reactgets/styles';
+import { useUncontrolled, clamp, useMergedRef, useId } from '@reactgets/hooks';
 import { Box } from '../Box';
 import { RatingItem, RatingItemStylesNames } from './RatingItem/RatingItem';
 import useStyles from './Rating.styles';
@@ -243,4 +243,4 @@ export const Rating = forwardRef<HTMLInputElement, RatingProps>((props, ref) => 
   );
 });
 
-Rating.displayName = '@mantine/core/Rating';
+Rating.displayName = '@reactgets/core/Rating';

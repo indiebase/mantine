@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMantineTheme, rem } from '@mantine/core';
+import { useMantineTheme, rem } from '@reactgets/core';
 import { useMantineLogoColors, LogoProps } from './use-mantine-logo-colors';
 
 export function MantineLogoText({ size, color, variant, inverted, ...others }: LogoProps) {

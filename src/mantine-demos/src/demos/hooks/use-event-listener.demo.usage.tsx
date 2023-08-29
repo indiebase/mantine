@@ -1,12 +1,12 @@
 import React, { useState, useCallback } from 'react';
-import { Button, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useEventListener } from '@mantine/hooks';
+import { Button, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useEventListener } from '@reactgets/hooks';
 
 const code = `
 import { useState, useCallback } from 'react';
-import { Button, Group } from '@mantine/core';
-import { useEventListener } from '@mantine/hooks';
+import { Button, Group } from '@reactgets/core';
+import { useEventListener } from '@reactgets/hooks';
 
 function Demo() {
   const [count, setCount] = useState(0);

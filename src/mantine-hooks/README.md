@@ -1,6 +1,6 @@
 # Mantine Hooks
 
-[![npm](https://img.shields.io/npm/dm/@mantine/hooks)](https://www.npmjs.com/package/@mantine/hooks)
+[![npm](https://img.shields.io/npm/dm/@reactgets/hooks)](https://www.npmjs.com/package/@reactgets/hooks)
 
 A set of react hooks for state and UI management
 
@@ -10,10 +10,10 @@ A set of react hooks for state and UI management
 
 ```bash
 # With yarn
-yarn add @mantine/hooks
+yarn add @reactgets/hooks
 
 # With npm
-npm install @mantine/hooks
+npm install @reactgets/hooks
 ```
 
 ## License

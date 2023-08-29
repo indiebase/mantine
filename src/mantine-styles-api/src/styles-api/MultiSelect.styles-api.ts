@@ -1,4 +1,4 @@
-import type { MultiSelectStylesNames } from '@mantine/core';
+import type { MultiSelectStylesNames } from '@reactgets/core';
 import { Input } from './Input.styles-api';
 import { InputWrapper } from './InputWrapper.styles-api';
 

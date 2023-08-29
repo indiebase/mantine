@@ -6,7 +6,7 @@ import {
   itRendersChildren,
   checkAccessibility,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Carousel, CarouselProps } from './Carousel';
 
 const defaultProps: CarouselProps = {
@@ -20,7 +20,7 @@ const defaultProps: CarouselProps = {
   ),
 };
 
-describe('@mantine/carousel/Carousel', () => {
+describe('@reactgets/carousel/Carousel', () => {
   checkAccessibility([
     <Carousel nextControlLabel="Next slide" previousControlLabel="Previous slide" withIndicators>
       <Carousel.Slide>1</Carousel.Slide>
@@ -36,7 +36,7 @@ describe('@mantine/carousel/Carousel', () => {
     component: Carousel,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/carousel/Carousel',
+    displayName: '@reactgets/carousel/Carousel',
     providerName: 'Carousel',
   });
 

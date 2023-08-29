@@ -6,7 +6,7 @@ import {
   MantineTheme,
   em,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 
 export type ColSpan = number | 'auto' | 'content';
 

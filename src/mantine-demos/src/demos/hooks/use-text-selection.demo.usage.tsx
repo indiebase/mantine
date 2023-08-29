@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { useTextSelection } from '@mantine/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { useTextSelection } from '@reactgets/hooks';
 
 const code = `
-import { useTextSelection } from '@mantine/hooks';
+import { useTextSelection } from '@reactgets/hooks';
 function Demo() {
   const selection = useTextSelection();
   return (

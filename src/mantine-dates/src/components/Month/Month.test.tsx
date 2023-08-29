@@ -4,7 +4,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   itSupportsMonthProps,
   itSupportsGetDayRef,
@@ -17,13 +17,13 @@ const defaultProps: MonthProps = {
   month: new Date(2022, 3, 2),
 };
 
-describe('@mantine/core/Month', () => {
+describe('@reactgets/core/Month', () => {
   itSupportsSystemProps({
     component: Month,
     props: defaultProps,
     refType: HTMLTableElement,
     providerName: 'Month',
-    displayName: '@mantine/dates/Month',
+    displayName: '@reactgets/dates/Month',
   });
 
   itSupportsProviderVariant(Month, defaultProps, 'Month', ['month', 'day', 'weekdaysRow']);

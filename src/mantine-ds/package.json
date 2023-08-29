@@ -1,5 +1,5 @@
 {
-  "name": "@mantine/ds",
+  "name": "@reactgets/ds",
   "description": "Internal Mantine components used on *.mantine.dev websites",
   "version": "6.0.19",
   "main": "cjs/index.js",
@@ -18,14 +18,14 @@
     "react"
   ],
   "peerDependencies": {
-    "@mantine/core": "6.0.19",
-    "@mantine/hooks": "6.0.19",
-    "@mantine/prism": "6.0.19",
+    "@reactgets/core": "6.0.19",
+    "@reactgets/hooks": "6.0.19",
+    "@reactgets/prism": "6.0.19",
     "@tabler/icons-react": "*",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "@mantine/utils": "6.0.19"
+    "@reactgets/utils": "6.0.19"
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import { useComponentDefaultProps, ClassNames, Styles } from '@mantine/styles';
-import { useDisclosure } from '@mantine/hooks';
+import { useComponentDefaultProps, ClassNames, Styles } from '@reactgets/styles';
+import { useDisclosure } from '@reactgets/hooks';
 import { useDelayedHover } from '../Floating';
 import { Popover, PopoverBaseProps, PopoverStylesNames, PopoverStylesParams } from '../Popover';
 import { HoverCardContextProvider } from './HoverCard.context';
@@ -54,6 +54,6 @@ export function HoverCard(props: HoverCardProps) {
   );
 }
 
-HoverCard.displayName = '@mantine/core/HoverCard';
+HoverCard.displayName = '@reactgets/core/HoverCard';
 HoverCard.Target = HoverCardTarget;
 HoverCard.Dropdown = HoverCardDropdown;

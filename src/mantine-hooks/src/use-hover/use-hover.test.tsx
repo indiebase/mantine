@@ -12,7 +12,7 @@ const Target: React.FunctionComponent<any> = () => {
   );
 };
 
-describe('@mantine/hooks/use-hover', () => {
+describe('@reactgets/hooks/use-hover', () => {
   it('changes `hovered` on mouseenter/mouseleave correctly', () => {
     render(<Target />);
     const target = screen.getByTestId('target');

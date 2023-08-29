@@ -1,6 +1,6 @@
 import React from 'react';
-import { SegmentedControlProps } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { SegmentedControlProps } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { SegmentedControlWrapper } from './Wrapper';
 
 function Demo(props: SegmentedControlProps) {
@@ -12,7 +12,7 @@ function Demo(props: SegmentedControlProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { SegmentedControl } from '@mantine/core';
+import { SegmentedControl } from '@reactgets/core';
 
 function Demo() {
   return <SegmentedControl${props} />;

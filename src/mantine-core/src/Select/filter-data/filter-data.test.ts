@@ -17,7 +17,7 @@ const baseOptions = {
   value: null,
 };
 
-describe('@mantine/core/Select/filter-data', () => {
+describe('@reactgets/core/Select/filter-data', () => {
   it('returns unmodified data if input is not searchable', () => {
     expect(filterData({ ...baseOptions, searchable: false, searchValue: '' })).toBe(data);
   });

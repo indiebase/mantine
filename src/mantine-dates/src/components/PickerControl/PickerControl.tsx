@@ -6,7 +6,7 @@ import {
   Selectors,
   useComponentDefaultProps,
   MantineSize,
-} from '@mantine/core';
+} from '@reactgets/core';
 import useStyles from './PickerControl.styles';
 
 export type PickerControlStylesNames = Selectors<typeof useStyles>;
@@ -89,4 +89,4 @@ export const PickerControl = forwardRef<HTMLButtonElement, PickerControlProps>((
   );
 });
 
-PickerControl.displayName = '@mantine/dates/PickerControl';
+PickerControl.displayName = '@reactgets/dates/PickerControl';

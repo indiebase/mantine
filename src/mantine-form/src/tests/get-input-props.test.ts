@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react';
 import { useForm } from '../use-form';
 
-describe('@mantine/form/get-input-props', () => {
+describe('@reactgets/form/get-input-props', () => {
   it('returns correct input props (root property)', () => {
     const hook = renderHook(() =>
       useForm({ initialValues: { fruit: 'banana' }, initialErrors: { fruit: 'invalid fruit' } })

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Modal, Group, Button } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Modal, Group, Button } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { AuthenticationForm } from '../../../shared/AuthenticationForm/AuthenticationForm';
 
 const SIZES = ['xs', 'sm', 'md', 'lg', 'xl', '55rem', '70%', '100%'];

@@ -1,9 +1,9 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { DEFAULT_THEME, Stack, ColorPicker } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { DEFAULT_THEME, Stack, ColorPicker } from '@reactgets/core';
 
 const code = `
-import { ColorPicker } from '@mantine/core';
+import { ColorPicker } from '@reactgets/core';
 
 function Demo() {
   return (

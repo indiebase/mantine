@@ -1,6 +1,6 @@
 import React from 'react';
-import { NativeSelect } from '@mantine/core';
-import { upperFirst } from '@mantine/hooks';
+import { NativeSelect } from '@reactgets/core';
+import { upperFirst } from '@reactgets/hooks';
 
 interface SelectControlProps {
   value: string;

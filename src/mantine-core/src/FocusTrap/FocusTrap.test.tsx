@@ -1,10 +1,10 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { wait } from '@mantine/tests';
+import { wait } from '@reactgets/tests';
 import { FocusTrap } from './FocusTrap';
 
-describe('@mantine/core/FocusTrap', () => {
+describe('@reactgets/core/FocusTrap', () => {
   it('traps focus at given node', async () => {
     render(
       <FocusTrap>
@@ -75,6 +75,6 @@ describe('@mantine/core/FocusTrap', () => {
   });
 
   it('has correct displayName', () => {
-    expect(FocusTrap.displayName).toEqual('@mantine/core/FocusTrap');
+    expect(FocusTrap.displayName).toEqual('@reactgets/core/FocusTrap');
   });
 });

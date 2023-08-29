@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, Button } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { notifications } from '@mantine/notifications';
+import { Group, Button } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { notifications } from '@reactgets/notifications';
 
 const code = `
-import { Group, Button } from '@mantine/core';
-import { notifications } from '@mantine/notifications';
+import { Group, Button } from '@reactgets/core';
+import { notifications } from '@reactgets/notifications';
 
 function Demo() {
   return (

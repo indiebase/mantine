@@ -86,4 +86,4 @@ export function Transition({
   );
 }
 
-Transition.displayName = '@mantine/core/Transition';
+Transition.displayName = '@reactgets/core/Transition';

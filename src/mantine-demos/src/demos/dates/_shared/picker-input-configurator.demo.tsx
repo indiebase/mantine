@@ -1,8 +1,8 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
+import { MantineDemo } from '@reactgets/ds';
 
 const getCodeTemplate = (component: string) => (props: string) =>
-  `import { ${component} } from '@mantine/dates';
+  `import { ${component} } from '@reactgets/dates';
 
 function Demo() {
   return (
@@ -17,7 +17,7 @@ export function getPickerInputConfiguratorDemo(Component: React.FC<any>): Mantin
   return {
     type: 'configurator',
     component: Component,
-    codeTemplate: getCodeTemplate(Component.displayName.replace('@mantine/dates/', '')),
+    codeTemplate: getCodeTemplate(Component.displayName.replace('@reactgets/dates/', '')),
     configuratorProps: { multiline: 3 },
     configurator: [
       { name: 'placeholder', type: 'string', initialValue: 'Pick date' },

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, MantineSize, Selectors, useComponentDefaultProps } from '@mantine/styles';
+import { DefaultProps, MantineSize, Selectors, useComponentDefaultProps } from '@reactgets/styles';
 import { Text } from '../../Text';
 import useStyles from './InputDescription.styles';
 
@@ -58,4 +58,4 @@ export const InputDescription = forwardRef<HTMLDivElement, InputDescriptionProps
   );
 });
 
-InputDescription.displayName = '@mantine/core/InputDescription';
+InputDescription.displayName = '@reactgets/core/InputDescription';

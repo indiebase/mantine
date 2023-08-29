@@ -6,7 +6,7 @@ import {
   itSupportsProviderSize,
   itSupportsProviderVariant,
   itSupportsSystemProps,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import {
   itSupportsClearableProps,
   itSupportsYearsListProps,
@@ -20,14 +20,14 @@ const defaultProps = {
   modalProps: { withinPortal: false, transitionProps: { duration: 0 } },
 };
 
-describe('@mantine/dates/YearPickerInput', () => {
+describe('@reactgets/dates/YearPickerInput', () => {
   itSupportsSystemProps({
     component: YearPickerInput,
     props: defaultProps,
     refType: HTMLButtonElement,
     providerName: 'YearPickerInput',
     othersSelector: '.mantine-YearPickerInput-input',
-    displayName: '@mantine/dates/YearPickerInput',
+    displayName: '@reactgets/dates/YearPickerInput',
   });
 
   itSupportsFocusEvents(YearPickerInput, defaultProps, '.mantine-YearPickerInput-input');

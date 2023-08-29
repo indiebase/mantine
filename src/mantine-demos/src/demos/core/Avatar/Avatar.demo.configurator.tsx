@@ -1,6 +1,6 @@
 import React from 'react';
-import { Avatar, AvatarProps, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Avatar, AvatarProps, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { avatars } from './_mockdata';
 
 function Wrapper(props: AvatarProps) {
@@ -12,7 +12,7 @@ function Wrapper(props: AvatarProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Avatar } from '@mantine/core';
+import { Avatar } from '@reactgets/core';
 
 function Demo() {
   return <Avatar${props} />;

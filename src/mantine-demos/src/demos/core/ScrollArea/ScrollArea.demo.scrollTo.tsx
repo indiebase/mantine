@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
-import { ScrollArea, Button, Stack, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { ScrollArea, Button, Stack, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { Content } from './_content';
 
 const code = `
 import { useRef } from 'react';
-import { ScrollArea, Button, Stack, Group } from '@mantine/core';
+import { ScrollArea, Button, Stack, Group } from '@reactgets/core';
 
 function Demo() {
   const viewport = useRef<HTMLDivElement>(null);

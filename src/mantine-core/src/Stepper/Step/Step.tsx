@@ -7,7 +7,7 @@ import {
   MantineNumberSize,
   useComponentDefaultProps,
   getSize,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { Text } from '../../Text';
 import { Loader } from '../../Loader';
 import { CheckboxIcon } from '../../Checkbox';
@@ -201,4 +201,4 @@ export const Step = forwardRef<HTMLButtonElement, StepProps>((props: StepProps, 
   );
 });
 
-Step.displayName = '@mantine/core/Step';
+Step.displayName = '@reactgets/core/Step';

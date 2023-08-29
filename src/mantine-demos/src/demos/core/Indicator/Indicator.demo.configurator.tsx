@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Indicator, IndicatorProps, Avatar, Group } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Indicator, IndicatorProps, Avatar, Group } from '@reactgets/core';
 
 function Wrapper(props: IndicatorProps) {
   return (
@@ -16,7 +16,7 @@ function Wrapper(props: IndicatorProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Indicator, Avatar, Group } from '@mantine/core';
+import { Indicator, Avatar, Group } from '@reactgets/core';
 
 function Demo() {
   return (

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Progress, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Progress, Text } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { Progress, Text } from '@mantine/core';
+import { Progress, Text } from '@reactgets/core';
 
 function Demo() {
   const [hovered, setHovered] = useState(-1);

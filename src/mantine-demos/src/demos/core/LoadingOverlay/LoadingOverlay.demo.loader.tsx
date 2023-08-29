@@ -7,13 +7,13 @@ import {
   DEFAULT_THEME,
   rem,
   Box,
-} from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+} from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { AuthenticationForm } from '../../../shared/AuthenticationForm/AuthenticationForm';
 import { demoBase } from './_demo-base';
 
 const code = `
-import { DEFAULT_THEME, LoadingOverlay } from '@mantine/core';
+import { DEFAULT_THEME, LoadingOverlay } from '@reactgets/core';
 
 const customLoader = (
   <svg

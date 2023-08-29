@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Button, Modal, Group, rem } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { Carousel, Embla, useAnimationOffsetEffect } from '@mantine/carousel';
+import { Button, Modal, Group, rem } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Carousel, Embla, useAnimationOffsetEffect } from '@reactgets/carousel';
 
 const code = `
 import { useState } from 'react';
-import { Button, Modal, Group, rem } from '@mantine/core';
-import { Carousel, useAnimationOffsetEffect } from '@mantine/carousel';
+import { Button, Modal, Group, rem } from '@reactgets/core';
+import { Carousel, useAnimationOffsetEffect } from '@reactgets/carousel';
 
 function Demo() {
   const TRANSITION_DURATION = 200;

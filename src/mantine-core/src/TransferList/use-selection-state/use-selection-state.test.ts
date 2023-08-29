@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react';
 import { useSelectionState } from './use-selection-state';
 
-describe('@mantine/core/TransferList/use-selection-state', () => {
+describe('@reactgets/core/TransferList/use-selection-state', () => {
   it('sets correct selection for string value', () => {
     const hook = renderHook(() => useSelectionState());
 

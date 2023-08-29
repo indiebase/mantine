@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useComponentDefaultProps } from '@mantine/core';
+import { useComponentDefaultProps } from '@reactgets/core';
 import { useDatesState } from '../../hooks';
 import { DecadeLevelBaseSettings } from '../DecadeLevel';
 import { YearLevelBaseSettings } from '../YearLevel';
@@ -91,4 +91,4 @@ export const MonthPicker: MonthPickerComponent = forwardRef(
   }
 );
 
-MonthPicker.displayName = '@mantine/dates/MonthPicker';
+MonthPicker.displayName = '@reactgets/dates/MonthPicker';

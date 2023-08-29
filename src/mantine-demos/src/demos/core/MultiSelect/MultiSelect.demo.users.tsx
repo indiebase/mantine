@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { MultiSelect, Avatar, Group, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { MultiSelect, Avatar, Group, Text } from '@reactgets/core';
 
 const code = `
 import { forwardRef } from 'react';
-import { MultiSelect, Avatar, Group, Text } from '@mantine/core';
+import { MultiSelect, Avatar, Group, Text } from '@reactgets/core';
 
 const data = [
   {

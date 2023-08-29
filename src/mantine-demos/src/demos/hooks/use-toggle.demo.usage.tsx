@@ -1,11 +1,11 @@
 import React from 'react';
-import { Button, Group } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useToggle, upperFirst } from '@mantine/hooks';
+import { Button, Group } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useToggle, upperFirst } from '@reactgets/hooks';
 
 const code = `
-import { Button } from '@mantine/core';
-import { useToggle } from '@mantine/hooks';
+import { Button } from '@reactgets/core';
+import { useToggle } from '@reactgets/hooks';
 
 function Demo() {
   const [value, toggle] = useToggle(['blue', 'orange', 'cyan', 'teal']);

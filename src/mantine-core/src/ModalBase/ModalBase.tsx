@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { useState } from 'react';
 import { RemoveScroll } from 'react-remove-scroll';
-import { useId, useWindowEvent, useFocusReturn } from '@mantine/hooks';
+import { useId, useWindowEvent, useFocusReturn } from '@reactgets/hooks';
 import {
   getDefaultZIndex,
   MantineNumberSize,
@@ -11,7 +11,7 @@ import {
   MantineShadow,
   Selectors,
   DefaultProps,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { OptionalPortal, PortalProps } from '../Portal';
 import { TransitionOverride } from '../Transition';
 import { Box } from '../Box';

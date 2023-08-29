@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Tooltip, Group, Button } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Tooltip, Group, Button } from '@reactgets/core';
 
 const code = `
 import { useState } from 'react';
-import { Tooltip, Button } from '@mantine/core';
+import { Tooltip, Button } from '@reactgets/core';
 
 function Demo() {
   const [opened, setOpened] = useState(true);

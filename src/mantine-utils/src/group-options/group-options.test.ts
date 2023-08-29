@@ -8,7 +8,7 @@ const data = [
   { value: 'lit', label: 'Lit', group: 'Google' },
 ];
 
-describe('@mantine/utils/group-options', () => {
+describe('@reactgets/utils/group-options', () => {
   it('returns data sorted according to the insertion order', () => {
     const sortedData = groupOptions({ data });
     expect(sortedData).toHaveLength(data.length);

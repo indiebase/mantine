@@ -1,4 +1,4 @@
-import type { TooltipStylesNames } from '@mantine/core';
+import type { TooltipStylesNames } from '@reactgets/core';
 
 export const Tooltip: Record<TooltipStylesNames, string> = {
   tooltip: 'Tooltip body',

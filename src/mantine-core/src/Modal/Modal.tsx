@@ -1,5 +1,5 @@
 import React from 'react';
-import { useComponentDefaultProps } from '@mantine/styles';
+import { useComponentDefaultProps } from '@reactgets/styles';
 import {
   ModalBase,
   ModalBaseDefaultProps,

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
-import { useDocumentTitle, useDocumentVisibility } from '@mantine/hooks';
+import { Text } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
+import { useDocumentTitle, useDocumentVisibility } from '@reactgets/hooks';
 
 const code = `
-import { Text } from '@mantine/core';
-import { useDocumentTitle, useDocumentVisibility } from '@mantine/hooks';
+import { Text } from '@reactgets/core';
+import { useDocumentTitle, useDocumentVisibility } from '@reactgets/hooks';
 
 function Demo() {
   const documentState = useDocumentVisibility();

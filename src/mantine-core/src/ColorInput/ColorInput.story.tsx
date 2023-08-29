@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { DEFAULT_THEME, MANTINE_SIZES } from '@mantine/styles';
-import { WithinOverlays } from '@mantine/storybook';
+import { DEFAULT_THEME, MANTINE_SIZES } from '@reactgets/styles';
+import { WithinOverlays } from '@reactgets/storybook';
 import { ColorInput } from './ColorInput';
 
 export default { title: 'ColorInput' };

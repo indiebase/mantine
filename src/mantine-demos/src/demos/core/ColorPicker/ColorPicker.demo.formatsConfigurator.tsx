@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Stack, Text, ColorPicker, ColorPickerProps } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Stack, Text, ColorPicker, ColorPickerProps } from '@reactgets/core';
 
 function Wrapper(props: ColorPickerProps) {
   const [value, onChange] = useState('#C5D899');
@@ -14,7 +14,7 @@ function Wrapper(props: ColorPickerProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { ColorPicker } from '@mantine/core';
+import { ColorPicker } from '@reactgets/core';
 
 function Demo() {
   return <ColorPicker${props} />;

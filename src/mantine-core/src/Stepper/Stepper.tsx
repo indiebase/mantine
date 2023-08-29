@@ -6,8 +6,8 @@ import {
   MantineSize,
   Selectors,
   useComponentDefaultProps,
-} from '@mantine/styles';
-import { ForwardRefWithStaticComponents } from '@mantine/utils';
+} from '@reactgets/styles';
+import { ForwardRefWithStaticComponents } from '@reactgets/utils';
 import { Box } from '../Box';
 import { Step, StepStylesNames, StepFragmentComponent } from './Step/Step';
 import { StepCompleted } from './StepCompleted/StepCompleted';
@@ -185,4 +185,4 @@ export const Stepper: StepperComponent = forwardRef<HTMLDivElement, StepperProps
 
 Stepper.Step = Step;
 Stepper.Completed = StepCompleted;
-Stepper.displayName = '@mantine/core/Stepper';
+Stepper.displayName = '@reactgets/core/Stepper';

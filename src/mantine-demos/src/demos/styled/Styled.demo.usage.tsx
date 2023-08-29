@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { rem } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { rem } from '@reactgets/core';
 import styled from '@emotion/styled';
 
 const code = `

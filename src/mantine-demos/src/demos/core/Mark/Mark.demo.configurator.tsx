@@ -1,6 +1,6 @@
 import React from 'react';
-import { MantineDemo } from '@mantine/ds';
-import { Mark, MarkProps, Text } from '@mantine/core';
+import { MantineDemo } from '@reactgets/ds';
+import { Mark, MarkProps, Text } from '@reactgets/core';
 
 function Wrapper(props: MarkProps) {
   return (
@@ -11,7 +11,7 @@ function Wrapper(props: MarkProps) {
 }
 
 const codeTemplate = (props: string) => `
-import { Text, Mark } from '@mantine/core';
+import { Text, Mark } from '@reactgets/core';
 
 function Demo() {
   return (

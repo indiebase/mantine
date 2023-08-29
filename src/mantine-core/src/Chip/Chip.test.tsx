@@ -11,7 +11,7 @@ import {
   itSupportsProviderSize,
   itSupportsProviderVariant,
   itDisablesInputInsideDisabledFieldset,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Chip, ChipProps } from './Chip';
 
 const defaultProps: ChipProps = {
@@ -19,7 +19,7 @@ const defaultProps: ChipProps = {
   children: 'test-chip',
 };
 
-describe('@mantine/core/Chip', () => {
+describe('@reactgets/core/Chip', () => {
   checkAccessibility([<Chip {...defaultProps} />]);
   itRendersChildren(Chip, defaultProps);
   itSupportsProviderSize(Chip, defaultProps, 'Chip');
@@ -31,7 +31,7 @@ describe('@mantine/core/Chip', () => {
   itSupportsSystemProps({
     component: Chip,
     props: defaultProps,
-    displayName: '@mantine/core/Chip',
+    displayName: '@reactgets/core/Chip',
     refType: HTMLInputElement,
     othersSelector: 'input',
     providerName: 'Chip',

@@ -11,8 +11,8 @@ import {
   PopoverProps,
   Popover,
   CloseButton,
-} from '@mantine/core';
-import { useUncontrolled, useDidUpdate } from '@mantine/hooks';
+} from '@reactgets/core';
+import { useUncontrolled, useDidUpdate } from '@reactgets/hooks';
 import { Calendar, CalendarBaseProps, CalendarStylesNames, pickCalendarProps } from '../Calendar';
 import { DecadeLevelSettings } from '../DecadeLevel';
 import { YearLevelSettings } from '../YearLevel';
@@ -285,4 +285,4 @@ export const DateInput = forwardRef<HTMLInputElement, DateInputProps>((props, re
   );
 });
 
-DateInput.displayName = '@mantine/dates/DateInput';
+DateInput.displayName = '@reactgets/dates/DateInput';

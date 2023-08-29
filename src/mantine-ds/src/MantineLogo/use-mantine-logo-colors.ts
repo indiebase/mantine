@@ -1,4 +1,4 @@
-import { MantineColor, useMantineTheme } from '@mantine/core';
+import { MantineColor, useMantineTheme } from '@reactgets/core';
 
 export type MantineLogoVariant = 'mantine.dev' | 'ui.mantine.dev';
 

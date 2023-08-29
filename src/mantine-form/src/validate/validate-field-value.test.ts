@@ -1,6 +1,6 @@
 import { validateFieldValue } from './validate-field-value';
 
-describe('@mantine/form/validate-field-value', () => {
+describe('@reactgets/form/validate-field-value', () => {
   it('validates root field with rules record', () => {
     expect(
       validateFieldValue('a', { a: (value) => (value === 1 ? 'error-a' : null) }, { a: 1, b: 2 })

@@ -1,4 +1,4 @@
-import type { SwitchStylesNames } from '@mantine/core';
+import type { SwitchStylesNames } from '@reactgets/core';
 
 export const Switch: Record<SwitchStylesNames, string> = {
   root: 'Root element',

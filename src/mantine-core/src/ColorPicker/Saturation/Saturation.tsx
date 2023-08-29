@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useMove, clampUseMovePosition, UseMovePosition } from '@mantine/hooks';
-import { DefaultProps, MantineSize, Selectors } from '@mantine/styles';
+import { useMove, clampUseMovePosition, UseMovePosition } from '@reactgets/hooks';
+import { DefaultProps, MantineSize, Selectors } from '@reactgets/styles';
 import { HsvaColor } from '../types';
 import { Thumb, ThumbStylesNames } from '../Thumb/Thumb';
 import useStyles from './Saturation.styles';
@@ -135,4 +135,4 @@ export function Saturation({
   );
 }
 
-Saturation.displayName = '@mantine/core/Saturation';
+Saturation.displayName = '@reactgets/core/Saturation';

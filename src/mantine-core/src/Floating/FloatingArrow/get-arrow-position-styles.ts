@@ -1,4 +1,4 @@
-import { CSSObject, rem } from '@mantine/styles';
+import { CSSObject, rem } from '@reactgets/styles';
 import type { FloatingPosition, FloatingSide, FloatingPlacement, ArrowPosition } from '../types';
 
 function horizontalSide(

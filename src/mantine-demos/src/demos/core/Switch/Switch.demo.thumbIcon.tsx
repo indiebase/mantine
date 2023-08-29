@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Switch, Group, useMantineTheme } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { Switch, Group, useMantineTheme } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { IconCheck, IconX } from '@tabler/icons-react';
 
 const code = `
 import { useState } from 'react';
-import { Switch, Group, useMantineTheme } from '@mantine/core';
+import { Switch, Group, useMantineTheme } from '@reactgets/core';
 import { IconCheck, IconX } from '@tabler/icons-react';
 
 function Demo() {

@@ -1,4 +1,4 @@
-import { DatePicker } from '@mantine/dates';
+import { DatePicker } from '@reactgets/dates';
 import { getSharedPickerDemos } from '../_shared';
 
 export const { usage, multiple, deselect, range, singleRange, numberOfColumns, sizeConfigurator } =

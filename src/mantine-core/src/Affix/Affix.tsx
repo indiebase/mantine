@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import { DefaultProps, getDefaultZIndex, useComponentDefaultProps } from '@mantine/styles';
-import { packSx } from '@mantine/utils';
+import { DefaultProps, getDefaultZIndex, useComponentDefaultProps } from '@reactgets/styles';
+import { packSx } from '@reactgets/utils';
 import { Box } from '../Box';
 import { OptionalPortal, PortalProps } from '../Portal';
 
@@ -43,4 +43,4 @@ export const Affix = forwardRef<HTMLDivElement, AffixProps>((props: AffixProps, 
   );
 });
 
-Affix.displayName = '@mantine/core/Affix';
+Affix.displayName = '@reactgets/core/Affix';

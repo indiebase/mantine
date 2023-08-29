@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box, rem } from '@mantine/core';
-import { Carousel } from '@mantine/carousel';
+import { Box, rem } from '@reactgets/core';
+import { Carousel } from '@reactgets/carousel';
 
 function Slide({ children }: { children: React.ReactNode }) {
   return (

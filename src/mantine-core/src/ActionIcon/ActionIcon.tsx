@@ -7,8 +7,8 @@ import {
   useComponentDefaultProps,
   MantineGradient,
   Variants,
-} from '@mantine/styles';
-import { createPolymorphicComponent } from '@mantine/utils';
+} from '@reactgets/styles';
+import { createPolymorphicComponent } from '@reactgets/utils';
 import { UnstyledButton } from '../UnstyledButton';
 import useStyles, { ActionIconStylesParams } from './ActionIcon.styles';
 import { Loader, LoaderProps } from '../Loader';
@@ -101,6 +101,6 @@ export const _ActionIcon = forwardRef<HTMLButtonElement, ActionIconProps>((props
   );
 });
 
-_ActionIcon.displayName = '@mantine/core/ActionIcon';
+_ActionIcon.displayName = '@reactgets/core/ActionIcon';
 
 export const ActionIcon = createPolymorphicComponent<'button', ActionIconProps>(_ActionIcon);

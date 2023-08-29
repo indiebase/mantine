@@ -1,11 +1,11 @@
 import React from 'react';
-import { useHash, randomId } from '@mantine/hooks';
-import { MantineDemo } from '@mantine/ds';
-import { Group, Button, Text, Code } from '@mantine/core';
+import { useHash, randomId } from '@reactgets/hooks';
+import { MantineDemo } from '@reactgets/ds';
+import { Group, Button, Text, Code } from '@reactgets/core';
 
 const code = `
-import { useHash, randomId } from '@mantine/hooks';
-import { Button, Text, Code } from '@mantine/core';
+import { useHash, randomId } from '@reactgets/hooks';
+import { Button, Text, Code } from '@reactgets/core';
 
 function Demo() {
   const [hash, setHash] = useHash();

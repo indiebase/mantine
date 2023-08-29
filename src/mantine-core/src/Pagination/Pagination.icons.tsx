@@ -1,5 +1,5 @@
 import React from 'react';
-import { MantineNumberSize, getSize } from '@mantine/styles';
+import { MantineNumberSize, getSize } from '@reactgets/styles';
 import { sizes } from './PaginationControl/PaginationControl.styles';
 
 export function getIconSize(size: MantineNumberSize) {

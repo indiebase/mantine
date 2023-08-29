@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React, { useState } from 'react';
-import { Button, Text, Group, Modal } from '@mantine/core';
+import { Button, Text, Group, Modal } from '@reactgets/core';
 import {
   ModalsProvider,
   openConfirmModal,

@@ -1,11 +1,11 @@
 import React from 'react';
-import { useDisclosure, useMediaQuery } from '@mantine/hooks';
-import { Modal, Group, Button, em } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { useDisclosure, useMediaQuery } from '@reactgets/hooks';
+import { Modal, Group, Button, em } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 
 const code = `
-import { useDisclosure, useMediaQuery } from '@mantine/hooks';
-import { Modal, Button, Group } from '@mantine/core';
+import { useDisclosure, useMediaQuery } from '@reactgets/hooks';
+import { Modal, Button, Group } from '@reactgets/core';
 
 function Demo() {
   const [opened, { open, close }] = useDisclosure(false);

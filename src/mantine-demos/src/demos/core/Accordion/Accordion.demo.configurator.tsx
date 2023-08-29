@@ -1,6 +1,6 @@
 import React from 'react';
-import { AccordionProps } from '@mantine/core';
-import { MantineDemo } from '@mantine/ds';
+import { AccordionProps } from '@reactgets/core';
+import { MantineDemo } from '@reactgets/ds';
 import { BaseDemo } from './_base';
 
 function Wrapper(props: Partial<AccordionProps>) {
@@ -8,7 +8,7 @@ function Wrapper(props: Partial<AccordionProps>) {
 }
 
 const codeTemplate = (props: string) => `
-import { Accordion } from '@mantine/core';
+import { Accordion } from '@reactgets/core';
 
 function Demo() {
   return (

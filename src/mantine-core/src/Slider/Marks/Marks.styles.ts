@@ -1,4 +1,4 @@
-import { createStyles, MantineColor, rem, getSize } from '@mantine/styles';
+import { createStyles, MantineColor, rem, getSize } from '@reactgets/styles';
 import { sizes } from '../SliderRoot/SliderRoot.styles';
 
 interface MarksStyles {

@@ -1,6 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
-  "include": ["./src", "./types", "../../configuration/types"],
+  "include": [
+    "./src",
+    "./types",
+    "../../configuration/types"
+  ],
   "exclude": [
     "./lib",
     "./esm",
@@ -22,16 +26,32 @@
     "declarationDir": "lib",
     "composite": true,
     "paths": {
-      "@mantine/core": ["../mantine-core/src"],
-      "@mantine/hooks": ["../mantine-hooks/src"],
-      "@mantine/utils": ["../mantine-utils/src"],
-      "@mantine/tests": ["../mantine-tests/src"]
+      "@reactgets/core": [
+        "../mantine-core/src"
+      ],
+      "@reactgets/hooks": [
+        "../mantine-hooks/src"
+      ],
+      "@reactgets/utils": [
+        "../mantine-utils/src"
+      ],
+      "@reactgets/tests": [
+        "../mantine-tests/src"
+      ]
     }
   },
   "references": [
-    { "path": "../mantine-core" },
-    { "path": "../mantine-utils" },
-    { "path": "../mantine-hooks" },
-    { "path": "../mantine-tests" }
+    {
+      "path": "../mantine-core"
+    },
+    {
+      "path": "../mantine-utils"
+    },
+    {
+      "path": "../mantine-hooks"
+    },
+    {
+      "path": "../mantine-tests"
+    }
   ]
 }

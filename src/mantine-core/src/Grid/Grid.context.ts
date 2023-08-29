@@ -1,5 +1,5 @@
-import { createSafeContext } from '@mantine/utils';
-import type { MantineNumberSize } from '@mantine/styles';
+import { createSafeContext } from '@reactgets/utils';
+import type { MantineNumberSize } from '@reactgets/styles';
 
 interface GridContextValue {
   gutter: MantineNumberSize;

@@ -1,13 +1,13 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { MantineProvider } from '@mantine/styles';
+import { MantineProvider } from '@reactgets/styles';
 import {
   itSupportsSystemProps,
   itRendersChildren,
   checkAccessibility,
   itSupportsProviderVariant,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { Tab } from './Tab/Tab';
 import { TabsList } from './TabsList/TabsList';
 import { TabsPanel } from './TabsPanel/TabsPanel';
@@ -51,7 +51,7 @@ const getTab = (value: TabValue) => {
 
 const clickTab = (value: TabValue) => userEvent.click(getTab(value));
 
-describe('@mantine/core/Tabs', () => {
+describe('@reactgets/core/Tabs', () => {
   checkAccessibility([<Tabs {...defaultProps} defaultValue="tab-1" />]);
   itRendersChildren(Tabs, defaultProps);
   itSupportsProviderVariant(Tabs, defaultProps, 'Tabs', ['root', 'panel', 'tabsList', 'tab']);
@@ -59,7 +59,7 @@ describe('@mantine/core/Tabs', () => {
     component: Tabs,
     props: defaultProps,
     refType: HTMLDivElement,
-    displayName: '@mantine/core/Tabs',
+    displayName: '@reactgets/core/Tabs',
     providerName: 'Tabs',
   });
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/styles';
+import { rem } from '@reactgets/styles';
 
 export function QuoteIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   const { style, ...others } = props;

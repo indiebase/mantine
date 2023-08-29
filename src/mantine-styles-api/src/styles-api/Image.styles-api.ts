@@ -1,4 +1,4 @@
-import { ImageStylesNames } from '@mantine/core';
+import { ImageStylesNames } from '@reactgets/core';
 
 export const Image: Record<ImageStylesNames, string> = {
   root: 'Root element',

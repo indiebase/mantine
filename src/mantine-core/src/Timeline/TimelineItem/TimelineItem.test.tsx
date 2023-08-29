@@ -1,16 +1,16 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { itRendersChildren, itSupportsSystemProps } from '@mantine/tests';
+import { itRendersChildren, itSupportsSystemProps } from '@reactgets/tests';
 import { TimelineItem, TimelineItemProps } from './TimelineItem';
 
 const defaultProps: TimelineItemProps = {};
 
-describe('@mantine/core/TimelineItem', () => {
+describe('@reactgets/core/TimelineItem', () => {
   itRendersChildren(TimelineItem, defaultProps);
   itSupportsSystemProps({
     component: TimelineItem,
     props: defaultProps,
-    displayName: '@mantine/core/TimelineItem',
+    displayName: '@reactgets/core/TimelineItem',
     refType: HTMLDivElement,
     providerName: 'TimelineItem',
   });

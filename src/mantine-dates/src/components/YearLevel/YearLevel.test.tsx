@@ -5,7 +5,7 @@ import {
   itSupportsSystemProps,
   itSupportsProviderVariant,
   itSupportsProviderSize,
-} from '@mantine/tests';
+} from '@reactgets/tests';
 import { YearLevel, YearLevelProps } from './YearLevel';
 import {
   itSupportsHeaderProps,
@@ -28,13 +28,13 @@ const defaultProps: YearLevelProps = {
   previousLabel: 'prev',
 };
 
-describe('@mantine/dates/YearLevel', () => {
+describe('@reactgets/dates/YearLevel', () => {
   itSupportsSystemProps({
     component: YearLevel,
     props: defaultProps,
     refType: HTMLDivElement,
     providerName: 'YearLevel',
-    displayName: '@mantine/dates/YearLevel',
+    displayName: '@reactgets/dates/YearLevel',
   });
 
   itSupportsProviderVariant(YearLevel, defaultProps, 'YearLevel', [

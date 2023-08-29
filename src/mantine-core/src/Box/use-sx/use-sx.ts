@@ -4,7 +4,7 @@ import {
   Sx,
   useCss,
   useMantineTheme,
-} from '@mantine/styles';
+} from '@reactgets/styles';
 import { getSystemStyles } from '../style-system-props/get-system-styles/get-system-styles';
 
 function extractSx(sx: Sx, theme: MantineTheme) {
